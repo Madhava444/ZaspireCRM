@@ -189,7 +189,7 @@ namespace Zaspire.Scripts.Mainsite
 
             //CLICK DoNotSolicit
             addaccountHelper.ClickElement("SaveAccountbtn");
-            addaccountHelper.WaitForWorkAround(2000);
+            addaccountHelper.WaitForWorkAround(5000);
             
             //Click On Save Or Dublicate
             //addaccountHelper.ClickOnSaveOrDublicate();

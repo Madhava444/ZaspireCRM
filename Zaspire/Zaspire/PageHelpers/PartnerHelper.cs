@@ -29,9 +29,9 @@ namespace Zaspire.PageHelpers.Com
             SendKeys(locator, text);
         }
 
-        public void MouseOver(string locator1)
+        p public void MouseOver(string locator)
         {
-            var el = GetWebDriver().FindElement(ByLocator("html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/a"));
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='partners_grid_wrapper']/div[1]/div/div/button"));
 
             var builder = new Actions(GetWebDriver());
             builder.MoveToElement(el).Build().Perform();

@@ -197,8 +197,8 @@
   <CustomviewView><![CDATA[//*[@id='partner_saved_views']/tbody/tr/td[2]/a]]></CustomviewView>
   <Saveviewas><![CDATA[//*[@id='searchName']]]></Saveviewas>
   <Sortby><![CDATA[//*[@id='PartnerSortCol']]]></Sortby>
-  <Owner><![CDATA[//*[@id='autogen2']]]></Owner>
-  <Manager><![CDATA[//*[@id='autogen3']]]></Manager>
+  <Owner1><![CDATA[//*[@id='autogen2']]]></Owner1>
+  <Manager1><![CDATA[//*[@id='autogen3']]]></Manager1>
   <Createdby><![CDATA[//*[@id='autogen4']]]></Createdby>
   <Modifiedby><![CDATA[//*[@id='autogen5']]]></Modifiedby>
   <Createdtype><![CDATA[//*[@id='PartnerCustomColOps']]]></Createdtype>
@@ -213,19 +213,14 @@
 
   <!-- LEAD BULK ACTIONS -->
 
-<SearchLeadCompany><![CDATA[//*[@id='leads_grid_filter']/label/input]]></SearchLeadCompany>
-<ClickOnMasterCheckBox><![CDATA[//*[@id='leads_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
-<MoveHover><![CDATA[//*[@id='leads_grid_wrapper']/div[1]/div/div/button]]></MoveHover>
+<ClickOnMasterCheckBox><![CDATA[//*[@id='partners_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+<MoveHover><![CDATA[//*[@id='partners_grid_wrapper']/div[1]/div/div/button]]></MoveHover>
 
   <!--Parners BULK UPDATE -->
 
 <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
-<SelectStatus><![CDATA[//*[@id='BulkUpdateLeadStatus']]]></SelectStatus>
-<SelectSource><![CDATA[//*[@id='BulkUpdateLeadSource']]]></SelectSource>
-<SelectCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></SelectCategory>
 <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
 <SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
-<SelectPartner><![CDATA[//*[@id='BulkUpdateAssignedPartnerId']]]></SelectPartner>
 <ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
 <ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
 
@@ -248,7 +243,9 @@
 <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
 <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
 
-  
+
+
+
 </locator>
       
       

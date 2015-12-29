@@ -181,11 +181,11 @@
  <Mousehover><![CDATA[//*[@id='campaigns_grid_wrapper']/div[1]/div/div/button]]></Mousehover>
 <GroupBulkAction><![CDATA[//*[@id='campaign_groups_wrapper']/div[1]/div/div/button]]></GroupBulkAction>-->
 <Bulkupdate><![CDATA[//*[@id='bulk_update']]]></Bulkupdate>
-<Status><![CDATA[//*[@id='BulkUpdateCampaignStatus']]]></Status>
-<Category><![CDATA[//*[@id='BulkUpdateCategoryId']]]></Category>
-<Type><![CDATA[//*[@id='BulkUpdateType']]]></Type>
-<Owner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></Owner>
-<Manager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></Manager>
+<Status1><![CDATA[//*[@id='BulkUpdateCampaignStatus']]]></Status1>
+<Category1><![CDATA[//*[@id='BulkUpdateCategoryId']]]></Category1>
+<Type1><![CDATA[//*[@id='BulkUpdateType']]]></Type1>
+<Owner1><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></Owner1>
+<Manager1><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></Manager1>
 <update><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></update>
 <Cancel><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></Cancel>
 
@@ -334,8 +334,10 @@
 
   <Managetag><![CDATA[html/body/div[4]/div[1]/ul/li[7]/ul/li[4]/a]]></Managetag>
   <yourtags><![CDATA[//*[@id='selTags_tagsinput']]]></yourtags>
+  <Saveyourtags><![CDATA[//*[@id='manual_tagsViewForm']/div[3]/div/div/button]]></Saveyourtags>
   <Systemgenaratetags><![CDATA[//*[@id='manage_auto_tags']/div/div/div/div/ul/li[2]/a]]></Systemgenaratetags>
   <Systemedit><![CDATA[//*[@id='recreate_auto_tags']]]></Systemedit>
+  <Checkanduncheck><![CDATA[//*[@id='recreate_auto_formFields']]]></Checkanduncheck>
   <Systemdelete><![CDATA[//*[@id='delete_auto_tags']]]></Systemdelete>
   <Systemcancel><![CDATA[//*[@id='cancel'] ]]></Systemcancel>
   <Systemsave><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></Systemsave>

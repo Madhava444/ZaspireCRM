@@ -12,7 +12,8 @@
   <SelectClient1><![CDATA[//*[@id='actionicons1']/a/i[1]]]></SelectClient1>
   <MouseOver><![CDATA[//*[@id='actionicons1']/a/i[2]]]></MouseOver>
   <Edit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></Edit>
-  ***********************Classification and ownership
+  <SaveAccountbtn><![CDATA[//*[@id='AccountCreateForm']/div[2]/div/ul/li[5]/button]]></SaveAccountbtn>
+  ***********************Classification="" and ownership
   <SelectStatus><![CDATA[//*[@id='AccountCompanyStatus']]]></SelectStatus>
   <SelectSource><![CDATA[//*[@id='AccountAccountSource']]]></SelectSource>
   <SelectCategory><![CDATA[//*[@id='AccountCategoryId']]]></SelectCategory>
@@ -132,4 +133,46 @@
  <ClickOnRestoreOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnRestoreOption>
   <ClickOnDeletesOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnDeletesOption>
   <ClicOnGroupTrashButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClicOnGroupTrashButton>
+  
+  #$#$#$#$#$#$#$#$#$#$#$#$#$#$# Custom View Page#$#$#$#$#$#$#$#$
+  <ClickCustomViewLink><![CDATA[//*[@id='AccountQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickCustomViewLink>
+  <ClickonFirstRecord><![CDATA[//*[@id='account_saved_views']/tbody/tr[1]/td[2]/a]]></ClickonFirstRecord>
+  <ClickonEditLink><![CDATA[//*[@id='saved_edit']]]></ClickonEditLink>
+  <CancelOption><![CDATA[//*[@id='AccountIndexForm']/div[2]/div[5]/div/div/a[2]]]></CancelOption>
+  <SelectCustomView><![CDATA[//*[@id='savedSearch']]]></SelectCustomView>
+  <ClickOnNewOption><![CDATA[//*[@id='AccountQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a[3]]]></ClickOnNewOption>
+  <ClickOnCancelOption><![CDATA[//*[@id='AccountIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnCancelOption>
+  <ClickOnSetAsDefault><![CDATA[//*[@id='makedefaultsearch']]]></ClickOnSetAsDefault>
+  <ClickOnUnsetAsDefault><![CDATA[//*[@id='removedefaultsearch']]]></ClickOnUnsetAsDefault>
+  <ClickOnDeleteOption><![CDATA[//*[@id='deleteSearch']]]></ClickOnDeleteOption>
+  
+  ############################## CustomView Add####################
+  <ClickOnCustomNew><![CDATA[//*[@id='AccountQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnCustomNew>
+  <SaveViewas><![CDATA[//*[@id='searchName']]]></SaveViewas>
+  <ClickOnOrder><![CDATA[//*[@id='sortOrder0Asc']]]></ClickOnOrder>
+  <Owner><![CDATA[//*[@id='AccountCustomColValues1']]]></Owner>
+  <Manager><![CDATA[//*[@id='AccountCustomColValues2']]]></Manager>
+  <Status><![CDATA[//*[@id='AccountCustomColValues3']]]></Status>
+  <Source><![CDATA[//*[@id='AccountCustomColValues4']]]></Source>
+  <Category><![CDATA[//*[@id='AccountCustomColValues5']]]></Category>
+  <CreatedBy><![CDATA[//*[@id='AccountCustomColValues6']]]></CreatedBy>
+  <ModifiedBy><![CDATA[//*[@id='AccountCustomColValues7']]]></ModifiedBy>
+  <Group><![CDATA[//*[@id='AccountCustomColValues8']]]></Group>
+  <Partner><![CDATA[//*[@id='AccountCustomColValues11']]]></Partner>
+  <ClickSaveButton><![CDATA[//*[@id='AccountIndexForm']/div[2]/div[5]/div/div/button]]></ClickSaveButton>
+  
+  
+  @@@@@@@@@@@@@@@@@@@@@@@@@@ Custom View Index Page#@#@#@#@@#@#@#@#@
+  <EnterInFilterTextbox><![CDATA[//*[@id='account_saved_views_filter']/label/input]]></EnterInFilterTextbox>
+  <ClickOnResetButton><![CDATA[//*[@id='ToolTables_account_saved_views_0']/span/span]]></ClickOnResetButton>
+  <TypeFilterTextbox><![CDATA[//*[@id='account_saved_views_filter']/label/input]]></TypeFilterTextbox>
+  <SelectCheckbox><![CDATA[//*[@id='account_saved_views']/thead/tr/th[1]/div/span/input]]></SelectCheckbox>
+  <ClickOnDeleteButton><![CDATA[//*[@id='remove_saved_views']]]></ClickOnDeleteButton>
+  <ClickOnAddNewButton><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNewButton>
+  <ClickOnCancelButton><![CDATA[//*[@id='AccountIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnCancelButton>
+  <ClickOnEditButton><![CDATA[//*[@id='account_saved_views']/tbody/tr[1]/td[5]/a[1]]]></ClickOnEditButton>
+  <ClickOnPermissionButton><![CDATA[//*[@id='account_saved_views']/tbody/tr[1]/td[5]/a[3]]]></ClickOnPermissionButton>
+  <ClickOnSaveOption><![CDATA[//*[@id='AccountPermissionsForm']/div[2]/div/div[3]/button[1]]]></ClickOnSaveOption>
+  <ClickOnDeleteOption><![CDATA[//*[@id='account_saved_views']/tbody/tr[1]/td[5]/a[2]]]></ClickOnDeleteOption>
+
 </Locators>

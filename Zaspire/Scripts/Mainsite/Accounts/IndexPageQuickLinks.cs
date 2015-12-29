@@ -8,10 +8,10 @@ using Zaspire.PageHelpers.Comm;
 namespace Zaspire.Scripts.Mainsite
 {
     [TestClass]
-    public class Index_Page_Quick_Links : DriverTestCase
+    public class IndexPageQuickLinks : DriverTestCase
     {
         [TestMethod]
-        public void IndexPageQuickLinks()
+        public void indexpagequicklinks()
         {
             string[] username = null;
             string[] password = null;

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <!-- LEADS INDEX PAGE -->
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+
+  <!-- CUSTOM VIEWS -->
+  <SelectCustomView><![CDATA[//*[@id='savedSearch']]]></SelectCustomView>
+  <ClickOnSetAsDefault><![CDATA[//*[@id='makedefaultsearch']]]></ClickOnSetAsDefault>
+  <ClickOnUnsetDefault><![CDATA[//*[@id='removedefaultsearch']]]></ClickOnUnsetDefault>
+  <ClickOnDelete><![CDATA[//*[@id='deleteSearch']]]></ClickOnDelete>
+  <ClickOnNew><![CDATA[//*[@id='LeadQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a[3]]]></ClickOnNew>
+  <ClickOnEdit><![CDATA[//*[@id='saved_edit']]]></ClickOnEdit>
+
+  <ClickOnEditCancel><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnEditCancel>
+  <ClickOnNewCancel><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnNewCancel>
+  
+</Locators>

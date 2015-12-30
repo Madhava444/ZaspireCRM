@@ -30,11 +30,10 @@ namespace Zaspire.PageHelpers.Com
 
         public void MouseOver(string locator)
         {
-           var el = GetWebDriver().FindElement(ByLocator("//*[@id='campaigns_grid_wrapper']/div[1]/div/div/button"));
-           var elm = GetWebDriver().FindElement(ByLocator("//*[@id='campaign_groups_wrapper']/div[1]/div/div/button"));
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='campaigns_grid_wrapper']/div[1]/div/div/button"));
 
             var builder = new Actions(GetWebDriver());
-            //var builder.MoveToElement().Build().Perform();
+            builder.MoveToElement(el).Build().Perform();
         }
         //Verify text of given xml node
         public void VerifyText(string XmlNode, string text)

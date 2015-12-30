@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class Bulkupdatecampaign : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void bulkupdatecampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -59,10 +59,10 @@ namespace Zaspire.Scripts
 
             //Click on bulkupdate
             addcampaignHelper.ClickElement("Bulkupdate");
-            addcampaignHelper.WaitForWorkAround(3000);
+           
 
             //Select Status
-            addcampaignHelper.Select("Status", "Active");
+            addcampaignHelper.Select
 
             //Select Category
             addcampaignHelper.Select("Category", "12526");

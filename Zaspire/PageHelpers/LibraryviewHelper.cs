@@ -3,20 +3,17 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using Zaspire.Locators;
 using Zaspire.PageHelpers.Com;
-using OpenQA.Selenium.Interactions;
-
-
 
 namespace Zaspire.PageHelpers.Com
 {
-    public class LeadsGroupTrashIndexHelper : DriverHelper
+    public class LibraryViewPageHelper : DriverHelper
     {
         public LocatorReader locatorReader;
 
-        public LeadsGroupTrashIndexHelper(IWebDriver idriver)
+        public LibraryViewPageHelper(IWebDriver idriver)
             : base(idriver)
         {
-            locatorReader = new LocatorReader("LeadsGroupTrashIndex.xml");
+            locatorReader = new LocatorReader("Libraryview.xml");
         }
 
         // ###########################  XML  ##############
@@ -30,7 +27,7 @@ namespace Zaspire.PageHelpers.Com
             SendKeys(locator, text);
         }
 
-       
+
         //Verify text of given xml node
         public void VerifyText(string XmlNode, string text)
         {
@@ -57,12 +54,14 @@ namespace Zaspire.PageHelpers.Com
 
         }
 
-        
+
+
+
         //Verify method Present method
 
         public void verifytext(System.Boolean flag, string Company)
         {
-          //  var locator = locatorReader.ReadLocator(Company);
+            //  var locator = locatorReader.ReadLocator(Company);
             if (flag == true)
             {
                 Assert.IsTrue(IsElementPresent(Company));
@@ -75,22 +74,24 @@ namespace Zaspire.PageHelpers.Com
         }
 
 
-
-        public void MouseOver(string locator)
+        public void MouseHover(string Field)
         {
-            var el = GetWebDriver().FindElement(ByLocator("//*[@id='normal']"));
-
-            var builder = new Actions(GetWebDriver());
-            builder.MoveToElement(el).Build().Perform();
+            var locator = locatorReader.ReadLocator(Field);
+            WaitForWorkAround(4000);
+            MouseOver(locator);
         }
 
-        public void MouseHover(string locator)
+        internal void Upload(string Field, string FileName)
         {
-            var el = GetWebDriver().FindElement(ByLocator("//*[@id='lead_trash_wrapper']/div[1]/div/div/button"));
+            var locator = locatorReader.ReadLocator(Field);
+            Console.WriteLine(FileName);
+            GetWebDriver().FindElement(ByLocator(locator)).SendKeys(FileName);
+            WaitForWorkAround(3000);
 
-            var builder = new Actions(GetWebDriver());
-            builder.MoveToElement(el).Build().Perform();
+
+
+
+
         }
-        
     }
 }

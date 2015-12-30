@@ -6,7 +6,7 @@ using Zaspire.PageHelpers.Com;
 namespace Zaspire.Scripts.MainSite
 {
     [TestClass]
-    public class LeadsTrashIndexPage : DriverTestCase
+    public class LibraryTrashIndexPage : DriverTestCase
     {
         [TestMethod]
         public void leadstrashindexpage()
@@ -23,7 +23,7 @@ namespace Zaspire.Scripts.MainSite
             //Initializing the objects
             var loginHelper = new LoginHelper(GetWebDriver());
             var LeadsTrashIndexPageHelper = new LeadsTrashIndexPageHelper(GetWebDriver());
-            
+
 
             //Login with valid username and password
             Login(username[0], password[0]);
@@ -39,14 +39,14 @@ namespace Zaspire.Scripts.MainSite
             LeadsTrashIndexPageHelper.ClickElement("ClickOnLeads");
             LeadsTrashIndexPageHelper.WaitForWorkAround(10000);
 
-            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/leads");
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/libraries");
             //LeadsTrashIndexPageHelper.WaitForWorkAround(7000);
 
 
             //Click on Trash
             //LeadsTrashIndexPageHelper.ClickElement("ClickOnTrash");
 
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/leads/trash");
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/libraries/trash");
             LeadsTrashIndexPageHelper.WaitForWorkAround(10000);
 
             //Click On Back Button
@@ -128,8 +128,8 @@ namespace Zaspire.Scripts.MainSite
             LeadsTrashIndexPageHelper.AcceptAlert();
             LeadsTrashIndexPageHelper.WaitForWorkAround(10000);
 
-            
-            
+
+
         }
     }
 }

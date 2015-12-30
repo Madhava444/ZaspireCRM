@@ -202,7 +202,7 @@
   <AccountsLink><![CDATA[//*[@id='accounts']]]></AccountsLink>
   
   ########################### Default view
-  <DefaultView><![CDATA[//*[@id='s2id_teamName']/a/span[2]/b]]></DefaultView>
+  <DefaultView><![CDATA[//*[@id='teamName']/a/span[2]/b]]></DefaultView>
   <AllAccount><![CDATA[//*[@id='select2-drop']/ul/li[1]/div]]></AllAccount>
   
   ########################## Custom View
@@ -270,8 +270,12 @@
  <ClickOnRestoreOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnRestoreOption>
   <ClickOnDeletesOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnDeletesOption>
   <ClicOnGroupTrashButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClicOnGroupTrashButton>
+  <SelectGroup><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[2]/div[3]/form/div/div[2]/div[2]/div[1]/div/ul/li/input]]></SelectGroup>
+  <ClickOnSaveGroupButton><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[2]/div[3]/form/div/div[2]/div[2]/div[2]/button[1]]]></ClickOnSaveGroupButton>
+  <ClickOnCloseOption><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[2]/div[3]/form/div/div[2]/div[1]/div/div/span/a]]></ClickOnCloseOption>
+  <ClickOnGroupDeleteButton><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[2]/div[3]/form/div/div[2]/div[2]/div[2]/button[2]]]></ClickOnGroupDeleteButton>
   
-  #$#$#$#$#$#$#$#$#$#$#$#$#$#$# Custom View Page#$#$#$#$#$#$#$#$
+  #$#$#$#$#$#$#$#$#$#$#$#$#$#$# Custom="" View Page#$#$#$#$#$#$#$#$
   <ClickCustomViewLink><![CDATA[//*[@id='AccountQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickCustomViewLink>
   <ClickonFirstRecord><![CDATA[//*[@id='account_saved_views']/tbody/tr[1]/td[2]/a]]></ClickonFirstRecord>
   <ClickonEditLink><![CDATA[//*[@id='saved_edit']]]></ClickonEditLink>
@@ -300,6 +304,8 @@
   
   
   @@@@@@@@@@@@@@@@@@@@@@@@@@ Custom View Index Page#@#@#@#@@#@#@#@#@
+  <SelectCustomView><![CDATA[html/body/div[4]/div[2]/div[2]/div/div[1]/div[1]/form/table/tbody/tr[1]/td[2]/div/div[2]/div/a]]></SelectCustomView>
+  
   <EnterInFilterTextbox><![CDATA[//*[@id='account_saved_views_filter']/label/input]]></EnterInFilterTextbox>
   <ClickOnResetButton><![CDATA[//*[@id='ToolTables_account_saved_views_0']/span/span]]></ClickOnResetButton>
   <TypeFilterTextbox><![CDATA[//*[@id='account_saved_views_filter']/label/input]]></TypeFilterTextbox>
@@ -312,5 +318,26 @@
   <ClickOnSaveOption><![CDATA[//*[@id='AccountPermissionsForm']/div[2]/div/div[3]/button[1]]]></ClickOnSaveOption>
   <ClickOnDeleteOption><![CDATA[//*[@id='account_saved_views']/tbody/tr[1]/td[5]/a[2]]]></ClickOnDeleteOption>
 
+  ################################ Manage Tags ##########################
+  <SelectAccount><![CDATA[//*[@id='normal']]></SelectAccount>
+  <ClickOnManageLinks><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[5]/div[1]/div[3]/a]]></ClickOnManageLinks>
+  <ClickOnSystemGeneratedTab><![CDATA[//*[@id='manage_auto_tags']/div/div/div/div/ul/li[2]/a]]></ClickOnSystemGeneratedTab>
+  <ClickonEditOption><![CDATA[//*[@id='recreate_auto_tags']]]></ClickonEditOption>
+  <UncheckCity><![CDATA[//*[@id='recreate_auto_formFields']]]></UncheckCity>
+  <UncheckIndustry><![CDATA[//*[@id='recreate_auto_formFields']]]></UncheckIndustry>
+  <ClickOnRecreateOption><![CDATA[//*[@id='recreate_submit']]]></ClickOnRecreateOption>
+  <ClickOnDeleteOption><![CDATA[//*[@id='delete_auto_tags']]]></ClickOnDeleteOption>
+  <ClickOnCancelOption><![CDATA[//*[@id='cancel']]]></ClickOnCancelOption>
+  
+  
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Import @@@@@@@@@@@@@@@@@@@@@@@@@@
+  
+  <ClickOnImporCreatetButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnImporCreatetButton>
+  <ClickOnSelectFile><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/form/div[2]/div/div[3]/div/div/div/div/span[1]/input]]></ClickOnSelectFile>
+  <ClickOnImportOption><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/form/div[3]/div/div/div/button]]></ClickOnImportOption>
+  <ClickOnSave><![CDATA[html/body/div[4]/div[2]/form/div[2]/div/ul/li[5]/button]]></ClickOnSave>
+  <CancelButton><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/form/div[3]/div/div/div/a]]></CancelButton>
+  <ClickOnCancelOption><![CDATA[html/body/div[4]/div[2]/form/div[2]/div/ul/li[4]/a]]></ClickOnCancelOption>
+  
 </Locators>
 >>>>>>> 217d7b57df90fd85b7f7779922f6bec9f58ae54e

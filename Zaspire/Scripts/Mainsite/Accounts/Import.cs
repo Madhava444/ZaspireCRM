@@ -43,7 +43,7 @@ namespace Zaspire.Scripts.Mainsite
 
             //########### Import functionality ######
 
-            AddAccountHelper.ClickElement("ClickOnImportButton");
+            AddAccountHelper.ClickElement("ClickOnImporCreatetButton");
 
             AddAccountHelper.ClickElement("ClickOnSelectFile");
 

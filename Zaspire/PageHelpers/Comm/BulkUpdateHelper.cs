@@ -99,6 +99,15 @@ namespace Zaspire.PageHelpers.Comm
         }
 
 
+        public void MouseHover(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='normal']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+        }
+
+
 
 
 

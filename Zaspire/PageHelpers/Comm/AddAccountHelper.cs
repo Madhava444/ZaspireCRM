@@ -117,9 +117,47 @@ namespace Zaspire.PageHelpers.Comm
             builder.MoveToElement(el).Build().Perform();
         }
 
-        
+        public void MouseOver11(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("html/body/div[4]/div[2]/div[2]/div/div/div/div[2]/div"));
 
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+        }
+
+        public void MouseOver12(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("html/body/div[4]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[1]/div/div/a/i[1]"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+        }
+
+        public void MouseOver13(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("html/body/div[4]/div[2]/div[2]/div/ul/li[6]/div/div/a"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+        }
+
+        public void MouseHover2(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("html/body/div[4]/div[2]/div[2]/div/div/div/div[1]/div/div/button"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+        }
+
+        public void MouseHover3(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("html/body/div[4]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[1]/div/div/a/i[2]"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+        } 
 
     }
+
 
 }

@@ -47,8 +47,6 @@ namespace Zaspire.Scripts.Mainsite
 
             AddAccountHelper.MouseHover1("locator");
 
-            AddAccountHelper.ClickElement("ClickOnQuickLinks");
-
             AddAccountHelper.ClickElement("ClickonDeleteForeverButton");
 
             AddAccountHelper.AcceptAlert();
@@ -58,8 +56,6 @@ namespace Zaspire.Scripts.Mainsite
             AddAccountHelper.WaitForWorkAround(7000);
 
             AddAccountHelper.MouseHover1("locator");
-
-            AddAccountHelper.ClickElement("ClickOnQuickLinks");
 
             AddAccountHelper.ClickElement("ClickonRestoreButton");
             AddAccountHelper.WaitForWorkAround(10000);

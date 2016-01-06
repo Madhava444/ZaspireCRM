@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
@@ -10,11 +11,14 @@ Global
 	EndGlobalSection
 EndGlobal
 =======
+=======
+>>>>>>> 59af2f1baaf55d34bb748a29746781e4a292fb1d
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 <<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaspire", "Zaspire\Zaspire.csproj", "{4E29BCD7-E73A-4913-980B-C5B011D69120}"
 =======
@@ -39,8 +43,14 @@ Global
 		{F9D86F28-1A00-4F20-BB70-56F77AC87EA7}.Release|Any CPU.Build.0 = Release|Any CPU
 >>>>>>> d5fdc2043568e8dd06445dc1ce594683a9614f30
 	EndGlobalSection
+=======
+Global
+>>>>>>> 59af2f1baaf55d34bb748a29746781e4a292fb1d
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
+<<<<<<< HEAD
 >>>>>>> srinivas
+=======
+>>>>>>> 59af2f1baaf55d34bb748a29746781e4a292fb1d

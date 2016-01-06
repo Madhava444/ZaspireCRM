@@ -1,4 +1,5 @@
 ﻿using System;
+using System;
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Zaspire.PageHelpers;
@@ -7,10 +8,10 @@ using Zaspire.PageHelpers.Comm;
 namespace Zaspire.Scripts.Mainsite
 {
     [TestClass]
-    public class TrashIndexPage : DriverTestCase
+    public class GroupTrashViewPage : DriverTestCase
     {
         [TestMethod]
-        public void trashindexpage()
+        public void grouptrashviewpage()
         {
             string[] username = null;
             string[] password = null;
@@ -35,67 +36,55 @@ namespace Zaspire.Scripts.Mainsite
             Console.WriteLine("Redirected at Dashboard screen.");
             AddAccountHelper.WaitForWorkAround(4000);
 
-          
+
             AddAccountHelper.ClickElement("ClickAccountsTab");
             AddAccountHelper.WaitForWorkAround(4000);
 
 
-            
+
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/trash");
             AddAccountHelper.WaitForWorkAround(3000);
 
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/trash");
-            AddAccountHelper.WaitForWorkAround(5000);
-
-            AddAccountHelper.TypeText("FilterSearchBox", "Live");
-            AddAccountHelper.WaitForWorkAround(2000);
-
-            AddAccountHelper.ClickElement("ClickOnMasterCheckbox");
-
-            AddAccountHelper.MouseHover("Locator");
-
-            AddAccountHelper.ClickElement("ClickOnDeleteForever");
-            AddAccountHelper.WaitForWorkAround(2000);
-
-            AddAccountHelper.AcceptAlert();
-            AddAccountHelper.WaitForWorkAround(5000);
-
-           
-            AddAccountHelper.TypeText("FilterSearchBox", "Declined");
-            AddAccountHelper.WaitForWorkAround(2000);
-
-            AddAccountHelper.ClickElement("ClickOnMasterCheckbox");
-
-            AddAccountHelper.MouseHover("Locator");
-
-            AddAccountHelper.ClickElement("ClickOnRestoreAccounts");
             AddAccountHelper.WaitForWorkAround(3000);
 
-            AddAccountHelper.AcceptAlert();
-            AddAccountHelper.WaitForWorkAround(5000);
-
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/trash");
-            AddAccountHelper.WaitForWorkAround(5000);
-
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/trash");
-            AddAccountHelper.WaitForWorkAround(5000);
-
-
-            //######################### Trash View Page ##########################
-
-            //AddAccountHelper.ClickElement("ClicOnTrashRecordViewPage");
+            AddAccountHelper.ClickElement("ClicOnTrashRecordViewPage");
 
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/view/10");
+            AddAccountHelper.WaitForWorkAround(5000);
+
+            AddAccountHelper.TypeText("SearchByStatuses", "New");
+
+            AddAccountHelper.ClickElement("ClickOnRestoreOptionButton");
+
+            AddAccountHelper.ClickElement("ClickOnFirstRecordOption");
+
+            AddAccountHelper.ClickElement("ClickOnBackButtonOption");
+
+            //################# Restore Option ###############################
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/view/10");
+            AddAccountHelper.WaitForWorkAround(5000);
 
 
-   // ########################## Group Trash ##############
+            AddAccountHelper.ClickElement("ClickOnRestoreButtonOptions");
 
-            //AddAccountHelper.ClickElement("ClicOnGroupTrashButton");
+            AddAccountHelper.AcceptAlert();
+            AddAccountHelper.WaitForWorkAround(3000);
 
+            //######################### Delete Option ##################
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/trash");
+            AddAccountHelper.WaitForWorkAround(3000);
 
-            AddAccountHelper.Select("ClickOnPageNo.", "50");
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/trash");
+            AddAccountHelper.WaitForWorkAround(3000);
 
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/view/10");
+            AddAccountHelper.WaitForWorkAround(5000);
+
+            AddAccountHelper.ClickElement("ClcikOnDeleteButtonOption");
+
+            AddAccountHelper.AcceptAlert();
+            AddAccountHelper.WaitForWorkAround(3000);
 
         }
     }

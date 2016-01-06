@@ -7,10 +7,10 @@ using Zaspire.PageHelpers.Comm;
 namespace Zaspire.Scripts.Mainsite
 {
     [TestClass]
-    public class ImportsIndexPage : DriverTestCase
+    public class ImportsViewPage : DriverTestCase
     {
         [TestMethod]
-        public void importindexpage()
+        public void importsviewpage()
         {
             string[] username = null;
             string[] password = null;
@@ -20,8 +20,6 @@ namespace Zaspire.Scripts.Mainsite
 
             username = oXMLData.getData("settings/Credentials", "username");
             password = oXMLData.getData("settings/Credentials", "password");
-
-            var SaveViewas = "CustomView" + RandomNumber(20, 99);
 
             //Initializing the objects
             LoginHelper loginHelper = new LoginHelper(GetWebDriver());
@@ -41,61 +39,52 @@ namespace Zaspire.Scripts.Mainsite
             AddAccountHelper.ClickElement("ClickAccountsTab");
             AddAccountHelper.WaitForWorkAround(4000);
 
-            AddAccountHelper.ClickElement("ClickOnImportButton");
+
+            //Click to open client info
+            AddAccountHelper.ClickElement("ClickOnImport");
 
             AddAccountHelper.ClickElement("ClickOnFirstImport");
 
-            //$$$$$$$$$$$$$$$$$$$$$ Imports Page$$$$$$$$$$$$$$$$$$$
-
-            AddAccountHelper.ClickElement("ClickAccountsTab");
-            AddAccountHelper.WaitForWorkAround(4000);
-
-            AddAccountHelper.ClickElement("ClickOnImportButton");
-
             AddAccountHelper.Select("RecordsPerPage", "20");
 
-             AddAccountHelper.TypeText("FilterTextbox", "clientsamples");
+            AddAccountHelper.TypeText("FilterTextbox", "Woods");
 
             AddAccountHelper.ClickElement("ClickOnReset");
 
-            AddAccountHelper.ClickElement("ClickOnFileIcon");
+//############################# Back Option #########################
 
-            AddAccountHelper.ClickElement("ClickOnDeletesOption");
-            AddAccountHelper.AcceptAlert();
-            
+            AddAccountHelper.ClickElement("ClickOnBack");
 
-//############################## Import New Button #########################
-
-
-            AddAccountHelper.ClickElement("ClickOnImporCreatetButton");
-            AddAccountHelper.WaitForWorkAround(3000);
+ //########################### Bulk Actions @@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
             AddAccountHelper.ClickElement("ClickAccountsTab");
             AddAccountHelper.WaitForWorkAround(4000);
 
-            AddAccountHelper.ClickElement("ClickOnImportButton");
-            AddAccountHelper.WaitForWorkAround(3000);
+            AddAccountHelper.ClickElement("ClickOnImport");
 
- //@######################### Bulk Actions @#@##########################
- //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+            AddAccountHelper.ClickElement("ClickOnFirstImport");
 
-            //Click On Account Tab
-            AddAccountHelper.ClickElement("ClickonAccountsTab");
+            AddAccountHelper.ClickElement("ClickOnCreateCustomerView");
+
+// ######################### Bulk Actions ###############################
+            AddAccountHelper.ClickElement("ClickAccountsTab");
             AddAccountHelper.WaitForWorkAround(4000);
 
-            //Enter Account in search field
-            AddAccountHelper.TypeText("SearchStatus", "New");
+            AddAccountHelper.ClickElement("ClickOnImport");
+
+            AddAccountHelper.ClickElement("ClickOnFirstImport");
+
+            AddAccountHelper.TypeText("SearchStatus", "Live");
             AddAccountHelper.WaitForWorkAround(10000);
 
             //Click on Account
             AddAccountHelper.ClickElement("SelectMasterCheckbox");
 
-            //Click on Delete
-            //AddAccountHelper.ClickElement("SelectClient2");
 
             //Click on Bulk Update Button
             AddAccountHelper.MouseOver("Locator");
 
+            //$$$$$$$$$$$$$$$$ Bulk Update################
 
             AddAccountHelper.ClickElement("ClickonBulkUpdate");
 
@@ -126,15 +115,14 @@ namespace Zaspire.Scripts.Mainsite
             AddAccountHelper.AcceptAlert();
             AddAccountHelper.WaitForWorkAround(8000);
 
-
-            //&&&&&&&&&&&&&&&&&&&&&&&&&&& Bulk Email &&&&&&&&&&&&&&&&&&&&&&&&&&&&
+            //@@@@@@@@@@@@@@@@@@@@@@@ Bulk Email @@@@@@@@@@@@@@@@@@@@@@@@
 
             //Click on Bulk Update
             AddAccountHelper.TypeText("SearchCompany", "Woods");
             AddAccountHelper.WaitForWorkAround(10000);
 
             //Click on Bulk Update
-            AddAccountHelper.ClickElement("ClickOnMasterCheckBox");
+            AddAccountHelper.ClickElement("SelectMasterCheckbox");
 
             //Click on Move over
             AddAccountHelper.MouseOver("Locator");
@@ -145,10 +133,10 @@ namespace Zaspire.Scripts.Mainsite
             AddAccountHelper.WaitForWorkAround(4000);
 
             //Enter Email Cc Address
-            AddAccountHelper.TypeText("EnterEmailCcAddress", "");
+            AddAccountHelper.TypeText("EnterEmailCcAddress", "nthamishetty@chraterglobal.com");
 
             //Enter Email Bcc Address
-            AddAccountHelper.TypeText("EnterEmailBccAddress", "");
+            AddAccountHelper.TypeText("EnterEmailBccAddress", "nthamishetty@chraterglobal.com");
 
             //Enter Email Subject
             AddAccountHelper.TypeText("EnterEmailSubject", "Test Email");
@@ -215,10 +203,6 @@ namespace Zaspire.Scripts.Mainsite
             AddAccountHelper.ClickElement("ClickOnAddToGroup");
             AddAccountHelper.WaitForWorkAround(4000);
 
-
-            //Select Lead Group
-            //AddAccountHelper.Select("SelectLeadGroup", "10");
-
             //Enter Add New Lead Group Name
             AddAccountHelper.TypeText("EnterGroupName", "Test Group");
 
@@ -227,6 +211,17 @@ namespace Zaspire.Scripts.Mainsite
 
             AddAccountHelper.AcceptAlert();
             AddAccountHelper.WaitForWorkAround(10000);
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }

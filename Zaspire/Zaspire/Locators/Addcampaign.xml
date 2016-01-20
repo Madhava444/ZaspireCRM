@@ -298,10 +298,30 @@
   <customfilter><![CDATA[//*[@id='campaign_saved_views_filter']/label/input ]]></customfilter>
   <Customreset><![CDATA[//*[@id='ToolTables_campaign_saved_views_0'] ]]></Customreset>
   <customback><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></customback>
-  <saveviewas><![CDATA[//*[@id='searchName']]]></saveviewas>
-  <savecustomview><![CDATA[//*[@id='CampaignIndexForm']/div[2]/div[1]/div/div/button]]></savecustomview>
   <cancelcustomview><![CDATA[//*[@id='CampaignIndexForm']/div[2]/div[1]/div/div/a[2]]]></cancelcustomview>
   <permissionscustomview><![CDATA[//*[@id='CampaignIndexForm']/div[2]/div[1]/div/div/a[1]]]></permissionscustomview>
+  <Saveviewas><![CDATA[//*[@id='searchName']]]></Saveviewas>
+  <Sortby><![CDATA[//*[@id='CampaignSortCol']]]></Sortby>
+  <Importfile><![CDATA[//*[@id='autogen2']]]></Importfile>
+  <Owner1><![CDATA[//*[@id='autogen3']]]></Owner1>
+  <Manager1><![CDATA[//*[@id='autogen4']]]></Manager1>
+  <Status><![CDATA[//*[@id='autogen5']]]></Status>
+  <Category><![CDATA[//*[@id='autogen6']]]></Category>
+  <Createdby><![CDATA[//*[@id='autogen7']]]></Createdby>
+  <Modifiedby><![CDATA[//*[@id='autogen8']]]></Modifiedby>
+  <Group><![CDATA[//*[@id='autogen9']]]></Group>
+  <Createdtype><![CDATA[//*[@id='CampaignCustomColOps']]]></Createdtype>
+  <Createdtext><![CDATA[//*[@id='CampaignCustomColValues8']]]></Createdtext>
+  <Modifytype><![CDATA[//*[@id='CampaignCustomColOps']]]></Modifytype>
+  <Modifytext><![CDATA[//*[@id='CampaignCustomColValues9']]]></Modifytext>
+  <StartDateType><![CDATA[CampaignCustomColOps]]></StartDateType>
+  <StatedateText><![CDATA[//*[@id='CampaignCustomColValues10']]]></StatedateText>
+  <Enddatetype><![CDATA[//*[@id='CampaignAdditionalColNames']]]></Enddatetype>
+  <Enddatetext><![CDATA[//*[@id='CampaignCustomColValues11']]]></Enddatetext>
+  <NameAdditioncretireia><![CDATA[//*[@id='CampaignAdditionalColNames']]]></NameAdditioncretireia>
+  <Nametype><![CDATA[//*[@id='CampaignAdditionalColOps']]]></Nametype>
+  <Nametext><![CDATA[//*[@id='CampaignAdditionalColValues']]]></Nametext>
+  <Save><![CDATA[//*[@id='CampaignIndexForm']/div[2]/div[5]/div/div/button]]></Save>
 
 
 

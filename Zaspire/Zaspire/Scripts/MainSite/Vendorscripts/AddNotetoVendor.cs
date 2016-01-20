@@ -6,10 +6,10 @@ using Zaspire.PageHelpers.Com;
 namespace Zaspire.Scripts
 {
     [TestClass]
-    public class TrashviewDelete : DriverTestCase
+    public class AddNotetoVendor : DriverTestCase
     {
         [TestMethod]
-        public void CampaignTrash()
+        public void NotetoVendor()
         {
             string[] username = null;
             string[] password = null;
@@ -22,7 +22,7 @@ namespace Zaspire.Scripts
 
             //Initializing the objects
             var loginHelper = new LoginHelper(GetWebDriver());
-            var addcampaignHelper = new CampaignHelper(GetWebDriver());
+            var VendorHelper = new VendorHelper(GetWebDriver());
 
             //Login with valid username and password
             Login(username[0], password[0]);
@@ -33,24 +33,35 @@ namespace Zaspire.Scripts
             Console.WriteLine("Redirected at Dashboard screen.");
 
             //Click on Dashboard in menu
-            addcampaignHelper.ClickElement("ClickCampaignsTab");
+            VendorHelper.ClickElement("Vendor");
+
+            //################### ADD NOTE  #########################
 
 
-            //######################### Trash record Delete r######################################
+            //Click on Add Note
+            VendorHelper.ClickElement("ClickOnAddNote");
 
-            //Click On trash
-            //addcampaignHelper.ClickElement("Trash");
+            //Enter Note Subject
+            VendorHelper.TypeText("EnterNoteSubject", "Note for Subject");
 
-            //Redirect to logout
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/campaigns/view/15156");
+            //Enter Note Description
+            VendorHelper.TypeText("EnterNoteDescription", "This is Note Description");
 
-            //Click onrecord
-            addcampaignHelper.ClickElement("ViewRecord");
+            //Upload File 
+            String filename = GetPath() + "C:\\Users\\Public\\Pictures\\Sample Pictures\\image\\Tulips.jpeg";
+            VendorHelper.Upload("SelectNoteFile", filename);
+            VendorHelper.WaitForWorkAround(10000);
 
-            //Clickon Delete
-            addcampaignHelper.ClickElement("Delete");
 
-         
+            //Click On Save
+            VendorHelper.ClickElement("ClickOnSaveNote");
+            VendorHelper.WaitForWorkAround(7000);
+
+
+
         }
     }
 }
+
+
+

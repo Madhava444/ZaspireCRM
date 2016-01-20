@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Locator>
   
-  <AddEvent>
+  
   
   <Selectevents><![CDATA[//*[@id='events']]]></Selectevents>
   <Clickonnew><![CDATA[html/body/div[4]/div[2]/div[1]/div/div[2]/ul/li[3]/a]]></Clickonnew>
   <SelectRelatedTo><![CDATA[//*[@id='EventParentType']]]></SelectRelatedTo>
   <SelectMergeRecords><![CDATA[//*[@id='assignrecord']]]></SelectMergeRecords>
-  <SelectRelatedname><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]]]></SelectRelatedname>
+  <SelectRelatedname><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]/a]]></SelectRelatedname>
   <EventCategory><![CDATA[//*[@id='EventCategoryId']]]></EventCategory>
   <EventPriority><![CDATA[//*[@id='EventPriority']]]></EventPriority>
   <EventAssignedUser><![CDATA[//*[@id='EventAssignedUserId']]]></EventAssignedUser>
@@ -23,11 +23,28 @@
   <SelectreminderTime><![CDATA[//*[@id='reminderTime']]]></SelectreminderTime>
   <Emailpopup><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[1]/div/div/div[3]/div[3]/div/div[1]/label/div/span]]></Emailpopup>
   <SelectemailReminderTime><![CDATA[//*[@id='emailReminderTime']]]></SelectemailReminderTime>
-  <Clickonsave><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[3]/div/div/button]]></Clickonsave>
+  <Clickonsave><![CDATA[//*[@id='EventAddnewForm']/div[2]/div/ul/li[5]/button]]></Clickonsave>
   <ClickonCancel><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[3]/div/div/a]]></ClickonCancel>
+  <Recurring><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[1]/div/div/div[4]/div[2]/div/div[1]/label/div/span]]></Recurring>
+    <RepeatonceinEveryInterval><![CDATA[//*[@id='EventRepeatInterval']]]></RepeatonceinEveryInterval>
+    <RepeteonceineveryType><![CDATA[//*[@id='EventRepeatType']]]></RepeteonceineveryType>
+    <RepeteUtility><![CDATA[//*[@id='EventRepeatUntil']]]></RepeteUtility>
+    <CheckboxSunday><![CDATA[//*[@id='repeatWeekUI']/div/div/div[1]/label/div/span]]></CheckboxSunday>
+    <CheckboxMonday><![CDATA[//*[@id='repeatWeekUI']/div/div/div[2]/label/div/span]]></CheckboxMonday>
+    <CheckboxTuesday><![CDATA[//*[@id='repeatWeekUI']/div/div/div[3]/label/div/span]]></CheckboxTuesday>
+    <CheckboxWeday><![CDATA[//*[@id='repeatWeekUI']/div/div/div[4]/label/div/span]]></CheckboxWeday>
+    <CheckboxThursday><![CDATA[//*[@id='repeatWeekUI']/div/div/div[5]/label/div/span]]></CheckboxThursday>
+    <CheckboxFriday><![CDATA[//*[@id='repeatWeekUI']/div/div/div[6]/label/div/span]]></CheckboxFriday>
+    <ChecboxSatday><![CDATA[//*[@id='repeatWeekUI']/div/div/div[7]/label/div/span]]></ChecboxSatday>
+    <EventinviteeContact><![CDATA[//*[@id='EventInviteecontacts']]]></EventinviteeContact>
+    <InviteeFirstname><![CDATA[//*[@id='EventFirstname']]]></InviteeFirstname>
+    <InviteeLastname><![CDATA[//*[@id='EventLastname']]]></InviteeLastname>
+    <InviteeEmail><![CDATA[//*[@id='EventEmail']]]></InviteeEmail>
+    <InviteeSearch><![CDATA[//*[@id='addinvitees']]]></InviteeSearch>
+    <AddInvitee><![CDATA[//*[@id='userinvitees']/div/div/table/tbody/tr[1]/td[4]/a]]></AddInvitee>
 
+    
+    ---------------------------View Events---------------------------
   
-  </AddEvent>
-
 
 </Locator>

@@ -57,7 +57,7 @@
   ########################## Partner View Page #################################################
   
   
- <Tmelinetab><![CDATA[//*[@id='time_line']]]></Tmelinetab>
+ <Tmelinetab><![CDATA[//*[@id='ui-id-1']/div[2]]]></Tmelinetab>
   <Activitiestab><![CDATA[//*[@id='activity1']]]></Activitiestab>
   <Contacttab><![CDATA[//*[@id='contact1']]]></Contacttab>
   <Relatedleadstab><![CDATA[//*[@id='leads1']]]></Relatedleadstab>
@@ -195,6 +195,12 @@
   <Filtercustomview><![CDATA[//*[@id='partner_saved_views_filter']/label/input]]></Filtercustomview>
   <Resetcustomview><![CDATA[//*[@id='ToolTables_partner_saved_views_0']]]></Resetcustomview>
   <CustomviewView><![CDATA[//*[@id='partner_saved_views']/tbody/tr/td[2]/a]]></CustomviewView>
+  <CustomviewEdit><![CDATA[//*[@id='saved_edit']]]></CustomviewEdit>
+  <CancelCustomview><![CDATA[//*[@id='PartnerIndexForm']/div[2]/div[1]/div/div/a[2]]]></CancelCustomview>
+  <CustomviewDelete><![CDATA[//*[@id='deleteSearch']]]></CustomviewDelete>
+  <CustomviewSetasdefault><![CDATA[//*[@id='makedefaultsearch']]]></CustomviewSetasdefault>
+  <CustomviewUnsetdefault><![CDATA[//*[@id='removedefaultsearch']]]></CustomviewUnsetdefault>
+  <Selectdropdown><![CDATA[//*[@id='savedSearch']]]></Selectdropdown>
   <Saveviewas><![CDATA[//*[@id='searchName']]]></Saveviewas>
   <Sortby><![CDATA[//*[@id='PartnerSortCol']]]></Sortby>
   <Owner1><![CDATA[//*[@id='autogen2']]]></Owner1>
@@ -211,7 +217,7 @@
   <Save><![CDATA[//*[@id='PartnerIndexForm']/div[2]/div[5]/div/div/button]]></Save>
 
 
-  <!-- LEAD BULK ACTIONS -->
+  <!-- Partner BULK ACTIONS -->
 
 <ClickOnMasterCheckBox><![CDATA[//*[@id='partners_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
 <MoveHover><![CDATA[//*[@id='partners_grid_wrapper']/div[1]/div/div/button]]></MoveHover>
@@ -226,7 +232,7 @@
 
   <!-- BULK DELETE Partners-->
 
-<ClickOnDeleteLeads><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteLeads>
+<ClickOnDeletePartners><![CDATA[//*[@id='remove_record']]]></ClickOnDeletePartners>
 
  
   <!-- BULK EMAIL Partners -->
@@ -243,21 +249,23 @@
 <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
 <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
 
-
-
-
-</locator>
+  ########################### Trash Partner ##########################
+  
+<Trash1><![CDATA[html/body/div[4]/div[1]/ul/li[12]/ul/li[2]/a]]></Trash1>
+<PartnerTrashFilter><![CDATA[//*[@id='partner_trash_filter']/label/input]]></PartnerTrashFilter>
+  <PartnerTrashReset><![CDATA[//*[@id='ToolTables_partner_trash_0']]]></PartnerTrashReset>
+  <MasterCheckboxTrashpartner><![CDATA[//*[@id='partner_trash']/thead/tr/th[1]/div/span/input]]></MasterCheckboxTrashpartner>   
+  <Mouseovertrash><![CDATA[//*[@id='partner_trash_wrapper']/div[1]/div]]></Mouseovertrash>
+  <RemovePartnerForeever><![CDATA[//*[@id='remove_record']]]></RemovePartnerForeever>
+  <RestorePartner><![CDATA[//*[@id='restore_record']]]></RestorePartner>
+  <TrashPartnerview><![CDATA[//*[@id='normal']]]></TrashPartnerview>  
+  <Backtrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></Backtrash>
+  
+  <ViewTrashRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ViewTrashRestore>    
+  <ViewTrashDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ViewTrashDelete>
+  <ViewTrashBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ViewTrashBack>   
       
       
       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-     
+     </locator>

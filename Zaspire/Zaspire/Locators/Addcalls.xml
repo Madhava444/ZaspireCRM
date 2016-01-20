@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Locator>
 
-  <AddCalls>
 
+    <ClickonActivities><![CDATA[//*[@id='activities']]]></ClickonActivities>
     <ClickOnCalls><![CDATA[//*[@id='calls']]]></ClickOnCalls>
-
     <ClickOnCallsAddNew><![CDATA[//*[@id='relatedToContent']/table/tbody/tr/td[1]/a]]></ClickOnCallsAddNew>
-    <SelectRelatedTo><![CDATA[//*[@id='s2id_CallParentType']]]></SelectRelatedTo>
+    <SelectRelatedTo><![CDATA[//*[@id='CallParentType']]]></SelectRelatedTo>
     <SelectMergebox><![CDATA[//*[@id='assignrecord']]]></SelectMergebox>>
     <SelectrelatedToContent><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]/a]]></SelectrelatedToContent>
-    <SelectCallCategory><![CDATA[//*[@id='s2id_CallCategoryId']]]></SelectCallCategory>
-    <SelectCallowner><![CDATA[//*//*[@id='s2id_CallAssignedUserId']]]></SelectCallowner>
-    <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]]></EnterCallSubject>
+    <SelectCallCategory><![CDATA[//*[@id='CallCategoryId']]]></SelectCallCategory>
+    <SelectCallowner><![CDATA[//*//*[@id='CallAssignedUserId']]]></SelectCallowner>
+    <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]></EnterCallSubject>
     <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
     <SelectCallDate><![CDATA[//*[@id='CallCallDate']]]></SelectCallDate>
     <SelectCallFrom><![CDATA[//*[@id='CallCallFrom']]]></SelectCallFrom>
@@ -19,17 +18,17 @@
     <Enternumberfrom><![CDATA[//*[@id='CallNewcallFrom']]]></Enternumberfrom>
     <EnterExtension><![CDATA[//*[@id='CallNewcallFromExtension']]]></EnterExtension>
     <EnterNumberto><![CDATA[//*[@id='CallNewcallTo']]]></EnterNumberto>
-    <EnterExtension><![CDATA[//*[@id='CallNewcallToExtension']]]></EnterExtension>
+    <EnterExtension1><![CDATA[//*[@id='CallNewcallToExtension']]]></EnterExtension1>
     <EnterCallFrom><![CDATA[//*[@id='CallCallerName']]]></EnterCallFrom>
     <EnterCallTo><![CDATA[//*[@id='CallCaleeName']]]></EnterCallTo>
-    <SelectEmployee><![CDATA[//*[@id='CallCallToEmp']]]></SelectEmployee>
+    <SelectEmployee><![CDATA[//*[@id='CallCallFromEmp']]]></SelectEmployee>
     <EnterStartingtime><![CDATA[//*[@id='clockface_call']]]></EnterStartingtime>
     <CallHours><![CDATA[//*[@id='CallCallHours']]]></CallHours>
     <CallMinutes><![CDATA[//*[@id='CallCallMins']]]></CallMinutes>
-    <Callsinsec><![CDATA[//*[@id='CallCallSecs']]></Callsinsec>
+    <Callsinsec><![CDATA[//*[@id='CallCallSecs']]]></Callsinsec>
     <Selectsave><![CDATA[//*[@id='CallAddnewForm']/div[2]/div/ul/li[5]/button]]></Selectsave>
 
-  </AddCalls>
+  
 
   
 </Locator>

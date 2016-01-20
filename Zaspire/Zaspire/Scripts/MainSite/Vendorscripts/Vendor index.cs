@@ -6,10 +6,10 @@ using Zaspire.PageHelpers.Com;
 namespace Zaspire.Scripts
 {
     [TestClass]
-    public class TrashRestoreIndex : DriverTestCase
+    public class VendorIndex : DriverTestCase
     {
         [TestMethod]
-        public void CampaignTrash()
+        public void Vendor()
         {
             string[] username = null;
             string[] password = null;
@@ -22,7 +22,7 @@ namespace Zaspire.Scripts
 
             //Initializing the objects
             var loginHelper = new LoginHelper(GetWebDriver());
-            var addcampaignHelper = new CampaignHelper(GetWebDriver());
+            var VendorHelper = new VendorHelper(GetWebDriver());
 
             //Login with valid username and password
             Login(username[0], password[0]);
@@ -33,32 +33,34 @@ namespace Zaspire.Scripts
             Console.WriteLine("Redirected at Dashboard screen.");
 
             //Click on Dashboard in menu
-            addcampaignHelper.ClickElement("ClickCampaigns Tab");
+            VendorHelper.ClickElement("Vendor");
 
+            //################################ Index ################################
 
-            //######################### Trash record restore ######################################
+            //Click on Default view
+            VendorHelper.Select("VendorDefaultview", "Recently Modified");
 
-            //Click On trash
-            //addcampaignHelper.ClickElement("Trash");
-
-            //Redirect to logout
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/campaigns/trash");
+            //Clickon Vendorcustomviewlist
+            VendorHelper.Select("Vendorcustomviewlist", "26");
 
             //Enter text in filter
-            addcampaignHelper.TypeText("Filter", "active");
+            VendorHelper.TypeText("VendorFilter", "New");
+
+            //Click on reset button
+            VendorHelper.ClickElement("VendorReset");
+
+            //Click on ExportCSV
+            //VendorHelper.ClickElement("VendorExportCSV");
+
+            //Click on ExportPdf
+            //VendorHelper.ClickElement("VendorExportPDF");
 
 
-            //Clickon Reset
-            addcampaignHelper.ClickElement("Reset");
 
-            //Clickon RecordsperPage
-            addcampaignHelper.Select("RecordsperPage", "20");
 
-            //Click onBulk action
-            addcampaignHelper.MouseOver("BulkAction");
-
-            //Click on RestoreCampaign
-            addcampaignHelper.ClickElement("RestoreCampaign");
         }
     }
 }
+
+
+

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+   ################## Application index page actions ####################
+  <!-- APPLICATION INDEX PAGE -->
+  <ClickOnInterviewtab><![CDATA[//*[@id='interviews']]]></ClickOnInterviewtab>
+  <ClickOnBackToInterviewtab><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToInterviewtab>
+  <FirstInterviewNameLink><![CDATA[//*[@id='interviews_grid']/tbody/tr/td[2]/a]]></FirstInterviewNameLink>
+  <ClickonCalendarview><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickonCalendarview>
+  <ClickonListiew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[3]/a]]></ClickonListiew>
+
+  
+  <!-- CUSTOM VIEWS -->
+  <ClickOnCustomViews><![CDATA[//*[@id='ApplicationQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+  <ClickOnCustomViewsNew><![CDATA[//*[@id='ApplicationQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnCustomViewsNew>
+  <SelectCustomViews><![CDATA[//*[@id='savedSearch']]]></SelectCustomViews>
+  <ClickOnSetAsDefault><![CDATA[//*[@id='makedefaultsearch']]]></ClickOnSetAsDefault>
+  <ClickOnUnsetDefault><![CDATA[//*[@id='removedefaultsearch']]]></ClickOnUnsetDefault>
+  <ClickOnEdit><![CDATA[//*[@id='saved_edit']]]></ClickOnEdit>
+  <ClickOnNew><![CDATA[//*[@id='InterviewQuickSearchIndexForm']/table/tbody/tr/td[2]/a[3]]]></ClickOnNew>
+  
+  <ClickOnBackTointerview><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnBackTointerview>
+
+ 
+
+  <!-- TAGS SEARCH -->
+  <EnterTags><![CDATA[//*[@id='tags_tag']]]></EnterTags>
+  <ClockOnTagsSearch><![CDATA[//*[@id='search_tags']]]></ClockOnTagsSearch>
+  <ClockOnTagsReset><![CDATA[//*[@id='reset_search_tags']]]></ClockOnTagsReset>
+
+  <!-- FILTER SEARCH -->
+  <EnterFilterSearch><![CDATA[//*[@id='interviews_grid_filter']/label/input]]></EnterFilterSearch>
+  <ClockOnFilterReset><![CDATA[//*[@id='ToolTables_interviews_grid_0']]]></ClockOnFilterReset>
+
+  <ClockOnMasterCheckBox><![CDATA[//*[@id='interviews_grid']/thead/tr/th[1]/div/span/input]]></ClockOnMasterCheckBox>
+  <BulkupdateInterview><![CDATA[//*[@id='bulk_update']]]></BulkupdateInterview>
+   
+
+  <!-- QUICK LINKS -->
+  <ClickOnQuickLook><![CDATA[//*[@id='actionicons1']/a]]></ClickOnQuickLook>
+  <ClickOnQuickLookView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnQuickLookView>
+  <ClickOnQuickLookEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnQuickLookEdit>
+  <ClickOnQuickLookDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnQuickLookDelete>
+  <ClickOnQuickLookSetupinterview><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnQuickLookSetupinterview>
+
+  
+
+  #############  Interview Export to CSV and PDF ################
+  <!-- Interview export -->
+  <CSVExport><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></CSVExport>
+  <PDFExport><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></PDFExport>
+  
+
+
+
+
+</Locators>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  #####################  Candidate AddNote ####################
+  
+  <ClickonCandidate><![CDATA[//*[@id='candidates']]]></ClickonCandidate>
+  <ClickonCandiaterecord><![CDATA[//*[@id='candidates_grid']/tbody/tr/td[2]/a]]></ClickonCandiaterecord>
+  <Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/a]]></Moreactions>
+  <Addnote><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[6]/a]]></Addnote>
+  <Notesubject><![CDATA[//*[@id='NoteName']]]></Notesubject>
+  <NoteDescription><![CDATA[//*[@id='NoteDescription']]]></NoteDescription>
+  <Notefile><![CDATA[//*[@id='Attachment0Files']]]></Notefile>
+  <Notesave><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[1]]]></Notesave>
+  <NoteCancel><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[2]]]></NoteCancel>
+  <NoteClose><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[1]/button]]></NoteClose>
+  
+
+
+  #####################  Candidate Addfileversion ####################
+
+  <Addfileversion><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[3]/a]]></Addfileversion>
+  <Selectfile><![CDATA[//*[@id='ResumeFile']]]></Selectfile>
+  <FileDescription><![CDATA[//*[@id='ResumeComment']]]></FileDescription>
+  <Filesave><![CDATA[//*[@id='CreateResumeForm']/div[3]/button[1]]]></Filesave>
+  <FileCancel><![CDATA[//*[@id='CreateResumeForm']/div[3]/button[2]]]></FileCancel>
+  <FileClose><![CDATA[//*[@id='dialog_files']/div/div/div/button]]></FileClose>
+
+
+  #####################  Candidate Task ##################################
+
+  <AddTask><![CDATA[//*[@id='Task']]]></AddTask>
+<Eventtype><![CDATA[//*[@id='CandidateHotlist']]]></Eventtype>
+<Location><![CDATA[//*[@id='EventLocation']]></Location>
+<Tasksubject><![CDATA[//*[@id='EventName']]]></Tasksubject>
+<TaskStartdate><![CDATA[//*[@id='EventStartDate']]]></TaskStartdate>
+<Taskstarttime><![CDATA[//*[@id='clockface_start_event_toggle-btn']]]></Taskstarttime>
+  <Taskstarttime2><![CDATA[html/body/div[9]/div[1]/div[2]/div[1]]]></Taskstarttime2>
+ <TaskEnddate><![CDATA[//*[@id='EventEndDate']]]></TaskEnddate>
+<TaskEndtime><![CDATA[//*[@id='clockface_end_event_toggle-btn']]]></TaskEndtime>
+  <TaskEndtime2><![CDATA[html/body/div[10]/div[5]/div[2]/div[2]]]></TaskEndtime2>
+<Reminders><![CDATA[//*[@id='CreateEventForm']/div[2]/div/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Reminders>
+<RemindersDropdown><![CDATA[//*[@id='CandidateBlocklist']]]></RemindersDropdown>
+<Taskpopup><![CDATA[//*[@id='reminderTime']]]></Taskpopup>
+<Taskemaildropdown><![CDATA[//*[@id='emailReminderTime']]]></Taskemaildropdown>
+  <EnterDescription><![CDATA[//*[@id='CandidateBlocklist']]]></EnterDescription>
+  <Tasksave><![CDATA[//*[@id='CreateEventForm']/div[3]/button]]></Tasksave>
+  <TaskCancel><![CDATA[//*[@id='CreateEventForm']/div[3]/a]]></TaskCancel>
+
+
+
+  #####################  Candidate Meeting ##################################
+
+   <AddMeeting><![CDATA[//*[@id='Meeting']]]></AddMeeting>
+<Eventtype><![CDATA[//*[@id='CandidateHotlist']]]></Eventtype>
+<Location><![CDATA[//*[@id='EventLocation']]></Location>
+<Metingsubject><![CDATA[//*[@id='EventName']]]></Metingsubject>
+<MeetingStartdate><![CDATA[//*[@id='EventStartDate']]]></MeetingStartdate>
+<Meetingstarttime><![CDATA[//*[@id='clockface_start_event_toggle-btn']]]></Meetingstarttime>
+  <Meetingsstarttime2><![CDATA[html/body/div[9]/div[1]/div[2]/div[1]]]></Meetingsstarttime2>
+ <MeetingsEnddate><![CDATA[//*[@id='EventEndDate']]]></MeetingsEnddate>
+<MeetingsEndtime><![CDATA[//*[@id='clockface_end_event_toggle-btn']]]></MeetingsEndtime>
+  <MeetingsEndtime2><![CDATA[html/body/div[10]/div[5]/div[2]/div[2]]]></MeetingsEndtime2>
+<Reminders><![CDATA[//*[@id='CreateEventForm']/div[2]/div/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Reminders>
+<RemindersDropdown><![CDATA[//*[@id='CandidateBlocklist']]]></RemindersDropdown>
+<Meetingspopup><![CDATA[//*[@id='reminderTime']]]></Meetingspopup>
+<Meetingsmaildropdown><![CDATA[//*[@id='emailReminderTime']]]></Meetingsmaildropdown>
+  <EnterDescription><![CDATA[//*[@id='CandidateBlocklist']]]></EnterDescription>
+  <Meetingssave><![CDATA[//*[@id='CreateEventForm']/div[3]/button]]></Meetingssave>
+  <MeetingsCancel><![CDATA[//*[@id='CreateEventForm']/div[3]/a]]></MeetingsCancel>
+
+
+
+  #####################  Candidate Appointment ##################################
+
+ <AddAppointment><![CDATA[//*[@id='App']]]></AddAppointment>
+<Eventtype><![CDATA[//*[@id='EventEventType']]]></Eventtype>
+<Location><![CDATA[//*[@id='EventLocation']]></Location>
+<Appointmentsubject><![CDATA[//*[@id='EventName']]]></Appointmentsubject>
+<AppointmentStartdate><![CDATA[//*[@id='EventStartDate']]]></AppointmentStartdate>
+<Appointmentstarttime><![CDATA[//*[@id='clockface_start_event_toggle-btn']]]></Appointmentstarttime>
+  <Appointmentsstarttime2><![CDATA[html/body/div[9]/div[1]/div[2]/div[1]]]></Appointmentsstarttime2>
+ <AppointmentsEnddate><![CDATA[//*[@id='EventEndDate']]]></AppointmentsEnddate>
+<AppointmentsEndtime><![CDATA[//*[@id='clockface_end_event_toggle-btn']]]></AppointmentsEndtime>
+  <AppointmentsEndtime2><![CDATA[html/body/div[10]/div[5]/div[2]/div[2]]]></AppointmentsEndtime2>
+<Reminders><![CDATA[//*[@id='CreateEventForm']/div[2]/div/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Reminders>
+<RemindersDropdown><![CDATA[//*[@id='CandidateBlocklist']]]></RemindersDropdown>
+<Appointmentspopup><![CDATA[//*[@id='reminderTime']]]></Appointmentspopup>
+<Appointmentsmaildropdown><![CDATA[//*[@id='emailReminderTime']]]></Appointmentsmaildropdown>
+  <EnterDescription><![CDATA[//*[@id='CandidateBlocklist']]]></EnterDescription>
+  <Appointmentssave><![CDATA[//*[@id='CreateEventForm']/div[3]/button]]></Appointmentssave>
+  <AppointmentsCancel><![CDATA[//*[@id='CreateEventForm']/div[3]/a]]></AppointmentsCancel>
+
+
+
+
+
+  ######################## Log A Call #######################
+  <ClickOnAddCall><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[10]/a/i]]></ClickOnAddCall>
+  <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]></EnterCallSubject>
+  <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
+  <EnterCallDate><![CDATA[//*[@id='CallCallDate']]]></EnterCallDate>
+  <SelectCallFrom><![CDATA[//*[@id='CallCallFrom']]]></SelectCallFrom>
+  <SelectCallTo><![CDATA[//*[@id='CallCallTo']]]></SelectCallTo>
+  <EnterCallFromNumber><![CDATA[//*[@id='CallNewcallFrom']]]></EnterCallFromNumber>
+  <EnterCallToNumber><![CDATA[//*[@id='CallNewcallTo']]]></EnterCallToNumber>
+  <EnterCallHours><![CDATA[//*[@id='CallCallHours']]]></EnterCallHours>
+  <EnterCallMins><![CDATA[//*[@id='CallCallMins']]]></EnterCallMins>
+  <EnterCallSecs><![CDATA[//*[@id='CallCallSecs']]]></EnterCallSecs>
+  <ClickOnDescriptionLink><![CDATA[//*[@id='address_add_link']]]></ClickOnDescriptionLink>
+  <EnterCallDescription><![CDATA[//*[@id='CallDescription']]]></EnterCallDescription>
+
+  <ClickOnSaveLogCall><![CDATA[//*[@id='LogCallForm']/div[4]/button[1]]]></ClickOnSaveLogCall>
+  <ClickOnCancelLogCall><![CDATA[//*[@id='LogCallForm']/div[4]/button[2]]]></ClickOnCancelLogCall>
+  
+  
+  
+  ################  Candidate Email ########################
+  <!-- SEND EMAIL -->
+<ClickOnSendEmail><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[8]/a]]></ClickOnSendEmail>
+<ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+<ToAddressCheckBox><![CDATA[//*[@id='toid']]]></ToAddressCheckBox>
+<CCAddressCheckBox><![CDATA[//*[@id='ccid']]]></CCAddressCheckBox>
+<BCCAddressCheckBox><![CDATA[//*[@id='bccid']]]></BCCAddressCheckBox>
+<ClickOnAddEmailAddress><![CDATA[//*[@id='submitemail']]]></ClickOnAddEmailAddress>
+ <ClickOnSendEmailButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendEmailButton>
+
+
+
+  ################  Candidate Forward to Account ########################
+
+  <ClickOnfrwdtoAccount><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[8]/a]]></ClickOnfrwdtoAccount>
+  <ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+  <ToAddressCheckBox><![CDATA[//*[@id='toid']]]></ToAddressCheckBox>
+  <CCAddressCheckBox><![CDATA[//*[@id='ccid']]]></CCAddressCheckBox>
+  <BCCAddressCheckBox><![CDATA[//*[@id='bccid']]]></BCCAddressCheckBox>
+  <ClickOnAddEmailAddress><![CDATA[//*[@id='submitemail']]]></ClickOnAddEmailAddress>
+  <ClickOnSendEmailButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendEmailButton>
+
+
+
+  ################  Candidate Delete ########################
+
+  <CandidateDelete><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[2]/a]]></CandidateDelete>
+
+
+
+ 
+ 
+
+
+
+
+
+  
+  
+  
+</Locators>  

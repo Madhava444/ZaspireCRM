@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <ClickOnCandidates><![CDATA[//*[@id='candidates']]]></ClickOnCandidates>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  <ClickOnGroupsAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnGroupsAddNew>
+  <EnterGroupName><![CDATA[//*[@id='CandidateGroupDetailName']]]></EnterGroupName>
+  <EnterCity><![CDATA[//*[@id='CandidateGroupDetailCity']]]></EnterCity>
+  <SelectState><![CDATA[//*[@id='CandidateGroupDetailState']]]></SelectState>
+  <SelectCountry><![CDATA[//*[@id='CandidateGroupDetailCountry']]]></SelectCountry>
+  <EnterZipCode><![CDATA[//*[@id='CandidateGroupDetailPostalCode']]]></EnterZipCode>
+
+  <ClickOnSave><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[6]/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[5]/a]]></ClickOnCancel>
+
+
+  <Groupfilter><![CDATA[//*[@id='candidate_groups_filter']/label/input]]></Groupfilter>
+  <CheckMasterCheckBox><![CDATA[//*[@id='candidate_groups']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>
+  <ClickOnDeleteCandidateGroups><![CDATA[//*[@id='remove_candidate']]]></ClickOnDeleteCandidateGroups>
+
+  <ClickOnSave><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[6]/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[5]/a]]></ClickOnCancel>
+
+
+
+
+
+
+</Locators>

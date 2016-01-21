@@ -3,6 +3,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using Zaspire.Locators;
 using Zaspire.PageHelpers.Com;
+using System.Data.Linq;
+using OpenQA.Selenium.Interactions;
 
 namespace Zaspire.PageHelpers.Com
 {
@@ -88,10 +90,8 @@ namespace Zaspire.PageHelpers.Com
             GetWebDriver().FindElement(ByLocator(locator)).SendKeys(FileName);
             WaitForWorkAround(3000);
 
+      }
 
-
-
-
-        }
+       
     }
 }

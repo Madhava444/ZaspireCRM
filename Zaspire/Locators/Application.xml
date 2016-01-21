@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  #####################  Addnew Application ####################
+  <ClickonApplications><![CDATA[//*[@id='applications']]]></ClickonApplications>
+  <Applicationview><![CDATA[//*[@id='applications_grid']/tbody/tr/td[2]/a]]></Applicationview>
+  
+  <!-- Application Profile -->
+  <Title><![CDATA[//*[@id='ApplicationTitle']]]></Title>
+  <Salutation><![CDATA[//*[@id='ApplicationSalutation']]]></Salutation>
+  <Firstname><![CDATA[//*[@id='ApplicationFirstName']]]></Firstname>
+  <Lastname><![CDATA[//*[@id='ApplicationLastName']]]></Lastname>
+  <Education><![CDATA[//*[@id='ApplicationEducation']]]></Education>
+  <Totlaexpyears><![CDATA[//*[@id='ApplicationExperienceYears']]]></Totlaexpyears>
+  <Totalexpmoths><![CDATA[//*[@id='ApplicationExperienceMonths']]]></Totalexpmoths>
+  <Visatype><![CDATA[//*[@id='ApplicationVisaType']]]></Visatype>
+  <Visaexpdate><![CDATA[//*[@id='ApplicationVisaExp']]]></Visaexpdate>
+  <Jobtype><![CDATA[//*[@id='ApplicationCompensationJobType']]]></Jobtype>
+
+  <!-- Contact info-->
+  <Phone><![CDATA[//*[@id='ApplicationPhone']]]></Phone>
+  <Email><![CDATA[//*[@id='applicationEmail']]]></Email>
+  <Addressline1><![CDATA[//*[@id='ApplicationStreet1']]]></Addressline1>
+  <Addressline2><![CDATA[//*[@id='ApplicationStreet2']]]></Addressline2>
+  <City><![CDATA[//*[@id='ApplicationCity']]]></City>
+  <State><![CDATA[//*[@id='ApplicationState']]]></State>
+  <Country><![CDATA[//*[@id='ApplicationCountry']]]></Country>
+  <Zipcode><![CDATA[//*[@id='ApplicationZip']]]></Zipcode>
+
+
+
+  <!-- Work experiece -->
+  <Company><![CDATA[//*[@id='ApplicationWorkExperience0Company']]]></Company>
+  <currentlyworking><![CDATA[//*[@id='uniform-ApplicationWorkExperience0Working']/span]]></currentlyworking>
+  <From ><![CDATA[//*[@id='ApplicationWorkExperience0StartDate']]]></From>
+  <To><![CDATA[//*[@id='ApplicationWorkExperience0EndDate']]]></To>
+  <JobTitle><![CDATA[//*[@id='ApplicationWorkExperience0JobTitle']]]></JobTitle>
+  <Careerlevel><![CDATA[//*[@id='ApplicationWorkExperience0CareerLevel']]]></Careerlevel>
+  <Industry><![CDATA[//*[@id='ApplicationWorkExperience0Industry']]]></Industry>
+  <CityW><![CDATA[//*[@id='ApplicationWorkExperience0City']]]></CityW>
+  <StateW><![CDATA[//*[@id='ApplicationWorkExperience0State']]]></StateW>
+  <CountrWy><![CDATA[//*[@id='ApplicationWorkExperience0Country']]]></CountrWy>
+  <AddRemarklinkW><![CDATA[//*[@id='ApplicationAddnewForm']/div[3]/div[1]/div[3]/div[2]/div/div/div[4]/div[3]/div/div[2]/a]]></AddRemarklinkW>
+  <RemarkW><![CDATA[//*[@id='ApplicationWorkExperience0Description']]]></RemarkW>
+
+  <!-- Skill information -->
+  <Skillname><![CDATA[//*[@id='ApplicationSkillSummary0SkillName']]]></Skillname>
+  <Skilltype><![CDATA[//*[@id='ApplicationSkillSummary0SkillType']]]></Skilltype>
+  <Expyears><![CDATA[//*[@id='ApplicationSkillSummary0SkillExperienceYears']]]></Expyears>
+  <Expmonths><![CDATA[//*[@id='ApplicationSkillSummary0SkillExperienceMonths']]]></Expmonths>
+  <Addanotherlink><![CDATA[//*[@id='ApplicationAddnewForm']/div[3]/div[1]/div[4]/div[1]/div[3]/a]]></Addanotherlink>
+
+  <!--Job preferences-->
+  <Travel><![CDATA[//*[@id='ApplicationPreferedTravelRequired']]]></Travel>
+  <Careerlevel><![CDATA[//*[@id='ApplicationPreferedCareerLevel']]]></Careerlevel>
+  <Industry1><![CDATA[//*[@id='ApplicationPreferedIndustry']]]></Industry1>
+  <Jobtype1><![CDATA[//*[@id='ApplicationCompensationEjobType']]]></Jobtype1>
+  <Cityj><![CDATA[//*[@id='ApplicationDesireLocation0City']]]></Cityj>
+  <Statej><![CDATA[//*[@id='ApplicationDesireLocation0State']]]></Statej>
+  <Countryj><![CDATA[//*[@id='ApplicationDesireLocation0Country']]]></Countryj>
+  <Addlocationj><![CDATA[//*[@id='ApplicationAddnewForm']/div[3]/div[1]/div[5]/div[2]/div/div/div[4]/div[3]/div/div[2]/a]]></Addlocationj>
+
+  <!-- Refereces -->
+  <RName><![CDATA[//*[@id='ApplicationReference0Name']]]></RName>
+  <RDesignation><![CDATA[//*[@id='ApplicationReference0Designation']]]></RDesignation>
+  <RCampanyname><![CDATA[//*[@id='ApplicationReference0CompanyName']]]></RCampanyname>
+  <RPhone><![CDATA[//*[@id='ApplicationReference0Phone']]]></RPhone>
+  <REmail><![CDATA[//*[@id='ApplicationReference0Email']]]></REmail>
+  <SelectResume><![CDATA[//*[@id='ApplicationOriginalApplicationName']]]></SelectResume>
+
+  <!-- SAVE Application -->
+  <ClickOnSave><![CDATA[//*[@id='check_email_bottom']/button]]></ClickOnSave>
+  <ClickOnEditLeadSave><![CDATA[//*[@id='LeadContactAddress0']/div[7]/div/div/button]]></ClickOnEditLeadSave>
+  <ClickOnCancel><![CDATA[//*[@id='check_email_bottom']/a[2]]]></ClickOnCancel>
+
+
+  ######################### Update Application ####################
+
+
+
+  <ClickApplication><![CDATA[//*[@id='normal']]]></ClickApplication>
+  <From><![CDATA[//*[@id='ApplicationWorkExperience0StartDate']]]></From>
+  <To><![CDATA[//*[@id='ApplicationWorkExperience0EndDate']]]></To>
+  <UManager><![CDATA[//*[@id='s2id_ApplicationAssignedManagerId']/a]]></UManager>
+  <UHotlist><![CDATA[//*[@id='ApplicationHotlist']]]></UHotlist>
+  <UBlocklist><![CDATA[//*[@id='ApplicationBlocklist']]]></UBlocklist>
+
+  <!-- Application Profile -->
+  <UTitle><![CDATA[//*[@id='ApplicationTitle']]]></UTitle>
+  <USalutation><![CDATA[//*[@id='s2id_ApplicationSalutation']/a]]></USalutation>
+  <UFirstname><![CDATA[//*[@id='ApplicationFirstName']]]></UFirstname>
+  <ULastname><![CDATA[//*[@id='ApplicationLastName']]]></ULastname>
+  <UEducation><![CDATA[//*[@id='ApplicationEducation']]]></UEducation>
+  <UTotlaexpyears><![CDATA[//*[@id='ApplicationExperienceYears']]]></UTotlaexpyears>
+  <UTotalexpmoths><![CDATA[//*[@id='ApplicationExperienceMonths']]]></UTotalexpmoths>
+  <UVisatype><![CDATA[//*[@id='ApplicationVisaType']]]></UVisatype>
+  <UVisaexpdate><![CDATA[//*[@id='ApplicationVisaExp']]]></UVisaexpdate>
+  <UJobtype><![CDATA[//*[@id='s2id_ApplicationCompensationJobType']/a]]></UJobtype>
+
+  <!-- Contact info-->
+  <UPhone><![CDATA[//*[@id='ApplicationPhone']]]></UPhone>
+  <UEmail><![CDATA[//*[@id='applicationEmail']]]></UEmail>
+  <UAddressline1><![CDATA[//*[@id='ApplicationStreet1']]]></UAddressline1>
+  <UAddressline2><![CDATA[//*[@id='ApplicationStreet2']]]></UAddressline2>
+  <UCity><![CDATA[//*[@id='ApplicationCity']]]></UCity>
+  <UState><![CDATA[//*[@id='ApplicationState']]]></UState>
+  <UCountry><![CDATA[//*[@id='ApplicationCountry']]]></UCountry>
+  <UZipcode><![CDATA[//*[@id='ApplicationZip']]]></UZipcode>
+
+
+
+  <!-- Work experiece -->
+  <UCompany><![CDATA[.//*[@id='ApplicationWorkExperience0Company']]]></UCompany>
+  <Ucurrentlyworking><![CDATA[//*[@id='uniform-ApplicationWorkExperience0Working']/span]]]></Ucurrentlyworking>
+  <UFrom ><![CDATA[//*[@id='ApplicationWorkExperience0StartDate']]]></UFrom>
+  <UTo><![CDATA[//*[@id='ApplicationWorkExperience0EndDate']]]></UTo>
+  <UJobTitle><![CDATA[//*[@id='ApplicationWorkExperience0JobTitle']]]></UJobTitle>
+  <UCareerlevel><![CDATA[//*[@id='ApplicationWorkExperience0CareerLevel']]]></UCareerlevel>
+  <UIndustry><![CDATA[//*[@id='ApplicationWorkExperience0Industry']]]></UIndustry>
+  <UCity><![CDATA[//*[@id='ApplicationWorkExperience0City']]]></UCity>
+  <UState><![CDATA[//*[@id='ApplicationWorkExperience0State']]]></UState>
+  <UCountry><![CDATA[//*[@id='ApplicationWorkExperience0Country']]]></UCountry>
+  <UAddRemarklink><![CDATA[//*[@id='ApplicationAddnewForm']/div[3]/div[1]/div[3]/div[2]/div/div/div[4]/div[3]/div/div[2]/a]]></UAddRemarklink>
+  <URemark><![CDATA[//*[@id='ApplicationWorkExperience0Description']]]></URemark>
+
+  <!-- Skill information -->
+  <USkillname><![CDATA[//*[@id='ApplicationSkillSummary0SkillName']]]></USkillname>
+  <USkilltype><![CDATA[//*[@id='ApplicationSkillSummary0SkillType']]]></USkilltype>
+  <UExpyears><![CDATA[//*[@id='ApplicationSkillSummary0SkillExperienceYears']]]></UExpyears>
+  <UExpmonths><![CDATA[//*[@id='ApplicationSkillSummary0SkillExperienceMonths']]]></UExpmonths>
+  <UAddanotherlink><![CDATA[//*[@id='ApplicationAddnewForm']/div[3]/div[1]/div[4]/div[1]/div[3]/a]]></UAddanotherlink>
+
+  <!--Job preferences-->
+  <UTravel><![CDATA[//*[@id='ApplicationPreferedTravelRequired']]]></UTravel>
+  <UCareerlevel><![CDATA[//*[@id='ApplicationPreferedCareerLevel']]]></UCareerlevel>
+  <UIndustry><![CDATA[//*[@id='ApplicationPreferedIndustry']]]></UIndustry>
+  <UJobtype><![CDATA[//*[@id='s2id_ApplicationCompensationEjobType']/a]]></UJobtype>
+  <UCity><![CDATA[//*[@id='ApplicationDesireLocation0City']]]></UCity>
+  <UState><![CDATA[//*[@id='ApplicationDesireLocation0State']]]></UState>
+  <UCountry><![CDATA[//*[@id='ApplicationDesireLocation0Country']]]></UCountry>
+  <UAddlocation><![CDATA[//*[@id='ApplicationAddnewForm']/div[3]/div[1]/div[5]/div[2]/div/div/div[4]/div[3]/div/div[2]/a]]></UAddlocation>
+
+  <!-- Refereces -->
+  <URName><![CDATA[//*[@id='ApplicationReference0Name']]]></URName>
+  <UDesignation><![CDATA[//*[@id='ApplicationReference0Designation']]]></UDesignation>
+  <URCampanyname><![CDATA[//*[@id='ApplicationReference0CompanyName']]]></URCampanyname>
+  <URPhone><![CDATA[//*[@id='ApplicationReference0Phone']]]></URPhone>
+  <UREmail><![CDATA[//*[@id='ApplicationReference0Email']]]></UREmail>
+  <USelectResume><![CDATA[//*[@id='ApplicationOriginalApplicationName']]]></USelectResume>
+
+  <!-- SAVE Application -->
+  <UClickOnSave><![CDATA[//*[@id='check_email_bottom']/button]]></UClickOnSave>
+  <UClickOnEditLeadSave><![CDATA[//*[@id='LeadContactAddress0']/div[7]/div/div/button]]></UClickOnEditLeadSave>
+  <UClickOnCancel><![CDATA[//*[@id='check_email_bottom']/a[2]]]></UClickOnCancel>
+
+  ################## Application index page actions ####################
+  <!-- APPLICATION INDEX PAGE -->
+  <ClickOnApplication><![CDATA[//*[@id='applications']]]></ClickOnApplication>
+  <ClickOnBackToApplication><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToApplication>
+  <FirstApplicationNameLink><![CDATA[//*[@id='applications_grid']/tbody/tr/td[2]/a]]></FirstApplicationNameLink>
+
+  
+  <!-- CUSTOM VIEWS -->
+  <ClickOnCustomViews><![CDATA[//*[@id='ApplicationQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+  <ClickOnCustomViewsNew><![CDATA[//*[@id='ApplicationQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnCustomViewsNew>
+  <SelectCustomViews><![CDATA[//*[@id='savedSearch']]]></SelectCustomViews>
+  <ClickOnSetAsDefault><![CDATA[//*[@id='makedefaultsearch']]]></ClickOnSetAsDefault>
+  <ClickOnUnsetDefault><![CDATA[//*[@id='removedefaultsearch']]]></ClickOnUnsetDefault>
+  <ClickOnEdit><![CDATA[//*[@id='saved_edit']]]></ClickOnEdit>
+  <ClickOnNew><![CDATA[//*[@id='ApplicationQuickSearchIndexForm']/table/tbody/tr/td[2]/a[3]]]></ClickOnNew>
+  
+  <ClickOnBackToApplication><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnBackToApplication>
+
+ 
+
+  <!-- TAGS SEARCH -->
+  <EnterTags><![CDATA[//*[@id='tags_tag']]]></EnterTags>
+  <ClockOnTagsSearch><![CDATA[//*[@id='search_tags']]]></ClockOnTagsSearch>
+  <ClockOnTagsReset><![CDATA[//*[@id='reset_search_tags']]]></ClockOnTagsReset>
+
+  <!-- FILTER SEARCH -->
+  <EnterFilterSearch><![CDATA[//*[@id='applications_grid_filter']/label/input]]></EnterFilterSearch>
+  <ClockOnFilterReset><![CDATA[//*[@id='ToolTables_applications_grid_0']]]></ClockOnFilterReset>
+
+  <ClockOnMasterCheckBox><![CDATA[//*[@id='applications_grid']/thead/tr/th[1]/div/span/input]]></ClockOnMasterCheckBox>
+  <Bulkupdateapplications><![CDATA[//*[@id='applications_grid']/thead/tr/th[1]/div/span/input]]></Bulkupdateapplications>
+
+  <!-- QUICK LINKS -->
+  <ClickOnQuickLook><![CDATA[//*[@id='actionicons1']/a]]></ClickOnQuickLook>
+  <ClickOnQuickLookView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnQuickLookView>
+  <ClickOnQuickLookEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnQuickLookEdit>
+  <ClickOnQuickLookDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnQuickLookDelete>
+  <ClickOnQuickLookSetupinterview><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnQuickLookSetupinterview>
+
+  ################ Application TrashindexPage Actions ###############
+
+  <!-- APPLICATIONS TRASH INDEX PAGE -->
+  <ClickOnApplications><![CDATA[//*[@id='Applications']]]></ClickOnApplications>
+  <ClickOnTrash><![CDATA[html/body/div[4]/div[1]/ul/li[4]/ul/li[3]/a]]></ClickOnTrash>
+
+  <ClickOnBackToApplicationsTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToApplicationsTrash>
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnBack>
+  <ClickOnGroupTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnGroupTrash>
+  <EnterFilterSearch><![CDATA[//*[@id='application_trash_filter']/label/input]]></EnterFilterSearch>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_application_trash_0']]]]></ClickOnReset>
+  <ClickOnMouseHover><![CDATA[//*[@id='application_trash_wrapper']/div[1]/div/div/button]]></ClickOnMouseHover>
+  <ClickOnDeleteForever><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteForever>
+  <ClickOnRestoreApplications><![CDATA[//*[@id='restore_record']]]></ClickOnRestoreApplications>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='application_trash']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <ClickOnMouseOver1><![CDATA[//*[@id='application_trash']/tbody/tr/td[2]/a]]></ClickOnMouseOver1>
+  <ClickOnQuickLink1><![CDATA[//*[@id='Application_trash']/tbody/tr[1]/td[1]]]></ClickOnQuickLink1>
+  <ClickOnDelete1><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete1>
+  <ClickOnRestore1><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore1>
+  <ClickOnApplicationView1><![CDATA[//*[@id='application_trash']/tbody/tr/td[2]/a]]></ClickOnApplicationView1>
+
+
+  #############  Application Trash view page ACtions ################
+  <!-- APPLICATIONS TRASH VIEW PAGE -->
+  <ClickOnApplications><![CDATA[//*[@id='Applications']]]></ClickOnApplications>
+  <ClickOnApplicationView><![CDATA[//*[@id='application_trash']/tbody/tr/td[2]/a]]></ClickOnApplicationView>
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ClickOnBack>
+  <ClickOnRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnRestore>
+  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnDelete>
+  
+  
+
+
+
+
+  #############  Application Export to CSV and PDF ################
+  <!-- APPLICATIONS export -->
+  <CSVExport><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></CSVExport>
+  <PDFExport><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></PDFExport>
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ClickOnBack>
+  <ClickOnRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnRestore>
+  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnDelete>
+
+
+
+
+
+</Locators>

@@ -12,6 +12,7 @@
   <SelectLibraryOwner><![CDATA[//*[@id='LibraryAssignedUserId']]]></SelectLibraryOwner>
   <EnterDocumentName><![CDATA[//*[@id='LibraryName']]]></EnterDocumentName>
   <SelectDocumentType><![CDATA[//*[@id='LibraryType']]]></SelectDocumentType>
+  <uploadfile><![CDATA[//*[@id='LibraryFile']]]></uploadfile>
   <EnterLibraryVersion><![CDATA[//*[@id='LibraryVersion']]]></EnterLibraryVersion>
   <ClickOnSave><![CDATA[//*[@id='LibraryAddnewForm']/div[3]/div/div[2]/div/div/button]]></ClickOnSave>
   <Clickonlibrary><![CDATA[//*[@id='normal']]]></Clickonlibrary>

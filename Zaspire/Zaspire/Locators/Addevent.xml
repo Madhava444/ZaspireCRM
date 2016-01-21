@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Locator>
-  
-  
+
+<Locator> 
+  --------------Create new Event---------------------------
   
   <Selectevents><![CDATA[//*[@id='events']]]></Selectevents>
   <Clickonnew><![CDATA[html/body/div[4]/div[2]/div[1]/div/div[2]/ul/li[3]/a]]></Clickonnew>
@@ -44,7 +44,69 @@
     <AddInvitee><![CDATA[//*[@id='userinvitees']/div/div/table/tbody/tr[1]/td[4]/a]]></AddInvitee>
 
     
-    ---------------------------View Events---------------------------
+    ---------------------------Index and View Events---------------------------
+  <EventDfaultView><![CDATA[//*[@id='teamName']]]></EventDfaultView>
+  <EventCustomView><![CDATA[//*[@id='EventQuickSearchIndexForm']/table/tbody/tr/td[2]/strong/a]]></EventCustomView>
+  <EventBulkAction><![CDATA[//*[@id='events_grid_wrapper']/div[1]/div/div/button]]></EventBulkAction>
+  <EventBulkUpdate><![CDATA[//*[@id='bulk_update']]]></EventBulkUpdate>
+  <EventBulkDelete><![CDATA[//*[@id='remove_record']]]></EventBulkDelete>
+  <EventFilter><![CDATA[//*[@id='events_grid_filter']/label/input]]></EventFilter>
+  <EventReset><![CDATA[//*[@id='ToolTables_events_grid_0']]]></EventReset>
+  <EventView><![CDATA[//*[@id='normal']]]></EventView>
+  <EventMasterCheckbox><![CDATA[//*[@id='events_grid']/thead/tr/th[1]/div/span/input]]></EventMasterCheckbox>
   
+  
+  -------------View-------------------
 
-</Locator>
+  <EventBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></EventBack>
+  <EventEdit><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></EventEdit>
+  <EventMoreaction><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/a]]></EventMoreaction>
+  <EventViewNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></EventViewNew>
+  <EventDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li/a]]></EventDelete>
+  <EventInlineeditStatus><![CDATA[//*[@id='progress_div']/div/div[1]]]></EventInlineeditStatus>
+  <EventInlineeditCategory><![CDATA[//*[@id='category']/span]]></EventInlineeditCategory>
+  <EventInlineeditOwner><![CDATA[//*[@id='responsibility']]]></EventInlineeditOwner>
+  <SelectCategory><![CDATA[//*[@id='autogen3']]]></SelectCategory>
+  <SelectCategorySave><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></SelectCategorySave>
+  <SelectOwner><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectOwner>
+  <SelectOwnerSave><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></SelectOwnerSave>
+  <EventAddFile><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div[2]/div/table/thead/tr/th[3]/a/i/small]]></EventAddFile>
+  <EventFileName><![CDATA[//*[@id='AttachmentName']]]></EventFileName>
+  <EventFileCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></EventFileCategory>
+  <EventFileSelect><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[2]/div/div[4]/div/div/div/div/span]]></EventFileSelect>
+  <EventDescription><![CDATA[//*[@id='AttachmentDescription']]]></EventDescription>
+  <EventFileSave><![CDATA[//*[@id='addFileSubmit']]]></EventFileSave>
+  <EventFileCancel><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></EventFileCancel>
+  <EventFileDownload><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[1]/div[2]/div[2]/div/table/tbody/tr/td[1]/a/i]]></EventFileDownload>
+  <EventFileDelete><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[1]/div[2]/div[2]/div/table/tbody/tr/td[3]/a/span]]></EventFileDelete>
+  
+  
+  -------------------------------Custom view view and Index--------------------------
+  
+  ---Index------
+  
+  <EventCustomviewBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></EventCustomviewBack>
+  <EventCustomviewDelete><![CDATA[//*[@id='remove_saved_views']]]></EventCustomviewDelete>
+  <EventCustomviewNew><![CDATA[//*[@id='actionbuttons']]]></EventCustomviewNew>
+  <EventCustomviewCheckbox><![CDATA[//*[@id='events_saved_views']/thead/tr/th[1]/div/span/input]]></EventCustomviewCheckbox>
+  <EventCustomviewEdit><![CDATA[//*[@id='events_saved_views']/tbody/tr[1]/td[5]/a[1]]]></EventCustomviewEdit>
+  <EventcustomviewrecordDelete><![CDATA[//*[@id='events_saved_views']/tbody/tr[1]/td[5]/a[2]]]></EventcustomviewrecordDelete>
+  <EventcustomviewPermissions><![CDATA[//*[@id='events_saved_views']/tbody/tr[1]/td[5]/a[3]]]></EventcustomviewPermissions>
+  <EventCustomviewFilter><![CDATA[//*[@id='events_saved_views_filter']/label/input]]></EventCustomviewFilter>
+  <EventCustomviewReset><![CDATA[//*[@id='ToolTables_events_saved_views_0']]]></EventCustomviewReset>
+  <EventCustomviewView><![CDATA[//*[@id='events_saved_views']/tbody/tr[1]/td[2]/a]]></EventCustomviewView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Locator> 

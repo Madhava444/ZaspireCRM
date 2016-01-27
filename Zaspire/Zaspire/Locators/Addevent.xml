@@ -43,7 +43,9 @@
     <InviteeSearch><![CDATA[//*[@id='addinvitees']]]></InviteeSearch>
     <AddInvitee><![CDATA[//*[@id='userinvitees']/div/div/table/tbody/tr[1]/td[4]/a]]></AddInvitee>
 
-    
+  <Recurryupdate><![CDATA[//*[@id='EventUpdateForm']/div[3]/div/div[1]/div/div/div[4]/div[2]/div/div[1]/label/div/span]]></Recurryupdate>
+  <EditEmailPopup><![CDATA[//*[@id='EventUpdateForm']/div[3]/div/div[1]/div/div/div[3]/div[3]/div/div[1]/label/div/span]]></EditEmailPopup>
+  <EditSave><![CDATA[//*[@id='EventUpdateForm']/div[3]/div/div[4]/div/div/button]]></EditSave>  
     ---------------------------Index and View Events---------------------------
   <EventDfaultView><![CDATA[//*[@id='teamName']]]></EventDfaultView>
   <EventCustomView><![CDATA[//*[@id='EventQuickSearchIndexForm']/table/tbody/tr/td[2]/strong/a]]></EventCustomView>
@@ -54,7 +56,7 @@
   <EventReset><![CDATA[//*[@id='ToolTables_events_grid_0']]]></EventReset>
   <EventView><![CDATA[//*[@id='normal']]]></EventView>
   <EventMasterCheckbox><![CDATA[//*[@id='events_grid']/thead/tr/th[1]/div/span/input]]></EventMasterCheckbox>
-  
+  <SelectCustomview><![CDATA[//*[@id='savedSearch']]]></SelectCustomview>
   
   -------------View-------------------
 
@@ -83,8 +85,6 @@
   
   -------------------------------Custom view view and Index--------------------------
   
-  ---Index------
-  
   <EventCustomviewBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></EventCustomviewBack>
   <EventCustomviewDelete><![CDATA[//*[@id='remove_saved_views']]]></EventCustomviewDelete>
   <EventCustomviewNew><![CDATA[//*[@id='actionbuttons']]]></EventCustomviewNew>
@@ -95,11 +95,60 @@
   <EventCustomviewFilter><![CDATA[//*[@id='events_saved_views_filter']/label/input]]></EventCustomviewFilter>
   <EventCustomviewReset><![CDATA[//*[@id='ToolTables_events_saved_views_0']]]></EventCustomviewReset>
   <EventCustomviewView><![CDATA[//*[@id='events_saved_views']/tbody/tr[1]/td[2]/a]]></EventCustomviewView>
+---------------------------Add New Cust--------------------------------------------
+
+  <Eventsaveviewas><![CDATA[//*[@id='searchName']]]></Eventsaveviewas>
+  <Sortby><![CDATA[//*[@id='EventSortCol']]]></Sortby>
+  <Owner><![CDATA[//*[@id='autogen2']]]></Owner>
+  <CustomRelatedTo><![CDATA[//*[@id='autogen3']]]></CustomRelatedTo>
+  <CustomStatus><![CDATA[//*[@id='autogen4']]]></CustomStatus>
+  <CustomCategory><![CDATA[//*[@id='autogen5']]]></CustomCategory>
+  <CustomCreatedby><![CDATA[//*[@id='autogen6']]]></CustomCreatedby>
+  <CustomModifiedby><![CDATA[//*[@id='autogen7']]]></CustomModifiedby>
+  <CustomPriority><![CDATA[//*[@id='autogen8']]]></CustomPriority>
+  <Createdtype><![CDATA[//*[@id='EventCustomColOps']]]></Createdtype>
+  <Createdtext><![CDATA[//*[@id='EventCustomColValues7']]]></Createdtext>
+  <Modifytype><![CDATA[//*[@id='//*[@id='EventCustomColOps']]]></Modifytype>
+  <Modifytext><![CDATA[//*[@id='EventCustomColValues8']]]></Modifytext>
+  <Nemeadditioanal><![CDATA[//*[@id='EventAdditionalColNames']]]></Nemeadditioanal>
+  <Nametype><![CDATA[//*[@id='EventAdditionalColOps']]]></Nametype>
+  <Nametext><![CDATA[//*[@id='EventAdditionalColValues']]]></Nametext>
+  <CustomSave><![CDATA[//*[@id='EventIndexForm']/div[2]/div[5]/div/div/button]]></CustomSave>
+  <CancelCustomview><![CDATA[//*[@id='EventIndexForm']/div[2]/div[5]/div/div/a[2]]]></CancelCustomview>
+  
+  <Customviewnew><![CDATA[//*[@id='EventQuickSearchIndexForm']/table/tbody/tr/td[2]/a]]></Customviewnew>
+  <CustomviewDelete><![CDATA[//*[@id='deleteSearch']]]></CustomviewDelete>
+  <CustomviewSetasdefault><![CDATA[//*[@id='makedefaultsearch']]]></CustomviewSetasdefault>
+  <CustomviewUnsetdefault><![CDATA[//*[@id='removedefaultsearch']]]></CustomviewUnsetdefault>
+  <Selectdropdown><![CDATA[//*[@id='savedSearch']]]></Selectdropdown>
+  <EventCustomEdit><![CDATA[//*[@id='saved_edit']]]></EventCustomEdit>
 
 
+--------------------BulkUpdate-------------
 
+<BulkStatus><![CDATA[//*[@id='BulkUpdateEventStatus']]]></BulkStatus>
+<BulkCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></BulkCategory>
+  <BulkPriority><![CDATA[//*[@id='BulkUpdatePriority']]]></BulkPriority>
+  <BulkOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></BulkOwner>
+  <Updatebutton><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></Updatebutton>
+  <Cancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></Cancel>
 
+----------------Trash---Index-------------------------------------------
 
+  <Trash><![CDATA[html/body/div[4]/div[1]/ul/li[11]/ul/li[2]/a]]></Trash>
+  <EventTrashFilter><![CDATA[//*[@id='event_trash_filter']/label/input]]></EventTrashFilter>
+  <EventTrashReset><![CDATA[//*[@id='ToolTables_event_trash_0']]]></EventTrashReset>
+  <MasterCheckboxTrashEvent><![CDATA[//*[@id='event_trash']/thead/tr/th[1]/div/span/input]]></MasterCheckboxTrashEvent>   
+  <MouseHovertrash><![CDATA[//*[@id='event_trash_wrapper']/div[1]/div/div/button]]></MouseHovertrash>
+  <RemoveEventForeever><![CDATA[//*[@id='remove_record']]]></RemoveEventForeever>
+  <RestoreEvent><![CDATA[//*[@id='restore_record']]]></RestoreEvent>
+  <TrashEventview><![CDATA[//*[@id='normal']]]></TrashEventview>  
+  <Backtrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></Backtrash>
+  
+  <ViewTrashRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ViewTrashRestore>    
+  <ViewTrashDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ViewTrashDelete>
+  <ViewTrashBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ViewTrashBack>   
+      
 
 
 

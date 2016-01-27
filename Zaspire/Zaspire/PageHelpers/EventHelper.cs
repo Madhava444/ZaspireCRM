@@ -90,7 +90,13 @@ namespace Zaspire.PageHelpers.Com
 
 
 
+        }
 
+        public void Mouseover(string Field)
+        {
+            var locator = locatorReader.ReadLocator(Field);
+            WaitForWorkAround(4000);
+            MouseOver(locator);
 
         }
     }

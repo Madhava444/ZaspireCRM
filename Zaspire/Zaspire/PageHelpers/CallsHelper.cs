@@ -3,6 +3,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using Zaspire.Locators;
 using Zaspire.PageHelpers.Com;
+using OpenQA.Selenium.Interactions;
+
 
 namespace Zaspire.PageHelpers.Com
 {
@@ -74,12 +76,6 @@ namespace Zaspire.PageHelpers.Com
         }
 
 
-        public void MouseHover(string Field)
-        {
-            var locator = locatorReader.ReadLocator(Field);
-            WaitForWorkAround(4000);
-            MouseOver(locator);
-        }
 
         internal void Upload(string Field, string FileName)
         {
@@ -93,5 +89,27 @@ namespace Zaspire.PageHelpers.Com
 
 
         }
+
+
+        public void Mouseover(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='normal']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+
+        }
+
+        public void MouseHover(string locator1)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='calls_grid_wrapper']/div[1]/div/div/button"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+
+        }
+
+
+
     }
 }

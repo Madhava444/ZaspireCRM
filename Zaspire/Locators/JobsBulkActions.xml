@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+
+  <!--  CANDIDATE BULK ACTIONS  -->
+  <Searchjob><![CDATA[//*[@id='jobs_grid_filter']/label/input]]></Searchjob>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='jobs_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <MoveHover><![CDATA[//*[@id='jobs_grid_wrapper']/div[1]/div/div/button]]></MoveHover>
+
+
+  <!--  CANDIDATE BULK UPDATE  -->
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+  <SelectStatus><![CDATA[//*[@id='BulkUpdateStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='BulkUpdateJobSource']]]></SelectSource>
+  <SelectPriority><![CDATA[//*[@id='BulkUpdatePriority']]]></SelectPriority>
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></SelectCategory>
+ <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
+  <SelectCareerlevel><![CDATA[//*[@id='BulkUpdateCareerLevel']]]></SelectCareerlevel>
+  <Expinyears><![CDATA[//*[@id='BulkUpdateExperienceYears']]]></Expinyears>
+  <Expinmonths><![CDATA[//*[@id='BulkUpdateExperienceMonths']]]></Expinmonths>
+ 
+
+  <ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
+
+  <!--  BULK DELETE CANDIDATES  -->
+  <ClickOnDeletejobs><![CDATA[//*[@id='remove_record']]]></ClickOnDeletejobs>
+
+  <!--  CANDIDATES ADD TO Group -->
+  <ClickOnAddToGroup><![CDATA[//*[@id='bulk_update_group']]]></ClickOnAddToGroup>
+  <SelectGroup><![CDATA[//*[@id='BulkUpdateGroupCandidateGroup']]]></SelectGroup>
+  <AddGroup><![CDATA[//*[@id='BulkUpdateGroupGroupName']]]></AddGroup>
+ <ClickOnUpdategroup><![CDATA[//*[@id='update_group']/div/div/div[3]/a]]></ClickOnUpdategroup>
+  <ClickOnCancelGroup><![CDATA[//*[@id='update_group']/div/div/div[3]/button]]></ClickOnCancelGroup>
+
+
+  <!--  BULK EMAIL CANDIDATES  -->
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+
+
+
+</Locators>

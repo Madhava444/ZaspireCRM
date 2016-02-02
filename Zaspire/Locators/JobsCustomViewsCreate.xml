@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- Job INDEX PAGE -->
+  <Clickonjobs2><![CDATA[//*[@id='jobs']]]></Clickonjobs2>
+  <ClickOnCustomViews><![CDATA[//*[@id='JobQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+  <Selectcustomview><![CDATA[//*[@id='savedSearch']]]></Selectcustomview>
+  <!-- Job CUSTOM VIEW INDEX PAGE -->
+  <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
+  <ClickOnEdit><![CDATA[//*[@id='saved_edit']]]></ClickOnEdit>
+  <!-- Job CUSTOM VIEW CREATE PAGE -->
+  <EnterCustomViewName><![CDATA[//*[@id='searchName']]]></EnterCustomViewName>
+  <SelectStatus><![CDATA[//*[@id='JobCustomColValues8']]]></SelectStatus>
+  <SelectSortBy><![CDATA[//*[@id='JobSortCol']]]></SelectSortBy>
+
+  <!-- ADD SEARCH CRITERIA Jobs CUSTOM VIEW CREATE PAGE -->
+  <SelectOwner><![CDATA[//*[@id='JobCustomColValues9']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='JobCustomColValues10']]]></SelectManager>
+  <SelectPriority><![CDATA[//*[@id='JobCustomColValues11']]]></SelectPriority>
+  <SelectCareerlevel><![CDATA[//*[@id='JobCustomColValues12']]]></SelectCareerlevel>
+  <Selectworkshift><![CDATA[//*[@id='JobCustomColValues13']]]></Selectworkshift>
+  <SelectIndustry><![CDATA[//*[@id='JobCustomColValues4']']]]></SelectIndustry>
+  <SelectQualification><![CDATA[//*[@id='JobCustomColValues3']]]></SelectQualification>
+  <SelectImport><![CDATA[//*[@id='JobCustomColValues0']]]></SelectImport>
+  <SelectCreatedby><![CDATA[//*[@id='JobCustomColValues14']]]></SelectCreatedby>
+  <SelectModifiedby><![CDATA[//*[@id='JobCustomColValues15']]]></SelectModifiedby>
+  <Selectjobtype><![CDATA[//*[@id='JobCustomColValues2']]]></Selectjobtype>
+  <SelectGroup><![CDATA[//*[@id='JobCustomColValues16']]]></SelectGroup>
+
+  <EnterStartDate><![CDATA[//*[@id='JobCustomColValues5']]]></EnterStartDate>
+  <EnterStartDateOperator><![CDATA[//*[@id='JobCustomColOps']]]></EnterStartDateOperator>
+    <EnterEnDate><![CDATA[//*[@id='JobCustomColValues6']]]></EnterEnDate>
+  <EnterEnDateOperator><![CDATA[//div[@id='select2-drop-mask']]]></EnterEnDateOperator>
+  <EnterListingDate><![CDATA[//*[@id='JobCustomColValues7']]]></EnterListingDate>
+  <EnterListingdateOperator><![CDATA[//*[@id='JobCustomColOps']]]></EnterListingdateOperator>
+
+  <!-- ADD ADDITIONAL CRITERIA Jobs CUSTOM VIEW CREATE PAGE -->
+  <SelectAdditionalField1><![CDATA[//*[@id='JobAdditionalColNames']]]></SelectAdditionalField1>
+  <SelectOperator1><![CDATA[//*[@id='JobAdditionalColOps']]]></SelectOperator1>
+  <UpdateSelectOperator1><![CDATA[//*[@id='JobAdditionalColOps0']]]></UpdateSelectOperator1>
+  <EnterAdditionalValue1><![CDATA[//*[@id='JobAdditionalColValues']]]></EnterAdditionalValue1>
+  <ClickOnAddNewField><![CDATA[//*[@id='additionalcolumns']]]></ClickOnAddNewField>
+  <SelectAdditionalField2><![CDATA[//*[@id='add_criteria']/tbody/tr[3]/td[1]/select]]></SelectAdditionalField2>
+  <SelectOperator2><![CDATA[//*[@id='JobAdditionalColOps0']]]></SelectOperator2>
+  <UpdateSelectOperator2><![CDATA[//*[@id='JobAdditionalColOps1']]]></UpdateSelectOperator2>
+  <EnterAdditionalValue2><![CDATA[//*[@id='add_criteria']/tbody/tr[3]/td[3]/input]]></EnterAdditionalValue2>
+
+  <ClickOnSave><![CDATA[//*[@id='JobIndexForm']/div[2]/div[5]/div/div/button]]></ClickOnSave>
+ 
+  <ClickOnCancel><![CDATA[//*[@id='JobIndexForm']/div[2]/div[5]/div/div/a[2]]]></ClickOnCancel>
+  <ClickOnPermission><![CDATA[//*[@id='JobIndexForm']/div[2]/div[5]/div/div/a[1]]]></ClickOnPermission>
+
+
+
+
+</Locators>

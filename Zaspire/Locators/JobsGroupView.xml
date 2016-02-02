@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <Clickonjobs4><![CDATA[//*[@id='jobs']]]></Clickonjobs4>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  <ClickOnFirstGroupName><![CDATA[//*[@id='job_groups']/tbody/tr[1]/td[2]/a]]></ClickOnFirstGroupName>
+
+
+  <!-- ADD POSITIONS  -->
+  <ClickOnAddPosition><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[4]/div/div[1]/div/div[2]/a]]></ClickOnAddPosition>
+  <EnterJobTitle><![CDATA[//*[@id='JobTitle']]]></EnterJobTitle>
+  <SelectCareerLevel><![CDATA[//*[@id='JobCareerLevel']]]></SelectCareerLevel>
+  <EnterExpYears><![CDATA[//*[@id='JobExperienceYears']]]></EnterExpYears>
+  <EnterExpMonths><![CDATA[//*[@id='JobExperienceMonths']]]></EnterExpMonths>
+  <EnterPositionUrl><![CDATA[//*[@id='JobPositionUrl']]]></EnterPositionUrl>
+  <SelectEducation><![CDATA[//*[@id='JobQualification']]]></SelectEducation>
+  <ClickOnJobTypeExpand><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[5]/div[1]/div[2]/a]]></ClickOnJobTypeExpand>
+  <SelectJobType><![CDATA[//*[@id='JobCompensationJobType']]]></SelectJobType>
+  <ClickOnJobLocationExpand><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[6]/div[1]/div[2]/a]]></ClickOnJobLocationExpand>
+  <EnterCity><![CDATA[//*[@id='JobAddress0City']]]></EnterCity>
+  <SelectState><![CDATA[//*[@id='JobAddress0State']]]></SelectState>
+  <SelectCountry><![CDATA[//*[@id='JobAddress0Country']]]></SelectCountry>
+  <EnterZipCode><![CDATA[//*[@id='JobAddress0ZipCode']]]></EnterZipCode>
+  <ClickOnAddLocations><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[6]/div[2]/div/div[2]/div[4]/a]]></ClickOnAddLocations>
+
+  <ClickOnSave><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[7]/button[1]]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[7]/button[2]]]></ClickOnCancel>
+
+  <!-- GROUP VIEW PAGE ACTIONS  -->
+  <ClickonAddJobs><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/div/a]]></ClickonAddJobs>
+  <ClickOnEdit><![CDATA[//a[@class='btn btn-xs btn-primary']]]></ClickOnEdit>
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ClickOnBack>
+  <ClickOnMoreActions><![CDATA[//*[@id='add_jobs']/thead/tr/th[1]/div/span/input]]></ClickOnMoreActions>
+  <ClickOnbulkEmailjobfromgroup><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li/a]]></ClickOnbulkEmailjobfromgroup>
+   <ClickOnbulkDeletefromgroup><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li/a]]></ClickOnbulkDeletefromgroup>
+  <ClickOnCancelongroupedit><![CDATA[//*[@id='JobEditForm']/div[2]/div/ul/li[5]/a]]></ClickOnCancelongroupedit>
+
+  <ClickOnAddToGroups><![CDATA[//*[@id='CreateJobGroup']/div[2]/div/ul/li[6]/button]]></ClickOnAddToGroups>
+  <ClickOnEditToGroups><![CDATA[//*[@id='CandidateEditForm']/div[2]/div/ul/li[3]/a]]></ClickOnEditToGroups>
+
+
+  <Mastercheckbox1><![CDATA[//*[@id='related_jobs_table']/thead/tr/th[1]/div/span/input]]></Mastercheckbox1>
+  <MouseoveronBulkactions1><![CDATA[html/body/div[4]/div[2]/div[3]/div[1]/div/div[2]/form/div/div[4]/div/div[1]/div/div[3]/div/button]]></MouseoveronBulkactions1>
+  <Bulkemail1><![CDATA[//*[@id='bulk_email']]]></Bulkemail1>
+  <Bulkemail1Cancel><![CDATA[//*[@id='bulk_email']/div[2]/div/ul/li[3]/button]]></Bulkemail1Cancel>
+  <Deletejobfromgroup><![CDATA[//*[@id='delete_member']]]></Deletejobfromgroup>
+  <Deletegroup><![CDATA[//a[@href='/glassdoor/jobs/groups/delete/17']]]></Deletegroup>
+
+  <EnterjobsSearchBox><![CDATA[//*[@id='related_jobs_table_filter']/label/input]]></EnterjobsSearchBox>
+  <ClickOnJobsReset><![CDATA[//*[@id='ToolTables_related_jobs_table_0']]]></ClickOnJobsReset>
+
+
+  <!-- ADD Jobs from GROUP VIEW  -->
+  <ClickOnAddJobs><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[5]/div/div[1]/div/div[2]/a]]></ClickOnAddJobs>
+  <SelectPagination><![CDATA[//*[@id='add_Candidates_length']/label/select]]></SelectPagination>
+  <SelectMasterCheckBox><![CDATA[//*[@id='check11810']]]></SelectMasterCheckBox>
+  <ClickOnAddToGroup><![CDATA[//*[@id='CreateJobGroup']/div[2]/div/ul/li[6]/button]]></ClickOnAddToGroup>
+
+
+
+</Locators>

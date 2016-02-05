@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+  ///////////////////////// Group Trash Index Page //////////////////////////
+<ClickOnBackButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnBackButton>
+<SearchByGroupName><![CDATA[//*[@id='contactgroup_trash_filter']/label/input]]></SearchByGroupName>
+<SelectMasterCheckBox><![CDATA[//*[@id='contactgroup_trash']/thead/tr/th[1]/div/span/input]]></SelectMasterCheckBox>
+  <SearchFilter><![CDATA[//*[@id='contactgroup_trash_filter']/label/input]]></SearchFilter>
+  <ClickOnResetButton><![CDATA[//*[@id='ToolTables_contactgroup_trash_0']]]></ClickOnResetButton>
+  <ClickOnDeleteForever><![CDATA[//*[@id='remove_contactgroup']]]></ClickOnDeleteForever>
+  <SearchByZipCode><![CDATA[//*[@id='contactgroup_trash_filter']/label/input]]></SearchByZipCode>
+  <ClickOnRestoreGroups><![CDATA[//*[@id='restore_contactgroup']]]></ClickOnRestoreGroups>
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[1]]]></ClickOnQuickLink>
+  <ClickOnDeleteForever><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDeleteForever>
+  <ClickOnRestore><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore>
+  <ClickOnTrashRecord><![CDATA[//*[@id='contactgroup_trash']/tbody/tr[1]/td[2]/a]]></ClickOnTrashRecord>
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Group Trash View page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<SearchByGroupName><![CDATA[//*[@id='contactgroup_trash_filter']/label/input]]></SearchByGroupName>
+  <ClickOnFirstRecordOption><![CDATA[//*[@id='contactgroup_trash']/tbody/tr/td[2]/a]]></ClickOnFirstRecordOption>
+  <ClickOnBackButtonOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[8]/a]]></ClickOnBackButtonOption>
+  <ClickOnRestoreButtonOptions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ClickOnRestoreButtonOptions>
+  <ClcikOnDeleteButtonOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClcikOnDeleteButtonOption>
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Group Index Page $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+<EnterSearchFilterBox><![CDATA[//*[@id='contact_groups_filter']/label/input]]></EnterSearchFilterBox>
+  <ClickOnFilterResetButton><![CDATA[//*[@id='ToolTables_contact_groups_0']]]></ClickOnFilterResetButton>
+  <ClickOnGroupsAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnGroupsAddNew>
+  <ClickOnBackToAccountGroups><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[5]/a]]></ClickOnBackToAccountGroups>
+  <CheckMasterCheckBox><![CDATA[//*[@id='contact_groups']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>
+  <ClickOnDeleteAccountGroups><![CDATA[//*[@id='remove_contact']]]></ClickOnDeleteAccountGroups>
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[1]]]></ClickOnQuickLink>
+  <ClickOnView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnView>
+  <ClickOnBackButtonsOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[8]/a]]></ClickOnBackButtonsOption>
+  <ClickOnEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnEdit>
+  <ClickOnSaveButtonOption><![CDATA[//*[@id='ContactEditForm']/div[2]/div/ul/li[6]/button]]></ClickOnSaveButtonOption>
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnDelete>
+  
+  //***************************** Group View Page ***********************************
+  <FilerSearchBox><![CDATA[//*[@id='contact_groups_filter']/label/input]]></FilerSearchBox>
+  <ClickOnFirstRecord><![CDATA[//*[@id='contact_groups']/tbody/tr/td[2]/a]]></ClickOnFirstRecord>
+  <ClickOnBackOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[8]/a]]></ClickOnBackOption>
+  <ClickOnSavesButton><![CDATA[//*[@id='ContactEditForm']/div[2]/div/ul/li[6]/button]]></ClickOnSavesButton>
+  <ClickOnGroupAddNewButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnGroupAddNewButton>
+  <ClickOnCancelOptions><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[5]/a]]></ClickOnCancelOptions>
+  <ClickOnDeleteOptions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/ul/li/a]]></ClickOnDeleteOptions>
+  <ClickOnAddContactOption><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[4]/div/div[1]/div/div[2]/a]]></ClickOnAddContactOption>
+  <ClickOnCancelOptions><![CDATA[//*[@id='CreateContactGroup']/div[2]/div/ul/li[5]/a]]></ClickOnCancelOptions>
+<FilterSearchByStatus><![CDATA[//*[@id='related_contacts_table_filter']/label/input]]></FilterSearchByStatus>
+<ClickOnResetButton><![CDATA[//*[@id='ToolTables_related_contacts_table_0']]]></ClickOnResetButton>
+  <ClickOnMasterCheckbox><![CDATA[//*[@id='related_contacts_table']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckbox>
+  
+  //********************************* Bulk Actions_Bulk Update ****************************************
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+  <Status><![CDATA[//*[@id='BulkUpdateContactStatus']]]></Status>
+  <Source><![CDATA[//*[@id='BulkUpdateContactSource']/a]]></Source>
+  <Category><![CDATA[//*[@id='BulkUpdateCategory']/a]]></Category>
+  <Owner><![CDATA[//*[@id='BulkUpdateAssignedUserId']/a]]></Owner>
+  <ClickOnUpdateButton><![CDATA[//*[@id='contact_update']/div/div/div[3]/a]]></ClickOnUpdateButton>
+  
+  //************************************Bulk Actions_Bulk Email *************************************
+  
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+ <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <ClickOnContactEmailTemplate><![CDATA[//*[@id='bulk_email']/div[3]/div/div[1]/div/div/div/div/div[2]/div[2]/div/div/div/a]]></ClickOnContactEmailTemplate>
+  <NameorIdSearchFilter><![CDATA[//*[@id='EmailTemplateSearchName']]]></NameorIdSearchFilter>
+  <ClickOnSearchbutton><![CDATA[//*[@id='searchButtonForTemplates']]]></ClickOnSearchbutton>
+  <ClickOnResetbutton><![CDATA[//*[@id='resetrelatedtosearchForTemplates']]]></ClickOnResetbutton>
+  <ClickOntheLink><![CDATA[]]></ClickOntheLink>
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']/a]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']/a]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']/a]]></SelectEmailSignature>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[2]/div/ul/li[4]/button]]></ClickOnSendButton>
+  
+  //********************************** Bulk Actions _ Add to Campaign****************************
+  
+  <SearchContactCompany><![CDATA[//*[@id='related_contacts_table_filter']/label/input]]></SearchContactCompany>
+  <ClickOnAddToCampaign><![CDATA[//*[@id='add_contact']]]></ClickOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']]]></ClickOnMergeButton>
+  <CampaingNameFilterSearchbox><![CDATA[//*[@id='CampaignSearchName']]]></CampaingNameFilterSearchbox>
+  <ClickOnResetButton><![CDATA[//*[@id='resetrelatedtosearch']]]></ClickOnResetButton>
+  <ClickOnSearchButton><![CDATA[//*[@id='searchButton']]]></ClickOnSearchButton>
+  <ClickOnCampaignLink><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr[1]/td/a]]></ClickOnCampaignLink>
+  <MemberStatus><![CDATA[//*[@id='CampaignContactStatus']/a]]></MemberStatus>
+  <MemberGroup><![CDATA[//*[@id='CampaignContactGroup']]]></MemberGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignContactGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddContacts><![CDATA[//*[@id='CampaignContactContactgroupViewForm']/div[4]/a]]></ClickOnAddContacts>
+  
+  //******************************* Bulk Actions_Delete from Group *****************************************
+  <ClickOnDeletefromGroup><![CDATA[//*[@id='delete_member']]]></ClickOnDeletefromGroup>
+  
+  //********************************* Group Create Page ***********************************
+<ClickOnAddNewButtons><![CDATA[//*[@id='actionbuttons']/i]]></ClickOnAddNewButtons>
+  <Name><![CDATA[//*[@id='ContactGroupDetailName']]]></Name>
+  <City><![CDATA[//*[@id='ContactGroupDetailCity']]]></City>
+  <State><![CDATA[//*[@id='ContactGroupDetailState']]]></State>
+  <Country><![CDATA[//*[@id='ContactGroupDetailCountry']]]></Country>
+  <ZipCode><![CDATA[//*[@id='ContactGroupDetailPostalCode']]]></ZipCode>
+  <Description><![CDATA[//*[@id='form_sample_1']/div[3]/div/div[2]/div[2]/div/div]]></Description>
+  <ClickOnSaveButtonsOption><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[6]/button]]></ClickOnSaveButtonsOption>
+  <ClickOnCancelsOption><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[5]/a]]></ClickOnCancelsOption>
+  <ClickOnPermissionButton><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[7]/a]]></ClickOnPermissionButton>
+  <EnableTheCheckBoxes><![CDATA[//*[@id='permission6']]]></EnableTheCheckBoxes>
+  <ClickOnCancelsOptions><![CDATA[//*[@id='dialog_permissions']/div/div/div[3]/button]]></ClickOnCancelsOptions>
+
+//******************************** Group Add Contact Page ******************************
+<FilerSearchBoxx><![CDATA[//*[@id='contact_groups_filter']/label/input]]></FilerSearchBoxx>
+  <ClickOnFirstRecord><![CDATA[//*[@id='contact_groups']/tbody/tr/td[2]/a]]></ClickOnFirstRecord>
+  <ClickOnAddContactsButton><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[4]/div/div[1]/div/div[2]/a]]></ClickOnAddContactsButton>
+  <FilterSearchBySource><![CDATA[//*[@id='add_contacts_filter']/label/input]]></FilterSearchBySource>
+  <ClickOnResetFunction><![CDATA[//*[@id='ToolTables_add_contacts_0']]]></ClickOnResetFunction>
+  <RecordsPerPage><![CDATA[//*[@id='add_contacts_length']/label/select]]></RecordsPerPage>
+  <CustomView><![CDATA[//*[@id='ContactGroupDetailSavedSearch']]]></CustomView>
+  <ClickOnMastersCheckbox><![CDATA[//*[@id='add_contacts']/thead/tr/th[1]/div/span/input]]></ClickOnMastersCheckbox>
+  <ClickOnAddtoGroupOption><![CDATA[//*[@id='CreateContactGroup']/div[2]/div/ul/li[6]/button]]></ClickOnAddtoGroupOption>
+  <ClickOnBacksOption><![CDATA[html/body/div[4]/div[2]/div[2]/div/ul/li[8]/a]]></ClickOnBacksOption>
+  <ClickOnCancellOption><![CDATA[//*[@id='CreateContactGroup']/div[2]/div/ul/li[5]/a]]></ClickOnCancellOption>
+</Locators>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ClickOnCustomNew><![CDATA[//*[@id='ContactQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnCustomNew>
+  <SaveViewas><![CDATA[//*[@id='searchName']]]></SaveViewas>
+  <ClickOnOrder><![CDATA[//*[@id='sortOrder0Asc']]]></ClickOnOrder>
+  <Owner><![CDATA[//*[@id='ContactCustomColValues1']]]></Owner>
+  <Status><![CDATA[//*[@id='ContactCustomColValues2']]]></Status>
+  <Source><![CDATA[//*[@id='ContactCustomColValues3']]]></Source>
+  <Category><![CDATA[//*[@id='ContactCustomColValues4']]]></Category>
+  <CreatedBy><![CDATA[//*[@id='ContactCustomColValues5']]]></CreatedBy>
+  <ModifiedBy><![CDATA[//*[@id='ContactCustomColValues6']]]></ModifiedBy>
+  <Group><![CDATA[//*[@id='ContactCustomColValues7']]]></Group>
+  <Save><![CDATA[//*[@id='ContactIndexForm']/div[2]/div[1]/div/div/button]]></Save>
+  
+  ***************************** Custom View On Index Page *******************************
+  
+  <SelectCustomView><![CDATA[//*[@id='savedSearch']]]></SelectCustomView>
+  <ClickOnSetAsDefault><![CDATA[//*[@id='makedefaultsearch']]]></ClickOnSetAsDefault>
+  <ClickOnUnsetAsDefault><![CDATA[//*[@id='removedefaultsearch']]]></ClickOnUnsetAsDefault>
+  <ClickonEditLink><![CDATA[//*[@id='saved_edit']]]></ClickonEditLink>
+  <CancelOption><![CDATA[//*[@id='ContactIndexForm']/div[2]/div[1]/div/div/a[2]]]></CancelOption>
+  <ClickOnNewOption><![CDATA[//*[@id='ContactQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnNewOption>
+  <ClickOnCancelOption><![CDATA[//*[@id='ContactIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnCancelOption>
+  <ClickOnDeleteOption><![CDATA[//*[@id='deleteSearch']]]></ClickOnDeleteOption>
+ 
+  
+  
+  
+</Locators>

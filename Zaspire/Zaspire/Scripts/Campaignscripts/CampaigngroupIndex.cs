@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class AddcampaignGroupIndex : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void campaigngroupindex()
         {
             string[] username = null;
             string[] password = null;
@@ -51,10 +51,8 @@ namespace Zaspire.Scripts
 
 
             //Click on Bulk action
-            addcampaignHelper.MouseOver("Locator");
-            addcampaignHelper.AcceptAlert();
-            addcampaignHelper.WaitForWorkAround(3000);
-
+            addcampaignHelper.MouseOver("locator");
+            
             //Click on bulkupdate
             addcampaignHelper.ClickElement("DeletecampaignGroup");
 

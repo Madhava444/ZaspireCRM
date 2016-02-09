@@ -53,32 +53,32 @@ namespace Zaspire.Scripts
             addpartnerHelper.ClickElement("Clickonrecord");
 
             //Select Moreaction
-            addpartnerHelper.ClickElement("Moreactions");
+            addpartnerHelper.MouseOver2("locator");
 
             //Select Add task
             addpartnerHelper.ClickElement("Addtask");
 
-            //Enter Status
-            addpartnerHelper.Select("EventType", "Task");
+            //Enter type default
+           // addpartnerHelper.Select("EventType", "Task");
 
-            //Enter Category
+            //Enter location
             addpartnerHelper.TypeText("Location", "Secunderabad");
 
             //Enter a file
             addpartnerHelper.TypeText("Subject", "Add Task");
 
             //Enter description
-            addpartnerHelper.Select("StartDate", Startdate);
+            addpartnerHelper.TypeText("StartDate", Startdate);
 
             //Click On record
-            addpartnerHelper.ClickElement("starttime");
+            //addpartnerHelper.ClickElement("starttime");
 
 
             //Select Moreaction
-            addpartnerHelper.Select("EndDate", Enddate);
+            addpartnerHelper.TypeText("EndDate", Enddate);
 
             //Select Add task
-            addpartnerHelper.ClickElement("Endtime");
+            //addpartnerHelper.ClickElement("Endtime");
 
             //Enter Status
             addpartnerHelper.ClickElement("Reminders");
@@ -87,7 +87,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.Select("Popup", "900");
 
             //Select a file
-            addpartnerHelper.ClickElement("Email");
+            addpartnerHelper.ClickElement("Emailcheckbox");
 
             //Select a file
             addpartnerHelper.Select("ReminderTime", "900");
@@ -96,7 +96,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.ClickElement("Recurring");
 
             // Select a file
-            addpartnerHelper.Select("RepeteonceinEvery", "1");
+            addpartnerHelper.Select("RepeateonceinEvery", "1");
 
             // Select Type
             addpartnerHelper.Select("RepeatType", "Weekly");
@@ -125,10 +125,10 @@ namespace Zaspire.Scripts
 
 
             //Enter date 
-            addpartnerHelper.Select("Until", "30/12/2015");
+            addpartnerHelper.TypeText("Until", "07-02-2016");
 
             //Select save button
-            addpartnerHelper.ClickElement("Save");
+            addpartnerHelper.ClickElement("EventSave");
 
 
         }

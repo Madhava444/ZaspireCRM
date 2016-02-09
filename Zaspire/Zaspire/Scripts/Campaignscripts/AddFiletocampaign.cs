@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class AddFiletocampaign : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void  AddFiletoCampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -51,9 +51,10 @@ namespace Zaspire.Scripts
 
             //Click On record
             addcampaignHelper.ClickElement("Clickonrecord");
+            addcampaignHelper.WaitForWorkAround(2000);
 
             //Click on Moreaction
-            addcampaignHelper.ClickElement("Moreactions");
+            addcampaignHelper.MouseOver2("locator");
 
             //Select Add File
             addcampaignHelper.ClickElement("Addfile");
@@ -62,18 +63,16 @@ namespace Zaspire.Scripts
             addcampaignHelper.TypeText("Name","new1");
 
             //Select Category
-            addcampaignHelper.Select("Category",".txt");
+            addcampaignHelper.Select("fileCategory", "12552");
 
             //Upload File 
-            //String filename = GetPath() + "C:\\Users\\Public\\Pictures\\Sample Pictures\\image\\Tulips.jpeg";
-            // addcampaignHelper.Upload("SelectNoteFile", filename);
-            //addcampaignHelper.WaitForWorkAround(10000);
+            addcampaignHelper.upload1("//*[@id='AttachmentFiles']");
 
             //Enter description
             addcampaignHelper.TypeText("Description", "This is a file to campaign");
 
             //Click on Save button
-            addcampaignHelper.ClickElement("Save");
+            addcampaignHelper.ClickElement("FileSave");
 
 
         }

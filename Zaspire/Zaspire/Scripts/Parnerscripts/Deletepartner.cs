@@ -43,7 +43,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.ClickElement("Clickonrecord");
 
             //Click on Bulk action
-            addpartnerHelper.MouseOver("Moreaction");
+            addpartnerHelper.MouseOver2("locator");
 
             //Select Add task
             addpartnerHelper.ClickElement("MoreactionsDelete");

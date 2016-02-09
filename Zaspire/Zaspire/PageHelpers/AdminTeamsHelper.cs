@@ -2,20 +2,19 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using Zaspire.Locators;
-using Zaspire.PageHelpers;
 using Zaspire.PageHelpers.Com;
 using OpenQA.Selenium.Interactions;
 
 namespace Zaspire.PageHelpers.Com
 {
-    public class PartnerHelper : DriverHelper
+    public class AdminTeamsHelper : DriverHelper
     {
         public LocatorReader locatorReader;
 
-        public PartnerHelper(IWebDriver idriver)
+        public AdminTeamsHelper(IWebDriver idriver)
             : base(idriver)
         {
-            locatorReader = new LocatorReader("Addpartner.xml");
+            locatorReader = new LocatorReader("Teams.xml");
         }
 
         // ###########################  XML  ##############
@@ -29,13 +28,7 @@ namespace Zaspire.PageHelpers.Com
             SendKeys(locator, text);
         }
 
-        public void MouseHover(string locator)
-        {
-            var el = GetWebDriver().FindElement(ByLocator("//*[@id='partners_grid_wrapper']/div[1]/div/div/button"));
 
-            var builder = new Actions(GetWebDriver());
-            builder.MoveToElement(el).Build().Perform();
-        }
         //Verify text of given xml node
         public void VerifyText(string XmlNode, string text)
         {
@@ -62,19 +55,7 @@ namespace Zaspire.PageHelpers.Com
 
         }
 
-        public void DudlicateClick()
-        {
-            var Save = "//*[@id='PartnerAddnewForm']/div[3]/div/div[5]/div/div/button";
-            var Dublicate = "//*[@id='PartnerAddnewForm']/div[3]/div/div[5]/div/div/button";
-            Click(Save);
-            WaitForWorkAround(3000);
 
-            if (IsElementPresent(Dublicate))
-            {
-                Click(Dublicate);
-                WaitForWorkAround(3000);
-            }
-        }
 
 
         //Verify method Present method
@@ -94,14 +75,11 @@ namespace Zaspire.PageHelpers.Com
         }
 
 
-
-
-        public void Mouseover(string Field)
+        public void MouseHover(string Field)
         {
             var locator = locatorReader.ReadLocator(Field);
             WaitForWorkAround(4000);
             MouseOver(locator);
-
         }
 
         internal void Upload(string Field, string FileName)
@@ -111,24 +89,35 @@ namespace Zaspire.PageHelpers.Com
             GetWebDriver().FindElement(ByLocator(locator)).SendKeys(FileName);
             WaitForWorkAround(3000);
 
+
+
         }
-        public void Mouseover1(string locator)
+
+        public void Mouseover(string Field)
         {
-            var el = GetWebDriver().FindElement(ByLocator("//*[@id='normal']"));
+            var locator = locatorReader.ReadLocator(Field);
+            WaitForWorkAround(4000);
+            MouseOver(locator);
+
+        }
+
+        public void DragAndDrop(String locater)
+        {
+            IWebElement e2 = GetWebDriver().FindElement(ByLocator("//*[@id='128']"));
+
+            IWebElement e3 = GetWebDriver().FindElement(ByLocator("//*[@id='chart']/div/table/tbody/tr[4]/td[1]/table/tbody/tr[4]/td/table/tbody/tr/td/div"));
 
             var builder = new Actions(GetWebDriver());
-            builder.MoveToElement(el).Build().Perform();
+
+            builder.DragAndDrop(e2, e3)
+                .Build().Perform();
 
         }
 
-        public void MouseOver2(string locator)
-        {
-            var el = GetWebDriver().FindElement(ByLocator("//a[@class='btn btn-xs btn-warning button-alignment dropdown-toggle']"));
-
-            var builder = new Actions(GetWebDriver());
-            builder.MoveToElement(el).Build().Perform();
 
 
-        }
+
+
     }
+
 }

@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class CampaignIndex : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void campaignindex()
         {
             string[] username = null;
             string[] password = null;
@@ -76,40 +76,98 @@ namespace Zaspire.Scripts
             addcampaignHelper.ClickElement("ExportCSV");
            
             //Click on Back 
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/campaigns");
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns");
             
             //Typetext defaultview filter
             addcampaignHelper.ClickElement("ExportPDF");
 
             //Click on Back 
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/campaigns");
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns");
 
             //Click on Record
             addcampaignHelper.ClickElement("Clickonrecord");
 
             //Click on Back 
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/campaigns");
+            addcampaignHelper.ClickElement("RecordBack");
+
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns");
 
             //Typetext defaultview filter
             addcampaignHelper.ClickElement("Import");
 
             //Click on Back
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/campaigns");
+            addcampaignHelper.ClickElement("BacktoCampaign");
+
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns");
             
             //Typetext defaultview filter
             addcampaignHelper.ClickElement("Groups");
 
+            //Click on Back
+            addcampaignHelper.ClickElement("BacktoCampaign");
 
             //Click on Back
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/campaigns");
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns");
 
             //Typetext defaultview filter
             addcampaignHelper.ClickElement("Trash");
 
 
             //Click on Back 
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/campaigns");
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns/trash");
 
+            //Click on Backas
+            addcampaignHelper.ClickElement("TrashBack");
+
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns");
+
+            // Click On Quick Look Mouse Over
+            addcampaignHelper.Mouseover1("locator");
+            addcampaignHelper.WaitForWorkAround(2000);
+
+            //Click On Quick Look
+            addcampaignHelper.ClickElement("ToolActionCampaign");
+
+            //Click On Quick Look View
+            addcampaignHelper.ClickElement("ToolViewCampaign");
+            addcampaignHelper.WaitForWorkAround(1000);
+
+            //Click on Back
+            addcampaignHelper.ClickElement("BacktoCampaign");
+
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns");
+            
+
+            //addcampaignHelper On Quick Look Mouse Over
+            addcampaignHelper.Mouseover1("locator");
+            addcampaignHelper.WaitForWorkAround(1000);
+
+            //Click On Quick Look
+            addcampaignHelper.ClickElement("ToolActionCampaign");
+
+            //Click On Quick Look Edit
+            addcampaignHelper.ClickElement("ToolEditCampaign");
+            addcampaignHelper.WaitForWorkAround(10000);
+
+            //Click on Cancel to Calls
+            addcampaignHelper.ClickElement("EditCancel");
+
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns");
+
+            //Click On Quick Look Mouse Over
+            addcampaignHelper.Mouseover1("locator");
+
+            //Click On Quick Look
+            addcampaignHelper.ClickElement("ToolActionCampaign");
+
+            //Clicok On Quick Look Delete
+            addcampaignHelper.ClickElement("ToolDeleteCampaign");
+
+            addcampaignHelper.AcceptAlert();
+            addcampaignHelper.WaitForWorkAround(10000);
+
+
+            
         }
     }
 }

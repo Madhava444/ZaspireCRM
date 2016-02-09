@@ -41,31 +41,31 @@ namespace Zaspire.Scripts
 
 
             //Click On record
-            addpartnerHelper.ClickElement("Partnerview");
+            addpartnerHelper.ClickElement("Clickonrecord");
 
             //Click on Moreaction
-            addpartnerHelper.MouseOver("Moreactions");
+            addpartnerHelper.MouseOver2("locator");
 
             //Select Add File
-            addpartnerHelper.ClickElement("From");
+            addpartnerHelper.ClickElement("MoreactionsAddFile");
 
             //Enter Name
-            addpartnerHelper.TypeText("To", "new1");
+            addpartnerHelper.TypeText("Name", "new1");
 
             //Select Category
-            addpartnerHelper.Select("Subject", "mail for  partner");
+            addpartnerHelper.Select("Category", "12402");
 
             //Upload File 
             String filename = GetPath() + "C:\\Users\\Public\\Pictures\\Sample Pictures\\image\\Tulips.jpeg";
             addpartnerHelper.Upload("SelectFile", filename);
             addpartnerHelper.WaitForWorkAround(10000);
 
-
-            //Enter description
-            addpartnerHelper.TypeText("Description", "This is a file to Partner ");
+            
+        //Enter description
+        addpartnerHelper.TypeText("Description", "This is a file to Partner ");
 
             //Click on Save button
-            addpartnerHelper.ClickElement("Save");
+            addpartnerHelper.ClickElement("FileSave");
 
         }
     }

@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class AddLeadstocampaign : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void addleadtocampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -47,77 +47,26 @@ namespace Zaspire.Scripts
            
            
 
-            //################################# CREATE A Campaign  #############################################
-
-            //Click On Create
-            addcampaignHelper.ClickElement("ClickOnCreate");
-
-            //Select Status
-            addcampaignHelper.Select("Status", "Active");
-
-            //Select Category
-            addcampaignHelper.Select("Category", "20678");
-
-            //Select Owner
-            addcampaignHelper.Select("Owner", "51");
-
-            //Select Manager 
-            addcampaignHelper.Select("Maneger", "51");
-
-            //Enter Campaignname
-            addcampaignHelper.TypeText("Campaignname", Campaigname);
-
-            //Select Startdate
-            addcampaignHelper.TypeText("Startdate", Startdate);
-
-            //Select Enddate
-            addcampaignHelper.TypeText("Enddate", Enddate);
-
-            //Select Campaigntype
-            addcampaignHelper.Select("Campaigntype", "Partners");
-
-            //Enter Estimatedcost
-            addcampaignHelper.TypeText("Expectedcost", "1000");
-
-            //Enter Targetednum
-            addcampaignHelper.TypeText("Targetednum", "100");
-
-            //Enter Actualcost
-            addcampaignHelper.TypeText("Actualcost", "150");
-
-            //Enter Expectedresponse
-            addcampaignHelper.TypeText("Expectedresponse", "100");
-
-            //Enter Expectedrevenue
-            addcampaignHelper.TypeText("Expectedrevenue", "150");
-
-            //Enter Campaignurl
-            addcampaignHelper.TypeText("Campaignurl", "http://zaspire.com/infoaspire/campaigns");
-
-            //Click on save button
-            addcampaignHelper.ClickElement("Save");
-
-
             //AddLead to campaign
                 
              //Clcick on Record view 
             addcampaignHelper.ClickElement("Clickonrecord");
 
             //Click on moreAction
-            addcampaignHelper.ClickElement("Moreaction");
+            addcampaignHelper.MouseOver2("locator");
 
             //selectAdd Lead 
-            addcampaignHelper.ClickElement("Add Lead");
+            addcampaignHelper.ClickElement("AddLead");
 
             //Select Result per page
             addcampaignHelper.Select("Resultperpage", "20");
 
 
             //Click on master checkbox
-            addcampaignHelper.ClickElement("Master checkbox");
+            addcampaignHelper.ClickElement("MasterCheckbox");
 
             //Click on Add Compaign
-            addcampaignHelper.ClickElement("Add to Campaigns");
+            addcampaignHelper.ClickElement("LeadsAddtocampaigns");
 
 
 

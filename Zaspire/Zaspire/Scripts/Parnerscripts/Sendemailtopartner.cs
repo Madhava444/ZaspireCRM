@@ -44,30 +44,31 @@ namespace Zaspire.Scripts
             addpartnerHelper.ClickElement("Clickonrecord");
 
             //Click on Moreaction
-            addpartnerHelper.MouseOver("Locater1");
+            addpartnerHelper.MouseOver2("Locater");
 
 
             //Click on Send Email
-            addpartnerHelper.ClickElement("ClickOnSendEmail");
+            addpartnerHelper.ClickElement("MoreactionsSendEmail");
+            addpartnerHelper.WaitForWorkAround(1000);
 
             //Click On Employees Link
-            addpartnerHelper.ClickElement("ClickOnEmployeesLink");
+            addpartnerHelper.ClickElement("Employeelink");
 
             //Click On To Address Check Box
-            addpartnerHelper.ClickElement("ToAddressCheckBox");
+            addpartnerHelper.ClickElement("To");
 
             //Click On CC Address Check Box
-            addpartnerHelper.ClickElement("CCAddressCheckBox");
+            addpartnerHelper.ClickElement("CC");
 
             //Click On BCC Address Check Box
-            addpartnerHelper.ClickElement("BCCAddressCheckBox");
+            addpartnerHelper.ClickElement("BCC");
 
             //Click On Add Email Address Button
-            addpartnerHelper.ClickElement("ClickOnAddEmailAddress");
+            addpartnerHelper.ClickElement("Add");
 
             //Click on Send Email Button
-            addpartnerHelper.ClickElement("ClickOnSendEmailButton");
-            addpartnerHelper.WaitForWorkAround(10000);
+            addpartnerHelper.ClickElement("Send");
+            
 
 
         }

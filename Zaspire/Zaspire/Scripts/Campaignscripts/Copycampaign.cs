@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class Copycampaign : DriverTestCase
     {
         [TestMethod]
-        public void AddFilecampaign()
+        public void copycampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -42,10 +42,10 @@ namespace Zaspire.Scripts
             addcampaignHelper.ClickElement("Clickonrecord");
 
             //Select Moreaction
-            addcampaignHelper.ClickElement("Moreactions");
+            addcampaignHelper.MouseOver2("locator");
 
-            //Select Add task
-            addcampaignHelper.ClickElement("Copycampaing");
+            //Select copy campaign
+            addcampaignHelper.ClickElement("Copycampaign");
 
             addcampaignHelper.AcceptAlert();
             addcampaignHelper.WaitForWorkAround(5000);

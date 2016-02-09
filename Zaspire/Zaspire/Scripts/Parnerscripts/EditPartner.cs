@@ -7,10 +7,10 @@ using OpenQA.Selenium;
 namespace Zaspire.Scripts
 {
     [TestClass]
-    public class AddParntners : DriverTestCase
+    public class EditPartners : DriverTestCase
     {
         [TestMethod]
-        public void AddNewPartner()
+        public void EditPartner()
         {
             string[] username = null;
             string[] password = null;
@@ -51,7 +51,13 @@ namespace Zaspire.Scripts
             //#########################Create Partner######################################
 
             //Click On Create
-            addpartnerHelper.ClickElement("partnerAddNew");
+            addpartnerHelper.ClickElement("Clickonrecord");
+
+            addpartnerHelper.ClickElement("Editpartner");
+
+            //Redirect to logout
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/partners/update/23");
+
 
             //Select owner
             addpartnerHelper.Select("Owner", "17");
@@ -69,10 +75,10 @@ namespace Zaspire.Scripts
             addpartnerHelper.TypeText("PartnerWebsite", "www.partners.com");
 
             //Enter Partnercode
-            addpartnerHelper.TypeText("PartnerCode", "1234");
+            addpartnerHelper.TypeText("PartnerCode", "1237");
 
             //Enter LinkedUrl
-            addpartnerHelper.TypeText("LinkedinUrl", "www.link.com");
+            addpartnerHelper.TypeText("LinkedinUrl", "www.master.com");
 
             //Enter Facebook Url
             addpartnerHelper.TypeText("facebookUrl", "www.facebook.com");
@@ -84,7 +90,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.Select("AddressType", "Location");
 
             //Enter Adressline1
-            addpartnerHelper.TypeText("AddressLine1", "Lane1");
+            addpartnerHelper.TypeText("AddressLine1", "road1");
 
             //Enter Adressline2
             addpartnerHelper.TypeText("AddressLine2", "Road no2");
@@ -99,7 +105,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.Select("Country", "USA");
 
             //Enter Zipcode
-            addpartnerHelper.TypeText("Zipcode", "2345");
+            addpartnerHelper.TypeText("Zipcode", "0567");
 
             //Select Salutation
             addpartnerHelper.Select("Salutation", "Mr");
@@ -114,7 +120,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.TypeText("LastName", LastName);
 
             //Select Phonetype
-            addpartnerHelper.Select("PhoneType", "Cell");
+            addpartnerHelper.Select("PhoneType", "Home");
 
             //Enter PhoneFormat
             addpartnerHelper.TypeText("PhoneFormat", "1234567890");
@@ -147,13 +153,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.ClickElement("optedout");
 
             //Click on save button
-            addpartnerHelper.ClickElement("save");
+            addpartnerHelper.ClickElement("EDitSave");
         }
     }
 }
-
-
-
-
-
-            

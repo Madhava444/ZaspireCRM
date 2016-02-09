@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class Viewcampaign : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void ViewCampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -76,6 +76,48 @@ namespace Zaspire.Scripts
             //Click on statisticstab
             addcampaignHelper.ClickElement("statisticstab");
 
+            // Click on new
+
+            addcampaignHelper.ClickElement("NewView");
+
+            //Click on Cacel button
+            addcampaignHelper.ClickElement("Cancel");
+
+            //Click on record
+            addcampaignHelper.ClickElement("Clickonrecord");
+
+            //Click on inlineedit status
+            addcampaignHelper.ClickElement("StatusEdit");
+
+            /*clikc on  category inlineedit
+            //addcampaignHelper.ClickElement("EditCategory");
+
+            //select Category inline edit
+           // addcampaignHelper.Select("Categorydropdown", "12528");
+
+            //Click on save symbol
+            //addcampaignHelper.ClickElement("Categorysave");
+
+            //clikc on  Manager inlineedit
+            addcampaignHelper.ClickElement("EditManager");
+
+            //select Manager inline edit
+            addcampaignHelper.Select("EditManager", "17");
+
+            //Click on save symbol
+            addcampaignHelper.ClickElement("Managersave");
+
+            //clikc on  Owner inlineedit
+            addcampaignHelper.ClickElement("EditOwner");
+
+            //select Owner inline edit
+            addcampaignHelper.Select("Ownerdropdown", "28");
+
+            //Click on save symbol
+            addcampaignHelper.ClickElement("Ownersave");*/
+
+            //Click on Back
+            addcampaignHelper.ClickElement("BacktoCampaign");
 
 
         }

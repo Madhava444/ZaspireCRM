@@ -7,7 +7,7 @@ using OpenQA.Selenium;
 namespace Zaspire.Scripts
 {
     [TestClass]
-    public class SetupappontmenttoParntners : DriverTestCase
+    public class SetupappointmenttoParntners : DriverTestCase
     {
         [TestMethod]
         public void SetupappointmenttoPartner()
@@ -53,32 +53,32 @@ namespace Zaspire.Scripts
             addpartnerHelper.ClickElement("Clickonrecord");
 
             //Click on Bulk action
-            addpartnerHelper.MouseOver("Moreaction");
+            addpartnerHelper.MouseOver2("locator");
 
             //Select Add task
-            addpartnerHelper.ClickElement("Setup Appointment");
+            addpartnerHelper.ClickElement("Addappointment");
 
             //Enter Status
-            addpartnerHelper.Select("EventType", "Appointment");
+            //addpartnerHelper.Select("EventType", "Appointment");
 
             //Enter Category
-            addpartnerHelper.TypeText("Location", "Secunderabad");
+            addpartnerHelper.TypeText("Location", "Hyd-bad");
 
             //Enter a file
             addpartnerHelper.TypeText("Subject", "Add appointment");
 
             //Enter description
-            addpartnerHelper.Select("StartDate", Startdate);
+            addpartnerHelper.TypeText("StartDate", Startdate);
 
             //Click On record
-            addpartnerHelper.ClickElement("starttime");
+            //addpartnerHelper.ClickElement("starttime");
 
 
             //Select Moreaction
-            addpartnerHelper.Select("EndDate", Enddate);
+            addpartnerHelper.TypeText("EndDate", Enddate);
 
             //Select Add task
-            addpartnerHelper.ClickElement("Endtime");
+            //addpartnerHelper.ClickElement("Endtime");
 
             //Enter Status
             addpartnerHelper.ClickElement("Reminders");
@@ -87,7 +87,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.Select("Popup", "1800");
 
             //Select a file
-            addpartnerHelper.ClickElement("Email");
+            addpartnerHelper.ClickElement("Emailcheckbox");
 
             //Select a file
             addpartnerHelper.Select("ReminderTime", "1800");
@@ -96,7 +96,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.ClickElement("Recurring");
 
             // Select a file
-            addpartnerHelper.Select("RepeteonceinEvery", "1");
+            addpartnerHelper.Select("RepeateonceinEvery", "1");
 
             // Select Type
             addpartnerHelper.Select("RepeatType", "Monthly");
@@ -118,17 +118,17 @@ namespace Zaspire.Scripts
 
 
             // Select a file
-            addpartnerHelper.Select("Daytype", "First");
+            addpartnerHelper.Select("Daytype", "first");
 
             //Enter description
             addpartnerHelper.Select("MonthDay", "2");
 
 
-            //Select on Save button
-            addpartnerHelper.Select("Until", "30/10/2015");
+            //Select Date
+            addpartnerHelper.TypeText("Until", "07/02/2016");
 
-            //Select Moreaction
-            addpartnerHelper.ClickElement("Save");
+            //Select Save button
+            addpartnerHelper.ClickElement("EventSave");
 
 
         }

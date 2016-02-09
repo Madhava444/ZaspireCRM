@@ -28,7 +28,7 @@ namespace Zaspire.PageHelpers.Com
             SendKeys(locator, text);
         }
 
-        public void MouseOver(string locator)
+        public void MouseHover(string locator)
         {
             var el = GetWebDriver().FindElement(ByLocator("//*[@id='campaigns_grid_wrapper']/div[1]/div/div/button"));
 
@@ -95,12 +95,50 @@ namespace Zaspire.PageHelpers.Com
 
 
 
-        public void MouseHover(string Field)
+        public void MouseOver2(string locator)
         {
-            var locator = locatorReader.ReadLocator(Field);
-            WaitForWorkAround(4000);
-            MouseOver(locator);
+            var el = GetWebDriver().FindElement(ByLocator("//a[@class='btn btn-xs btn-warning button-alignment dropdown-toggle']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
 
         }
+
+        internal void Upload(string Field, string FileName)
+        {
+            var locator = locatorReader.ReadLocator(Field);
+            Console.WriteLine(FileName);
+            GetWebDriver().FindElement(ByLocator(locator)).SendKeys(FileName);
+            WaitForWorkAround(3000);
+
+
+        }
+        public void Mouseover1(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='normal']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+
+        }
+
+
+        public new void MouseOver(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='campaign_groups_wrapper']/div[1]/div/div/button']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+
+        }
+
+        public void upload1(string locator)
+        {
+
+            IWebElement element = GetWebDriver().FindElement(ByLocator(locator));
+            element.SendKeys("C:\\Users\\ISS_LP01\\Desktop\\Uploadfile.txt");
+        }
+        
+
     }
 }

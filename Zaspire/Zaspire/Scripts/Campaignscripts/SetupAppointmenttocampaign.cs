@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class Setupappointmenttocampaign : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void Addappointmentcampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -30,8 +30,8 @@ namespace Zaspire.Scripts
             var LastName = "Tester" + RandomNumber(1, 99);
             var Number = "12345678" + RandomNumber(10, 99);
             var Campaigname = "Jobfair" + RandomNumber(1, 10);
-            var Startdate = "2015-10-" + RandomNumber(1, 30);
-            var Enddate = "2015-10-" + RandomNumber(1, 30);
+            var Startdate = "2016-02-" + RandomNumber(1, 30);
+            var Enddate = "2016-02-" + RandomNumber(1, 30);
 
 
             //Login with valid username and password
@@ -51,82 +51,84 @@ namespace Zaspire.Scripts
             addcampaignHelper.ClickElement("Clickonrecord");
 
             //Select Moreaction
-            addcampaignHelper.ClickElement("Moreactions");
+            addcampaignHelper.MouseOver2("locator");
 
-            //Select Add task
-            addcampaignHelper.ClickElement("Setup Appointment");
+            //Select Add appoinment
+            addcampaignHelper.ClickElement("Addappointment");
 
-            //Enter Status
-            addcampaignHelper.Select("EventType", "Appointment");
+            //Enter event type
+            //addcampaignHelper.Select("EventType", "Appointment");
 
-            //Enter Category
-            addcampaignHelper.TypeText("Location", "Secunderabad");
+            //Enter locations
+            addcampaignHelper.TypeText("Location", "Hyderabad");
 
-            //Enter a file
-            addcampaignHelper.TypeText("Subject", "Add appointment");
+            //Enter subject
+            addcampaignHelper.TypeText("Subject", "  appointment");
 
-            //Enter description
-            addcampaignHelper.Select("StartDate", Startdate);
+            // Select start date
+            //addcampaignHelper.Select("StartDate", "2016-02-05");
 
-            //Click On record
-            addcampaignHelper.ClickElement("starttime");
+            //Select state time
+            //addcampaignHelper.ClickElement("starttime");
 
 
-            //Select Moreaction
-            addcampaignHelper.Select("EndDate", Enddate);
+            //Selectend date
+           //addcampaignHelper.Select("EndDate", "2016-02-06");
 
-            //Select Add task
-            addcampaignHelper.ClickElement("Endtime");
+            //Select End time
+            //addcampaignHelper.ClickElement("Endtime");
 
-            //Enter Status
+            //Click on check box
             addcampaignHelper.ClickElement("Reminders");
 
-            //Select Category
+            //Select popup time
             addcampaignHelper.Select("Popup", "1800");
 
-            //Select a file
+            //Click on Email check box
             addcampaignHelper.ClickElement("Email");
 
-            //Select a file
+            //Select reminder time
             addcampaignHelper.Select("ReminderTime", "1800");
 
             //Click on Recurring  button
             addcampaignHelper.ClickElement("Recurring");
 
-            // Select a file
-            addcampaignHelper.Select("RepeteonceinEvery", "1");
+            // Select repeate once in every
+            addcampaignHelper.Select("RepeateonceinEvery", "2");
 
-            // Select Type
+            // Select repeate Type
             addcampaignHelper.Select("RepeatType", "Monthly");
 
             //Click on Check box sunday
             //addcampaignHelper.ClickElement("WeekUI");
 
-            //Select a file
+            //Enter r select until
+            //addcampaignHelper.Select("Until", "05/02/2015");
+
+
+            //Click on radio button
             addcampaignHelper.ClickElement("OnRadiobutton");
 
-            //Click on Recurring  button
+            //Enter report month
             addcampaignHelper.ClickElement("Reportsofmonth");
 
-            // Select a file
+            //Enter date 
             addcampaignHelper.TypeText("Dateofthemonth","2");
+            
+            //Click on radio button
+            addcampaignHelper.ClickElement("OnRadiobutton1");
 
-            //Enter description
-            addcampaignHelper.ClickElement("OnRadiobutton");
 
-
-            // Select a file
-            addcampaignHelper.Select("Daytype", "First");
-
-            //Enter description
+            // Select a daytype
+            addcampaignHelper.Select("Daytype", "first");
+             
+            //Select month day
             addcampaignHelper.Select("MonthDay", "2");
 
 
-            //Select on Save button
-            addcampaignHelper.Select("Until", "30/10/2015");
-
-            //Select Moreaction
-            addcampaignHelper.ClickElement("Save");
+           
+            //Click  on Save button
+            addcampaignHelper.ClickElement("EventSave");
 
 
         }

@@ -52,7 +52,7 @@ namespace Zaspire.Scripts.MainSite
 
 
             //Enter Your Tag Name
-            addcampaignHelper.TypeText("yourtags", "Testtag");
+            addcampaignHelper.TypeText("yourtags", "Test");
 
             //Click on Save
             addcampaignHelper.ClickElement("Saveyourtags");

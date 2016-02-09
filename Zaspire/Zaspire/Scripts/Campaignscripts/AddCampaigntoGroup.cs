@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class AddCampaigntoGroup : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void Addcampaigntogroup()
         {
             string[] username = null;
             string[] password = null;
@@ -45,20 +45,19 @@ namespace Zaspire.Scripts
             //Click on Dashboard in menu
             addcampaignHelper.ClickElement("ClickCampaignsTab");
             
+            
+            //--------------Add Record to group ------------------
+            
             //Click on Record
             addcampaignHelper.ClickElement("Clickonrecord");
 
             //Click on dropdown
-            addcampaignHelper.ClickElement("AddCampaignsToGroup");
-
-            //Click on dropdown
-            addcampaignHelper.Select("RecordsPerPage", "20");
+            addcampaignHelper.Select("Addtogroupview", "23");
 
             //Click on Save
-            addcampaignHelper.ClickElement("MasterCheckbox");
-            
-            //Click on Save
-            addcampaignHelper.ClickElement("AddToGroup");
+            addcampaignHelper.ClickElement("ViewsaveGroup");
+
+           
             
            
         }

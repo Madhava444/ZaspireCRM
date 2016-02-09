@@ -10,7 +10,7 @@ namespace Zaspire.Scripts
     public class Editcampaign : DriverTestCase
     {
         [TestMethod]
-        public void addcampaign()
+        public void EditCampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -56,20 +56,20 @@ namespace Zaspire.Scripts
 
             //Click On Edit
             addcampaignHelper.ClickElement("Edit");
-            GetWebDriver().Navigate().GoToUrl("");
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/campaigns/update/25643");
 
 
             //Select Status
-            addcampaignHelper.Select("Status", "Completed");
+            addcampaignHelper.Select("Status", "Complete");
 
             //Select Category
-            addcampaignHelper.Select("Category", "20677");
+            addcampaignHelper.Select("Category", "12527");
 
             //Select Owner
-            addcampaignHelper.Select("Owner", "51");
+            addcampaignHelper.Select("Owner", "17");
 
             //Select Manager 
-            addcampaignHelper.Select("Maneger", "51");
+            addcampaignHelper.Select("Maneger", "28");
 
             //Enter Campaignname
             addcampaignHelper.TypeText("Campaignname", Campaigname);
@@ -102,7 +102,7 @@ namespace Zaspire.Scripts
             addcampaignHelper.TypeText("Campaignurl", "http://zaspire.com/infoaspire/campaigns");
 
             //Click on save button
-            addcampaignHelper.ClickElement("Save");
+            addcampaignHelper.ClickElement("EditSave");
         }
     }
 }

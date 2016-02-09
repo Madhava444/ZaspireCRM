@@ -45,7 +45,7 @@ namespace Zaspire.Scripts
             //addpartnerHelper.ClickElement("Trash");
 
             //Redirect to parertrash
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/partners/trash");
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/partners/trash");
             //Enter text in filter
             addpartnerHelper.TypeText("PartnerTrashFilter", "New");
 

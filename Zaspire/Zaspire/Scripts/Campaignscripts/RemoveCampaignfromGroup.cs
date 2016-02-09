@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class Removecampaignfromgroup : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void DeletecampaignfromGroup()
         {
             string[] username = null;
             string[] password = null;

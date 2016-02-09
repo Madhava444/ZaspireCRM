@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class AddTasktocampaign : DriverTestCase
     {
         [TestMethod]
-        public void AddFilecampaign()
+        public void Taskcampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -30,8 +30,8 @@ namespace Zaspire.Scripts
             var LastName = "Tester" + RandomNumber(1, 99);
             var Number = "12345678" + RandomNumber(10, 99);
             var Campaigname = "Jobfair" + RandomNumber(1, 10);
-            var Startdate = "2015-10-" + RandomNumber(1, 30);
-            var Enddate = "2015-10-" + RandomNumber(1, 30);
+            //var Startdate = "2016-2-" + RandomNumber(4, 30);
+            //var Enddate = "2016-2-" + RandomNumber(4, 30);
 
 
             //Login with valid username and password
@@ -51,32 +51,32 @@ namespace Zaspire.Scripts
             addcampaignHelper.ClickElement("Clickonrecord");
 
             //Select Moreaction
-            addcampaignHelper.ClickElement("Moreactions");
+            addcampaignHelper.MouseOver2("locator");
 
             //Select Add task
             addcampaignHelper.ClickElement("Addtask");
 
             //Enter Status
-            addcampaignHelper.Select("EventType", "Task");
+            //addcampaignHelper.Select("EventType", "Task");
 
             //Enter Category
             addcampaignHelper.TypeText("Location", "Secunderabad");
 
             //Enter a file
-            addcampaignHelper.TypeText("Subject","Add Task");
+            addcampaignHelper.TypeText("Subject","Add aTask");
              
             //Enter description
-            addcampaignHelper.Select("StartDate", Startdate);
+            //addcampaignHelper.Select("StartDate", "2016-02-05");
 
             //Click On record
-            addcampaignHelper.ClickElement("starttime");
+            //addcampaignHelper.ClickElement("starttime");
 
 
             //Select Moreaction
-            addcampaignHelper.Select("EndDate", Enddate);
+            //addcampaignHelper.Select("EndDate", "2016-02-05");
 
             //Select Add task
-            addcampaignHelper.ClickElement("Endtime");
+            //addcampaignHelper.ClickElement("Endtime");
 
             //Enter Status
             addcampaignHelper.ClickElement("Reminders");
@@ -94,7 +94,7 @@ namespace Zaspire.Scripts
             addcampaignHelper.ClickElement("Recurring");
             
             // Select a file
-            addcampaignHelper.Select("RepeteonceinEvery", "1");
+            addcampaignHelper.Select("RepeateonceinEvery", "1");
             
             // Select Type
             addcampaignHelper.Select("RepeatType", "Weekly");
@@ -123,10 +123,10 @@ namespace Zaspire.Scripts
 
            
             //Enter date 
-            addcampaignHelper.Select("Until", "30/10/2015");
+            //addcampaignHelper.Select("Until", "05/02/2016");
 
             //Select save button
-            addcampaignHelper.ClickElement("Save");
+            addcampaignHelper.ClickElement("EventSave");
 
            
         }

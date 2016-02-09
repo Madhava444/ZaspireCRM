@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class ParntnerView : DriverTestCase
     {
         [TestMethod]
-        public void AddNewPartner()
+        public void ViewPartner()
         {
             string[] username = null;
             string[] password = null;
@@ -43,10 +43,14 @@ namespace Zaspire.Scripts
             addpartnerHelper.ClickElement("PartnerView");
 
             //Clcik on activity tab
-            addpartnerHelper.ClickElement("Activitiestab");
+            addpartnerHelper.ClickElement("Listview");
 
             //Click on Timline
-            //addpartnerHelper.ClickElement("Timelinetab");
+            //addpartnerHelper.ClickElement("Grafficalview");
+
+
+            //Clcik on activity tab
+            addpartnerHelper.ClickElement("Activitiestab");
 
 
             //Click on contact
@@ -64,11 +68,20 @@ namespace Zaspire.Scripts
             //Click on cancel from add newpartners
             addpartnerHelper.ClickElement("cancel");
 
+            // Click on record
+            addpartnerHelper.ClickElement("PartnerView");
+
             // Click on edit button
-           // addpartnerHelper.ClickElement("Editpartners");
+            addpartnerHelper.ClickElement("Editpartner");
+
+            //clikc on edit cancel
+            addpartnerHelper.ClickElement("EditCancel");
+
+            // Click on record
+            addpartnerHelper.ClickElement("PartnerView");
 
             // Click on back button
-           // addpartnerHelper.ClickElement("Backtopartner");
+            addpartnerHelper.ClickElement("Backtopartners");
 
         }
 

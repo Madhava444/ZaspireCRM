@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class ParntnerIndex : DriverTestCase
     {
         [TestMethod]
-        public void AddNewPartner()
+        public void PartnerIndex()
         {
             string[] username = null;
             string[] password = null;
@@ -42,7 +42,7 @@ namespace Zaspire.Scripts
             addpartnerHelper.Select("DefaultView", "Recently Added");
 
             //Select Custom view
-            addpartnerHelper.Select("CustomView", "30");
+            addpartnerHelper.Select("CustomView", "112");
      
 
             //Enter text in filter
@@ -50,9 +50,56 @@ namespace Zaspire.Scripts
 
             //Click on PartnerFilter Reset
             addpartnerHelper.ClickElement("Reset");
-        
-            // Select result per page options
+
+             // Select result per page options
             addpartnerHelper.Select("Recordsperpage","20");
+
+
+            //Click On Quick Look Mouse Over
+            addpartnerHelper.Mouseover1("locator");
+            addpartnerHelper.WaitForWorkAround(10000);
+
+            //Click On Quick Look
+            addpartnerHelper.ClickElement("ToolActionPartners");
+
+            //Click On Quick Look View
+            addpartnerHelper.ClickElement("ToolViewPartners");
+            addpartnerHelper.WaitForWorkAround(5000);
+
+            //Click on Back to partners
+            addpartnerHelper.ClickElement("Backtopartners");
+
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/partners");
+            //addpartnerHelper.WaitForWorkAround(1000);
+
+            //Click On Quick Look Mouse Over
+            addpartnerHelper.Mouseover1("locator");
+            addpartnerHelper.WaitForWorkAround(1000);
+
+            //Click On Quick Look
+            addpartnerHelper.ClickElement("ToolActionPartners");
+
+            //Click On Quick Look Edit
+            addpartnerHelper.ClickElement("ToolEditPartners");
+            addpartnerHelper.WaitForWorkAround(10000);
+
+            //Click on Cancel to Calls
+            addpartnerHelper.ClickElement("EditCancel");
+
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/partners");
+
+            //Click On Quick Look Mouse Over
+            addpartnerHelper.Mouseover1("locator");
+
+            //Click On Quick Look
+            addpartnerHelper.ClickElement("ToolActionPartners");
+
+            //Clicok On Quick Look Delete
+            addpartnerHelper.ClickElement("ToolDeletePartners");
+
+            addpartnerHelper.AcceptAlert();
+            addpartnerHelper.WaitForWorkAround(1000);
+
 
             // Click on record
             addpartnerHelper.ClickElement("PartnerView");

@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class Deletecampaign : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void DeleteCampaign()
         {
             string[] username = null;
             string[] password = null;
@@ -42,7 +42,7 @@ namespace Zaspire.Scripts
             addcampaignHelper.ClickElement("Clickonrecord");
 
             //Select Moreaction
-            addcampaignHelper.ClickElement("Moreactions");
+            addcampaignHelper.MouseOver2("locator");
 
             //Select Add task
             addcampaignHelper.ClickElement("Deletecampaign");

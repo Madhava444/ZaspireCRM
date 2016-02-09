@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class AddGrouptocampaign : DriverTestCase
     {
         [TestMethod]
-        public void Addcampaign()
+        public void Addgrouptocampaign()
         {
             string[] username = null;
             string[] password = null;

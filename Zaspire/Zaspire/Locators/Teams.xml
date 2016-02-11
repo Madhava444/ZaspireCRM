@@ -4,10 +4,10 @@
 <Movesoverprofile><![CDATA[//a[@class='dropdown-toggle']]]></Movesoverprofile>
 <SelectProfile><![CDATA[//a[@href='/infoaspire/myprofile']]]></SelectProfile>
   <ClickonAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickonAdmin>
-  <teams><![CDATA[//a[@href'/infoaspire/admin/roles/team']]]></teams>
+  <teams><![CDATA[//a[@href='/infoaspire/admin/roles/team']]]></teams>
+  <ClickonMainsite><![CDATA[//a[@href='/infoaspire/']]]></ClickonMainsite>
   
-  
-  ----------------------------------------Team -Index--------------------------------------------
+  ---------------------------------------- -Index--------------------------------------------
   
   <TeamsFilter><![CDATA[//*[@id='teams_table_filter']/label/input]]></TeamsFilter>
   <TeamsReset><![CDATA[//*[@id='ToolTables_teams_table_0']]]></TeamsReset>
@@ -109,7 +109,7 @@
 ---------------------------------------Applications--------------------------------------------------------
 
   <ApplicationViewAssigneed><![CDATA[//*[@id='Module17Permission21']]]></ApplicationViewAssigneed>
-<ApplicationViewEveryoneup><![CDATA[//*[@id='ModulePe17rmission24']]]></ApplicationViewEveryoneup>
+<ApplicationViewEveryoneup><![CDATA[//*[@id='Module17Permission24']]]></ApplicationViewEveryoneup>
 <ApplicationViewEveryoneDown><![CDATA[//*[@id='Module17Permission6']]]></ApplicationViewEveryoneDown>
 <ApplicationViewEveryoneElse><![CDATA[//*[@id='Module17Permission9']]]></ApplicationViewEveryoneElse>
 <ApplicationViewAnyoneFrom><![CDATA[//*[@id='Module17Permission15']]]></ApplicationViewAnyoneFrom>
@@ -121,7 +121,7 @@
   <ApplicationEditAnyoneFrom><![CDATA[//*[@id='Module17Permission16']]]></ApplicationEditAnyoneFrom>
 
   <ApplicationDeleteAssigneed><![CDATA[//*[@id='Module17Permission23']]]></ApplicationDeleteAssigneed>
-  <ApplicationDelecteEveryoneup><![CDATA[//*[@id='Module17Permission26']]]></ApplicationDelecteEveryoneup>
+  <ApplicationDeleteEveryoneup><![CDATA[//*[@id='Module17Permission26']]]></ApplicationDeleteEveryoneup>
   <ApplicationDeleteEveryoneDown><![CDATA[//*[@id='Module17Permission8']]]></ApplicationDeleteEveryoneDown>
   <ApplicationDeleteEveryoneElse><![CDATA[//*[@id='Module17Permission11']]]></ApplicationDeleteEveryoneElse>
   <ApplicationDeleteAnyoneFrom><![CDATA[//*[@id='Module17Permission17']]]></ApplicationDeleteAnyoneFrom>
@@ -130,20 +130,18 @@
   ----------------------------------BulkEmails--------------------------------------------------------
  
   <BulkEmailsViewAssigneed><![CDATA[//*[@id='Module19Permission21']]]></BulkEmailsViewAssigneed>
-  <BulkEmailsViewEveryoneup><![CDATA[//*[@id='Module19rmission24']]]></BulkEmailsViewEveryoneup>
+  <BulkEmailsViewEveryoneup><![CDATA[//*[@id='Module19Permission24']]]></BulkEmailsViewEveryoneup>
  <BulkEmailsViewEveryoneDown><![CDATA[//*[@id='Module19Permission6']]]></BulkEmailsViewEveryoneDown>
   <BulkEmailsViewEveryoneElse><![CDATA[//*[@id='Module19Permission9']]]></BulkEmailsViewEveryoneElse>
     <BulkEmailsViewAnyoneFrom><![CDATA[//*[@id='Module19Permission15']]]></BulkEmailsViewAnyoneFrom>
 
 
-  <BulkEmailEditAssigneed><![CDATA[//*[@id='Module19Permission22']]]></BulkEmailEditAssigneed>
+  <BulkEmailEditAssigneed1><![CDATA[//*[@id='Module19Permission22']]]></BulkEmailEditAssigneed1>
    <BulkEmailEditEveryoneup><![CDATA[//*[@id='Module19Permission25']]]></BulkEmailEditEveryoneup>
    <BulkEmailEditEveryoneDown><![CDATA[//*[@id='Module19Permission7']]]></BulkEmailEditEveryoneDown>
   <BulkEmailEditEveryoneElse><![CDATA[//*[@id='Module19Permission10']]]></BulkEmailEditEveryoneElse>
    <BulkEmailEditAnyoneFrom><![CDATA[//*[@id='Module19Permission16']]]></BulkEmailEditAnyoneFrom>
 
-  <BulkEmailDeleteAssigneed><![CDATA[//*[@id='Module19Permission23']]]></BulkEmailDeleteAssigneed>
-  <BulkEmailDeleteAssigneed><![CDATA[//*[@id='Module19Permission23']]]></BulkEmailDeleteAssigneed>
   <BulkEmailDeleteAssigneed><![CDATA[//*[@id='Module19Permission23']]]></BulkEmailDeleteAssigneed>
   <BulkEmailDeleteEveryoneup><![CDATA[//*[@id='Module19Permission26']]]></BulkEmailDeleteEveryoneup>
   <BulkEmailDeleteEveryoneDown><![CDATA[//*[@id='Module19Permission8']]]></BulkEmailDeleteEveryoneDown>
@@ -155,7 +153,7 @@
   ----------------------------------Campaign--------------------------------------------------------
   
   <CampaignViewAssigneed><![CDATA[//*[@id='Module20Permission21']]]></CampaignViewAssigneed>
-  <CampaignViewEveryoneup><![CDATA[//*[@id='ModulePe20rmission24']]]></CampaignViewEveryoneup>
+  <CampaignViewEveryoneup><![CDATA[//*[@id='Module20Permission24']]]></CampaignViewEveryoneup>
   <CampaignViewEveryoneDown><![CDATA[//*[@id='Module20Permission6']]]></CampaignViewEveryoneDown>
   <CampaignViewEveryoneElse><![CDATA[//*[@id='Module20Permission9']]]></CampaignViewEveryoneElse>
   <CampaignViewAnyoneFrom><![CDATA[//*[@id='Module20Permission15']]]></CampaignViewAnyoneFrom>
@@ -177,7 +175,7 @@
   ---------------------------------Candidate--------------------------------------------------------
   
   <CandidateViewAssigneed><![CDATA[//*[@id='Module15Permission21']]]></CandidateViewAssigneed>
-  <CandidateViewEveryoneup><![CDATA[//*[@id='ModulePe15rmission24']]]></CandidateViewEveryoneup>
+  <CandidateViewEveryoneup><![CDATA[//*[@id='Module15Permission24']]]></CandidateViewEveryoneup>
   <CandidateViewEveryoneDown><![CDATA[//*[@id='Module15Permission6']]]></CandidateViewEveryoneDown>
   <CandidateViewEveryoneElse><![CDATA[//*[@id='Module15Permission9']]]></CandidateViewEveryoneElse>
   <CandidateViewAnyoneFrom><![CDATA[//*[@id='Module15Permission15']]]></CandidateViewAnyoneFrom>
@@ -198,7 +196,7 @@
 ------------------------------------Contact--------------------------------------------------------
  
   <ContactViewAssigneed><![CDATA[//*[@id='Module12Permission21']]]></ContactViewAssigneed>
-  <ContactViewEveryoneup><![CDATA[//*[@id='ModulePe12rmission24']]]></ContactViewEveryoneup>
+  <ContactViewEveryoneup><![CDATA[//*[@id='Module12Permission24']]]></ContactViewEveryoneup>
   <ContactViewEveryoneDown><![CDATA[//*[@id='Module12Permission6']]]></ContactViewEveryoneDown>
   <ContactViewEveryoneElse><![CDATA[//*[@id='Module12Permission9']]]></ContactViewEveryoneElse>
   <ContactViewAnyoneFrom><![CDATA[//*[@id='Module12Permission15']]]></ContactViewAnyoneFrom>
@@ -220,7 +218,7 @@
 ------------------------------------------Interview--------------------------------------------------------
   
   <InterviewViewAssigneed><![CDATA[//*[@id='Module16Permission21']]]></InterviewViewAssigneed>
-  <InterviewViewEveryoneup><![CDATA[//*[@id='ModulePe16rmission24']]]></InterviewViewEveryoneup>
+  <InterviewViewEveryoneup><![CDATA[//*[@id='Module16Permission24']]]></InterviewViewEveryoneup>
   <InterviewViewEveryoneDown><![CDATA[//*[@id='Module16Permission6']]]></InterviewViewEveryoneDown>
   <InterviewViewEveryoneElse><![CDATA[//*[@id='Module16Permission9']]]></InterviewViewEveryoneElse>
   <InterviewViewAnyoneFrom><![CDATA[//*[@id='Module16Permission15']]]></InterviewViewAnyoneFrom>
@@ -241,7 +239,7 @@
 ------------------Job--------------------------------------------------------
   
   <JobViewAssigneed><![CDATA[//*[@id='Module14Permission21']]]></JobViewAssigneed>
-  <JobViewEveryoneup><![CDATA[//*[@id='ModulePe14rmission24']]]></JobViewEveryoneup>
+  <JobViewEveryoneup><![CDATA[//*[@id='Module14Permission24']]]></JobViewEveryoneup>
   <JobViewEveryoneDown><![CDATA[//*[@id='Module14Permission6']]]></JobViewEveryoneDown>
   <JobViewEveryoneElse><![CDATA[//*[@id='Module14Permission9']]]></JobViewEveryoneElse>
   <JobViewAnyoneFrom><![CDATA[//*[@id='Module14Permission15']]]></JobViewAnyoneFrom>
@@ -263,7 +261,7 @@
 ------------------Lead--------------------------------------------------------
   
   <LeadViewAssigneed><![CDATA[//*[@id='Module9Permission21']]]></LeadViewAssigneed>
-  <LeadViewEveryoneup><![CDATA[//*[@id='Module9Prmission24']]]></LeadViewEveryoneup>
+  <LeadViewEveryoneup><![CDATA[//*[@id='Module9Permission24']]]></LeadViewEveryoneup>
   <LeadViewEveryoneDown><![CDATA[//*[@id='Module9Permission6']]]></LeadViewEveryoneDown>
   <LeadViewEveryoneElse><![CDATA[//*[@id='Module9Permission9']]]></LeadViewEveryoneElse>
   <LeadViewAnyoneFrom><![CDATA[//*[@id='Module9Permission15']]]></LeadViewAnyoneFrom>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+  <Movesoverprofile><![CDATA[//a[@class='dropdown-toggle']]]></Movesoverprofile>
+  <SelectProfile><![CDATA[//a[@href='/infoaspire/myprofile']]]></SelectProfile>
+  <ClickonAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickonAdmin>
+  <AdminProfile><![CDATA[//img[@alt='My Profile']]]></AdminProfile>
+  
+  ------------------------------Index-------------------------------------------
+  <ProfileDetails><![CDATA[//a[@href='#tab_1']]]></ProfileDetails>
+  <Profilesettingstab><![CDATA[//a[@href='#tab_2']]]></Profilesettingstab>
+  <Profileactivity><![CDATA[//a[@href='#tab_3']]]></Profileactivity>
+  <Changepassword><![CDATA[//a[@title='change password']]]></Changepassword>
+  <Edit><![CDATA[//a[@title='Edit MyProfile']]]></Edit>
+  <EDitsave><![CDATA[//*[@id='EmployeeEditProfileForm']/div[2]/div/ul/li[5]/button]]></EDitsave>
+  <EditCancel><![CDATA[//*[@id='EmployeeEditProfileForm']/div[2]/div/ul/li[4]/button]]></EditCancel>
+  
+---------------------Changepassword---------------------------------------------------
+ 
+  <NamePassword><![CDATA[//*[@id='UserPassword']]]></NamePassword>
+  <ConformPassword><![CDATA[//*[@id='UserCpassword']]]></ConformPassword>
+  <SavePassword><![CDATA[//*[@id='employee details']/div/div/div/div[3]/button[1]]]></SavePassword>
+  <CancelPassword><![CDATA[//*[@id='employee details']/div/div/div/div[3]/button[2]]]></CancelPassword>
+
+----------------------------EditProfile-----------------------------------------------
+
+  <NameFormate><![CDATA[//*[@id='Setting0Value']]]></NameFormate>
+  <TimeZone><![CDATA[//*[@id='Setting1Value']]]></TimeZone>
+  <DateFormate><![CDATA[//*[@id='Setting2Value']]]></DateFormate>
+  <TimeFormate><![CDATA[//*[@id='Setting3Value']]]></TimeFormate>
+  <DecimalFormate><![CDATA[//*[@id='Setting4Value']]]></DecimalFormate>
+  <Decimalseperator><![CDATA[//*[@id='Setting5Value']]]></Decimalseperator>
+  <ExportDelimitor><![CDATA[//*[@id='Setting6Value']]]></ExportDelimitor>
+  <PhoneFormate><![CDATA[//*[@id='Setting7Value']]]></PhoneFormate>
+  <SettingSave><![CDATA[//*[@id='SettingMyprofileForm']/div[4]/div/div/button[1]]]></SettingSave>
+  <SettingCancel><![CDATA[//*[@id='SettingMyprofileForm']/div[4]/div/div/button[2]]]></SettingCancel>
+
+
+  *************  Employee Details     *****************
+
+
+  <Salutation><![CDATA[//*[@id='EmployeeSalutation']]]></Salutation>
+  <FirstName><![CDATA[//*[@id='EmployeeFirstName']]]></FirstName>
+  <MiddleName><![CDATA[//*[@id='EmployeeMiddleName']]]></MiddleName>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  <Birthdate><![CDATA[//*[@id='EmployeeBirthday']]]></Birthdate>
+  <SelectFile><![CDATA[//*[@id='employee details']/div/div[3]/div/div[2]/div[2]/div/div[1]/div/span[1]]]></SelectFile>
+  <PhoneType><![CDATA[//*[@id='EmployeePhone0PhoneType']]]></PhoneType>
+  <PhoneNumber><![CDATA[//*[@id='phone_format']]]></PhoneNumber>
+  <DoNotCall><![CDATA[//*[@id='EmployeePhone0DoNotCall']]]></DoNotCall>
+  <Primaryradiobutton><![CDATA[//*[@id='phone']/div/div[2]/div/div/div/div[3]/div/label/input]]></Primaryradiobutton>
+  <Emailtype><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentType']]]></Emailtype>
+  <Emailadress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></Emailadress>
+  <EmailPrimary><![CDATA[//*[@id='emails and internet']/div/div[2]/div/div/div/div/div[3]/div/label/input]]></EmailPrimary>
+  <EmailOptedout><![CDATA[//*[@id='EmployeeElectronicAddress0OptOut']]]></EmailOptedout>
+  
+ 
+ ***********************Contact Information ****************
+
+  
+  <AddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='EmployeeAddress0AddressLine2']]]></AddressLine2>
+  <City><![CDATA[//*[@id='EmployeeAddress0City']]]></City>
+  <State><![CDATA[//*[@id='EmployeeAddress0State']]]></State>
+  <Country><![CDATA[//*[@id='EmployeeAddress0Country']]]></Country>
+  <Zipcode><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></Zipcode>
+  <Donotsolic><![CDATA[//*[@id='EmployeeAddress0DoNotSolicit']]]></Donotsolic>
+  <EDitSave><![CDATA[//*[@id='addresses']/div[2]/div/div/button[1]]]></EDitSave>
+  <EditCancel><![CDATA[//*[@id='addresses']/div[2]/div/div/button[2]]]></EditCancel>
+
+
+
+</Locator>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

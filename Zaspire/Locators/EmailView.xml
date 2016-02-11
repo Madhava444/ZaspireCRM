@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ClickOnActivitiestab><![CDATA[//*[@id='activities']]]></ClickOnActivitiestab>
+  <ClickOnEmailbutton><![CDATA[//*[@id='e-mails']]]></ClickOnEmailbutton>
+  <SearchFilter><![CDATA[//*[@id='mails_view_filter']/label/input]]></SearchFilter>
+  <ClickOnInboxViewpages><![CDATA[//*[@id='mails_view']/tbody/tr[1]/td[2]/a]]></ClickOnInboxViewpages>
+  <ClickOnRepllyButton><![CDATA[//button[@class='btn btn-xs btn-primary dropdown-toggle']]]></ClickOnRepllyButton>
+  <ClickOnReplyButton><![CDATA[//*[@id='reply']]]></ClickOnReplyButton>
+  <EnterSubjectName><![CDATA[//*[@id='EmailName']]]></EnterSubjectName>
+  <ClickOnSendButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendButton>
+  <ClickOnReplyAllButton><![CDATA[//*[@id='replyall']]]></ClickOnReplyAllButton>
+  <ClickOnForwardButton><![CDATA[//*[@id='forward']]]></ClickOnForwardButton>
+  <ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+  <EnabletheCheckbox><![CDATA[//*[@id='toid']]]></EnabletheCheckbox>
+  <ClickOnAddButton><![CDATA[//*[@id='submitemail']]]></ClickOnAddButton>
+ 
+</Locators>

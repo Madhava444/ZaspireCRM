@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ClickOnActivitiestab><![CDATA[//*[@id='activities']]]></ClickOnActivitiestab>
+  <ClickOnExpandEmailOption><![CDATA[//*[@id='e-mails']]]></ClickOnExpandEmailOption>
+  <ClickOnSignatureListOption><![CDATA[//a[@href='/infoaspire/mails/email_signature']]]></ClickOnSignatureListOption>
+  <ClickOnSignatureNewbutton><![CDATA[//a[@class='btn btn-xs btn-primary btn-success']]]></ClickOnSignatureNewbutton>
+  <SignatureName><![CDATA[//*[@id='EmailAddSignatureName']]]></SignatureName>
+  <Description><![CDATA[//body[@class='cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']]></Description>
+  <ClickOnSignatureSaveOption><![CDATA[//*[@id='CreateSignatureForm']/div[2]/div/div[2]/ul/li[6]/button]]></ClickOnSignatureSaveOption>
+  <ClickOnPermissionbutton><![CDATA[//*[@id='CreateSignatureForm']/div[2]/div/div[2]/ul/li[7]/a]]></ClickOnPermissionbutton>
+  <Enabletheselectedcheckbox><![CDATA[//*[@id='permission15']]]></Enabletheselectedcheckbox>
+  <ClickOnCancelbutton><![CDATA[//*[@id='dialog_permissions']/div/div/div[3]/button]]></ClickOnCancelbutton>
+  <ClickOnCancellbutton><![CDATA[//*[@id='CreateSignatureForm']/div[2]/div/div[2]/ul/li[4]/a]]></ClickOnCancellbutton>
+
+
+ ######################################Index page ##############################
+
+<RecordperPage><![CDATA[//*[@id='emailsignature_length']/label/select]]></RecordperPage>
+  <Filtersearch><![CDATA[//*[@id='emailsignature_filter']/label/input]]></Filtersearch>
+  <ClickOnResetbutton><![CDATA[//*[@id='ToolTables_emailsignature_0']]]></ClickOnResetbutton>
+<ClickOnMasterCheckbox><![CDATA[//*[@id='emailsignature']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckbox>
+  <ClickOnDeleteButtonss><![CDATA[//*[@id='remove_signature']]]></ClickOnDeleteButtonss>
+  <ClickOnEditOption><![CDATA[//*[@id='emailsignature']/tbody/tr[1]/td[1]/a/sapn]]></ClickOnEditOption>
+  <ClickOnSaveOptionss><![CDATA[//*[@id='CreateSignatureForm']/div[2]/div/div[2]/ul/li[6]/button]]></ClickOnSaveOptionss>
+
+
+</Locators>

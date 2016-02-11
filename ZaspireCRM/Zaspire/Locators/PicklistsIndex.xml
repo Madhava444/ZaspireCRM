@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- PICKLISTS INDEX PAGE -->
+  <ClickOnAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickOnAdmin>
+  <ClickOnPicklists><![CDATA[//a[@href='/infoaspire/admin/pick-lists/span']]]></ClickOnPicklists>
+  <EnterFilterBox><![CDATA[//*[@id='picklists_table_filter']/label/input]]></EnterFilterBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_picklists_table_0']]]></ClickOnReset>
+  <SelectPagination><![CDATA[//*[@id='autogen1']]]></SelectPagination>
+  <ClickOnFirstPicklist><![CDATA[//*[@id='picklists_table']/tbody/tr[1]/td[1]/a]]></ClickOnFirstPicklist>
+
+  <!--  PICKLIST VIEW PAGE  -->
+  <ClickOnNewItem><![CDATA[//a[@class='btn btn-xs btn-success btn-primary button-alignment']]]></ClickOnNewItem>
+  <ClickOnEditBack><![CDATA[//button[@class='btn btn-xs button-alignment btn-default']]]></ClickOnEditBack>
+  <ClickOnEditIcon><![CDATA[//*[@id='picklist_container']/tbody/tr[1]/td[4]/a[1]/i]]></ClickOnEditIcon>
+  
+  <ClickOnActiveInactive><![CDATA[//*[@id='#activate.12381']/span]]></ClickOnActiveInactive>
+  
+  <ClickOnDeleteIcon><![CDATA[//*[@id='picklist_container']/tbody/tr[1]/td[4]/a[3]/span]]></ClickOnDeleteIcon>
+  <SelectReplaceItem><![CDATA[//*[@id='PickListValueReplaceItem']]]></SelectReplaceItem>
+  <ClickOnDeletePopupSave><![CDATA[//*[@id='delete-item-submit']]]></ClickOnDeletePopupSave>
+  <ClickOnDeletePopupCancel><![CDATA[//*[@id='PickListValueDeleteItemForm']/div[2]/div/div[3]/button[2]]]></ClickOnDeletePopupCancel>
+  
+  <EnterEditPopupValue><![CDATA[//*[@id='PickListValuePval']]]></EnterEditPopupValue>
+  <ClickOnEditPicklistColor><![CDATA[//*[@id='update_picklist']/div/div[2]/div[3]/div/div/span/button]]></ClickOnEditPicklistColor>
+  <EnterEditPopupSave><![CDATA[//*[@id='edit-item-submit']]]></EnterEditPopupSave>
+  <EnterEditPopupCancel><![CDATA[//*[@id='update_picklist']/div/div[3]/div/button[2]]]></EnterEditPopupCancel>
+
+  <EnterAddItemValue><![CDATA[//*[@id='PickListValueValue']]]></EnterAddItemValue>
+  <ClickOnPicklistColor><![CDATA[//button[@class='btn btn-default']]]></ClickOnPicklistColor>
+  <ClicklOnAddItemSave><![CDATA[//*[@id='add-item-submit']]]></ClicklOnAddItemSave>
+  <ClicklOnAddItemCancel><![CDATA[//*[@id='PickListValueEditForm']/div[4]/div/button[2]]]></ClicklOnAddItemCancel>
+
+  
+  
+</Locators>

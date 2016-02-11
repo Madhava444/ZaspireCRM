@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  
+  <!--  NOTES TRASH INDEX  -->
+  <ClickOnActivities><![CDATA[//*[@id='activities']]]></ClickOnActivities>
+  <ClickOnNotes><![CDATA[//*[@id='notes']]]></ClickOnNotes>
+  <ClickOnNotesTrash><![CDATA[//a[@href='/infoaspire/notes/trash']]]></ClickOnNotesTrash>
+  
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBack>
+  <EnterSearchBox><![CDATA[//*[@id='note_trash_filter']/label/input]]></EnterSearchBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_note_trash_0']]]></ClickOnReset>
+  <SelectPegination><![CDATA[//*[@id='note_trash_length']/label/select]]></SelectPegination>
+  <ClickOnDeleteForever><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteForever>
+  <ClickOnRestoreNotes><![CDATA[//*[@id='restore_record']]]></ClickOnRestoreNotes>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='note_trash']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <ClickOnFirstRecord><![CDATA[//*[@id='normal']]]></ClickOnFirstRecord>
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[1]]]></ClickOnQuickLink>
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete>
+  <ClickOnRestore><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore>
+  
+  <SelectPegination><![CDATA[//*[@id='note_trash_length']/label/select]]></SelectPegination>
+  <ClickOnNext><![CDATA[//*[@id='note_trash_next']]]></ClickOnNext>
+  <ClickOnLast><![CDATA[//*[@id='note_trash_last']]]></ClickOnLast>
+  <ClickOnprevious><![CDATA[//*[@id='note_trash_previous']]]></ClickOnprevious>
+  <ClickOnFirst><![CDATA[//*[@id='note_trash_first']]]></ClickOnFirst>
+
+
+  <!--  NOTES TRASH VIEW  -->
+  <ClickOnViewBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnViewBack>
+  <ClickOnViewRestore><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnViewRestore>
+  <ClickOnViewDelete><![CDATA[//a[@class='btn btn-xs btn-danger button-alignment']]]></ClickOnViewDelete>
+
+  
+  
+  
+
+</Locators>
+  

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <FirstOpportunityNameLink><![CDATA[//*[@id='normal']]]></FirstOpportunityNameLink>
+
+  <!--  ADD JOB POSITIONS  -->
+  <ClickOnJobPositionstab><![CDATA[//*[@id='ui-id-2']/div[1]]]></ClickOnJobPositionstab>
+  <ClickOnAddJobPosition><![CDATA[//*[@id='related_positions_table_wrapper']/div[2]/div/div/a]]></ClickOnAddJobPosition>
+  <EnterJobTitle><![CDATA[//*[@id='JobTitle']]]></EnterJobTitle>
+  <SelectCareerLevel><![CDATA[//*[@id='JobCareerLevel']]]></SelectCareerLevel>
+  <EnterExperienceYears><![CDATA[//*[@id='JobExperienceYears']]]></EnterExperienceYears>
+  <EnterExperienceMonths><![CDATA[//*[@id='JobExperienceMonths']]]></EnterExperienceMonths>
+  <EnterJobPositionUrl><![CDATA[//*[@id='JobPositionUrl']]]></EnterJobPositionUrl>
+  <SelectEducation><![CDATA[//*[@id='JobQualification']]]></SelectEducation>
+  <ClickOnExpand1><![CDATA[//*[@id='addpositionForm']/div[2]/div[2]/div[5]/div[1]/div[2]/a]]></ClickOnExpand1>
+  <SelectJobType><![CDATA[//*[@id='JobCompensationJobType']]]></SelectJobType>
+  <ClickOnExpand2><![CDATA[//*[@id='addpositionForm']/div[2]/div[2]/div[6]/div[1]/div[2]/a]]></ClickOnExpand2>
+
+  <EnterJobCity><![CDATA[//*[@id='JobAddress0City']]]></EnterJobCity>
+  <SelectJobState><![CDATA[//*[@id='JobAddress0State']]]></SelectJobState>
+  <SelectJobCountry><![CDATA[//*[@id='JobAddress0Country']]]></SelectJobCountry>
+  <EnterZipCode><![CDATA[//*[@id='JobAddress0ZipCode']]]></EnterZipCode>
+  <ClickOnAddLocation><![CDATA[//*[@id='addpositionForm']/div[2]/div[2]/div[6]/div[2]/div/div[2]/div[4]/a]]></ClickOnAddLocation>
+
+  <EnterJobCity1><![CDATA[//*[@id='JobAddress_1']/div[1]/div/div/div/input]]></EnterJobCity1>
+  <SelectJobState1><![CDATA[//*[@id='JobAddress_1']/div[2]/div[1]/div/div/select]]></SelectJobState1>
+  <SelectJobCountry1><![CDATA[//*[@id='JobAddress_1']/div[2]/div[2]/div/div/select]]></SelectJobCountry1>
+  <EnterZipCode1><![CDATA[//*[@id='JobAddress_1']/div[2]/div[3]/div/div/input]]></EnterZipCode1>
+
+  <ClickOnSave><![CDATA[//*[@id='addpositionForm']/div[2]/div[2]/div[7]/button[1]]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='addpositionForm']/div[2]/div[2]/div[7]/button[2]]]></ClickOnCancel>
+
+
+  <!--  JOB POSITIONS ACTIONS  -->
+  <EnterKeywordSearch><![CDATA[//*[@id='related_positions_table_filter']/label/input]]></EnterKeywordSearch>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_related_positions_table_0']]]></ClickOnReset>
+  <SelectMasterCheckBox><![CDATA[//*[@id='parent_check']]]></SelectMasterCheckBox>
+  <ClickOnFirstJobLink><![CDATA[//*[@id='related_positions_table']/tbody/tr[1]/td[2]/a]]></ClickOnFirstJobLink>
+  <ClickOnQuickLink><![CDATA[//*[@id='jg_icons']/div/a/i[2]]]></ClickOnQuickLink>
+  <ClickOnJobEdit><![CDATA[//*[@id='jg_icons']/div/ul/li[1]/a]]></ClickOnJobEdit>
+  <ClickOnJobView><![CDATA[//*[@id='jg_icons']/div/ul/li[2]/a]]></ClickOnJobView>
+
+
+
+  <!--################################################################-->
+
+  <!--  JOB POSITIONS BULK UPDATE  -->
+  <ClickOnBulkActions><![CDATA[//*[@id='related_positions_table_wrapper']/div[2]/div/div[1]/button]]></ClickOnBulkActions>
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+
+  <SelectStatus><![CDATA[//*[@id='JobBulkUpdateStatus']]]></SelectStatus>
+  <SelectPriority><![CDATA[//*[@id='JobBulkUpdatePriority']]]></SelectPriority>
+  <SelectCategory><![CDATA[//*[@id='JobBulkUpdateCategory']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='JobBulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='JobBulkUpdateAssignedManagerId']]]></SelectManager>
+
+  <ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
+
+
+  <!--  JOB POSITIONS BULK DELETE  -->
+  <ClickOnBulkDelete><![CDATA[//*[@id='remove_job']]]></ClickOnBulkDelete>
+
+
+
+</Locators>

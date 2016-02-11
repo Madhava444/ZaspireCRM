@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- OPPORTUNITIES INDEX PAGE -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnCustomViews><![CDATA[//*[@id='OpportunityQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+
+  <!-- OPPORTUNITIES CUSTOM VIEWS INDEX PAGE -->
+  <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
+  <ClickOnDelete><![CDATA[//*[@id='remove_saved_views']]]></ClickOnDelete>
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnBack>
+  <EnterFilterSearchBox><![CDATA[//*[@id='opportunity_savedviews_filter']/label/input]]></EnterFilterSearchBox>
+  <ClickOnFilterReset><![CDATA[//*[@id='ToolTables_opportunity_savedviews_0']]]></ClickOnFilterReset>
+  <CheckMasterCheckBox><![CDATA[//*[@id='opportunity_savedviews']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>
+  <ClickOnCustomView><![CDATA[//*[@id='opportunity_savedviews']/tbody/tr[1]/td[2]/a]]></ClickOnCustomView>
+  <ClickOnCustomViewEdit><![CDATA[//*[@id='opportunity_savedviews']/tbody/tr[1]/td[5]/a[1]]]></ClickOnCustomViewEdit>
+  <ClickOnCustomViewDelete><![CDATA[//*[@id='opportunity_savedviews']/tbody/tr[1]/td[5]/a[2]]]></ClickOnCustomViewDelete>
+  <ClickOnCustomViewPermission><![CDATA[//*[@id='opportunity_savedviews']/tbody/tr[1]/td[5]/a[3]]]></ClickOnCustomViewPermission>
+  <CheckBox1><![CDATA[//*[@id='permission8']]]></CheckBox1>
+  <CheckBox2><![CDATA[//*[@id='permission11']]]></CheckBox2>
+  <CheckBox3><![CDATA[//*[@id='permission17']]]></CheckBox3>
+  <ClickOnCustomViewPermissionSave><![CDATA[//*[@id='OpportunityPermissionsForm']/div[2]/div/div[3]/button[1]]]></ClickOnCustomViewPermissionSave>
+
+
+
+</Locators>

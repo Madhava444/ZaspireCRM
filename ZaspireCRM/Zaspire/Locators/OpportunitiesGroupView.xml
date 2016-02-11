@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnGroups><![CDATA[//a[@href='/infoaspire/opportunities/groups']]]></ClickOnGroups>
+  <FirstOpportunityGroupNameLink><![CDATA[//*[@id='opportunity_groups']/tbody/tr[1]/td[2]/a]]></FirstOpportunityGroupNameLink>
+
+  
+  <!-- GROUP VIEW PAGE ACTIONS  -->
+  <ClickOnAddNew><![CDATA[//a[@class='btn btn-xs btn-success button-alignment']]]></ClickOnAddNew>
+  <ClickOnEdit><![CDATA[//a[@class='btn btn-xs btn-primary']]]></ClickOnEdit>
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBack>
+  <ClickOnDelete><![CDATA[//a[@title='Delete Opportunity Group']]]></ClickOnDelete>
+
+  <ClickOnAddNewToGroups><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[5]/a]]></ClickOnAddNewToGroups>
+  <ClickOnEditToGroups><![CDATA[//*[@id='OpportunityEditForm']/div[2]/div/ul/li[5]/a]]></ClickOnEditToGroups>
+
+
+  <EnterOpportunitiesSearchBox><![CDATA[//*[@id='related_opportunities_table_filter']/label/input]]></EnterOpportunitiesSearchBox>
+  <ClickOnOpportunitiesReset><![CDATA[//*[@id='ToolTables_related_opportunities_table_0']]]></ClickOnOpportunitiesReset>
+
+
+  <!-- ADD OPPORTUNITIES FOR GROUP VIEW  -->
+  <ClickOnAddOpportunities><![CDATA[//a[@class='button-alignment btn btn-xs btn-success']]]></ClickOnAddOpportunities>
+  <SelectPagination><![CDATA[//*[@id='add_opportunities_length']/label/select]]></SelectPagination>
+  <SelectMasterCheckBox><![CDATA[//*[@id='add_opportunities']/thead/tr/th[1]/div/span/input]]></SelectMasterCheckBox>
+  <ClickOnAddToGroup><![CDATA[//*[@id='CreateOpportunityGroup']/div[2]/div/ul/li[6]/button]]></ClickOnAddToGroup>
+
+
+
+  <!-- BULK UPDATE FOR GROUP VIEW  -->
+  <ClilkOnMasterCheckBox><![CDATA[//*[@id='related_opportunities_table']/thead/tr/th[1]/div/span/input]]></ClilkOnMasterCheckBox>
+  <ClickOnBulkActions><![CDATA[//button[@class='btn btn-xs btn-warning dropdown-toggle button-alignment']]]></ClickOnBulkActions>
+  <ClilkOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClilkOnBulkUpdate>
+  <SelectStatus><![CDATA[//*[@id='BulkUpdateOpportunityStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='BulkUpdateOpportunitySource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
+  
+  <ClickOnUpdate><![CDATA[//*[@id='opportunity_update']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='opportunity_update']/div/div/div[3]/button]]></ClickOnCancel>
+
+
+  <!-- ADD TO CAMPAIGN FOR GROUP VIEW  -->
+  <ClilkOnAddToCampaign><![CDATA[//*[@id='add_opportunity']]]></ClilkOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']]]></ClickOnMergeButton>
+  <ClickOnCampaignName><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr[1]/td/a]]></ClickOnCampaignName>
+  <ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+  <SelectCampaignGroup><![CDATA[//*[@id='CampaignOpportunityGroup']]]></SelectCampaignGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignOpportunityGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddOpportunities><![CDATA[//*[@id='CampaignOpportunityOpportunitygroupViewForm']/div[4]/a]]></ClickOnAddOpportunities>
+
+
+  <!--  BULK EMAIL FOR GROUP VIEW  -->
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+
+
+  <!--  BULK EMAIL FOR GROUP VIEW  -->
+  <ClickOnBulkDelete><![CDATA[//*[@id='delete_member']]]></ClickOnBulkDelete>
+
+
+</Locators>

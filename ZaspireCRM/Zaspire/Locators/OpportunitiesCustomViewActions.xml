@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <!-- OPPORTUNITIES INDEX PAGE -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+
+  <!-- CUSTOM VIEWS -->
+  <SelectCustomView><![CDATA[//*[@id='savedSearch']]]></SelectCustomView>
+  <ClickOnSetAsDefault><![CDATA[//*[@id='makedefaultsearch']]]></ClickOnSetAsDefault>
+  <ClickOnUnsetDefault><![CDATA[//*[@id='removedefaultsearch']]]></ClickOnUnsetDefault>
+  <ClickOnDelete><![CDATA[//*[@id='deleteSearch']]]></ClickOnDelete>
+  <ClickOnNew><![CDATA[//*[@id='OpportunityQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnNew>
+  <ClickOnEdit><![CDATA[//*[@id='saved_edit']]]></ClickOnEdit>
+  
+  <EnterCustomView><![CDATA[//*[@id='select2-drop']/div/input]]></EnterCustomView>
+  
+
+  <ClickOnEditCancel><![CDATA[//*[@id='OpportunityIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnEditCancel>
+  <ClickOnNewCancel><![CDATA[//*[@id='OpportunityIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnNewCancel>
+
+  <ClickOnCustomViewsDropdown><![CDATA[//*[@id='s2id_savedSearch']/a]]></ClickOnCustomViewsDropdown>
+  <EnterSearchCustomViewsName><![CDATA[//*[@id='select2-drop']/div/input]]></EnterSearchCustomViewsName>
+  <ClickOnFirstCustomViewName><![CDATA[//*[@id='select2-drop']/ul/li[1]/div]]></ClickOnFirstCustomViewName>
+
+  
+  
+</Locators>

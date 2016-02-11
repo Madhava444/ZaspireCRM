@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- OPPORTUNITIES TRASH INDEX PAGE -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnTrash><![CDATA[//a[@href='/infoaspire/opportunities/trash']]]></ClickOnTrash>
+  <ClickOnOpportunityView><![CDATA[//*[@id='normal']]]></ClickOnOpportunityView>
+  
+
+  <!-- OPPORTUNITIES TRASH VIEW PAGE -->
+  <ClickOnRestore><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnRestore>
+  <ClickOnDelete><![CDATA[//a[@class='btn btn-danger btn-xs button-alignment']]]></ClickOnDelete>
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBack>
+
+
+  <!-- TABS -->
+  <ClickOnJobPositionstab><![CDATA[//*[@id='ui-id-2']/div[1]]]></ClickOnJobPositionstab>
+  <ClickOnActivitiestab><![CDATA[//*[@id='activity1']]]></ClickOnActivitiestab>
+  <ClickOnContactInfotab><![CDATA[//*[@id='contact1']]]></ClickOnContactInfotab>
+  <ClickOnCampaignstab><![CDATA[//*[@id='campaign1']]]></ClickOnCampaignstab>
+  <ClickOnDescriptiontab><![CDATA[//*[@id='description1']]]></ClickOnDescriptiontab>
+  <ClickOnAccountContactstab><![CDATA[//*[@id='accountcontact1']]]></ClickOnAccountContactstab>
+  <ClickOnTimeLinetab><![CDATA[//*[@id='time_line']]]></ClickOnTimeLinetab>
+
+
+
+</Locators>

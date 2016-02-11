@@ -42,18 +42,13 @@ namespace Zaspire.Scripts
 
             //Click on Calls
             AddNewCallHelper.ClickElement("ClickOnCalls");
-
-            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls");
-            //AddNewCallHelper.WaitForWorkAround(7000);
+            AddNewCallHelper.WaitForWorkAround(7000);
 
 
             //#################### CREATE A CALL   #####################################
 
             //Create on Call
-            //AddNewCallHelper.ClickElement("ClickOnCallsAddNew");
-
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls/addnew");
-            
+            AddNewCallHelper.ClickElement("ClickOnCallsAddNew");
 
 
             //################### CLASSIFICATIONS & OWNERSHIP  #########################

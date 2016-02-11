@@ -41,18 +41,13 @@ namespace Zaspire.Scripts
 
             //Click on Events
             AddNewLibraryHelper.ClickElement("ClickOnLibrary");
-
-            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/libraries");
-            //AddNewLibraryHelper.WaitForWorkAround(7000);
+            AddNewLibraryHelper.WaitForWorkAround(7000);
 
 
             //#################### CREATE A LIBRARY   #####################################
 
             //Create on Library
             AddNewLibraryHelper.ClickElement("ClickOnAddNew");
-
-            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/libraries/addnew");
-            
 
 
             //################### CLASSIFICATIONS & OWNERSHIP  #########################
@@ -78,19 +73,7 @@ namespace Zaspire.Scripts
             AddNewLibraryHelper.ClickElement("ClickOnSave");
             AddNewLibraryHelper.WaitForWorkAround(7000);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
         }
     }
 }

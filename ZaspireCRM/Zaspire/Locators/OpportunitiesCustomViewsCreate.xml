@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- OPPORTUNITIES INDEX PAGE -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnCustomViews><![CDATA[//*[@id='OpportunityQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+
+  <!-- OPPORTUNITIES CUSTOM VIEW INDEX PAGE -->
+  <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
+  <ClickOnEdit><![CDATA[//*[@id='opportunity_savedviews']/tbody/tr[1]/td[5]/a[1]]]></ClickOnEdit>
+  
+  <!-- OPPORTUNITIES CUSTOM VIEW CREATE PAGE -->
+  <EnterCustomViewName><![CDATA[//*[@id='searchName']]]></EnterCustomViewName>
+  <SelectSortBy><![CDATA[//*[@id='OpportunitySortCol']]]></SelectSortBy>
+
+  <!-- ADD SEARCH CRITERIA OPPORTUNITIES CUSTOM VIEW CREATE PAGE -->
+  <SelectOwner><![CDATA[//*[@id='OpportunityCustomColValues1']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='OpportunityCustomColValues2']]]></SelectManager>
+  <SelectStatus><![CDATA[//*[@id='OpportunityCustomColValues3']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='OpportunityCustomColValues4']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='OpportunityCustomColValues5']]]></SelectCategory>
+  <SelectCreatedBy><![CDATA[//*[@id='OpportunityCustomColValues6']]]></SelectCreatedBy>
+  <SelectModifiedBy><![CDATA[//*[@id='OpportunityCustomColValues7']]]></SelectModifiedBy>
+  <SelectGroup><![CDATA[//*[@id='OpportunityCustomColValues8']]]></SelectGroup>
+
+  <EnterCreated><![CDATA[//*[@id='OpportunityCustomColValues9']]]></EnterCreated>
+  <EnterModified><![CDATA[//*[@id='OpportunityCustomColValues10']]]></EnterModified>
+
+  <!-- ADD ADDITIONAL CRITERIA OPPORTUNITIES CUSTOM VIEW CREATE PAGE -->
+  <SelectAdditionalField1><![CDATA[//*[@id='OpportunityAdditionalColNames']]]></SelectAdditionalField1>
+  <SelectOperator1><![CDATA[//*[@id='OpportunityAdditionalColOps']]]></SelectOperator1>
+  <EnterAdditionalValue1><![CDATA[//*[@id='OpportunityAdditionalColValues']]]></EnterAdditionalValue1>
+  <ClickOnAddNewField><![CDATA[//*[@id='additionalcolumns']]]></ClickOnAddNewField>
+  <SelectAdditionalField2><![CDATA[//*[@id='add_criteria']/tbody/tr[3]/td[1]/select]]></SelectAdditionalField2>
+  <SelectOperator2><![CDATA[//*[@id='OpportunityAdditionalColOps0']]]></SelectOperator2>
+  <EnterAdditionalValue2><![CDATA[//*[@id='add_criteria']/tbody/tr[3]/td[3]/input]]></EnterAdditionalValue2>
+
+  <ClickOnSave><![CDATA[//*[@id='OpportunityIndexForm']/div[2]/div[1]/div/div/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='OpportunityIndexForm']/div[2]/div[5]/div/div/a[2]]]></ClickOnCancel>
+  <ClickOnPermission><![CDATA[//*[@id='OpportunityIndexForm']/div[2]/div[5]/div/div/a[1]]]></ClickOnPermission>
+
+
+
+</Locators>

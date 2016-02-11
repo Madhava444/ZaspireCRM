@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!--  OPPORTUNITIES GROUPS INDEX PAGE -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnGroups><![CDATA[//a[@href='/infoaspire/opportunities/groups']]]></ClickOnGroups>
+  <ClickOnGroupsAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnGroupsAddNew>
+  <EnterSearchFilterBox><![CDATA[//*[@id='opportunity_groups_filter']/label/input]]></EnterSearchFilterBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_opportunity_groups_0']]]></ClickOnReset>
+  <MouseOver><![CDATA[//*[@id='opportunity_groups_wrapper']/div[1]/div/div/button]]></MouseOver>
+  <ClickOnDeleteOpportunityGroups><![CDATA[//*[@id='remove_opportunity']]]></ClickOnDeleteOpportunityGroups>
+  <CheckMasterCheckBox><![CDATA[//*[@id='opportunity_groups']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLink>
+  <ClickOnView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnView>
+  <ClickOnEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnEdit>
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnDelete>
+  <ClickOnFirstGroupName><![CDATA[//*[@id='opportunity_groups']/tbody/tr[1]/td[2]/a]]></ClickOnFirstGroupName>
+  <ClickOnBackToOpportunityGroups><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBackToOpportunityGroups>
+
+
+
+
+
+
+
+</Locators>

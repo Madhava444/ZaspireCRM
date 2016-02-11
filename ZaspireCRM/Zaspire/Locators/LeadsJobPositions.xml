@@ -41,7 +41,26 @@
   <ClickOnQuickLink><![CDATA[//*[@id='jg_icons']/div/a/i[2]]]></ClickOnQuickLink>
   <ClickOnJobEdit><![CDATA[//*[@id='jg_icons']/div/ul/li[1]/a]]></ClickOnJobEdit>
   <ClickOnJobView><![CDATA[//*[@id='jg_icons']/div/ul/li[2]/a]]></ClickOnJobView>
+
+
+  <!--################################################################-->
   
+  <!--  JOB POSITIONS BULK UPDATE  -->
+  <ClickOnBulkActions><![CDATA[//*[@id='related_positions_table_wrapper']/div[2]/div/div[1]/button]]></ClickOnBulkActions>
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+    
+  <SelectStatus><![CDATA[//*[@id='JobBulkUpdateStatus']]]></SelectStatus>
+  <SelectPriority><![CDATA[//*[@id='JobBulkUpdatePriority']]]></SelectPriority>
+  <SelectCategory><![CDATA[//*[@id='JobBulkUpdateCategory']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='JobBulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='JobBulkUpdateAssignedManagerId']]]></SelectManager>
+  
+  <ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
+
+  
+  <!--  JOB POSITIONS BULK DELETE  -->
+  <ClickOnBulkDelete><![CDATA[//*[@id='remove_job']]]></ClickOnBulkDelete>
   
   
 </Locators>

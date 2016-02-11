@@ -42,18 +42,13 @@ namespace Zaspire.Scripts
 
             //Click on Events
             AddNewEventHelper.ClickElement("ClickOnEvents");
-
-            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events");
-            //AddNewEventHelper.WaitForWorkAround(7000);
+            AddNewEventHelper.WaitForWorkAround(7000);
 
 
             //#################### CREATE A MEETING   #####################################
 
             //Create on Task
-            //AddNewEventHelper.ClickElement("ClickOnAddNew");
-
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events/addnew");
-
+            AddNewEventHelper.ClickElement("ClickOnAddNew");
 
 
             //################### CLASSIFICATIONS & OWNERSHIP  #########################
@@ -125,26 +120,11 @@ namespace Zaspire.Scripts
             //Select Email Reminder Time
             //AddNewEventHelper.ClickElement("SelectEmailReminderTime");
 
-
-
-
-
+            
 
             //Click On Save
             AddNewEventHelper.ClickElement("ClickOnSave");
             AddNewEventHelper.WaitForWorkAround(7000);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         }

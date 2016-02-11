@@ -5,11 +5,11 @@
 
   <!-- LEADS TRASH INDEX PAGE -->
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>  
-  <ClickOnTrash><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[4]/a]]></ClickOnTrash>
-  
-  <ClickOnBackToLeadsTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToLeadsTrash>
-  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnBack>
-  <ClickOnGroupTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnGroupTrash>
+  <ClickOnTrash><![CDATA[//a[@href='/infoaspire/leads/trash']]]></ClickOnTrash>
+    
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnBack>
+  <ClickOnGroupTrash><![CDATA[//a[@class='btn btn-xs btn-primary dropdown-toggle button-alignment']]]></ClickOnGroupTrash>
+  <ClickOnGroupTrashBack><![CDATA[//a[@class='btn btn-xs btn-default']]]></ClickOnGroupTrashBack>
   <EnterFilterSearch><![CDATA[//*[@id='lead_trash_filter']/label/input]]></EnterFilterSearch>
   <ClickOnReset><![CDATA[//*[@id='ToolTables_lead_trash_0']]]></ClickOnReset>
   <ClickOnMouseHover><![CDATA[//*[@id='lead_trash_wrapper']/div[1]/div/div/button]]></ClickOnMouseHover>
@@ -20,7 +20,8 @@
   <ClickOnQuickLink><![CDATA[//*[@id='lead_trash']/tbody/tr[1]/td[1]]]></ClickOnQuickLink>  
   <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete>
   <ClickOnRestore><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore>
-  <ClickOnLeadView><![CDATA[//*[@id='normal']]]></ClickOnLeadView> 
+  <ClickOnLeadView><![CDATA[//*[@id='normal']]]></ClickOnLeadView>
+  <ClickOnLeadViewBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnLeadViewBack>
 
 
   

@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-
 <Locators>
 
 
   <!--  OPPORTUNITIES BULK ACTIONS  -->
   <SearchOpportunityCompany><![CDATA[//*[@id='opportunities_grid_filter']/label/input]]></SearchOpportunityCompany>
   <ClickOnMasterCheckBox><![CDATA[//*[@id='opportunities_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
-  <MouseOver><![CDATA[//*[@id='opportunities_grid_wrapper']/div[1]/div/div/button]]></MouseOver>
-
-
+  
+  
   <!--  OPPORTUNITIES BULK UPDATE  -->
   <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
   <SelectStatus><![CDATA[//*[@id='BulkUpdateOpportunityStatus']]]></SelectStatus>
@@ -48,5 +46,6 @@
   <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
   <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
 
-
+  
+ 
 </Locators>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  
+  <!--  NOTES INDEX  -->
+  <ClickOnActivitiess><![CDATA[//*[@id='activities']]]></ClickOnActivitiess>
+  <ClickOnNotes><![CDATA[//*[@id='notes']]]></ClickOnNotes>
+
+  <SelectDefaultViews><![CDATA[//*[@id='teamName']]]></SelectDefaultViews>
+  <SelectCustomViews><![CDATA[//*[@id='savedSearch']]]></SelectCustomViews>
+
+  <ClickOnAddNew><![CDATA[//a[@class='btn btn-xs btn-success btn-primary']]]></ClickOnAddNew>
+  <ClickOnAddNewCancel><![CDATA[//*[@id='NoteAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnAddNewCancel>
+  <ClickOnCustomViews><![CDATA[//*[@id='NoteQuickSearchIndexForm']/table/tbody/tr/td[2]/strong/a]]></ClickOnCustomViews>
+  <ClickOnCustomViewsBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnCustomViewsBack>
+  <ClickOnCustomViewsNew><![CDATA[//*[@id='NoteQuickSearchIndexForm']/table/tbody/tr/td[2]/a]]></ClickOnCustomViewsNew>
+  <ClickOnCustomViewsNewBack><![CDATA[//*[@id='NoteIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnCustomViewsNewBack>
+  <EnterSearchBox><![CDATA[//*[@id='notes_grid_filter']/label/input]]></EnterSearchBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_notes_grid_0']]]></ClickOnReset>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='notes_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <ClickOnFirstRecord><![CDATA[//*[@id='normal']]]></ClickOnFirstRecord>
+  <ClickOnFirstRecordBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnFirstRecordBack>
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[1]]]></ClickOnQuickLink>
+  <ClickOnView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnView>
+  <ClickOnEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnEdit>
+  <ClickOnEditBack><![CDATA[//*[@id='NoteUpdateForm']/div[2]/div/ul/li[4]/a]]></ClickOnEditBack>
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnDelete>
+  <SelectPagination><![CDATA[//*[@id='notes_grid_length']/label/select]]></SelectPagination>
+
+  
+  <!--  BULK ACTIONS  -->
+  <ClickOnBulkActions><![CDATA[//*[@id='notes_grid_wrapper']/div[1]/div/div/button]]></ClickOnBulkActions>
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+  <ClickOnBulkDelete><![CDATA[//*[@id='remove_record']]]></ClickOnBulkDelete>
+
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategoryId']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+
+  <ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
+
+  <ClickOnNext><![CDATA[//*[@id='notes_grid_next']]]></ClickOnNext>
+  <ClickOnLast><![CDATA[//*[@id='notes_grid_last']]]></ClickOnLast>
+  <ClickOnprevious><![CDATA[//*[@id='notes_grid_previous']]]></ClickOnprevious>
+  <ClickOnFirst><![CDATA[//*[@id='notes_grid_first']]]></ClickOnFirst>
+  
+  <!--  NOTES VIEW  -->
+  <ClickOnViewBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnViewBack>
+  <ClickOnViewEdit><![CDATA[//a[@class='btn btn-xs btn-primary button-alignment']]]></ClickOnViewEdit>
+  <ClickOnViewNew><![CDATA[//a[@class='btn btn-xs btn-success button-alignment']]]></ClickOnViewNew>
+  <ClickOnViewDelete><![CDATA[//a[@title='Delete Note']]]></ClickOnViewDelete>
+  <ClickOnViewForward><![CDATA[//a[@title='Forward']]]></ClickOnViewForward>
+
+  <ClickOnAddFile><![CDATA[//a[@title='Add File']]]></ClickOnAddFile>
+  <ClickOnAttachmentIcon><![CDATA[//i[@class='icon-paper-clip file_icon']]]></ClickOnAttachmentIcon>
+  <ClickOnDeleteIcon><![CDATA[//a[@title='Remove Attachment']]]></ClickOnDeleteIcon>
+
+  <EnterFileName><![CDATA[//*[@id='AttachmentName']]]></EnterFileName>
+  <SelectFileCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></SelectFileCategory>
+  <ClickOnAttachmentFile><![CDATA[//*[@id='AttachmentFiles']]]></ClickOnAttachmentFile>
+  <EnterDescription><![CDATA[//*[@id='AttachmentDescription']]]></EnterDescription>
+  
+  <ClickOnAddFileSave><![CDATA[//*[@id='addFileSubmit']]]></ClickOnAddFileSave>
+  <ClickOnAddFileCancel><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></ClickOnAddFileCancel>
+  
+  
+  <!--  OWNER INLINE EDIT  -->
+  <ClickOnOwner><![CDATA[//*[@id='responsibility']]]></ClickOnOwner>
+  <SelectInlineEditOwner><![CDATA[//select[@class='form-control input-medium']]]></SelectInlineEditOwner>
+  <ClickOnOwnerOk><![CDATA[//button[@class='btn btn-success editable-submit']]]></ClickOnOwnerOk>
+  
+  <!--  CATEGORY INLINE EDIT  -->
+  <ClickOnCategory><![CDATA[//*[@id='category']]]></ClickOnCategory>
+  <SelectInlineEditCategory><![CDATA[//*[@id='autogen1']]]></SelectInlineEditCategory>
+  <ClickOnCategoryOk><![CDATA[//button[@class='btn btn-success editable-submit']]]></ClickOnCategoryOk>
+
+  <ClickOnMoreActivity><![CDATA[//*[@id='more']]]></ClickOnMoreActivity>
+
+  <!-- FORWARD -->
+  <ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+  <ToAddressCheckBox><![CDATA[//*[@id='toid']]]></ToAddressCheckBox>
+  <CCAddressCheckBox><![CDATA[//*[@id='ccid']]]></CCAddressCheckBox>
+  <BCCAddressCheckBox><![CDATA[//*[@id='bccid']]]></BCCAddressCheckBox>
+  <ClickOnAddEmailAddress><![CDATA[//*[@id='submitemail']]]></ClickOnAddEmailAddress>
+  <ClickOnSendEmailButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendEmailButton>
+ 
+  
+  
+
+</Locators>
+  

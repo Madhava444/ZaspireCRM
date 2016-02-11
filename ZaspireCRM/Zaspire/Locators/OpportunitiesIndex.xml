@@ -5,7 +5,7 @@
 
   <!-- OPPORTUNITIES INDEX PAGE -->
   <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>  
-  <ClickOnBackToOpportunities><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToOpportunities>
+  <ClickOnBackToOpportunities><![CDATA[//a[@href='/infoaspire/opportunities']]]></ClickOnBackToOpportunities>
   <FirstOpportunityNameLink><![CDATA[//*[@id='normal']]]></FirstOpportunityNameLink>
 
   <!-- FILTER BY GROUPS -->
@@ -39,10 +39,11 @@
   <ClockOnQuickLookDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClockOnQuickLookDelete>
 
 
-
-
-
-
+  <SelectPagination><![CDATA[//*[@id='opportunities_grid_length']/label/select]]></SelectPagination>
+  <ClickOnNext><![CDATA[//*[@id='opportunities_grid_next']]]></ClickOnNext>
+  <ClickOnLast><![CDATA[//*[@id='opportunities_grid_last']]]></ClickOnLast>
+  <ClickOnprevious><![CDATA[//*[@id='opportunities_grid_previous']]]></ClickOnprevious>
+  <ClickOnFirst><![CDATA[//*[@id='opportunities_grid_first']]]></ClickOnFirst>
 
 
 

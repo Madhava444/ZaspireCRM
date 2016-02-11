@@ -11,18 +11,18 @@
   
   <!-- INLINE EDIT CHANGE OWNER -->
   <ClickOnOwner><![CDATA[//*[@id='responsibility']]]></ClickOnOwner>
-  <SelectOwner><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectOwner>
-  <ClickOnOwnerOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnOwnerOk>
+  <SelectOwner><![CDATA[//select[@class='form-control input-medium']]]></SelectOwner>
+  <ClickOnOwnerOk><![CDATA[//button[@class='btn btn-success editable-submit']]]></ClickOnOwnerOk>
 
   <!-- INLINE EDIT CHANGE MANAGER -->
   <ClickOnManager><![CDATA[//*[@id='manager']]]></ClickOnManager>
-  <SelectManager><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectManager>
-  <ClickOnManagerOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnManagerOk>
+  <SelectManager><![CDATA[//select[@class='form-control input-medium']]]></SelectManager>
+  <ClickOnManagerOk><![CDATA[//button[@class='btn btn-success editable-submit']]]></ClickOnManagerOk>
 
   <!-- INLINE EDIT CHANGE SOURCE -->
   <ClickOnSource><![CDATA[//*[@id='lead_source']]]></ClickOnSource>
   <SelectSource><![CDATA[//*[@id='autogen29']]]></SelectSource>
-  <ClickOnSourceOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[3]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnSourceOk>
+  <ClickOnSourceOk><![CDATA[//button[@class='btn btn-success editable-submit']]]></ClickOnSourceOk>
 
   <!-- INLINE EDIT CHANGE CATEGORY -->
   <ClickOnCategory><![CDATA[//*[@id='category']]]></ClickOnCategory>
@@ -55,7 +55,7 @@
   
   
   <!-- MANAGE TAGS -->
-  <ClickOnManageTags><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[2]/div[5]/div[1]/div[2]/a]]></ClickOnManageTags>
+  <ClickOnManageTags><![CDATA[//a[@title='Edit Tags']]]></ClickOnManageTags>
   <EnterYourTagName><![CDATA[//*[@id='selTags_addTag']]]></EnterYourTagName>
   <ClickOnYourTagSave><![CDATA[//*[@id='manual_tagsViewForm']/div[3]/div/div/button]]></ClickOnYourTagSave>
   <ClickOnSystemGeneratedTags><![CDATA[//*[@id='manage_auto_tags']/div/div/div/div/ul/li[2]/a]]></ClickOnSystemGeneratedTags>
@@ -64,7 +64,7 @@
   <UncheckDepartment><![CDATA[//*[@id='recreate_auto_formFields']]]></UncheckDepartment>
   <ClickOnRecreate><![CDATA[//*[@id='recreate_submit']]]></ClickOnRecreate>
   <ClickOnTagsDelete><![CDATA[//*[@id='delete_auto_tags']]]></ClickOnTagsDelete>
-  <ClickOnTagsName><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[2]/div[5]/div[2]/div/div[1]/div/div/div/a[1]]]></ClickOnTagsName>
+  <ClickOnTagsName><![CDATA[//a[@class='tags-block ']]]></ClickOnTagsName>
 
 
   <!-- ADD GROUPS -->

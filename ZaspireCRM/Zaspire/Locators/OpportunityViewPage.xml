@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <FirstOpportunityNameLink><![CDATA[//*[@id='normal']]]></FirstOpportunityNameLink>
+  <ClickOnExpand><![CDATA[//*[@id='show_internal']/div]]></ClickOnExpand>
+    
+  <!-- INLINE EDIT CHANGE STATUS -->
+  <ChangeStatus><![CDATA[//*[@id='progress_div']/div/div[4]]]></ChangeStatus>
+
+  <!-- INLINE EDIT CHANGE OWNER -->
+  <ClickOnOwner><![CDATA[//*[@id='responsibility']]]></ClickOnOwner>
+  <SelectOwner><![CDATA[//select[@class='form-control input-medium']]]></SelectOwner>
+  <ClickOnOwnerOk><![CDATA[//button[@class='btn btn-success editable-submit']]]></ClickOnOwnerOk>
+
+  <!-- INLINE EDIT CHANGE MANAGER -->
+  <ClickOnManager><![CDATA[//*[@id='manager']]]></ClickOnManager>
+  <SelectManager><![CDATA[//select[@class='form-control input-medium']]]></SelectManager>
+  <ClickOnManagerOk><![CDATA[//button[@class='btn btn-success editable-submit']]]></ClickOnManagerOk>
+
+  <!-- INLINE EDIT CHANGE SOURCE -->
+  <ClickOnSource><![CDATA[//*[@id='source']]]></ClickOnSource>
+  <SelectSource><![CDATA[//*[@id='autogen1']]]></SelectSource>
+  <ClickOnSourceOk><![CDATA[//button[@class='btn btn-success editable-submit']]]></ClickOnSourceOk>
+
+  <!-- INLINE EDIT CHANGE CATEGORY -->
+  <ClickOnCategory><![CDATA[//*[@id='category']]]></ClickOnCategory>
+  <SelectCategory><![CDATA[//*[@id='autogen31']]]></SelectCategory>
+  <ClickOnCategoryOk><![CDATA[//*[@id='rest_internal']/div/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnCategoryOk>
+
+
+  <!-- ADD GROUPS -->
+  <SelectAddToGroup><![CDATA[//*[@id='GroupName']]]></SelectAddToGroup>
+  <ClickOnSaveGroup><![CDATA[//*[@id='savegroup']]]></ClickOnSaveGroup>
+  <ClickOnCancelGroup><![CDATA[//*[@id='cancelgroup']]]></ClickOnCancelGroup>
+  <ClickOnRemoveGroup><![CDATA[//*[@id='GroupsForm']/div/div[2]/div[1]/div/div/span/a]]></ClickOnRemoveGroup>
+
+
+  <!-- MANAGE TAGS -->
+  <ClickOnManageTags><![CDATA[//a[@title='Edit Tags']]]></ClickOnManageTags>
+  <EnterYourTagName><![CDATA[//*[@id='selTags_addTag']]]></EnterYourTagName>
+  <ClickOnYourTagSave><![CDATA[//*[@id='manual_tagsViewForm']/div[3]/div/div/button]]></ClickOnYourTagSave>
+  <ClickOnSystemGeneratedTags><![CDATA[//*[@id='manage_auto_tags']/div/div/div/div/ul/li[2]/a]]></ClickOnSystemGeneratedTags>
+  <ClickOnTagsEdit><![CDATA[//*[@id='manage_auto_tags']]]></ClickOnTagsEdit>
+  <UncheckState><![CDATA[//*[@id='recreate_auto_formFields']]]></UncheckState>
+  <UncheckDepartment><![CDATA[//*[@id='recreate_auto_formFields']]]></UncheckDepartment>
+  <ClickOnRecreate><![CDATA[//*[@id='recreate_submit']]]></ClickOnRecreate>
+  <ClickOnTagsDelete><![CDATA[//*[@id='delete_auto_tags']]]></ClickOnTagsDelete>
+  <ClickOnTagsName><![CDATA[//a[@class='tags-block ']]]></ClickOnTagsName>
+
+
+  
+  <!-- TABS -->
+  <ClickOnJobPositionstab><![CDATA[//*[@id='ui-id-2']/div[1]]]></ClickOnJobPositionstab>
+  <ClickOnActivitiestab><![CDATA[//*[@id='activity1']]]></ClickOnActivitiestab>
+  <ClickOnContactInfotab><![CDATA[//*[@id='contact1']]]></ClickOnContactInfotab>
+  <ClickOnCampaignstab><![CDATA[//*[@id='campaign1']]]></ClickOnCampaignstab>
+  <ClickOnDescriptiontab><![CDATA[//*[@id='description1']]]></ClickOnDescriptiontab>
+  <ClickOnAccountContactstab><![CDATA[//*[@id='accountcontact1']]]></ClickOnAccountContactstab>
+  <ClickOnTimeLinetab><![CDATA[//*[@id='time_line']]]></ClickOnTimeLinetab>
+  
+  
+
+
+  <!-- TIMELINE -->
+  <ClickOnMoreActivity><![CDATA[//*[@id='more']]]></ClickOnMoreActivity>  
+  <ClickOnListView><![CDATA[//*[@id='timelinelist']/div[1]/a]]></ClickOnListView>
+  <EnterListViewSearchBox><![CDATA[//*[@id='change_log_table_filter']/label/input]]></EnterListViewSearchBox>
+  <ClickOnListViewReset><![CDATA[//*[@id='ToolTables_change_log_table_0']]]></ClickOnListViewReset>
+  <ClickOnGraphicalView><![CDATA[//*[@id='change_log_table_wrapper']/div[2]/div/a]]></ClickOnGraphicalView>
+  <ClickOnUserName><![CDATA[//*[@id='content_box']/div/div[1]/div[3]/div[1]/div[2]/small/a]]></ClickOnUserName>
+  
+
+
+
+
+</Locators>

@@ -42,19 +42,14 @@ namespace Zaspire.Scripts
 
             //Click on Events
             AddNewEventHelper.ClickElement("ClickOnEvents");
-
-            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events");
-            //AddNewEventHelper.WaitForWorkAround(7000);
+            AddNewEventHelper.WaitForWorkAround(7000);
 
 
             //#################### CREATE A APPOINTMENT   #####################################
 
             //Create on Task
-            //AddNewEventHelper.ClickElement("ClickOnAddNew");
-
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events/addnew");
+            AddNewEventHelper.ClickElement("ClickOnAddNew");
             
-
 
             //################### CLASSIFICATIONS & OWNERSHIP  #########################
 
@@ -69,13 +64,13 @@ namespace Zaspire.Scripts
 
 
             //Select Event Category
-            AddNewEventHelper.Select("EventEventCategory", "9242");
+            AddNewEventHelper.Select("EventEventCategory", "12502");
 
             //Select Event Priority
             AddNewEventHelper.Select("EventEventPriority", "High");
 
             //Select Owner  
-            AddNewEventHelper.Select("SelectEventOwner", "1");
+            AddNewEventHelper.Select("SelectEventOwner", "17");
 
             //Select Event Type
             AddNewEventHelper.Select("SelectEventType", "Appointment");
@@ -90,7 +85,7 @@ namespace Zaspire.Scripts
             AddNewEventHelper.TypeText("EnterEventLocation", "Test City");
 
             //Enter Event Start Date
-            AddNewEventHelper.TypeText("SelectEventStartDate", "2015-12-09");
+            AddNewEventHelper.TypeText("SelectEventStartDate", "2016-2-09");
 
             //Click On Start Time
             //AddNewEventHelper.ClickElement("SelectStartTime");
@@ -102,7 +97,7 @@ namespace Zaspire.Scripts
             //AddNewEventHelper.ClickElement("ClickOnMinutes");
 
             //Enter Event Due Date
-            AddNewEventHelper.TypeText("SelectEventDueDate", "2015-12-10");
+            AddNewEventHelper.TypeText("SelectEventDueDate", "2016-2-10");
 
             //Click On End Time
             //AddNewEventHelper.ClickElement("SelectEndTime");
@@ -125,11 +120,7 @@ namespace Zaspire.Scripts
             //Select Email Reminder Time
             //AddNewEventHelper.ClickElement("SelectEmailReminderTime");
 
-
-            
-            
-
-            
+                        
             //Click On Save
             AddNewEventHelper.ClickElement("ClickOnSave");
             AddNewEventHelper.WaitForWorkAround(7000);

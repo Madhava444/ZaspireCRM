@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- OPPORTUNITIES TRASH INDEX PAGE -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>  
+  <ClickOnTrash><![CDATA[//a[@href='/infoaspire/opportunities/trash']]]></ClickOnTrash>
+  
+  <ClickOnBackToOpportunitiesTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ClickOnBackToOpportunitiesTrash>
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnBack>
+  <ClickOnGroupTrash><![CDATA[//a[@class='btn btn-xs btn-primary dropdown-toggle button-alignment']]]></ClickOnGroupTrash>
+  <EnterFilterSearch><![CDATA[//*[@id='opportunity_trash_filter']/label/input]]></EnterFilterSearch>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_opportunity_trash_0']]]></ClickOnReset>
+  <ClickOnMouseHover><![CDATA[//*[@id='opportunity_trash_wrapper']/div[1]/div/div/button]]></ClickOnMouseHover>
+  <ClickOnDeleteForever><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteForever> 
+  <ClickOnRestoreOpportunities><![CDATA[//*[@id='restore_record']]]></ClickOnRestoreOpportunities>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='opportunity_trash']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>  
+  <ClickOnMouseOver><![CDATA[//*[@id='normal']]]></ClickOnMouseOver>  
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLink>  
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete>
+  <ClickOnRestore><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore>
+  <ClickOnOpportunityView><![CDATA[//*[@id='normal']]]></ClickOnOpportunityView>
+
+
+  
+  
+</Locators>

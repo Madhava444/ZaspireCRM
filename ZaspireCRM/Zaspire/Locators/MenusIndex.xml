@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- MENUS INDEX PAGE -->
+  <ClickOnAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickOnAdmin>
+  <ClickOnMenus><![CDATA[//a[@href='/infoaspire/admin/menu']]]></ClickOnMenus>
+  <ClickOnAddNew><![CDATA[//a[@class='btn btn-xs btn-success']]]></ClickOnAddNew>
+  <ClickOnAddNewBack><![CDATA[//*[@id='MenuAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnAddNewBack>
+  <ClickOnDelete><![CDATA[//*[@id='remove_menu']]]></ClickOnDelete>
+  <EnterFilterBox><![CDATA[//*[@id='Menus_table_filter']/label/input]]></EnterFilterBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_Menus_table_0']]]></ClickOnReset>
+  <SelectPagination><![CDATA[//*[@id='autogen1']]]></SelectPagination>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='Menus_table']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <ClickOnEditIcon><![CDATA[//*[@id='Menus_table']/tbody/tr[2]/td[1]/a[1]/span]]></ClickOnEditIcon>
+  <ClickOnEditBack><![CDATA[//*[@id='MenuEditForm']/div[2]/div/ul/li[4]/a]]></ClickOnEditBack>
+  <ClickOnDeleteIcon><![CDATA[//*[@id='Menus_table']/tbody/tr[2]/td[1]/a[3]/span]]></ClickOnDeleteIcon>
+  <ClickOnViewIcon><![CDATA[//*[@id='Menus_table']/tbody/tr[2]/td[1]/a[2]/span]]></ClickOnViewIcon>
+  <ClickOnViewBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnViewBack>
+  <ClickOnActiveInactive><![CDATA[//*[@id='message36']]]></ClickOnActiveInactive>
+  
+
+  <!--  MENU CREATE PAGE  -->
+  <EnterMenuTitle><![CDATA[//*[@id='MenuMenulist']]]></EnterMenuTitle>
+  <ClickOnSideBar><![CDATA[//*[@id='MenuMenuType0']]]></ClickOnSideBar>
+  <ClickOnTopBar><![CDATA[//*[@id='MenuMenuType1']]]></ClickOnTopBar>
+  <ClickOnAddNewTab><![CDATA[//*[@id='groups']/div[1]/div[2]/a]]></ClickOnAddNewTab>
+  <EnterTabName><![CDATA[//*[@id='name']]]></EnterTabName>
+  <ClickOnAddNewTabSave><![CDATA[//*[@id='menu_add_group']/div/div/div[3]/button[1]]]></ClickOnAddNewTabSave>
+  <ClickOnSave><![CDATA[//*[@id='MenuAddnewForm']/div[2]/div/ul/li[5]/button]]></ClickOnSave>
+  
+  
+  
+  <!--  MENU VIEW  -->
+  <ClickOnViewEdit><![CDATA[//a[@class='btn btn-xs btn-primary']]]></ClickOnViewEdit>
+  <ClickOnViewCopy><![CDATA[//a[@title='Copy Menu']]]></ClickOnViewCopy>
+  <ClickOnViewDelete><![CDATA[//a[@title='Delete Menu']]]></ClickOnViewDelete>
+  
+
+
+
+
+
+</Locators>

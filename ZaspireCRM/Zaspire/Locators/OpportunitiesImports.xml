@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+
+  <!-- OPPORTUNITIES IMPORTS INDEX PAGE -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnImports><![CDATA[//a[@href='/infoaspire/opportunities/imports']]]></ClickOnImports>
+  <ClickOnImportNew><![CDATA[//a[@class='btn btn-xs btn-success btn-primary button-alignment']]]></ClickOnImportNew>
+
+
+  <ClickOnImportNewCancel><![CDATA[//*[@id='importform']/div[3]/div/div/div/a]]></ClickOnImportNewCancel>
+  <EnterSearchBox><![CDATA[//*[@id='opportunity_imports_filter']/label/input]]></EnterSearchBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_opportunity_imports_0']]]></ClickOnReset>
+  <ClickOnFirstFileName><![CDATA[//*[@id='opportunity_imports']/tbody/tr[1]/td[1]/a]]></ClickOnFirstFileName>
+  <ClickOnBack><![CDATA[//*[@id='expbtn']]]></ClickOnBack>
+  <ClickOnAttachmentIcon><![CDATA[//*[@id='opportunity_imports']/tbody/tr[1]/td[8]/a[2]/span/img]]></ClickOnAttachmentIcon>
+  <ClickOnDeleteIcon><![CDATA[//*[@id='opportunity_imports']/tbody/tr[1]/td[8]/a[1]/span/img]]></ClickOnDeleteIcon>
+
+
+
+  <!-- OPPORTUNITIES IMPORTS NEW PAGE -->
+  <ClickOnDownloadLink><![CDATA[//*[@id='importform']/div[2]/div/div[2]/div/a]]></ClickOnDownloadLink>
+  <ClickOnSelectFile><![CDATA[//*[@id='OpportunityCsvFile']]]></ClickOnSelectFile>
+  <ClickOnImportButton><![CDATA[//*[@id='importform']/div[3]/div/div/div/button]]></ClickOnImportButton>
+  <ClickOnCancelButton><![CDATA[//*[@id='importform']/div[3]/div/div/div/a]]></ClickOnCancelButton>
+
+
+
+  <!-- OPPORTUNITIES IMPORTS FILE VIEW PAGE -->
+  <ClickOnFirstRecord><![CDATA[//*[@id='opportunity_imports']/tbody/tr[1]/td[1]/a]]></ClickOnFirstRecord>
+  <ClickOnBackButton><![CDATA[//*[@id='expbtn']]]></ClickOnBackButton>
+  <ClickOnCreateCustomView><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreateCustomView>
+  <EnterSerachBox><![CDATA[//*[@id='imports_grid_filter']/label/input]]></EnterSerachBox>
+  <ClickOnResetButton><![CDATA[//*[@id='ToolTables_imports_grid_0']]]></ClickOnResetButton>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='imports_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <SelectPagination><![CDATA[//*[@id='imports_grid_length']/label/select]]></SelectPagination>
+  <ClickOnPaginationNext><![CDATA[//*[@id='imports_grid_next']]]></ClickOnPaginationNext>
+  <ClickOnPaginationLast><![CDATA[//*[@id='imports_grid_last']]]></ClickOnPaginationLast>
+  <ClickOnPaginationPrev><![CDATA[//*[@id='imports_grid_previous']]]></ClickOnPaginationPrev>
+  <ClickOnPaginationFirst><![CDATA[//*[@id='imports_grid_first']]]></ClickOnPaginationFirst>
+  
+  
+  
+  
+  <!--#########################################################################-->
+  
+  
+  <!--  OPPORTUNITIES BULK UPDATE  -->
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+  <SelectStatus><![CDATA[//*[@id='BulkUpdateOpportunityStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='BulkUpdateOpportunitySource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
+  
+  <ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
+
+  <!--  BULK DELETE OPPORTUNITIES  -->
+  <ClickOnDeleteOpportunities><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteOpportunities>
+
+  <!--  OPPORTUNITIES ADD TO CAMPAIN -->
+  <ClickOnAddToCampaign><![CDATA[//*[@id='add_opportunity']]]></ClickOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']]]></ClickOnMergeButton>
+  <ClickOnCampaignName><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr[1]/td/a]]></ClickOnCampaignName>
+  <ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+  <SelectCampaignGroup><![CDATA[//*[@id='CampaignOpportunityGroup']]]></SelectCampaignGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignOpportunityGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddOpportunities><![CDATA[//*[@id='CampaignOpportunityIndexForm']/div[4]/a]]></ClickOnAddOpportunities>
+
+
+  <!--  BULK EMAIL OPPORTUNITIES  -->
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+  
+  
+  
+</Locators>

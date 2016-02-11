@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+
+  <!-- OPPORTUNITIES GROUP TRASH INDEX PAGE -->
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <ClickOnTrash><![CDATA[//a[@href='/infoaspire/opportunities/trash']]]></ClickOnTrash>
+  <ClickOnGroupTrash><![CDATA[//a[@class='btn btn-xs btn-primary dropdown-toggle button-alignment']]]></ClickOnGroupTrash>
+
+
+  <ClickOnBackToGroupTrash><![CDATA[//a[@class='btn btn-xs btn-default']]]></ClickOnBackToGroupTrash>
+    
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnBack>
+    
+  <EnterFilterSearch><![CDATA[//*[@id='opportunity_group_trash_filter']/label/input]]></EnterFilterSearch>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_opportunity_group_trash_0']]]></ClickOnReset>
+  <ClickOnMouseHover><![CDATA[//*[@id='opportunity_group_trash_wrapper']/div[1]/div/div/button]]></ClickOnMouseHover>
+  <ClickOnDeleteForever><![CDATA[//*[@id='remove_opportunitygroup']]]></ClickOnDeleteForever>
+  <ClickOnRestoreOpportunities><![CDATA[//*[@id='restore_opportunitygroup']]]></ClickOnRestoreOpportunities>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='opportunity_group_trash']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>  
+  <ClickOnMouseOver><![CDATA[//*[@id='opportunity_group_trash']/tbody/tr[1]/td[2]/a]]></ClickOnMouseOver>  
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLink>  
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete>
+  <ClickOnRestore><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore>
+  <ClickOnOpportunityGroupView><![CDATA[//*[@id='opportunity_group_trash']/tbody/tr[1]/td[2]/a]]></ClickOnOpportunityGroupView>
+
+
+  <!-- OPPORTUNITIES GROUP TRASH VIEW PAGE -->  
+  <ClickOnBackToGroup><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBackToGroup>
+  <ClickOnRestoreGroup><![CDATA[//a[@class='btn btn-xs btn-default']]]></ClickOnRestoreGroup>
+  <ClickOnDeleteGroup><![CDATA[//a[@class='btn btn-danger btn-xs']]]></ClickOnDeleteGroup>
+
+
+</Locators>

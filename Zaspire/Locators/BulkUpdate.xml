@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+<ClickonAccountsTab><![CDATA[//*[@id='accounts']]]></ClickonAccountsTab>
+<SearchCompany><![CDATA[//*[@id='accounts_grid_filter']/label/input]]></SearchCompany>
+  <SelectMasterCheckbox><![CDATA[//*[@id='accounts_grid']/thead/tr/th[1]/div/span/input]]></SelectMasterCheckbox>
+ <SelectClientl><![CDATA[//*[@id='check15113']]]></SelectClientl>
+<SelectClient2><![CDATA[//*[@id='check14333']]]></SelectClient2>
+<MoveHover><![CDATA[//*[@id='accounts_grid_wrapper']/div[1]/div/div/button]]></MoveHover>
+<ClickonBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickonBulkUpdate>
+<ClickOnPartner><![CDATA[//*[@id='BulkUpdateAssignedPartnerId']]]></ClickOnPartner>
+<ClickOnOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></ClickOnOwner>
+<ClickOnCategory><![CDATA[//*[@id='BulkUpdateCategoryId']]]></ClickOnCategory>
+<ClickOnManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></ClickOnManager>
+<ClickOnStatus><![CDATA[//*[@id='BulkUpdateCompanyStatus']]]></ClickOnStatus>
+<ClickOnSource><![CDATA[//*[@id='BulkUpdateAccountSource']]]></ClickOnSource>
+<ClickOnUpadte><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpadte>
+<ClickOnQuickLinks><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLinks>
+  <ClickOnViewButton><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnViewButton>
+  <ClickOnEditButton><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnEditButton>
+  <ClickOnDeleteButton><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnDeleteButton>
+  <AccountsLink><![CDATA[//*[@id='accounts']]]></AccountsLink>
+  <ClickOnSaveButton><![CDATA[//*[@id='AccountUpdateForm']/div[2]/div/ul/li[4]/button]]></ClickOnSaveButton>
+  
+  //////////////////////////// Bulk Actions ////////////////////////////////////////
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  
+  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Bulk Email $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  <ClickOnBulkEmail><![CDATA[html/body/div[4]/div[2]/div[2]/div/div[2]/div/div/div/div[1]/div/div/ul/li[2]/a]]></ClickOnBulkEmail>
+  <EnterEmailCcAddress><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[1]/div[5]/div/div/div/input]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[1]/div[6]/div/div/div/input]]></EnterEmailBccAddress>
+  <EnterEmailSubject><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[1]/div[7]/div/div/div/input[1]]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[1]/div[8]/div/div/div/div/label[1]/div/span/div/span]]></ClickOnPriority>
+  <ClickOnCopyToCCCheckBox><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[2]/div[4]/div/div[1]/div/div/span/input]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[2]/div[4]/div/div[2]/div/a]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[2]/div[5]/div/div[1]/div/div/span/input]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[2]/div[5]/div/div[2]/div/a]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[1]/div/div/div/div/div[2]/div[6]/div/div/div/div/a]]></SelectEmailSignature>
+  <ClickOnSendButton><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+  
+  ################################### Delete Account @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  <ClickOnDeleteLeads><![CDATA[html/body/div[4]/div[2]/div[2]/div/div[2]/div/div/div/div[1]/div/div/ul/li[3]/a]]></ClickOnDeleteLeads>
+  
+  ###################################### Add To Group@@@@@@@@@@@@@@@@@@@@@@@@
+  
+  <ClickOnAddToGroup><![CDATA[html/body/div[4]/div[2]/div[2]/div/div[2]/div/div/div/div[1]/div/div/ul/li[4]/a]]></ClickOnAddToGroup>
+  <EnterGroupName><![CDATA[html/body/div[4]/div[2]/div[4]/div/div/div[2]/div/form/div[2]/table/tbody/tr[2]/td[2]/input]]></EnterGroupName>
+  <ClickOnAddGroupUpdate><![CDATA[html/body/div[4]/div[2]/div[4]/div/div/div[3]/a]]></ClickOnAddGroupUpdate>
+
+</Locators>

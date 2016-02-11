@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <!-- Jobs INDEX PAGE -->
+  <ClickonJobs1><![CDATA[//*[@id='jobs']]]></ClickonJobs1>
+
+  <!-- CUSTOM VIEWS -->
+  <ClickonCustomViewlink><![CDATA[//*[@id='JobQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickonCustomViewlink>
+  <Backtojobindex><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a/i]]></Backtojobindex>
+  <SelectCustomView><![CDATA[//*[@id='savedSearch']]]></SelectCustomView>
+  <ClickOnSetAsDefault><![CDATA[//*[@id='makedefaultsearch']]]></ClickOnSetAsDefault>
+  <ClickOnUnsetDefault><![CDATA[//*[@id='removedefaultsearch']]]></ClickOnUnsetDefault>
+  <ClickOnDelete><![CDATA[//*[@id='deleteSearch']]]></ClickOnDelete>
+  <ClickOnNew><![CDATA[//*[@id='JobQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a[3]]]></ClickOnNew>
+  <ClickOnEdit><![CDATA[//*[@id='saved_edit']]]></ClickOnEdit>
+
+  <ClickOnEditCancel><![CDATA[//*[@id='JobIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnEditCancel>
+  <ClickOnNewCancel><![CDATA[//*[@id='JobIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnNewCancel>
+
+
+</Locators>

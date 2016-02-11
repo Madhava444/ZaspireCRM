@@ -1,3 +1,268 @@
+<<<<<<< HEAD
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<locator>
+
+
+    
+    <partners><![CDATA[//*[@id='partners']]]></partners>
+    <partnerAddNew><![CDATA[//*[@id='actionbuttons']]]></partnerAddNew>
+    <Owner><![CDATA[//*[@id='PartnerAssignedUserId']]]></Owner>
+    <Manager><![CDATA[//*[@id='PartnerAssignedManagerId']]]></Manager>>
+    <PartnerName><![CDATA[//*[@id='PartnerName']]]></PartnerName>
+    <PartnerCompany><![CDATA[//*[@id='PartnerCompany']]]></PartnerCompany>
+    <PartnerWebsite><![CDATA[//*[@id='PartnerWebsite']]]></PartnerWebsite>
+    <PartnerCode><![CDATA[//*[@id='PartnerPartnerCode']]]></PartnerCode>
+    <LinkedinUrl><![CDATA[//*[@id='PartnerLinkedinUrl']]]></LinkedinUrl>
+    <facebookUrl><![CDATA[//*[@id='PartnerFacebookUrl']]]></facebookUrl>
+    <TwitterUrl><![CDATA[//*[@id='PartnerTwitterUrl']]]></TwitterUrl>
+    <AddressType><![CDATA[//*[@id='PartnerAddress0Type']]]></AddressType>
+    <AddressLine1><![CDATA[//*[@id='PartnerAddress0AddressLine1']]]></AddressLine1>
+    <AddressLine2><![CDATA[//*[@id='PartnerAddress0AddressLine2']]]></AddressLine2>
+    <City><![CDATA[//*[@id='PartnerAddress0City']]]></City>
+    <State><![CDATA[//*[@id='PartnerAddress0State']]]></State>
+    <Country><![CDATA[//*[@id='PartnerAddress0Country']]]></Country>
+    <Zipcode><![CDATA[//*[@id='PartnerAddress0PostalCode']]]></Zipcode>
+    <Salutation><![CDATA[//*[@id='PartnerContact0Salutation']]]></Salutation>
+    <FirstName><![CDATA[//*[@id='PartnerContact0FirstName']]]></FirstName>
+    <MiddleName><![CDATA[//*[@id='PartnerContact0MiddleName']]]></MiddleName>
+    <LastName><![CDATA[//*[@id='PartnerContact0LastName']]]></LastName>
+    <PhoneType><![CDATA[//*[@id='PartnerContact0PartnerContactPhone0PhoneType']]]></PhoneType>
+    <PhoneFormat><![CDATA[//*[@id='PartnerContact0PartnerContactPhone0PhoneFormat']]]></PhoneFormat>
+    <Primaryradiobutton><![CDATA[//*[@id='collapse_1']/div/div[3]/div/div/div[3]/div/label/div/span]]></Primaryradiobutton>
+    <Checkbox><![CDATA[//*[@id='uniform-PartnerContact0PartnerContactPhone0DoNotCall']/span]]></Checkbox>
+    <Email><![CDATA[//*[@id='PartnerContact0PartnerContactElectronicAddress0ElectronicContentType']]]></Email>
+    <EmailId><![CDATA[//*[@id='PartnerContact0PartnerContactElectronicAddress0ElectronicContent']]]></EmailId>
+    <Primayradiobutton><![CDATA[//*[@id='email_option_0_0']/div[1]/div/label/div/span]]></Primayradiobutton>
+    <OptOut><![CDATA[//*[@id='PartnerContact0PartnerContactElectronicAddress0OptOut']]]></OptOut>
+    <SocialLinkType><![CDATA[//*[@id='PartnerContact0PartnerContactSocialLink0SocialLinkType']]]></SocialLinkType>
+    <SocialLink><![CDATA[//*[@id='PartnerContact0PartnerContactSocialLink0SocialLink']]]></SocialLink>
+    <optedout><![CDATA[//*[@id='uniform-PartnerContact0PartnerContactSocialLink0OptOut']/span]]></optedout>
+    <save><![CDATA[//*[@id='PartnerAddnewForm']/div[3]/div/div[5]/div/div/button]]></save>
+    <cancel><![CDATA[//*[@id='PartnerAddnewForm']/div[3]/div/div[5]/div/div/a[2]]]></cancel>
+
+####################### Partner Index page ####################################################
+
+  <DefaultView><![CDATA[//*[@id='teamName']]]></DefaultView>
+  <CustomView><![CDATA[//*[@id='savedSearch']]]></CustomView>
+  <Filter><![CDATA[//*[@id='partners_grid_filter']/label/input]]></Filter>
+  <Reset><![CDATA[//*[@id='ToolTables_partners_grid_0']]]></Reset>>
+  <ExportCSV><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></ExportCSV>
+  <ExportPDF><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></ExportPDF>
+  <PartnerView><![CDATA[//*[@id='normal']]]></PartnerView>
+  <Recordsperpage><![CDATA[//*[@id='partners_grid_length']/label/select]]></Recordsperpage>
+  <Bulkupdate><![CDATA[//*[@id='bulk_update']]]></Bulkupdate>
+  <BulkEmails><![CDATA[//*[@id='bulk_email']]]></BulkEmails>
+  <BulkDeletePartner><![CDATA[//*[@id='remove_record']]]></BulkDeletePartner>
+  <MastercheckboxPartner><![CDATA[//*[@id='check12']]]></MastercheckboxPartner>
+  
+  ########################## Partner View Page #################################################
+  
+  
+ <Tmelinetab><![CDATA[//*[@id='time_line']]]></Tmelinetab>
+  <Activitiestab><![CDATA[//*[@id='activity1']]]></Activitiestab>
+  <Contacttab><![CDATA[//*[@id='contact1']]]></Contacttab>
+  <Relatedleadstab><![CDATA[//*[@id='leads1']]]></Relatedleadstab>
+  <Relatedaccounts><![CDATA[//*[@id='accounts1']]]></Relatedaccounts>
+  <Backtopartners><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[8]/a]]></Backtopartners>
+  <Editpartners><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></Editpartners>
+  <ParnerAddNew><![CDATA[//*[@id='actionbuttons']]]></ParnerAddNew>
+  <MoreactionsDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/ul/li[1]/a]]></MoreactionsDelete>
+  <MoreactionsSendEmail><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/ul/li[3]/a]]></MoreactionsSendEmail>
+  <MoreactionsAddFile><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/ul/li[4]/a]]></MoreactionsAddFile>
+  <MoreactionsAddtask><![CDATA[//*[@id='Task']]]></MoreactionsAddtask>
+  <MoreactionsSetupMeeting><![CDATA[//*[@id='Meeting']]]></MoreactionsSetupMeeting>
+  <Moreactionssetupappointment><![CDATA[//*[@id='App']]]></Moreactionssetupappointment>
+  
+ ################################# Add task ######################################################## 
+  <Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+  <Addtask><![CDATA[//*[@id='Task']]]></Addtask>
+  <EventType><![CDATA[//*[@id='EventEventType']]]></EventType>
+  <Location><![CDATA[//*[@id='EventLocation']]]></Location>
+  <Subject><![CDATA[//*[@id='EventName']]]></Subject>
+  <StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+  <starttime><![CDATA[//*[@id='clockface_start_event']]]></starttime>
+  <EndDate><![CDATA[//*[@id='EventEndDate']]]></EndDate>
+  <Endtime><![CDATA[//*[@id='clockface_end_event']]]></Endtime>
+  <Reminders><![CDATA[//*[@id='pop']/label/div/span]]></Reminders>
+  <Popup><![CDATA[//*[@id='reminderTime']]]></Popup>
+  <Email><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></Email>
+  <ReminderTime><![CDATA[//*[@id='emailReminderTime']]]></ReminderTime>
+  <Recurring><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Recurring>
+  <RepeateonceinEvery><![CDATA[//*[@id='EventRepeatInterval']]]></RepeateonceinEvery>
+  <RepeatType><![CDATA[//*[@id='EventRepeatType']]]></RepeatType>
+  <WeekUI><![CDATA[//*[@id='repeatWeekUI']/div/div/label[1]/div/span/input]]></WeekUI>
+  <OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[1]/div[1]/label/div/span]]></OnRadiobutton>
+  <Reportsofmonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Reportsofmonth>
+  <Dateofthemonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Dateofthemonth>
+  <OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[3]/div[1]/label/div/span]]></OnRadiobutton>
+  <Daytype><![CDATA[//*[@id='EventRepeatMonthDaytype']]]></Daytype>
+  <MonthDay><![CDATA[//*[@id='EventRepeatMonthDay']]]></MonthDay>
+  <Until><![CDATA[//*[@id='EventRepeatUntil']]]></Until>
+  <Save><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></Save>
+  <Cancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></Cancel>
+  
+  ######################### Setup Appointment  ######################################################
+
+<Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+<Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></Moreactions>
+<Addappointment><![CDATA[//*[@id='App']]]></Addappointment>
+<EventType><![CDATA[//*[@id='EventEventType']]]></EventType>
+<Location><![CDATA[//*[@id='EventLocation']]]></Location>
+<Subject><![CDATA[//*[@id='EventName']]]></Subject>
+<StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+<starttime><![CDATA[//*[@id='clockface_start_event']]]></starttime>
+<EndDate><![CDATA[//*[@id='EventEndDate']]]></EndDate>
+<Endtime><![CDATA[//*[@id='clockface_end_event']]]></Endtime>
+<Reminders><![CDATA[//*[@id='pop']/label/div/span]]></Reminders>
+<Popup><![CDATA[//*[@id='reminderTime']]]></Popup>
+<Email><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></Email>
+<ReminderTime><![CDATA[//*[@id='emailReminderTime']]]></ReminderTime>
+<Recurring><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Recurring>
+<RepeateonceinEvery><![CDATA[//*[@id='EventRepeatInterval']]]></RepeateonceinEvery>
+<RepeatType><![CDATA[//*[@id='EventRepeatType']]]></RepeatType>
+<WeekUI><![CDATA[//*[@id='repeatWeekUI']/div/div/label[1]/div/span/input]]></WeekUI>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[1]/div[1]/label/div/span]]></OnRadiobutton>
+<Reportsofmonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Reportsofmonth>
+<Dateofthemonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Dateofthemonth>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[3]/div[1]/label/div/span]]></OnRadiobutton>
+<Daytype><![CDATA[//*[@id='EventRepeatMonthDaytype']]]></Daytype>
+<MonthDay><![CDATA[//*[@id='EventRepeatMonthDay']]]></MonthDay>
+<Until><![CDATA[//*[@id='EventRepeatUntil']]]></Until>
+<Save><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></Save>
+<Cancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></Cancel>
+
+  ######################  Setup meeting  ###################################################
+
+<Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+<Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/div/a]]></Moreactions>
+<Setupmeeting><![CDATA[//*[@id='Meeting']]]></Setupmeeting>
+<EventType><![CDATA[//*[@id='EventEventType']]]></EventType>
+<Location><![CDATA[//*[@id='EventLocation']]]></Location>
+<Subject><![CDATA[//*[@id='EventName']]]></Subject>
+<StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+<starttime><![CDATA[//*[@id='clockface_start_event']]]></starttime>
+<EndDate><![CDATA[//*[@id='EventEndDate']]]></EndDate>
+<Endtime><![CDATA[//*[@id='clockface_end_event']]]></Endtime>
+<Reminders><![CDATA[//*[@id='pop']/label/div/span]]></Reminders>
+<Popup><![CDATA[//*[@id='reminderTime']]]></Popup>
+<Email><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></Email>
+<ReminderTime><![CDATA[//*[@id='emailReminderTime']]]></ReminderTime>
+<Recurring><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Recurring>
+<RepeateonceinEvery><![CDATA[//*[@id='EventRepeatInterval']]]></RepeateonceinEvery>
+<RepeatType><![CDATA[//*[@id='EventRepeatType']]]></RepeatType>
+<WeekUI><![CDATA[//*[@id='repeatWeekUI']/div/div/label[1]/div/span/input]]></WeekUI>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[1]/div[1]/label/div/span]]></OnRadiobutton>
+<Reportsofmonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Reportsofmonth>
+<Dateofthemonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Dateofthemonth>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[3]/div[1]/label/div/span]]></OnRadiobutton>
+<Daytype><![CDATA[//*[@id='EventRepeatMonthDaytype']]]></Daytype>
+<MonthDay><![CDATA[//*[@id='EventRepeatMonthDay']]]></MonthDay>
+<Until><![CDATA[//*[@id='EventRepeatUntil']]]></Until>
+<Inviteecontacts><![CDATA[//*[@id='pop']/label/div/span//*[@id='EventInviteecontacts']]]></Inviteecontacts>
+<Email><![CDATA[//*[@id='EventEmail']]]></Email>
+<Firstname><![CDATA[//*[@id='EventFirstname']]]></Firstname>
+<Lastname><![CDATA[//*[@id='EventLastname']]]></Lastname>
+<Search><![CDATA[//*[@id='addinvitees']]]></Search>
+<Save><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></Save>
+<Cancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></Cancel>
+
+####################### ADD File #####################################################
+  
+  <Clickonrecord><![CDATA[//*[@id='normal']]]></Clickonrecord>
+  <Moreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/a]]></Moreactions>
+  <Addfile><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/div/div/ul/li[4]/a]]></Addfile>
+  <Name><![CDATA[//*[@id='AttachmentName']]]></Name>
+  <Category><![CDATA[//*[@id='AttachmentCategoryId']]]></Category>
+  <Files><![CDATA[//*[@id='AttachmentFiles']]]></Files>
+  <Description><![CDATA[//*[@id='AttachmentDescription']]]></Description>
+  <Save><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[1]]]></Save>
+  <Cancel><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></Cancel>
+  
+  ############################### send email ##################################################
+  
+  <From><![CDATA[//*[@id='EmailEmailAccounts']]]></From>
+  <To><![CDATA[//*[@id='EmailToAddrs']]]></To>
+  <Employeelink><![CDATA[//*[@id='EmailToAddrs']]]></Employeelink>
+  <Subject><![CDATA[//*[@id='EmailName']]]></Subject>
+  <Drafts><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[6]/a]]></Drafts>
+  <Send><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></Send>
+  <Cancel><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[4]/a]]></Cancel>
+  
+  ###################### Custom view create,index and view #############################
+  <customview><![CDATA[//*[@id='quick_search_form']/table/tbody/tr/td[2]/strong/a]]></customview>
+  <Newbutton><![CDATA[//*[@id='actionbuttons']]]></Newbutton>
+  <DeleteCustomview><![CDATA[//*[@id='remove_saved_views']]]></DeleteCustomview>
+  <Backtopartners><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></Backtopartners>
+  <Filtercustomview><![CDATA[//*[@id='partner_saved_views_filter']/label/input]]></Filtercustomview>
+  <Resetcustomview><![CDATA[//*[@id='ToolTables_partner_saved_views_0']]]></Resetcustomview>
+  <CustomviewView><![CDATA[//*[@id='partner_saved_views']/tbody/tr/td[2]/a]]></CustomviewView>
+  <Saveviewas><![CDATA[//*[@id='searchName']]]></Saveviewas>
+  <Sortby><![CDATA[//*[@id='PartnerSortCol']]]></Sortby>
+  <Owner1><![CDATA[//*[@id='autogen2']]]></Owner1>
+  <Manager1><![CDATA[//*[@id='autogen3']]]></Manager1>
+  <Createdby><![CDATA[//*[@id='autogen4']]]></Createdby>
+  <Modifiedby><![CDATA[//*[@id='autogen5']]]></Modifiedby>
+  <Createdtype><![CDATA[//*[@id='PartnerCustomColOps']]]></Createdtype>
+  <Createdtext><![CDATA[//*[@id='PartnerCustomColValues4']]]></Createdtext>
+  <Modifytype><![CDATA[//*[@id='PartnerCustomColOps']]]></Modifytype>
+  <Modifytext><![CDATA[//*[@id='PartnerCustomColValues5']]]></Modifytext>
+  <Nemeadditioanal><![CDATA[//*[@id='PartnerAdditionalColNames']]]></Nemeadditioanal>
+  <Nametype><![CDATA[//*[@id='PartnerAdditionalColOps']]]></Nametype>
+  <Nametext><![CDATA[//*[@id='PartnerAdditionalColValues']]]></Nametext>
+  <Save><![CDATA[//*[@id='PartnerIndexForm']/div[2]/div[5]/div/div/button]]></Save>
+
+
+  <!-- LEAD BULK ACTIONS -->
+
+<ClickOnMasterCheckBox><![CDATA[//*[@id='partners_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+<MoveHover><![CDATA[//*[@id='partners_grid_wrapper']/div[1]/div/div/button]]></MoveHover>
+
+  <!--Parners BULK UPDATE -->
+
+<ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+<SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+<SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
+<ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
+<ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
+
+  <!-- BULK DELETE Partners-->
+
+<ClickOnDeleteLeads><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteLeads>
+
+ 
+  <!-- BULK EMAIL Partners -->
+
+<ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+<EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+<ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+<EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+<EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+<ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+<ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+<SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+<ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+<SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+<SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+
+
+
+
+</locator>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     
+=======
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <locator>
 
@@ -213,6 +478,7 @@
   <TrashPartnerview><![CDATA[//*[@id='normal']]]></TrashPartnerview>  
   <Backtrash><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></Backtrash>
   
+<<<<<<< HEAD
   <ViewTrashRestore><![CDATA[//a[@title='Restore Partner']]]></ViewTrashRestore>    
   <ViewTrashDelete><![CDATA[//a[@title='Delete Permanent Partner']]]></ViewTrashDelete>
   <ViewTrashBack><![CDATA[//a[@title='Back To Partner Trash']]]></ViewTrashBack>
@@ -220,3 +486,14 @@
 
 
 </locator>
+=======
+  <ViewTrashRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ViewTrashRestore>    
+  <ViewTrashDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ViewTrashDelete>
+  <ViewTrashBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ViewTrashBack>   
+      
+      
+      
+      
+     </locator>
+>>>>>>> 7a5adad18b4e7de395509533a5493fff59bb0549
+>>>>>>> 3aaf94fb709834bd48cb03a2a7d52a00dd2a1739

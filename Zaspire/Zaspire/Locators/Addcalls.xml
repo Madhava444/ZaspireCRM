@@ -1,3 +1,39 @@
+<<<<<<< HEAD
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+  <AddCalls>
+
+    <ClickOnCalls><![CDATA[//*[@id='calls']]]></ClickOnCalls>
+
+    <ClickOnCallsAddNew><![CDATA[//*[@id='relatedToContent']/table/tbody/tr/td[1]/a]]></ClickOnCallsAddNew>
+    <SelectRelatedTo><![CDATA[//*[@id='s2id_CallParentType']]]></SelectRelatedTo>
+    <SelectMergebox><![CDATA[//*[@id='assignrecord']]]></SelectMergebox>>
+    <SelectrelatedToContent><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]/a]]></SelectrelatedToContent>
+    <SelectCallCategory><![CDATA[//*[@id='s2id_CallCategoryId']]]></SelectCallCategory>
+    <SelectCallowner><![CDATA[//*//*[@id='s2id_CallAssignedUserId']]]></SelectCallowner>
+    <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]]></EnterCallSubject>
+    <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
+    <SelectCallDate><![CDATA[//*[@id='CallCallDate']]]></SelectCallDate>
+    <SelectCallFrom><![CDATA[//*[@id='CallCallFrom']]]></SelectCallFrom>
+    <SelectCallTo><![CDATA[.//*[@id='CallCallTo']]]></SelectCallTo>
+    <Enternumberfrom><![CDATA[//*[@id='CallNewcallFrom']]]></Enternumberfrom>
+    <EnterExtension><![CDATA[//*[@id='CallNewcallFromExtension']]]></EnterExtension>
+    <EnterNumberto><![CDATA[//*[@id='CallNewcallTo']]]></EnterNumberto>
+    <EnterExtension><![CDATA[//*[@id='CallNewcallToExtension']]]></EnterExtension>
+    <EnterCallFrom><![CDATA[//*[@id='CallCallerName']]]></EnterCallFrom>
+    <EnterCallTo><![CDATA[//*[@id='CallCaleeName']]]></EnterCallTo>
+    <SelectEmployee><![CDATA[//*[@id='CallCallToEmp']]]></SelectEmployee>
+    <EnterStartingtime><![CDATA[//*[@id='clockface_call']]]></EnterStartingtime>
+    <CallHours><![CDATA[//*[@id='CallCallHours']]]></CallHours>
+    <CallMinutes><![CDATA[//*[@id='CallCallMins']]]></CallMinutes>
+    <Callsinsec><![CDATA[//*[@id='CallCallSecs']]></Callsinsec>
+    <Selectsave><![CDATA[//*[@id='CallAddnewForm']/div[2]/div/ul/li[5]/button]]></Selectsave>
+
+  </AddCalls>
+
+  
+=======
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Locator>
 
@@ -35,6 +71,9 @@
   <ClickReset><![CDATA[//*[@id='reset']]]></ClickReset>
 
   
+<<<<<<< HEAD
+>>>>>>> 7a5adad18b4e7de395509533a5493fff59bb0549
+=======
   
   ---------------------------Index call---------------------------------------
  
@@ -134,4 +173,5 @@
   <ViewTrashRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ViewTrashRestore>    
   <ViewTrashDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ViewTrashDelete>
   <ViewTrashBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ViewTrashBack> 
+>>>>>>> 055b4ae3959e7dce6b2fc3ac77b01c8d470deb97
 </Locator>

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  #####################  Job Profile ####################
+  <ClickonJobs><![CDATA[//*[@id='jobs']]]></ClickonJobs>
+  <Clickonjobsrecord><![CDATA[//*[@id='normal']]]></Clickonjobsrecord>
+  <Clickonnewbutton><![CDATA[//*[@id='actionbuttons']]]></Clickonnewbutton>
+  <Source><![CDATA[//*[@id='JobJobSource']]]></Source>
+  <Status><![CDATA[//*[@id='JobStatus']]]></Status>
+  <Catergory><![CDATA[//*[@id='JobCategory']]]></Catergory>
+  <priority><![CDATA[//*[@id='JobPriority']]]></priority>
+  <Owner><![CDATA[//*[@id='JobAssignedUserId']]]></Owner>
+  <Manager><![CDATA[//*[@id='JobAssignedManagerId']]]></Manager>
+  <relatedTo><![CDATA[/*[@id='JobParentType']/a]]></relatedTo>
+  <Assignrecord><![CDATA[//*[@id='assignrecord']]]></Assignrecord>
+  <SelectErecord><![CDATA[//*[@id='assignrecord']]]></SelectErecord>
+  <Company><![CDATA[//*[@id='JobCompanyName']]]></Company>
+  <Hidecompany><![CDATA[//*[@id='hide_company']]]></Hidecompany>
+  <Title><![CDATA[//*[@id='JobTitle']]]></Title>
+  <Noofpositions><![CDATA[//*[@id='JobOfPositions']]]></Noofpositions>
+  <Referencecode><![CDATA[//*[@id='JobReferenceCode']]]></Referencecode>
+  <Listingdate><![CDATA[//*[@id='JobListingEnddate']]]></Listingdate>
+  <Industry><![CDATA[//*[@id='JobIndustry']]]></Industry>
+  <CompanyWebsite><![CDATA[//*[@id='JobWebsite']]]></CompanyWebsite>
+
+  <Education><![CDATA[//*[@id='JobQualification']]]></Education>
+
+  <CareerLevel><![CDATA[//*[@id='JobCareerLevel']]]></CareerLevel>
+
+  <PositionURL><![CDATA[//*[@id='JobPositionUrl']]]></PositionURL>
+  <WorkShift><![CDATA[//*[@id='JobWorkShift']]]></WorkShift>
+  <RequiredExpinyears><![CDATA[//*[@id='JobExperienceYears']]]></RequiredExpinyears>
+  <RequiredExpinmonths><![CDATA[//*[@id='JobExperienceMonths']]]></RequiredExpinmonths>
+
+  <!-- Job Type & Compensation-->
+  <JobType><![CDATA[//*[@id='JobCompensationJobType']]]></JobType>
+
+  <!-- Job Location-->
+  <City><![CDATA[//*[@id='JobAddress0City']]]></City>
+  <State><![CDATA[//*[@id='JobAddress0State']]]></State>
+  <Country><![CDATA[//*[@id='JobAddress0Country']]]></Country>
+  <Zipcode><![CDATA[//*[@id='JobAddress0ZipCode']]]></Zipcode>
+  <Addlocations><![CDATA[//*[@id='JobAddnewForm']/div[3]/div[1]/div[1]/div/div/div[5]/div[2]/div[5]/a]]></Addlocations>
+
+  <!-- DesiredSkills-->
+
+  <Skillname><![CDATA[//*[@id='JobSkillSummary0SkillName']]]></Skillname>
+  <Skilltype><![CDATA[//*[@id='JobSkillSummary0SkillType']]]></Skilltype>
+  <Expyears><![CDATA[//*[@id='JobSkillSummary0YearsExperience']]]></Expyears>
+  <Expmonths><![CDATA[//*[@id='JobSkillSummary0MonthsExperience']]]></Expmonths>
+  <Addanotherlink><![CDATA[//*[@id='JobAddnewForm']/div[3]/div[1]/div[2]/div[1]/div[3]/a]]></Addanotherlink>
+
+
+  <!-- Contact info-->
+  <Contacttabexpand><![CDATA[//*[@id='JobAddnewForm']/div[3]/div[1]/div[3]/div[1]/div[2]/a]]></Contacttabexpand>
+  <USalutation><![CDATA[//*[@id='JobSalutation']]]></USalutation>
+  <UFirstname><![CDATA[//*[@id='JobFirstName']]]></UFirstname>
+  <ULastname><![CDATA[//*[@id='JobLastName']]]></ULastname>
+  <UEducation><![CDATA[//*[@id='CandidateEducation']]]></UEducation>
+  <Phone><![CDATA[//*[@id='JobPhone']]]></Phone>
+  <UpdatePhone><![CDATA[//*[@id='JobPhoneNumber']]]></UpdatePhone>
+  <Email><![CDATA[//*[@id='JobEmail']]]></Email>
+  <Addressline1><![CDATA[//*[@id='JobAddressLine1']]]></Addressline1>
+  <Addressline2><![CDATA[//*[@id='JobAddressLine2']]]></Addressline2>
+  <CCity><![CDATA[//*[@id='JobCity']]]></CCity>
+  <CState><![CDATA[//*[@id='JobState']]]></CState>
+  <CCountry><![CDATA[//*[@id='JobCountry']]]></CCountry>
+  <CZipcode><![CDATA[//*[@id='JobZipCode']]]></CZipcode>
+
+  <!-- Attachfile -->
+  <SelectFile><![CDATA[//*[@id='JobAttachment0Files']]]></SelectFile>
+  <Addattachment><![CDATA[//*[@id='addattachments']]]></Addattachment>
+
+  <!-- SAVE job -->
+  <ClickOnSave><![CDATA[//*[@id='JobAddnewForm']/div[3]/div[1]/div[7]/div/div/button]]></ClickOnSave>
+  <ClickOnUpdateSave><![CDATA[//*[@id='JobUpdateForm']/div[3]/div/div[6]/div/div/button]]></ClickOnUpdateSave>
+  <ClickOnCancel><![CDATA[//*[@id='JobAddnewForm']/div[3]/div[1]/div[7]/div/div/a[2]]]></ClickOnCancel>
+  
+  
+  
+  
+  
+
+  
+  ######################### Update Candidate ####################
+  
+  
+  
+<ClickCandidate><![CDATA[//*[@id='normal']]]></ClickCandidate>
+<From><![CDATA[//*[@id='CandidateWorkExperience0StartDate']]]></From>
+<To><![CDATA[//*[@id='CandidateWorkExperience0EndDate']]]></To>
+<UManager><![CDATA[//*[@id='s2id_CandidateAssignedManagerId']/a]]></UManager>
+<UHotlist><![CDATA[//*[@id='CandidateHotlist']]]></UHotlist>
+<UBlocklist><![CDATA[//*[@id='CandidateBlocklist']]]></UBlocklist>
+
+<!-- Candidate Profile -->
+<UTitle><![CDATA[//*[@id='CandidateTitle']]]></UTitle>
+<USalutation><![CDATA[//*[@id='s2id_CandidateSalutation']/a]]></USalutation>
+<UFirstname><![CDATA[//*[@id='CandidateFirstName']]]></UFirstname>
+<ULastname><![CDATA[//*[@id='CandidateLastName']]]></ULastname>
+<UEducation><![CDATA[//*[@id='CandidateEducation']]]></UEducation>
+<UTotlaexpyears><![CDATA[//*[@id='CandidateExperienceYears']]]></UTotlaexpyears>
+<UTotalexpmoths><![CDATA[//*[@id='CandidateExperienceMonths']]]></UTotalexpmoths>
+<UVisatype><![CDATA[//*[@id='CandidateVisaType']]]></UVisatype>
+<UVisaexpdate><![CDATA[//*[@id='CandidateVisaExp']]]></UVisaexpdate>
+<UJobtype><![CDATA[//*[@id='s2id_CandidateCompensationJobType']/a]]></UJobtype>
+
+<!-- Contact info-->
+<UPhone><![CDATA[//*[@id='CandidatePhone']]]></UPhone>
+<UEmail><![CDATA[//*[@id='candidateEmail']]]></UEmail>
+<UAddressline1><![CDATA[//*[@id='CandidateStreet1']]]></UAddressline1>
+<UAddressline2><![CDATA[//*[@id='CandidateStreet2']]]></UAddressline2>
+<UCity><![CDATA[//*[@id='CandidateCity']]]></UCity>
+<UState><![CDATA[//*[@id='CandidateState']]]></UState>
+<UCountry><![CDATA[//*[@id='CandidateCountry']]]></UCountry>
+<UZipcode><![CDATA[//*[@id='CandidateZip']]]></UZipcode>
+
+
+
+<!-- Work experiece -->
+<UCompany><![CDATA[.//*[@id='CandidateWorkExperience0Company']]]></UCompany>
+<Ucurrentlyworking><![CDATA[//*[@id='uniform-CandidateWorkExperience0Working']/span]]]></Ucurrentlyworking>
+<UFrom ><![CDATA[//*[@id='CandidateWorkExperience0StartDate']]]></UFrom>
+<UTo><![CDATA[//*[@id='CandidateWorkExperience0EndDate']]]></UTo>
+<UJobTitle><![CDATA[//*[@id='CandidateWorkExperience0JobTitle']]]></UJobTitle>
+<UCareerlevel><![CDATA[//*[@id='CandidateWorkExperience0CareerLevel']]]></UCareerlevel>
+<UIndustry><![CDATA[//*[@id='CandidateWorkExperience0Industry']]]></UIndustry>
+<UCity><![CDATA[//*[@id='CandidateWorkExperience0City']]]></UCity>
+<UState><![CDATA[//*[@id='CandidateWorkExperience0State']]]></UState>
+<UCountry><![CDATA[//*[@id='CandidateWorkExperience0Country']]]></UCountry>
+<UAddRemarklink><![CDATA[//*[@id='CandidateAddnewForm']/div[3]/div[1]/div[3]/div[2]/div/div/div[4]/div[3]/div/div[2]/a]]></UAddRemarklink>
+<URemark><![CDATA[//*[@id='CandidateWorkExperience0Description']]]></URemark>
+
+<!-- Skill information -->
+<USkillname><![CDATA[//*[@id='CandidateSkillSummary0SkillName']]]></USkillname>
+<USkilltype><![CDATA[//*[@id='CandidateSkillSummary0SkillType']]]></USkilltype>
+<UExpyears><![CDATA[//*[@id='CandidateSkillSummary0SkillExperienceYears']]]></UExpyears>
+<UExpmonths><![CDATA[//*[@id='CandidateSkillSummary0SkillExperienceMonths']]]></UExpmonths>
+<UAddanotherlink><![CDATA[//*[@id='CandidateAddnewForm']/div[3]/div[1]/div[4]/div[1]/div[3]/a]]></UAddanotherlink>
+
+<!--Job preferences-->
+<UTravel><![CDATA[//*[@id='CandidatePreferedTravelRequired']]]></UTravel>
+<UCareerlevel><![CDATA[//*[@id='CandidatePreferedCareerLevel']]]></UCareerlevel>
+<UIndustry><![CDATA[//*[@id='CandidatePreferedIndustry']]]></UIndustry>
+<UJobtype><![CDATA[//*[@id='s2id_CandidateCompensationEjobType']/a]]></UJobtype>
+<UCity><![CDATA[//*[@id='CandidateDesireLocation0City']]]></UCity>
+<UState><![CDATA[//*[@id='CandidateDesireLocation0State']]]></UState>
+<UCountry><![CDATA[//*[@id='CandidateDesireLocation0Country']]]></UCountry>
+<UAddlocation><![CDATA[//*[@id='CandidateAddnewForm']/div[3]/div[1]/div[5]/div[2]/div/div/div[4]/div[3]/div/div[2]/a]]></UAddlocation>
+
+<!-- Refereces -->
+<URName><![CDATA[//*[@id='CandidateReference0Name']]]></URName>
+<UDesignation><![CDATA[//*[@id='CandidateReference0Designation']]]></UDesignation>
+<URCampanyname><![CDATA[//*[@id='CandidateReference0CompanyName']]]></URCampanyname>
+<URPhone><![CDATA[//*[@id='CandidateReference0Phone']]]></URPhone>
+<UREmail><![CDATA[//*[@id='CandidateReference0Email']]]></UREmail>
+<USelectResume><![CDATA[//*[@id='CandidateOriginalCandidateName']]]></USelectResume>
+
+<!-- SAVE Candidate -->
+<UClickOnSave><![CDATA[//*[@id='check_email_bottom']/button]]></UClickOnSave>
+<UClickOnEditLeadSave><![CDATA[//*[@id='LeadContactAddress0']/div[7]/div/div/button]]></UClickOnEditLeadSave>
+<UClickOnCancel><![CDATA[//*[@id='check_email_bottom']/a[2]]]></UClickOnCancel>
+  
+  ################## Candidate index page actions ####################
+  <!-- CANDIDATE INDEX PAGE -->
+
+
+<FirstJobsNameLink><![CDATA[//*[@id='normal']]]></FirstJobsNameLink>
+
+<!-- FILTER BY GROUPS -->
+<ClickOnFilterByGroups><![CDATA[//*[@id='JobQuickSearchIndexForm']/table/tbody/tr[2]/td[1]/label/a]]></ClickOnFilterByGroups>
+<SelectFilterByGroups><![CDATA[//*[@id='groupName']]]></SelectFilterByGroups>
+
+<!-- CUSTOM VIEWS -->
+<ClickOnCustomViews><![CDATA[//*[@id='JobQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+<ClickOnCustomViewsNew><![CDATA[//*[@id='JobQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnCustomViewsNew>
+<SelectCustomViews><![CDATA[//*[@id='savedSearch']]]></SelectCustomViews>
+<ClickOnBackTojobs><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnBackTojobs>
+
+<!-- DEFAULT VIEWS -->
+<SelectDefaultViews><![CDATA[//*[@id='teamName']]]></SelectDefaultViews>
+
+<!-- TAGS SEARCH -->
+<EnterTags><![CDATA[//*[@id='tags_tag']]]></EnterTags>
+<ClockOnTagsSearch><![CDATA[//*[@id='search_tags']]]></ClockOnTagsSearch>
+<ClockOnTagsReset><![CDATA[//*[@id='reset_search_tags']]]></ClockOnTagsReset>
+
+<!-- FILTER SEARCH -->
+<EnterFilterSearch><![CDATA[//*[@id='jobs_grid_filter']/label/input]]></EnterFilterSearch>
+<ClockOnFilterReset><![CDATA[//*[@id='ToolTables_jobs_grid_0']]]></ClockOnFilterReset>
+
+<ClockOnMasterCheckBox><![CDATA[//*[@id='jobs_grid']/thead/tr/th[1]/div/span/input]]></ClockOnMasterCheckBox>
+
+<!-- QUICK LINKS -->
+<ClickOnQuickLook><![CDATA[//*[@id='actionicons1']/a/i[1]]]></ClickOnQuickLook>
+<ClickOnQuickLookView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnQuickLookView>
+<ClickOnQuickLookEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnQuickLookEdit>
+<ClickOnQuickLookDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a/i]]></ClickOnQuickLookDelete>
+  
+  ################ jobs TrashindexPage Actions ###############
+  
+  <!-- CANDIDATES TRASH INDEX PAGE -->
+<ClickOnTrash><![CDATA[//a[@href='/glassdoor/jobs/trash']]]></ClickOnTrash>
+
+<ClickOnBackTojobTrash><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBackTojobTrash>
+<ClickOnBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBack>
+  <ClickOnGroupTrash><![CDATA[//a[@class='btn btn-xs btn-primary dropdown-toggle button-alignment']]]></ClickOnGroupTrash>
+<ClickOnGroupTrashback><![CDATA[//a[@class='btn btn-xs btn-default']]]></ClickOnGroupTrashback>
+<trashFilterSearch><![CDATA[//*[@id='job_trash_filter']/label/input]]></trashFilterSearch>
+<ClickOnReset11><![CDATA[//*[@id='ToolTables_job_trash_0']]]></ClickOnReset11>
+<ClickOnMouseHover><![CDATA[//*[@id='job_trash_wrapper']/div[1]/div/div/button]]></ClickOnMouseHover>
+<ClickOnDeleteForever><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteForever>
+<ClickOnRestoreJobs><![CDATA[//*[@id='restore_record']]]></ClickOnRestoreJobs>
+ <Trashmastercheckbox><![CDATA[//*[@id='job_trash']/thead/tr/th[1]/div/span/input]]></Trashmastercheckbox>
+<ClickOnMouseOver1><![CDATA[//*[@id='normal']]]></ClickOnMouseOver1>
+<ClickOnQuickLink1><![CDATA[//*[@id='actionicons1']/a/i[1]]]></ClickOnQuickLink1>
+<ClickOnDelete1><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete1>
+<ClickOnRestore1><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore1>
+<ClickOnjobView1><![CDATA[//*[@id='normal']]]></ClickOnjobView1>
+<trashjobView1back><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></trashjobView1back>
+ <Trashmastercheckbox><![CDATA[//*[@id='job_groups']/thead/tr/th[1]/div/span/input]]></Trashmastercheckbox>
+
+  
+  #############  jobs Trash view page ACtions ################
+  <!-- CANDIDATES TRASH VIEW PAGE -->
+<ClickOnDetailstab><![CDATA[//*[@id='ui-id-1']/div[2]]]></ClickOnDetailstab>
+<ClickOnapptab><![CDATA[//*[@id='ui-id-2']/div[1]]]></ClickOnapptab>
+  <ClickOnactivitytab><![CDATA[//*[@id='activity1']]]></ClickOnactivitytab>
+  <ClickOndestab><![CDATA[//*[@id='description1']]]></ClickOndestab>
+   <ClickOntimelinetab><![CDATA[//*[@id='time_line1']]]></ClickOntimelinetab>
+
+
+  <trashviewrestore><![CDATA[//a[@class='btn btn-xs btn-default']]]></trashviewrestore>
+  <trashviewDelete><![CDATA[//a[@class='btn btn-danger btn-xs']]]></trashviewDelete>
+<ClickOnDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnDelete>
+
+
+
+
+  #############  JObs Export to CSV and PDF ################
+  <!-- CANDIDATES export -->
+  <CSVExport><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></CSVExport>
+  <PDFExport><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></PDFExport>
+  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ClickOnBack>
+  <ClickOnRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnRestore>
+  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnDelete>
+
+
+ 
+
+
+</Locators>  

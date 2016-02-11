@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+
+  ###################    ROLE INDEX PAGE      #####################
+
+  <RoleTab><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[4]/a]]></RoleTab>
+  <RoleAddNew><![CDATA[//*[@id='new_role']]]></RoleAddNew>
+  <RoleAddNewCancelButton><![CDATA[//*[@id='RoleRolesForm']/div[2]/div/div[3]/div/button[2]]]></RoleAddNewCancelButton>
+  <RoleFilterField><![CDATA[//*[@id='roles_table_filter']/label/input]]></RoleFilterField>
+  <RoleFilterResetButton><![CDATA[//*[@id='ToolTables_roles_table_0']/span/span]]></RoleFilterResetButton>
+  <RoleRecordsPerPage><![CDATA[//*[@id='autogen2']]]></RoleRecordsPerPage>
+  <DeleteRoleIcon><![CDATA[//*[@id='roles_table']/tbody/tr[2]/td[1]/span[2]/a/i]]></DeleteRoleIcon>
+  <UpdateRoleIcon><![CDATA[//*[@id='roles_table']/tbody/tr[2]/td[1]/span[1]/a/i]]></UpdateRoleIcon>
+  <UpdateRoleIconCancel><![CDATA[//*[@id='RoleRolesEditForm']/div[3]/div/div/button[2]]]></UpdateRoleIconCancel>
+  <RoleRecordView><![CDATA[//*[@id='roles_table']/tbody/tr[2]/td[2]]]></RoleRecordView>
+
+  *****************  Role Index Page Navigation Buttons      *********************
+
+  <TeamViewFirstPage><![CDATA[]]></TeamViewFirstPage>
+  <TeamViewPrevPage><![CDATA[]]></TeamViewPrevPage>
+  <TeamIndexPaginate><![CDATA[]]></TeamIndexPaginate>
+  <TeamViewNextPage><![CDATA[]]></TeamViewNextPage>
+  <TeamViewLastPage><![CDATA[]]></TeamViewLastPage>
+
+
+
+</Locators>

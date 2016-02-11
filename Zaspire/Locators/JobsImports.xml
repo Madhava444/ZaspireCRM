@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+
+  <!-- Job IMPORTS INDEX PAGE -->
+  <ClickonJobs><![CDATA[//*[@id='jobs']]]></ClickonJobs>
+  <ClickOnImports><![CDATA[//a[@title='Import Jobs from CSV']]]></ClickOnImports>
+  <ClickOnImportNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnImportNew>
+  <ClickOnImports1><![CDATA[//*[@id='importform']/div[3]/div/div/div/button]]></ClickOnImports1>
+  <Importsavebutton><![CDATA[//*[@id='importform']/div[2]/div/ul/li[5]/button]]></Importsavebutton>
+  
+
+
+  <ClickOnImportNewCancel><![CDATA[//*[@id='importform']/div[3]/div/div/div/a]]></ClickOnImportNewCancel>
+  <EnterSearchBox><![CDATA[//*[@id='job_imports_filter']/label/input]]></EnterSearchBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_job_imports_0']]]></ClickOnReset>
+  <ClickOnFirstFileName><![CDATA[//*[@id='job_imports']/tbody/tr/td[1]/a]]></ClickOnFirstFileName>
+  <ClickOnBack><![CDATA[//*[@id='expbtn']]]></ClickOnBack>
+  <ClickOnAttachmentIcon><![CDATA[//*[@id='job_imports']/tbody/tr/td[8]/a[2]/span/img]]></ClickOnAttachmentIcon>
+  <ClickOnDeleteIcon><![CDATA[//*[@id='job_imports']/tbody/tr[1]/td[8]/a[1]/span/img]]></ClickOnDeleteIcon>
+  <Importfielview><![CDATA[//*[@id='job_imports']/tbody/tr[1]/td[1]/a]]></Importfielview>
+  
+  
+  
+
+</Locators>

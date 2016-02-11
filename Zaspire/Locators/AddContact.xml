@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  
+  ################################ Add New Contact #######################################
+  
+  <SelectStatus><![CDATA[//*[@id='ContactContactStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='ContactContactSource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='ContactCategoryId']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='ContactAssignedUserId']]]></SelectOwner>
+  <Salutation><![CDATA[//*[@id='ContactSalutation']]]></Salutation>
+  <FirstNAME><![CDATA[//*[@id='ContactFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='ContactLastName']]]></LastName>
+  <ContactTitle><![CDATA[//*[@id='ContactTitle']]]></ContactTitle>
+  <Department><![CDATA[//*[@id='ContactDepartment']]]></Department>
+  <CompanyName><![CDATA[//*[@id='ContactCompany']]]></CompanyName>
+  <ClickOnCompanyLogo><![CDATA[//*[@id='ContactProfileImage']]]></ClickOnCompanyLogo>
+  <PhoneType><![CDATA[//*[@id='ContactPhone0PhoneType']]]></PhoneType>
+  <PhoneNumber><![CDATA[//*[@id='phone_format']]]></PhoneNumber>
+  <PrimaryButton><![CDATA[//*[@id='uniform-data[ContactPhone][0][primary]']/span]]></PrimaryButton>
+  <DoNotCall><![CDATA[//*[@id='ContactAddnewForm']/div[3]/div/div[1]/div/div/div[3]/div[1]/div/div/div[4]/label/div/span]]></DoNotCall>
+  <ClickOnAddPhoneLink><![CDATA[//*[@id='addphone']]]></ClickOnAddPhoneLink>
+  <SelectEmailType><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContentType']]]></SelectEmailType>
+  <Eaddrress><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContent']]]></Eaddrress>
+  <PrimaryButton1><![CDATA[//*[@id='uniform-data[ContactElectronicAddress][0][primary]']/span]]></PrimaryButton1>
+  <OptedOut><![CDATA[//*[@id='email_option_0']/div[2]/label/div/span]]></OptedOut>
+  <ClickOnAddEmailLink><![CDATA[//*[@id='addemail']]]></ClickOnAddEmailLink>
+  <SocialLinkType><![CDATA[//*[@id='ContactSocialLink0SocialLinkType']]]></SocialLinkType>
+  <Socialid><![CDATA[//*[@id='ContactSocialLink0SocialLink']]]></Socialid>
+  <ClickOnOptedOut><![CDATA[//*[@id='email_option_0']/div/label/div/span]]></ClickOnOptedOut>
+  <ClickOnAddSocialLink><![CDATA[//*[@id='addsocial']]]></ClickOnAddSocialLink>
+  <AddressType><![CDATA[//*[@id='ContactAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='ContactAddress0AddressLine1']]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='ContactAddress0AddressLine2']]]></AddressLine2>
+  <City><![CDATA[//*[@id='ContactAddress0City']]]></City>
+  <AddressState><![CDATA[//*[@id='ContactAddress0State']]]></AddressState>
+  <SelectCountry><![CDATA[//*[@id='ContactAddress0Country']]]></SelectCountry>
+  <ZipCode><![CDATA[//*[@id='ContactAddress0PostalCode']]]></ZipCode>
+  <EnterContactTags><![CDATA[//*[@id='tags_1_tagsinput']]]></EnterContactTags>
+  <Description><![CDATA[html/body/div[4]/div[2]/form/div[3]/div/div[2]/div[2]/div]]></Description>
+  <SaveAccountbtn><![CDATA[//*[@id='ContactAddnewForm']/div[3]/div/div[4]/div/div/button]]></SaveAccountbtn>
+  
+  ################################## Index page ###################################
+  <SearchByStatus><![CDATA[//*[@id='contacts_grid_filter']/label/input]]></SearchByStatus>
+  <ClickOnResetButton><![CDATA[//*[@id='ToolTables_contacts_grid_0']/span/span]]></ClickOnResetButton>
+  <ClickOnAddNewButton><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNewButton>
+  <FilterByTag><![CDATA[//*[@id='tags_tagsinput']]]></FilterByTag>
+  <Search><![CDATA[//*[@id='search_tags']]]></Search>
+  <TagsClickOnResteButton><![CDATA[//*[@id='reset_search_tags']]]></TagsClickOnResteButton>
+  <ClickOnCustomViewLink><![CDATA[.//*[@id='ContactQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViewLink>
+  <ClickOnCustomViewAddNewLink><![CDATA[//*[@id='ContactQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnCustomViewAddNewLink>
+  <CustomViewDropDown><![CDATA[//*[@id='savedSearch']/a]]></CustomViewDropDown>
+  <ClickOnFilterByGroup><![CDATA[//*[@id='ContactQuickSearchIndexForm']/table/tbody/tr[2]/td[1]/label/a]]></ClickOnFilterByGroup>
+  <FilterByGroup><![CDATA[//*[@id='groupName']/a]]></FilterByGroup>
+  <DefaultView><![CDATA[//*[@id='teamName']/a]]></DefaultView>
+  <ClickOnQuickLinks><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLinks>
+  <ClickOnViewButton><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnViewButton>
+  <ClickOnRecordEditButton><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRecordEditButton>
+  <ClickOnSaveButton><![CDATA[//*[@id='ContactEditForm']/div[2]/div/ul/li[5]/button]]></ClickOnSaveButton>
+  
+  
+  #####################################View Page###########################################
+  <ClickOnFirstRecord><![CDATA[//*[@id='normal']]]></ClickOnFirstRecord>
+  <ClickOnOwner><![CDATA[//*[@id='responsibility']]]></ClickOnOwner>
+  <SelectOwner><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectOwner>
+  <ClickOnOkOption><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnOkOption>
+  <ClickOnSource><![CDATA[//*[@id='contact_source']]]></ClickOnSource>
+  <SelectSource><![CDATA[//*[@id='autogen33']]]></SelectSource>
+  <ClickOnOkOptions><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnOkOptions>
+  <ClickOnCategory><![CDATA[//*[@id='category']]]></ClickOnCategory>
+  <SelectCategory><![CDATA[//*[@id='autogen35']]]></SelectCategory>
+  <ClickOnOkOptionss><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div/div/div/div[3]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnOkOptionss>
+  <ClickOnEditButtonfunction><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnEditButtonfunction>
+  <ClickOnSaveButtons><![CDATA[//*[@id='ContactEditForm']/div[2]/div/ul/li[5]/button]]></ClickOnSaveButtons>
+<ClickOnAddNewButtons><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnAddNewButtons>
+<ClickOnCancelButtons><![CDATA[//*[@id='ContactAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnCancelButtons>
+<ClickListView><![CDATA[//*[@id='timelinelist']/div[1]/a]]></ClickListView>
+<ClickGraphicalView><![CDATA[//*[@id='change_log_table_wrapper']/div[2]/div/a]]></ClickGraphicalView>
+<ClickOnMoreActivity><![CDATA[//*[@id='more']]]></ClickOnMoreActivity>
+<ClickOnContactInfotab><![CDATA[//*[@id='contact1']]]></ClickOnContactInfotab>
+<ClickOnDescriptiontab><![CDATA[//*[@id='description1']]]></ClickOnDescriptiontab>
+<ClickOnCampaignstab><![CDATA[//*[@id='campaign1']]]></ClickOnCampaignstab>
+ <ClickOnFirstCampaignRecord><![CDATA[//*[@id='related_campaigns_table']/tbody/tr/td[1]/a]]></ClickOnFirstCampaignRecord>
+<ClickOnActivitiestab><![CDATA[//*[@id='activity2']]]></ClickOnActivitiestab>
+<SearchFilterBox><![CDATA[//*[@id='activities_table_filter']/label/input]]></SearchFilterBox>
+<ClickOnResetButton><![CDATA[//*[@id='ToolTables_activities_table_0']]]></ClickOnResetButton>
+<ClickOnTaskQuickLink><![CDATA[//*[@id='jg_icons']/div/a/i[1]]]></ClickOnTaskQuickLink>
+<Quicklinksdropdown><![CDATA[//*[@id='jg_icons']/div/ul/li/a]]></Quicklinksdropdown>
+  <ClickOnTaskQuickLinks1><![CDATA[//*[@id='jg_icons']/div/a/i[1]]]></ClickOnTaskQuickLinks1>
+<Quicklinksdropdowns><![CDATA[//*[@id='jg_icons']/div/ul/li/a/i]]></Quicklinksdropdowns>
+<ClickOnTaskQuickLinks2><![CDATA[//*[@id='jg_icons']/div/a/i[1]]]></ClickOnTaskQuickLinks2>
+<Quicklinksdropdowns1><![CDATA[//*[@id='jg_icons']/div/ul/li/a]]></Quicklinksdropdowns1>
+<ClickOnTaskQuickLinks3><![CDATA[//*[@id='jg_icons']/div/a/i[1]]]></ClickOnTaskQuickLinks3>
+<Qucklinks1dropdown3><![CDATA[]]></Qucklinks1dropdown3>
+<ClickOnTaskQuickLinks2><![CDATA[//*[@id='jg_icons']/div/a/i[1]]]></ClickOnTaskQuickLinks2>
+<Qucklinks1dropdown><![CDATA[//*[@id='jg_icons']/div/ul/li[1]/a]]></Qucklinks1dropdown>
+<ToAddress><![CDATA[//*[@id='s2id_EmailToAddrs']/ul]]></ToAddress>
+<ClickonSendOption><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickonSendOption>
+<Selectaddtogroup><![CDATA[//*[@id='s2id_autogen28']]]></Selectaddtogroup>
+  <ClickOnOkbutton><![CDATA[//*[@id='savegroup']]]></ClickOnOkbutton>
+<ClickOnNobutton><![CDATA[//*[@id='cancelgroup']]]></ClickOnNobutton>
+<Viewdropdown><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[1]/div[2]/div/a]]></Viewdropdown>
+<ClickOnManageLinks><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[8]/div[1]/div[3]/a]]></ClickOnManageLinks>
+<ClickOnSystemGeneratedTab><![CDATA[//*[@id='manage_auto_tags']/div/div/div/div/ul/li[2]/a]]></ClickOnSystemGeneratedTab>
+<ClickonEditOption><![CDATA[//*[@id='recreate_auto_tags']]]></ClickonEditOption>
+<CheckCity><![CDATA[//*[@id='recreate_auto_formFields']]]></CheckCity>
+  <CheckTitle><![CDATA[//*[@id='recreate_auto_formFields']]]></CheckTitle>
+<ClickOnRecreateOption><![CDATA[//*[@id='recreate_submit']]]></ClickOnRecreateOption>
+<ClickOnDeleteOption><![CDATA[//*[@id='delete_auto_tags']]]></ClickOnDeleteOption>
+<ClickOnCancelOption><![CDATA[//*[@id='cancel']]]></ClickOnCancelOption>
+<ClickOnYourTags><![CDATA[//*[@id='manage_auto_tags']/div/div/div/div/ul/li[1]/a]]></ClickOnYourTags>
+<ClickOnSaveOptions><![CDATA[//*[@id='manual_tagsViewForm']/div[3]/div/div/button]]></ClickOnSaveOptions>
+
+###################################### View Page More Actions ####################################
+
+<ClickOnFirstRecord1><![CDATA[//*[@id='normal']]]></ClickOnFirstRecord1>
+<ClickOnCopyButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[1]/a]]></ClickOnCopyButton>
+<ClickOnDeleteButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[2]/a]]></ClickOnDeleteButton>
+<ClickOnAddtoCampaignOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[4]/a]]></ClickOnAddtoCampaignOption>
+<CampaignNameButton><![CDATA[//*[@id='assigncampaign']]]></CampaignNameButton>
+<CampaingNameSearchFilter><![CDATA[//*[@id='CampaignSearchName']]]></CampaingNameSearchFilter>
+<ClickOnResetButton><![CDATA[//*[@id='resetrelatedtosearch']]]></ClickOnResetButton>
+<ClickOnSearchButton><![CDATA[//*[@id='searchButton']]]></ClickOnSearchButton>
+<ClickOntheLink><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr[1]/td/a]]></ClickOntheLink>
+<ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+<Campaigngroups><![CDATA[//*[@id='CampaignContactGroup']]]></Campaigngroups>
+  <AddContacts><![CDATA[//*[@id='CampaignContactViewForm']/div[2]/div/div[3]/a]]></AddContacts>
+<ClickOnCancelOption><![CDATA[//*[@id='CampaignContactViewForm']/div[2]/div/div[3]/button]]></ClickOnCancelOption>
+<ClickOnDownloadVCardOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[5]/a]]></ClickOnDownloadVCardOption>
+<ClickOnSendE-MailOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[7]/a]]></ClickOnSendE-MailOption>
+<ClickonEmployeeLink><![CDATA[//*[@id='select_employee']]]></ClickonEmployeeLink>
+<EmployeeSearchFilter><![CDATA[//*[@id='EmployeeSearch']]]></EmployeeSearchFilter>
+<ClickOnSearchButton><![CDATA[//*[@id='employeesearchButton']]]></ClickOnSearchButton>
+<EnableCheckboxes><![CDATA[//*[@id='toid']]]></EnableCheckboxes>
+<ClickOnAddButton><![CDATA[//*[@id='submitemail']]]></ClickOnAddButton>
+<ClickOnSendOption><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendOption>
+<ClickOnCloseButton><![CDATA[//*[@id='popupContent']/div[2]/div/button]]></ClickOnCloseButton>
+<ToAddress><![CDATA[//*[@id='EmailToAddrs']]]></ToAddress>
+<ClickOnAddNoteOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[8]/a]]></ClickOnAddNoteOption>
+<Subject><![CDATA[//*[@id='NoteName']]]></Subject>
+<SaveButton><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[1]]]></SaveButton>
+<ClickOnCancelOption><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[2]]]></ClickOnCancelOption>
+<ClickOnAddFileOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[9]/a]]></ClickOnAddFileOption>
+<FileName><![CDATA[//*[@id='AttachmentName']]]></FileName>
+<Category><![CDATA[//*[@id='AttachmentCategoryId']]]></Category>
+<AddFile><![CDATA[//*[@id='AttachmentFiles']]]></AddFile>
+<Description><![CDATA[//*[@id='AttachmentDescription']]]></Description>
+<ClickOnSaveOption><![CDATA[//*[@id='addFileSubmit']]]></ClickOnSaveOption>
+<ClickOnCancelOption><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></ClickOnCancelOption>
+<ClickOnAddTaskOption><![CDATA[//*[@id='Task']]]></ClickOnAddTaskOption>
+<Location><![CDATA[//*[@id='EventLocation']]]></Location>
+<Subject><![CDATA[//*[@id='EventName']]]></Subject>
+<StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+  <EndtDate><![CDATA[//*[@id='EventEndDate']]]></EndtDate>
+<EnableRemindersCheckbox><![CDATA[//*[@id='pop']/label/div/span]]></EnableRemindersCheckbox>
+<ReminderPopup><![CDATA[//*[@id='reminderTime']]]></ReminderPopup>
+<EnableEmailCheckbox><![CDATA[//*[@id='CreateEventForm']/div[2]/div/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></EnableEmailCheckbox>
+<EmailPopup><![CDATA[//*[@id='emailReminderTime']]]></EmailPopup>
+<EnableRecurringEventCheckbox><![CDATA[//*[@id='CreateEventForm']/div[2]/div/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></EnableRecurringEventCheckbox>
+<EveryNumber><![CDATA[//*[@id='EventRepeatInterval']]]></EveryNumber>
+<selectdays><![CDATA[//*[@id='EventRepeatType']]]></selectdays>
+<until><![CDATA[//*[@id='EventRepeatUntil']]]></until>
+<EnterDescription><![CDATA[//*[@id='address_add_link']]]></EnterDescription>
+<Description><![CDATA[//*[@id='EventDescription']]]></Description>
+<ClickOnSaveButton><![CDATA[//*[@id='CreateEventForm']/div[3]/button]]></ClickOnSaveButton>
+<ClickOnCancelOption><![CDATA[//*[@id='CreateEventForm']/div[3]/a]]></ClickOnCancelOption>
+<ClickOnSetupAppointmentOption><![CDATA[//*[@id='App']]]></ClickOnSetupAppointmentOption>
+<ClickOnSetupMeetingOption><![CDATA[//*[@id='Meeting']]]></ClickOnSetupMeetingOption>
+<ClickOnLogCallOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li[13]/a]]></ClickOnLogCallOption>
+<CallSubject><![CDATA[//*[@id='CallSubject']]]></CallSubject>
+<CallType><![CDATA[//*[@id='CallCallType']]]></CallType>
+<CallDate><![CDATA[//*[@id='CallCallDate']]]></CallDate>
+<CallFrom><![CDATA[//*[@id='CallCallFrom']]]></CallFrom>
+<CallTo><![CDATA[//*[@id='CallCallTo']]]></CallTo>
+<EnterNumberFrom><![CDATA[//*[@id='CallNewcallFrom']]]></EnterNumberFrom>
+<EnterNumberTo><![CDATA[//*[@id='CallNewcallTo']]]></EnterNumberTo>
+<CallStartTime><![CDATA[//*[@id='clockface_call']]]></CallStartTime>
+  <TimeinHrs><![CDATA[//*[@id='CallCallHours']]]></TimeinHrs>
+<TimeinMins><![CDATA[//*[@id='CallCallMins']]]></TimeinMins>
+<TimeinSecs><![CDATA[//*[@id='CallCallSecs']]]></TimeinSecs>
+<ClickOnEnterDescription><![CDATA[//*[@id='address_add_link']]]></ClickOnEnterDescription>
+<Description><![CDATA[//*[@id='CallDescription']]]></Description>
+<SaveOption><![CDATA[//*[@id='LogCallForm']/div[4]/button[1]]]></SaveOption>
+<ClickOnCancelOptions><![CDATA[//*[@id='LogCallForm']/div[4]/button[2]]]></ClickOnCancelOptions>
+
+  $$$$$$$$$$$$$$$$$$$$$$$$$$$$ Other Contact Index Page $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  <SearchByStatus><![CDATA[//*[@id='allcontacts_grid_filter']/label/input]]></SearchByStatus>
+  <ClickOnResetButton><![CDATA[//*[@id='ToolTables_allcontacts_grid_0']]]></ClickOnResetButton>
+  <ClickOnCsvbutton><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></ClickOnCsvbutton>
+  <ClickOnpdfbutton><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></ClickOnpdfbutton>
+  <FilterByModule><![CDATA[//*[@id='moduleName']/a]]></FilterByModule>
+  <RecordPerPage><![CDATA[//*[@id='allcontacts_grid_length']/label/select]]></RecordPerPage>
+  <ClickOnSelectedRecord><![CDATA[//*[@id='allcontacts_grid']/tbody/tr[1]/td[2]/a]]></ClickOnSelectedRecord>
+
+  ################################ Other Contact View Page ##############################
+  <ClickOnBackButtonOption><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnBackButtonOption>
+  <ClickOnEditButton><![CDATA[//*[@id='module_contact_edit']]]></ClickOnEditButton>
+  <ClickOnSelectedRecord><![CDATA[//*[@id='allcontacts_grid']/tbody/tr[2]/td[2]/a]]></ClickOnSelectedRecord>
+  <SearchByStatus><![CDATA[//*[@id='module_contact_edit']]]></SearchByStatus>
+  <ClickOnUpdateButton><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdateButton>
+  <ClickOnRelatedToLink><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/form/div/div/div/div[1]/div[2]/div[2]/div/div/div/a]]></ClickOnRelatedToLink>
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Other Contact View Page Edit Functionality ###################
+
+<SearchByStatus><![CDATA[//*[@id='allcontacts_grid_filter']/label/input]]></SearchByStatus>
+  <ClickOnSelectedRecord><![CDATA[//*[@id='allcontacts_grid']/tbody/tr[1]/td[2]/a]]></ClickOnSelectedRecord>
+  <ClickOnEditFunctionality><![CDATA[//*[@id='module_contact_edit']]]></ClickOnEditFunctionality>
+  <Salutation1><![CDATA[//*[@id='QuickUpdateSalutation']]]></Salutation1>
+  <FirstNAME1><![CDATA[//*[@id='QuickUpdateFirstName']]]></FirstNAME1>
+  <LastName1><![CDATA[//*[@id='QuickUpdateLastName']]]></LastName1>
+  <MiddleNAME1><![CDATA[//*[@id='QuickUpdateMiddleName']]]></MiddleNAME1>
+  <PhoneType1><![CDATA[//*[@id='QuickUpdateContactPhone0PhoneType']]]></PhoneType1>
+  <PhoneNumber1><![CDATA[//*[@id='QuickUpdateContactPhone0PhoneFormat']]]></PhoneNumber1>
+  <PrimaryButton2><![CDATA[//*[@id='ptabs-0']/div/div/div[3]/div/label/div/span]]></PrimaryButton2>
+  <DoNotCall1><![CDATA[//*[@id='QuickUpdateContactPhone0DoNotCall']]]></DoNotCall1>
+  <ClickOnAddPhoneLink1><![CDATA[//*[@id='ptabs-0']/div/div/div[5]/a]]></ClickOnAddPhoneLink1>
+  <SelectEmailType1><![CDATA[//*[@id='QuickUpdateContactElectronicAddress0ElectronicContentType']]]></SelectEmailType1>
+  <Eaddrress1><![CDATA[//*[@id='QuickUpdateContactElectronicAddress0ElectronicContent']]]></Eaddrress1>
+  <PrimaryButton11><![CDATA[//*[@id='email_option_0']/div[1]/div/label/div/span]]></PrimaryButton11>
+  <OptedOut1><![CDATA[//*[@id='QuickUpdateContactElectronicAddress0OptOut']]]></OptedOut1>
+  <ClickOnAddEmailLink1><![CDATA[//*[@id='etabs-0']/div/div/div[4]/a]]></ClickOnAddEmailLink1>
+  <SocialLinkType1><![CDATA[//*[@id='QuickUpdateSocialLink0SocialLinkType']]]></SocialLinkType1>
+  <Socialid1><![CDATA[//*[@id='QuickUpdateSocialLink0SocialLink']]]></Socialid1>
+  <ClickOnOptedOut11><![CDATA[//*[@id='QuickUpdateSocialLink0OptOut']]]></ClickOnOptedOut11>
+  <ClickOnAddSocialLink1><![CDATA[//*[@id='stabs-0-0']/div/div/div[4]/a]]></ClickOnAddSocialLink1>
+  <ClickOnAddressLink1><![CDATA[//*[@id='address_add_link']]]></ClickOnAddressLink1>
+  <AddressType1><![CDATA[//*[@id='QuickUpdateContactAddress0Type']]]></AddressType1>
+  <AddressLines1><![CDATA[//*[@id='QuickUpdateContactAddress0AddressLine1']]]></AddressLines1>
+  <AddressLines2><![CDATA[//*[@id='QuickUpdateContactAddress0AddressLine2']]]></AddressLines2>
+  <City1><![CDATA[//*[@id='QuickUpdateContactAddress0City']]]></City1>
+  <AddressStates><![CDATA[//*[@id='QuickUpdateContactAddress0State']]]></AddressStates>
+  <SelectCountrys><![CDATA[//*[@id='QuickUpdateContactAddress0Country']]]></SelectCountrys>
+  <ZipCodes><![CDATA[//*[@id='QuickUpdateContactAddress0PostalCode']]]></ZipCodes>
+  <ClickOnRelatedToLinks><![CDATA[//*[@id='update_all']/div/div/div[1]/div/div[2]/span/a]]></ClickOnRelatedToLinks>
+</Locators>

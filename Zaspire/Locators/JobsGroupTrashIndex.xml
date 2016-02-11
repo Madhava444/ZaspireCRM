@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+
+  <Locators>
+
+
+  <!-- Jobs TRASH INDEX PAGE -->
+  <ClickOnjobsG><![CDATA[//*[@id='jobs']]]></ClickOnjobsG>
+  <ClickOnTrashG><![CDATA[//a[@href='/glassdoor/jobs/trash']]]></ClickOnTrashG>
+  <ClickOnGroupTrashG><![CDATA[//a[@class='btn btn-xs btn-primary dropdown-toggle button-alignment']]]></ClickOnGroupTrashG>
+  
+  <ClickOnBackToLeadsGroupTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnBackToLeadsGroupTrash>
+    
+ 
+  <EnterFilterSearch><![CDATA[//*[@id='jobgroup_trash_filter']/label/input]]></EnterFilterSearch>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_jobgroup_trash_0']]]></ClickOnReset>
+  <ClickOnMouseHover><![CDATA[//*[@id='jobgroup_trash_wrapper']/div[1]/div/div/button]]></ClickOnMouseHover>
+  <ClickOnDeleteForever><![CDATA[//*[@id='remove_jobgroup']]]></ClickOnDeleteForever> 
+  <ClickOnRestorejobgroup><![CDATA[//*[@id='restore_jobgroup']]]></ClickOnRestorejobgroup>
+  <ClickOnMasterCheckBox><![CDATA[//input[@class='checkboxes']]]></ClickOnMasterCheckBox>  
+  <ClickOnMouseOver><![CDATA[//*[@id='leadgroup_trash']/tbody/tr[1]/td[2]/a]]></ClickOnMouseOver>  
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLink>  
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete>
+  <ClickOnRestore><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore>
+  <ClickOngroupView><![CDATA[//*[@id='jobgroup_trash']/tbody/tr[1]/td[2]/a]]></ClickOngroupView>
+  <ClickOngroupViewback><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOngroupViewback>
+
+
+
+  </Locators>

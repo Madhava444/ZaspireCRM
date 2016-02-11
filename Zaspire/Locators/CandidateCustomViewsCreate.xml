@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- CANDIDATES INDEX PAGE -->
+  <ClickOnCandidates><![CDATA[//*[@id='candidates']]]></ClickOnCandidates>
+  <ClickOnCustomViews><![CDATA[//*[@id='CandidateQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
+
+  <!-- CANDIDATES CUSTOM VIEW INDEX PAGE -->
+  <ClickOnAddNew><![CDATA[//*[@id='CandidateQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnAddNew>
+  <ClickOnEdit><![CDATA[//*[@id='saved_edit']]]></ClickOnEdit>
+  <!-- CANDIDATES CUSTOM VIEW CREATE PAGE -->
+  <EnterCustomViewName><![CDATA[//*[@id='searchName']]]></EnterCustomViewName>
+  <SelectSortBy><![CDATA[//*[@id='CandidateSortCol']]]></SelectSortBy>
+
+  <!-- ADD SEARCH CRITERIA CANDIDATES CUSTOM VIEW CREATE PAGE -->
+  <SelectOwner><![CDATA[//*[@id='CandidateCustomColValues6']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='CandidateCustomColValues7']]]></SelectManager>
+  <SelectStatus><![CDATA[//*[@id='CandidateCustomColValues4']]]></SelectStatus>
+  <SelectEducation><![CDATA[//*[@id='CandidateCustomColValues5']]]></SelectEducation>
+  <SelectImport><![CDATA[//*[@id='s2id_autogen2']]]></SelectImport>
+  <SelectCreatedBy><![CDATA[//*[@id='CandidateCustomColValues8']]]></SelectCreatedBy>
+  <SelectModifiedBy><![CDATA[//*[@id='CandidateCustomColValues9']]]></SelectModifiedBy>
+  <Selectjobtype><![CDATA[//*[@id='CandidateCustomColValues1']]]></Selectjobtype>
+  <SelectGroup><![CDATA[//*[@id='CandidateCustomColValues10']]]></SelectGroup>
+
+  <EnterCreated><![CDATA[//*[@id='CandidateCustomColValues11']]]></EnterCreated>
+  <EnterModified><![CDATA[//*[@id='CandidateCustomColValues12']]]></EnterModified>
+
+  <!-- ADD ADDITIONAL CRITERIA CANDIDATES CUSTOM VIEW CREATE PAGE -->
+  <SelectAdditionalField1><![CDATA[//*[@id='CandidateAdditionalColNames']]]></SelectAdditionalField1>
+  <SelectOperator1><![CDATA[//*[@id='CandidateAdditionalColOps']]]></SelectOperator1>
+  <EnterAdditionalValue1><![CDATA[//*[@id='CandidateAdditionalColValues']]]></EnterAdditionalValue1>
+  <ClickOnAddNewField><![CDATA[//*[@id='additionalcolumns']]]></ClickOnAddNewField>
+  <SelectAdditionalField2><![CDATA[//*[@id='add_criteria']/tbody/tr[2]/td[1]/select]]></SelectAdditionalField2>
+  <SelectOperator2><![CDATA[//*[@id='CandidateAdditionalColOps0']]]></SelectOperator2>
+  <EnterAdditionalValue2><![CDATA[//*[@id='add_criteria']/tbody/tr[2]/td[3]/input[2]]]></EnterAdditionalValue2>
+
+  <ClickOnSave><![CDATA[//*[@id='CandidateIndexForm']/div[2]/div[5]/div/div/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='CandidateIndexForm']/div[2]/div[5]/div/div/a[2]]]></ClickOnCancel>
+  <ClickOnPermission><![CDATA[//*[@id='CandidateIndexForm']/div[2]/div[5]/div/div/a[1]]]></ClickOnPermission>
+
+
+
+
+</Locators>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+
+  #######################  USER TRASH INDEX PAGE FUNCTIONALITIES    ################
+
+
+  <TrashViewBulkActions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/button]]></TrashViewBulkActions>
+  <TrashViewBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></TrashViewBack>
+  <TrashRestoreUserIcon><![CDATA[//*[@id='user_trash']/tbody/tr[2]/td[1]/a/sapn]]></TrashRestoreUserIcon>
+  <TrashIndexFilterField><![CDATA[//*[@id='user_trash_filter']/label/input]]></TrashIndexFilterField>
+  <TrashIndexFilterReset><![CDATA[//*[@id='ToolTables_user_trash_0']/span/span]]></TrashIndexFilterReset>
+  <TrashViewRecordForPage><![CDATA[//*[@id='user_trash_length']/label/select]]></TrashViewRecordForPage>
+  <TrashIndexRecordView><![CDATA[//*[@id='user_trash']/tbody/tr[5]/td[2]/a]]></TrashIndexRecordView>
+  <TrashRecordViewRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></TrashRecordViewRestore>
+  <TrashRecordViewBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></TrashRecordViewBack>
+  <TrashViewSelectAllButton><![CDATA[//*[@id='user_trash']/thead/tr/th[1]/div/span/input]]></TrashViewSelectAllButton>
+
+
+  *****************   User Index Page Navigation Buttons      *********************
+
+  <TrashViewFirstPage><![CDATA[//*[@id='user_trash_first']]]></TrashViewFirstPage>
+  <TrashViewPrevPage><![CDATA[//*[@id='user_trash_previous']]]></TrashViewPrevPage>
+  <TrashIndexPaginate><![CDATA[//*[@id='user_trash_paginate']]]></TrashIndexPaginate>
+  <TrashViewNextPage><![CDATA[//*[@id='user_trash_next']]]></TrashViewNextPage>
+  <TrashViewLastPage><![CDATA[//*[@id='user_trash_last']]]></TrashViewLastPage>
+
+
+</Locators>

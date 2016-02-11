@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  #######################     ADMIN TEAM INDEX PAGE    #######################
+
+  <TeamTab><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a/span]]></TeamTab>
+  <TeamAddNew><![CDATA[//*[@id='new_hierarchy']]]></TeamAddNew>
+  <TeamAddNewCancelButton><![CDATA[//*[@id='HierarchieTeamForm']/div[2]/div/div[3]/div/button[2]]]></TeamAddNewCancelButton>
+  <TeamFilterField><![CDATA[//*[@id='teams_table_filter']/label/input]]></TeamFilterField>
+
+  <TeamFilterResetButton><![CDATA[//*[@id='ToolTables_teams_table_0']]]></TeamFilterResetButton>
+  <TeamRecordsPerPage><![CDATA[//*[@id='id_autogen2']]]></TeamRecordsPerPage>
+  <DeleteTeamIcon><![CDATA[//*[@id='teams_table']/tbody/tr[1]/td[1]/span[2]/a/i]]></DeleteTeamIcon>
+  <UpdateTeamIcon><![CDATA[//*[@id='teams_table']/tbody/tr[1]/td[1]/span[1]/a/i]]></UpdateTeamIcon>
+  <UpdateTeamIconCancel><![CDATA[//*[@id='RoleTeamEditForm']/div[3]/button[2]]]></UpdateTeamIconCancel>
+  <TeamRecordView><![CDATA[//*[@id='teams_table']/tbody/tr[2]/td[2]/a]]></TeamRecordView>
+
+  *****************   Team Index Page Navigation Buttons      *********************
+
+  <TeamViewFirstPage><![CDATA[]]></TeamViewFirstPage>
+  <TeamViewPrevPage><![CDATA[]]></TeamViewPrevPage>
+  <TeamIndexPaginate><![CDATA[]]></TeamIndexPaginate>
+  <TeamViewNextPage><![CDATA[]]></TeamViewNextPage>
+  <TeamViewLastPage><![CDATA[]]></TeamViewLastPage>
+
+
+
+
+</Locators>

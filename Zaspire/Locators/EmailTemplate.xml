@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ClickOnActivitiestab><![CDATA[//*[@id='activities']]]></ClickOnActivitiestab>
+  <ClickOnEmailTemplateNewButton><![CDATA[//a[@class='btn btn-xs btn-primary btn-success']]]></ClickOnEmailTemplateNewButton>
+  <RelatedTO><![CDATA[//*[@id='EmailTemplateModuleId']]]></RelatedTO>
+  <Category><![CDATA[//*[@id='EmailTemplateCategoryId']]]></Category>
+  <Status><![CDATA[//*[@id='EmailTemplateStatus']]]></Status>
+  <Owner><![CDATA[//*[@id='EmailTemplateAssignedUserId']]]></Owner>
+  <Manager><![CDATA[//*[@id='EmailTemplateAssignedManagerId']]]></Manager>
+  <ClickOnAddNewGroupLink><![CDATA[//*[@id='addgroup']]]></ClickOnAddNewGroupLink>
+  <GroupName><![CDATA[//*[@id='EmailTemplateGroupName']]]></GroupName>
+  <ClickOnSavesbutton><![CDATA[//*[@id='savegroup']]]></ClickOnSavesbutton>
+  <TemplateName><![CDATA[//*[@id='EmailTemplateName']]]></TemplateName>
+  <EmailTemplateSubject><![CDATA[//*[@id='EmailTemplateSubject']]]></EmailTemplateSubject>
+  <MessageBody><![CDATA[//body[@class='cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']]]></MessageBody>
+  <ClickOnCheckboxx><![CDATA[//*[@id='mhshow']]]></ClickOnCheckboxx>
+  <ClickOnMessageHeaderExpandbuttons><![CDATA[//*[@id='emthf']/div[1]/div[1]/div[2]/a]]></ClickOnMessageHeaderExpandbuttons>
+  <MessageHeaderDescription><![CDATA[//*[@id='emthf']/div[1]/div[2]/div/div]]></MessageHeaderDescription>
+  <ClickOnMessageFooterExpandbuttons><![CDATA[//*[@id='emthf']/div[2]/div[1]/div[2]/a]]></ClickOnMessageFooterExpandbuttons>
+  <ClickOnAddUnsubscribeLinkInFooter><![CDATA[//*[@id='EmailTemplateUnsubscribe']]]></ClickOnAddUnsubscribeLinkInFooter>
+  <MessageFooterDescription><![CDATA[//*[@id='emthf']/div[2]/div[2]/div/div]]></MessageFooterDescription>
+  <ClickOnSavebuttonss><![CDATA[//*[@id='EmailTemplateAddnewForm']/div[3]/div/div[6]/div/div/button]]></ClickOnSavebuttonss>
+</Locators>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ClickOnActivitiestab><![CDATA[//*[@id='activities']]]></ClickOnActivitiestab>
+  <ClickOnEmailbutton><![CDATA[//*[@id='e-mails']]]></ClickOnEmailbutton>
+  <ClickOnComposeButton><![CDATA[//*[@id='composeid']]]></ClickOnComposeButton>
+<SelectEmailFromm><![CDATA[//*[@id='EmailEmailAccounts']]]></SelectEmailFromm>
+  <EnterOthermail><![CDATA[//*[@id='EmailEmailAccounts']]]></EnterOthermail>
+  <Entermailid><![CDATA[//*[@id='EmailFromAddrsOthers']]]></Entermailid>
+<ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+<SearchByEmailIdFilter><![CDATA[//*[@id='EmployeeSearch']]]></SearchByEmailIdFilter>
+<ClickOnResetButton><![CDATA[//*[@id='resetpopupsearch']]]></ClickOnResetButton>
+<ClickOnSearchButton><![CDATA[//*[@id='employeesearchButton']]]></ClickOnSearchButton>
+  <EnabletheCheckbox><![CDATA[//*[@id='toid']]]></EnabletheCheckbox>
+  <EnabletheCheckbox1><![CDATA[//*[@id='ccid']]]></EnabletheCheckbox1>
+  <EnabletheCheckbox2><![CDATA[//*[@id='bccid']]]></EnabletheCheckbox2>
+  <ClickOnAddButton><![CDATA[//*[@id='submitemail']]]></ClickOnAddButton>
+<ClickOnCloseButton><![CDATA[//*[@id='popupContent']/div[2]/div/button]]></ClickOnCloseButton>
+  <EnterToAddress><![CDATA[//*[@id='EmailToAddrs']]]></EnterToAddress>
+<ClickOnCCLink><![CDATA[//*[@id='cc_compose']]]></ClickOnCCLink>
+<ClickOnBCCLink><![CDATA[//*[@id='EmailComposeForm']/div[3]/div[1]/div[1]/div/div/div/div[4]/div/div/div/div[2]/span[2]/span[2]]]></ClickOnBCCLink>
+  <EnterEmailCcAddress><![CDATA[//*[@id='EmailCcAddrs']]]></EnterEmailCcAddress>
+<EnterEmailBccAddress><![CDATA[//*[@id='EmailBccAddrs']]]></EnterEmailBccAddress>
+<EnterEmailSubject><![CDATA[//*[@id='EmailName']]]></EnterEmailSubject>
+<ClickOnPriority><![CDATA[//*[@id='uniform-EmailImportance2']/span]]></ClickOnPriority>
+  <AssignedTo1><![CDATA[//*[@id='EmailAssignedUserId']]]></AssignedTo1>
+  <RelatedTo><![CDATA[//*[@id='EmailParentType']]]></RelatedTo>
+<ClickOnRelatedTo><![CDATA[//*[@id='assignrecord']]]></ClickOnRelatedTo>
+<NameorIdSearchFilter><![CDATA[//*[@id='LeadSearchName']]]></NameorIdSearchFilter>
+<ClickOnResettbutton><![CDATA[//*[@id='resetrelatedtosearch']]]></ClickOnResettbutton>
+<ClickOnSearchbutton><![CDATA[//*[@id='searchButton']]]></ClickOnSearchbutton>
+<ClickOntheLink><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]/a]]></ClickOntheLink>
+<EmailTemplate><![CDATA[//*[@id='EmailTemplate']]]></EmailTemplate>
+<SelectEmailSignature><![CDATA[//*[@id='EmailSignature']]]></SelectEmailSignature>
+<Sendvia><![CDATA[//*[@id='EmailEmailAccounts']]]></Sendvia>
+<ClickOnSendButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendButton>
+<ClickOnDraftButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[6]/a]]></ClickOnDraftButton>
+<ClickOnCancelButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[4]/a]]></ClickOnCancelButton>
+
+#################################### Email Inbox Page #########################################
+
+<EmailSelections><![CDATA[//*[@id='emailAccounts']]]></EmailSelections>
+  <SearchFilter><![CDATA[//*[@id='mails_view_filter']/label/input]]></SearchFilter>
+  <ClickOnFirstEmail><![CDATA[//*[@id='mails_view']/tbody/tr/td[2]/a]]></ClickOnFirstEmail>
+  <ClickOnbackbuttons><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnbackbuttons>
+  <ClickOnFirstCheckbox><![CDATA[//*[@id='check227']]]></ClickOnFirstCheckbox>
+  <ClickOnMasterCheckbox1><![CDATA[//*[@id='mails_view']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckbox1>
+  <ClickOnTrashButton><![CDATA[//*[@id='mails_view_wrapper']/div[2]/div/div/ul/li/a]]></ClickOnTrashButton>
+  <ClickOnFirstCheckbox1><![CDATA[//*[@id='mails_view']/thead/tr/th[1]/div/span/input]]></ClickOnFirstCheckbox1>
+  <ClickOnCreateLabel><![CDATA[//*[@id='mails_view_wrapper']/div[1]/div/div/ul/li[1]/a]]></ClickOnCreateLabel>
+  <Name><![CDATA[//*[@id='mailNewLabel']]]></Name>
+  <ClickOnMoveOption><![CDATA[//*[@id='movetolabel']]]></ClickOnMoveOption>
+  <ClickOnFirstCheckbox2><![CDATA[//*[@id='check38']]]></ClickOnFirstCheckbox2>
+  <ClickOnArchivefolder><![CDATA[//*[@id='mails_view_wrapper']/div[1]/div/div/ul/li[5]/a]]></ClickOnArchivefolder>
+
+################################## Email Inbox ##############################################
+
+<ClickOnInboxViewpages><![CDATA[//*[@id='mails_view']/tbody/tr[1]/td[2]/a]]></ClickOnInboxViewpages>
+<ClickOnBackButtons1><![CDATA[//a[@title='Back To Emails']]]></ClickOnBackButtons1>
+<ClickOnSentmailbox><![CDATA[//*[@id='sentid']]]></ClickOnSentmailbox>
+<ClickOnSentmailViewpage><![CDATA[//*[@id='mails_sent']/tbody/tr[1]/td[2]/a]]></ClickOnSentmailViewpage>
+<SearchFilterss><![CDATA[//*[@id='mails_sent_filter']/label/input]]></SearchFilterss>
+  <ClickOnImportedmailbox><![CDATA[//*[@id='importedid']]]></ClickOnImportedmailbox>
+<ClickOnTrashbox><![CDATA[//*[@id='trashid']]]></ClickOnTrashbox>
+<ClickonRestore><![CDATA[//*[@id='mails_trash']/tbody/tr[1]/td[1]/a[2]/span]]></ClickonRestore>
+<ClickonDelete><![CDATA[//*[@id='mails_trash']/tbody/tr[1]/td[1]/a[1]/span]]></ClickonDelete>
+<ClickOnArchivebox><![CDATA[//*[@id='archiveid']]]></ClickOnArchivebox>
+<ClickOnFirstCheckboxe1><![CDATA[//*[@id='check37']]]></ClickOnFirstCheckboxe1>
+<ClickOnTrashOptions><![CDATA[//*[@id='mails_archive_wrapper']/div[2]/div/div/ul/li/a]]></ClickOnTrashOptions>
+<ClickOnFirstCheckboxss1><![CDATA[//*[@id='check31']]]></ClickOnFirstCheckboxss1>
+<ClickOnCreateLabell><![CDATA[//*[@id='mails_archive_wrapper']/div[1]/div/div/ul/li[1]/a]]></ClickOnCreateLabell>
+<Names><![CDATA[//*[@id='mailNewLabel']]]></Names>
+<ClickOnMovesOption><![CDATA[//*[@id='movetolabel']]]></ClickOnMovesOption>
+<ClickOnFirstCheckboxss2><![CDATA[//*[@id='check37']]]></ClickOnFirstCheckboxss2>
+<ClickOnnewfolder><![CDATA[//*[@id='mails_archive_wrapper']/div[1]/div/div/ul/li[5]/a]]></ClickOnnewfolder>
+<ClickOnDraftbox><![CDATA[//*[@id='draftid']]]></ClickOnDraftbox>
+<EnableFirstCheckbox><![CDATA[//*[@id='check311']]]></EnableFirstCheckbox>
+<ClickOnTrashesOption><![CDATA[//*[@id='mails_draft_wrapper']/div[1]/div/div/ul/li/a]]></ClickOnTrashesOption>
+<ClickonFirstDraftmail><![CDATA[//*[@id='mails_draft']/tbody/tr[1]/td[2]/a]]></ClickonFirstDraftmail>
+<ClickOnSendbuttons><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendbuttons>
+
+</Locators>

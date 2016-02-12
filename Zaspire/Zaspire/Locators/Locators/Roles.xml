@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+<Movesoverprofile><![CDATA[//a[@class='dropdown-toggle']]]></Movesoverprofile>
+<SelectProfile><![CDATA[//a[@href='/infoaspire/myprofile']]]></SelectProfile>
+  <ClickonAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickonAdmin>
+  <Roles><![CDATA[//a[@title='Roles Management']]]></Roles>
+  
+  ------------------------------Index-------------------------------------------
+  <RoleAddnew><![CDATA[//*[@id='new_role']]]></RoleAddnew>
+  <RoleFilter><![CDATA[//*[@id='roles_table_filter']/label/input]]></RoleFilter>
+  <RoleReset><![CDATA[//*[@id='ToolTables_roles_table_0']]]></RoleReset>
+  <Roleresultperpage><![CDATA[//*[@id='autogen2']]]></Roleresultperpage>
+  <RoleEdit><![CDATA[//*[@id='roles_table']/tbody/tr[1]/td[1]/span[1]/a/i]]></RoleEdit>
+  <RoleDelete><![CDATA[//*[@id='roles_table']/tbody/tr[1]/td[1]/span[2]/a/i]]></RoleDelete>
+
+---------------------Create---------------------------------------------------
+  <RoleName><![CDATA[//*[@id='OrganizationRoleName']]]></RoleName>
+  <RoleName1><![CDATA[//*[@id='OrganizationRoleName']]]></RoleName1>
+  <RoleDepartment><![CDATA[//*[@id='OrganizationRoleOrgDeptId']]]></RoleDepartment>
+  <Rolemanagercheckbox><![CDATA[//*[@id='OrganizationRoleManager']]]></Rolemanagercheckbox>
+  <Rolesave><![CDATA[//*[@id='RoleRolesForm']/div[2]/div/div[3]/div/button[1]]]></Rolesave>
+  <RoleEditsave><![CDATA[//*[@id='RoleRolesEditForm']/div[3]/div/div/button[1]]]></RoleEditsave>
+  <Rolecancel><![CDATA[//*[@id='RoleRolesForm']/div[2]/div/div[3]/div/button[2]]]></Rolecancel>
+  <RoleEditcancel><![CDATA[//*[@id='RoleRolesEditForm']/div[3]/div/div/button[2]]]></RoleEditcancel>
+
+
+
+
+</Locator>

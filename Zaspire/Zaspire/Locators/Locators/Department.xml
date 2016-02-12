@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+  <Movesoverprofile><![CDATA[//a[@class='dropdown-toggle']]]></Movesoverprofile>
+  <SelectProfile><![CDATA[//a[@href='/infoaspire/myprofile']]]></SelectProfile>
+  <ClickonAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickonAdmin>
+  <Department><![CDATA[//a[@href='/infoaspire/admin/departments']]]></Department>
+  <ClickonMainsite><![CDATA[//a[@href='/infoaspire/']]]></ClickonMainsite>
+
+  ---------------------------------------- -Index--------------------------------------------
+
+  <DepartmentFilter><![CDATA[//*[@id='departments_table_filter']/label/input]]></DepartmentFilter>
+  <DepartmentReset><![CDATA[//*[@id='ToolTables_departments_table_0']]]></DepartmentReset>
+  <DepartmentAddNew><![CDATA[//button[@title='Create Department']]]></DepartmentAddNew>
+  <DeleteIcon><![CDATA[//*[@id='departments_table']/tbody/tr[1]/td[1]/span[2]/a/i]]></DeleteIcon>
+  <EditIcon><![CDATA[//*[@id='departments_table']/tbody/tr[1]/td[1]/span[1]/a/i]]></EditIcon>
+  <DepartmentView><![CDATA[//*[@id='departments_table']/tbody/tr[1]/td[2]/a]]></DepartmentView>
+
+  --------------------------------------View------------------------------------------
+
+  <Edit><![CDATA[//button[@title='Edit Department']]]></Edit>
+  <Back><![CDATA[//button[@title='Back to Departments']]]></Back>
+  
+  <Delete><![CDATA[//a[@title='Delete Department']]]></Delete>
+
+
+  --------------------------------------Add New-----------------------------------------
+
+  <Name><![CDATA[//*[@id='OrganizationDepartmentName']]]></Name>
+  <PrimaryContact><![CDATA[//*[@id='OrganizationDepartmentPrimaryContactId']]]></PrimaryContact>
+  <Description><![CDATA[//*[@id='OrganizationDepartmentDescription']]]></Description>
+  <SaveDepartment><![CDATA[//*[@id='DepartmentDepartmentCreateForm']/div[3]/div/div/button[1]]]></SaveDepartment>
+  <CancelDeptment><![CDATA[//*[@id='DepartmentDepartmentCreateForm']/div[3]/div/div/button[2]]]></CancelDeptment>
+  -----------------------------Edit Team-----------------------------------------
+
+  <EditdepartmentSave><![CDATA[//*[@id='DepartmentDepartmentEditForm']/div[3]/div/div/button[1]]]></EditdepartmentSave>
+  <EditDepartmentCancel><![CDATA[//*[@id='DepartmentDepartmentEditForm']/div[3]/div/div/button[2]]]></EditDepartmentCancel>
+
+
+
+</Locator>

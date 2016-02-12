@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+
+    <ClickonActivities><![CDATA[//*[@id='activities']]]></ClickonActivities>
+    <ClickOnCalls><![CDATA[//*[@id='calls']]]></ClickOnCalls>
+    <ClickOnCallsAddNew><![CDATA[//*[@id='relatedToContent']/table/tbody/tr/td[1]/a]]></ClickOnCallsAddNew>
+    <SelectRelatedTo><![CDATA[//*[@id='CallParentType']]]></SelectRelatedTo>
+    <SelectMergebox><![CDATA[//*[@id='assignrecord']]]></SelectMergebox>>
+    <SelectrelatedToContent><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]/a]]></SelectrelatedToContent>
+    <SelectCallCategory><![CDATA[//*[@id='CallCategoryId']]]></SelectCallCategory>
+    <SelectCallowner><![CDATA[//*//*[@id='CallAssignedUserId']]]></SelectCallowner>
+    <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]></EnterCallSubject>
+    <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
+    <SelectCallDate><![CDATA[//*[@id='CallCallDate']]]></SelectCallDate>
+    <SelectCallFrom><![CDATA[//*[@id='CallCallFrom']]]></SelectCallFrom>
+    <SelectCallTo><![CDATA[.//*[@id='CallCallTo']]]></SelectCallTo>
+    <Enternumberfrom><![CDATA[//*[@id='CallNewcallFrom']]]></Enternumberfrom>
+    <EnterExtension><![CDATA[//*[@id='CallNewcallFromExtension']]]></EnterExtension>
+    <EnterNumberto><![CDATA[//*[@id='CallNewcallTo']]]></EnterNumberto>
+    <EnterExtension1><![CDATA[//*[@id='CallNewcallToExtension']]]></EnterExtension1>
+    <EnterCallFrom><![CDATA[//*[@id='CallCallerName']]]></EnterCallFrom>
+    <EnterCallTo><![CDATA[//*[@id='CallCaleeName']]]></EnterCallTo>
+    <SelectEmployee><![CDATA[//*[@id='CallCallFromEmp']]]></SelectEmployee>
+    <EnterStartingtime><![CDATA[//*[@id='clockface_call']]]></EnterStartingtime>
+    <CallHours><![CDATA[//*[@id='CallCallHours']]]></CallHours>
+    <CallMinutes><![CDATA[//*[@id='CallCallMins']]]></CallMinutes>
+    <Callsinsec><![CDATA[//*[@id='CallCallSecs']]]></Callsinsec>
+    <Selectsave><![CDATA[//*[@id='CallAddnewForm']/div[2]/div/ul/li[5]/button]]></Selectsave>
+  <UpdateSelectsave><![CDATA[//*[@id='CallUpdateForm']/div[2]/div/ul/li[4]/button]]></UpdateSelectsave>
+  
+  <SelectCancel><![CDATA[//*[@id='CallUpdateForm']/div[2]/div/ul/li[3]/a]]></SelectCancel>
+  <ClickStart><![CDATA[//*[@id='start']]]></ClickStart>
+  <ClickStop><![CDATA[//*[@id='stop']]]></ClickStop>
+  <ClickReset><![CDATA[//*[@id='reset']]]></ClickReset>
+
+  
+  
+  ---------------------------Index call---------------------------------------
+ 
+ <CallDefaultview><![CDATA[//*[@id='teamName']]]></CallDefaultview>
+  <CallCustomview><![CDATA[//*[@id='savedSearch']]]></CallCustomview>
+  <CallMasterCheckbox><![CDATA[//*[@id='calls_grid']/thead/tr/th[1]/div/span/input]]></CallMasterCheckbox>
+  <CallFilter><![CDATA[//*[@id='calls_grid_filter']/label/input]]></CallFilter>
+  <CallReset><![CDATA[//*[@id='ToolTables_calls_grid_0']]]></CallReset>
+  <CallBulkactions><![CDATA[//*[@id='calls_grid_wrapper']/div[1]/div/div/button]]></CallBulkactions>
+  <Callview><![CDATA[//*[@id='normal']]]></Callview>
+  <CallExportCSV><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></CallExportCSV>
+  <CallExportPDF><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></CallExportPDF>
+  <CallBulkupdate><![CDATA[//*[@id='bulk_update']]]></CallBulkupdate>
+  <CallDelete><![CDATA[//*[@id='remove_record']]]></CallDelete>
+  <CallRecordperpage><![CDATA[//*[@id='calls_grid_length']/label/select]]></CallRecordperpage>
+  <ToolActioncall><![CDATA[//*[@id='eventsicons1']/a/i[2]]]></ToolActioncall>
+  <ToolEditCall><![CDATA[//*[@id='eventsicons1']/ul/li[2]/a]]></ToolEditCall>
+  <ToolViewCall><![CDATA[//*[@id='eventsicons1']/ul/li[1]/a]]></ToolViewCall>
+  <ToolDeleteCall><![CDATA[//*[@id='eventsicons1']/ul/li[3]/a]]></ToolDeleteCall>
+  <BulkupdateCategory><![CDATA[//*[@id='BulkUpdateCategory']I]]></BulkupdateCategory>
+  <BulkupdateOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></BulkupdateOwner>
+  <BulkupdateButton><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></BulkupdateButton>
+  ----------------------------------View page-------------------------------
+  <CallBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></CallBack>
+  <CallMoreactions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/a]]></CallMoreactions>
+  <CallEdit><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></CallEdit>
+  <CallNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></CallNew>
+  <CallAddfile><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/div[2]/div/table/thead/tr/th[3]/a/i/small]]></CallAddfile>
+  <Downloadfile><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[1]/div[1]/div[2]/div/table/tbody/tr/td[1]/a/i]]></Downloadfile>
+  <CallFileDelete><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[1]/div[1]/div[2]/div/table/tbody/tr/td[3]/a/span]]></CallFileDelete>
+  <DeleteCall><![CDATA[html/body/div[4]/div[2]/div[2]/div/ul/li[5]/div/div/ul/li[1]/a]]></DeleteCall>
+  <ForwardCall><![CDATA[html/body/div[4]/div[2]/div[2]/div/ul/li[5]/div/div/ul/li[3]/a]]></ForwardCall>
+  <CallCategoryInlineedit><![CDATA[//*[@id='category']/span]]></CallCategoryInlineedit>
+  <CallOwnerInlineedit><![CDATA[//*[@id='responsibility']]]></CallOwnerInlineedit>
+  <Caltegorylist><![CDATA[//*[@id='autogen3']]]></Caltegorylist>
+  <CategorySave><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></CategorySave>
+  <OwnerList><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></OwnerList>
+  <OwnerSave><![CDATA[]]></OwnerSave>
+------------------------Add File-----------------------------------------------
+  <CallFileName><![CDATA[//*[@id='AttachmentName']]]></CallFileName>
+  <CallFileCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></CallFileCategory>
+  <CallFileSelect><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[2]/div/div[4]/div/div/div/div/span]]></CallFileSelect>
+  <CallDescription><![CDATA[//*[@id='AttachmentDescription']]]></CallDescription>
+  <CallFileSave><![CDATA[//*[@id='addFileSubmit']]]></CallFileSave>
+  <CallFileCancel><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></CallFileCancel>
+  
+ ---------------------------------------Forward Call--------------------------------------- 
+  <SelectEmployeelist><![CDATA[//*[@id='select_employee']]]></SelectEmployeelist>
+  <CheckToCheckbox><![CDATA[//*[@id='toid']]]></CheckToCheckbox>
+  <CheckCCCheckbox><![CDATA[//*[@id='ccid']]]></CheckCCCheckbox>
+  <CheckBccCheckbox><![CDATA[//*[@id='bccid']]]></CheckBccCheckbox>
+  <AddButton><![CDATA[//*[@id='submitemail']]]></AddButton>
+  
+  -----------------------------Customview--------------------------------------------------
+<customview><![CDATA[//*[@id='CallsQuickSearchSearchTextIndexForm']/table/tbody/tr/td[2]/strong/a]]></customview>
+  <Newbutton><![CDATA[//*[@id='actionbuttons']]]></Newbutton>
+  <DeleteCustomview><![CDATA[//*[@id='remove_saved_views']]]></DeleteCustomview>
+  <Backtopartners><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></Backtopartners>
+  <Filtercustomview><![CDATA[//*[@id='call_saved_views_filter']/label/input]]></Filtercustomview>
+  <Resetcustomview><![CDATA[//*[@id='ToolTables_call_saved_views_0']]]></Resetcustomview>
+  <CustomviewView><![CDATA[//*[@id='call_saved_views']/tbody/tr/td[2]/a]]></CustomviewView>
+  <CustomviewEdit><![CDATA[//*[@id='saved_edit']]]></CustomviewEdit>
+  <CancelCustomview><![CDATA[//*[@id='CallIndexForm']/div[2]/div[1]/div/div/a[2]]]></CancelCustomview>
+  <CustomviewDelete><![CDATA[//*[@id='deleteSearch']]]></CustomviewDelete>
+  <CustomviewSetasdefault><![CDATA[//*[@id='makedefaultsearch']]]></CustomviewSetasdefault>
+  <CustomviewUnsetdefault><![CDATA[//*[@id='removedefaultsearch']]]></CustomviewUnsetdefault>
+  <Selectdropdown><![CDATA[//*[@id='savedSearch']]]></Selectdropdown>
+  <Saveviewas><![CDATA[//*[@id='searchName']]]></Saveviewas>
+  <Sortby><![CDATA[//*[@id='PartnerSortCol']]]></Sortby>
+  <Owner><![CDATA[//*[@id='autogen2']]]></Owner>
+  <RelatedTo><![CDATA[//*[@id='autogen3']]]></RelatedTo>
+  <Category><![CDATA[//*[@id='autogen4']]]></Category>
+  <Createdby><![CDATA[//*[@id='autogen5']]]></Createdby>
+  <Modifiedby><![CDATA[//*[@id='autogen6']]]></Modifiedby>
+  <Createdtype><![CDATA[//*[@id='CallCustomColOps']]]></Createdtype>
+  <Createdtext><![CDATA[//*[@id='CallCustomColValues5']]]></Createdtext>
+  <Modifytype><![CDATA[//*[@id='CallCustomColOps']]]></Modifytype>
+  <Modifytext><![CDATA[//*[@id='CallCustomColValues6']]]></Modifytext>
+  <Calldatetype><![CDATA[//*[@id='CallCustomColOps']]]></Calldatetype>
+  <Calldatetext><![CDATA[//*[@id='CallCustomColValues7']]]></Calldatetext>
+  <Nemeadditioanal><![CDATA[//*[@id='CallAdditionalColNames']]]></Nemeadditioanal>
+  <Nametype><![CDATA[//*[@id='CallrAdditionalColOps']]]></Nametype>
+  <Nametext><![CDATA[//*[@id='CallAdditionalColValues']]]></Nametext>
+  <Save><![CDATA[//*[@id='CallIndexForm']/div[2]/div[5]/div/div/button]]></Save>
+ 
+  --------------------------------------------Trash--------------------------------
+<Trash1><![CDATA[html/body/div[4]/div[1]/ul/li[9]/ul/li[2]/ul/li[2]/a]]></Trash1>
+<CallsTrashFilter><![CDATA[//*[@id='call_trash_filter']/label/input]]></CallsTrashFilter>
+  <CallsTrashReset><![CDATA[//*[@id='ToolTables_call_trash_0']]]></CallsTrashReset>
+  <MasterCheckboxTrashCalls><![CDATA[//*[@id='call_trash']/thead/tr/th[1]/div/span/input]]></MasterCheckboxTrashCalls>   
+  <Mouseovertrash><![CDATA[//*[@id='call_trash_wrapper']/div[1]/div/div/button]]></Mouseovertrash>
+  <RemoveCallsForeever><![CDATA[//*[@id='remove_record']]]></RemoveCallsForeever>
+  <RestoreCalls><![CDATA[//*[@id='restore_record']]]></RestoreCalls>
+  <TrashCallsview><![CDATA[//*[@id='normal']]]></TrashCallsview>  
+  <Backtrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></Backtrash>
+  
+  <ViewTrashRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ViewTrashRestore>    
+  <ViewTrashDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ViewTrashDelete>
+  <ViewTrashBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ViewTrashBack> 
+</Locator>

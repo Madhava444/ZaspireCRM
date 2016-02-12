@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using Zaspire.Locators;
 using Zaspire.PageHelpers.Com;
+using OpenQA.Selenium.Interactions;
 
 namespace Zaspire.PageHelpers.Com
 {
@@ -90,8 +91,31 @@ namespace Zaspire.PageHelpers.Com
 
 
 
+        }
 
+        public void Mouseover(string Field)
+        {
+            var locator = locatorReader.ReadLocator(Field);
+            WaitForWorkAround(4000);
+            MouseOver(locator);
 
         }
+
+      
+  public void Mouseover1(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='normal']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+        }
+
+        public void upload1(string locator)
+        {
+
+            IWebElement element = GetWebDriver().FindElement(ByLocator(locator));
+            element.SendKeys("C:\\Users\\ISS_LP01\\Desktop\\Uploadfile.txt");
+        }
     }
+
 }

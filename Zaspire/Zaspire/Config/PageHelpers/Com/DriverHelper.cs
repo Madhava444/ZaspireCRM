@@ -417,6 +417,11 @@ namespace Zaspire.PageHelpers.Com
             GetWebDriver().SwitchTo().Alert().Accept();
         }
 
+        public void DismissAlert()
+        {
+            WaitForWorkAround(8000);
+            GetWebDriver().SwitchTo().Alert().Dismiss();
+        }
 
 
         /*    public void drawSign()

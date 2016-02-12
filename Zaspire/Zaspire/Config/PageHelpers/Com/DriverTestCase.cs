@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System;
+
 using System.Drawing.Imaging;
 using System.IO;
 using System.Text;
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
+using Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
-using Selenium;
+using OpenQA.Selenium.Chrome;
 
 namespace Zaspire.PageHelpers.Com
 {
@@ -161,5 +159,17 @@ namespace Zaspire.PageHelpers.Com
             var rnd = new Random();
             return rnd.Next(n1, n2);
         }
+
+        public void Browserback()
+
+        {
+
+            GetWebDriver().Navigate().Back();
+          
+
+        }
+          
+
+        }
+
     }
-}

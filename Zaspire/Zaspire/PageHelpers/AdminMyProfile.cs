@@ -100,10 +100,18 @@ namespace Zaspire.PageHelpers.Com
             var builder = new Actions(GetWebDriver());
 
             builder.MoveToElement(el).Build().Perform();
-      
-        }
 
         
+
+        }
+
+
+        public void upload1(string locator)
+        {
+
+            IWebElement element = GetWebDriver().FindElement(ByLocator(locator));
+            element.SendKeys("C:/Users/Public/Pictures/Sample Pictures");
+        }
 
 
 

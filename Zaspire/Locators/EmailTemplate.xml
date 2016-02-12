@@ -20,4 +20,57 @@
   <ClickOnAddUnsubscribeLinkInFooter><![CDATA[//*[@id='EmailTemplateUnsubscribe']]]></ClickOnAddUnsubscribeLinkInFooter>
   <MessageFooterDescription><![CDATA[//*[@id='emthf']/div[2]/div[2]/div/div]]></MessageFooterDescription>
   <ClickOnSavebuttonss><![CDATA[//*[@id='EmailTemplateAddnewForm']/div[3]/div/div[6]/div/div/button]]></ClickOnSavebuttonss>
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Template View Page $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+<ClickOnFirstRecords><![CDATA[//*[@id='email_templates']/tbody/tr[1]/td[2]/a]]></ClickOnFirstRecords>
+  <ClickEditOptionss><![CDATA[//a[@href='/infoaspire/emailtemplates/update/846']]]></ClickEditOptionss>
+  <ClickOnSaveOptionns><![CDATA[//*[@id='TemplateEditForm']/div[2]/div/ul/li[5]/button]]></ClickOnSaveOptionns>
+  <ClickOnNewButtons><![CDATA[//a[@href='/infoaspire/emailtemplates/addnew']]]></ClickOnNewButtons>
+  <ClickOnCancelbuttons><![CDATA[//*[@id='EmailTemplateAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnCancelbuttons>
+  <ClickOnCopyButtons><![CDATA[//a[@href='#templatecopyform']]]></ClickOnCopyButtons>
+  <ClickOnYesButton><![CDATA[//*[@id='copy-submit']]]></ClickOnYesButton>
+  <ClickOnDeleteButtons><![CDATA[//a[@class='btn btn-danger btn-xs']]]></ClickOnDeleteButtons>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Inbox @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<RecordsPerPage><![CDATA[//*[@id='email_templates_length']/label/select]]></RecordsPerPage>
+  <SearchFilterbox><![CDATA[//*[@id='email_templates_filter']/label/input]]></SearchFilterbox>
+  <ClickOnResetsbutton><![CDATA[//*[@id='ToolTables_email_templates_0']]]></ClickOnResetsbutton>
+  <ClickOnNewsbuttons><![CDATA[//a[@href='/infoaspire/emailtemplates/addnew']]]></ClickOnNewsbuttons>
+  <ClickOnCancellbuttons><![CDATA[//*[@id='EmailTemplateAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnCancellbuttons>
+  <ClickOnTrashButton><![CDATA[//a[@href='/infoaspire/emailtemplates/trash']]]></ClickOnTrashButton>
+  <ClickOnbackkbuttons><![CDATA[//a[@href='/infoaspire/emailtemplates']]]></ClickOnbackkbuttons>
+  <ClickOnPdftemplate><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></ClickOnPdftemplate>
+  <ClickOn.csvtemplate><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></ClickOn.csvtemplate>
+  <ClickOnEdittbuttons><![CDATA[//*[@id='email_templates']/tbody/tr[1]/td[1]/a/sapn]]></ClickOnEdittbuttons>
+  <ClickonSavesbuttons><![CDATA[//*[@id='TemplateEditForm']/div[2]/div/ul/li[5]/button]]></ClickonSavesbuttons>
+  <ClickOnInboxMasterCheckbox><![CDATA[//*[@id='email_templates']/thead/tr/th[1]/div/span/input]]></ClickOnInboxMasterCheckbox>
+  <ClickonUpdateStatus><![CDATA[//*[@id='update_template_status']]]></ClickonUpdateStatus>
+  <UpdateStatus><![CDATA[//*[@id='EmailtemplateStatusUpdateTemplateStatus']]]></UpdateStatus>
+  <ClickonUpdatebutton><![CDATA[//*[@id='EmailtemplateStatusUpdateIndexForm']/div[2]/table/tbody/tr/td[3]/a]]></ClickonUpdatebutton>
+  <ClickonDeleteEmailTemplates><![CDATA[//*[@id='remove_template']]]></ClickonDeleteEmailTemplates>
+
+
+################################ Email Template Trash Index page #######################################
+
+<SearchhFilterboxx><![CDATA[//*[@id='emailtemp_trash_filter']/label/input]]></SearchhFilterboxx>
+  <ClickOnResetsbuttonn><![CDATA[//*[@id='ToolTables_emailtemp_trash_0']]]></ClickOnResetsbuttonn>
+  <ClickOnDeleteIcon><![CDATA[//*[@id='emailtemp_trash']/tbody/tr[1]/td[1]/a[1]/span]]></ClickOnDeleteIcon>
+  <ClickOnRestoreIcon><![CDATA[//*[@id='emailtemp_trash']/tbody/tr[1]/td[1]/a[2]/span]]></ClickOnRestoreIcon>
+  <ClickOnFirstTrashRecord><![CDATA[//*[@id='emailtemp_trash']/tbody/tr[1]/td[2]/a]]></ClickOnFirstTrashRecord>
+  <ClickOnBackkbuttonn><![CDATA[//a[@title='Back To E-Mail Templates Trash']]]></ClickOnBackkbuttonn>
+  <ClickOnDeleteForeverOption><![CDATA[//*[@id='remove_email']]]></ClickOnDeleteForeverOption>
+  <ClickOnRestoreTemplateOption><![CDATA[//*[@id='restore_email']]]></ClickOnRestoreTemplateOption>
+<RecordssPerPagee><![CDATA[//*[@id='emailtemp_trash_length']/label/select]]></RecordssPerPagee>
+
+
+  
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Trash View Page $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
+
+<ClickOnFirsttTrashRecord><![CDATA[//*[@id='emailtemp_trash']/tbody/tr[1]/td[2]/a]]></ClickOnFirsttTrashRecord>
+<ClickOnRestoreButtonns><![CDATA[//a[@title='Restore E-Mail Template']]]></ClickOnRestoreButtonns>
+<ClickOnFirsttTtrashRecords><![CDATA[//*[@id='emailtemp_trash']/tbody/tr[1]/td[2]/a]]></ClickOnFirsttTtrashRecords>
+<ClickOnDeleteButtonns><![CDATA[//a[@title='Delete Permanent E-Mail Template']]]></ClickOnDeleteButtonns>
+
 </Locators>

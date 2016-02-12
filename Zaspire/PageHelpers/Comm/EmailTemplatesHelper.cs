@@ -90,9 +90,16 @@ namespace Zaspire.PageHelpers.Comm
             }
 
         }
-        public void MouseHover08(string locator)
+        public void MouseOver020(string locator)
         {
-            var el = GetWebDriver().FindElement(ByLocator("//*[@id='mails_draft_wrapper']/div[1]/div/div/button"));
+            var el = GetWebDriver().FindElement(ByLocator("//button[@class='btn btn-xs btn-warning dropdown-toggle button-alignment']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+        }
+        public void MouseOver021(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//button[@class='btn btn-xs btn-warning dropdown-toggle button-alignment']"));
 
             var builder = new Actions(GetWebDriver());
             builder.MoveToElement(el).Build().Perform();

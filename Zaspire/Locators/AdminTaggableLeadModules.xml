@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ClickOnAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickOnAdmin>
+
+  <clickonsetup><![CDATA[//span[@style='padding-right : 57%;']]]></clickonsetup>
+  <clickontagfields> <![CDATA[//a[@href='/infoaspire/admin/settings/admintaggable']]]></clickontagfields>
+  <selectmodule><![CDATA[//*[@id='AdminModuleTaggableTagModules']]]></selectmodule>
+  <state><![CDATA[//input[@value='m,76']]]></state>
+  <Country><![CDATA[//input[@value='m,77']]]></Country>
+  <zipcode><![CDATA[//input[@value='m,78']]]></zipcode>
+  <addressline1><![CDATA[//input[@value='m,1078']]]></addressline1>
+  <addressline2><![CDATA[//input[@value='m,74']]]></addressline2>
+  <City><![CDATA[//input[@value='m,75']]]></City>
+  <Group><![CDATA[//input[@value='m,1109']]]></Group>
+  <Status><![CDATA[//input[@value='m,23']]]></Status>
+  <Category><![CDATA[//input[@value='m,24']]]></Category>
+  <Source><![CDATA[//input[@value='m,25']]]></Source>
+  <Company><![CDATA[//input[@value='m,30']]]></Company>
+  <Title><![CDATA[//input[@value='m,31']]]></Title>
+  <Department><![CDATA[//input[@value='m,32']]]></Department>
+  <Industry><![CDATA[//input[@value='m,33']]]></Industry>
+  <uncheckall><![CDATA[//*[@id='checkvals']]]></uncheckall>
+  <tagmodule><![CDATA[//*[@id='AdminModuleTaggableAdminmodulesTaggableForm']/div[4]/button[1]]]></tagmodule>
+  <cancel><![CDATA[//*[@id='AdminModuleTaggableAdminmodulesTaggableForm']/div[4]/button[2]]]></cancel>
+
+
+
+  <!--AcccountsModule-->
+  <selectmodule><![CDATA[//*[@id='AdminModuleTaggableTagModules']]]></selectmodule>
+  <Accountstate><![CDATA[//input[@value='m,400']]]></Accountstate>
+  <AccountCountry><![CDATA[//input[@value='m,402']]]></AccountCountry>
+  <Accountzipcode><![CDATA[//input[@value='m,404']]]></Accountzipcode>
+  <Accountaddressline1><![CDATA[//input[@value='m,406']]]></Accountaddressline1>
+  <Accountaddressline2><![CDATA[//input[@value='m,398']]]></Accountaddressline2>
+  <AccountCity><![CDATA[//input[@value='m,399']]]></AccountCity>
+  <AccountGroup><![CDATA[//input[@value='m,1092']]]></AccountGroup>
+  <AccountStatus><![CDATA[//input[@value='m,351']]]></AccountStatus>
+  <AccountCategory><![CDATA[//input[@value='m,352']]]></AccountCategory>
+  <AccountSource><![CDATA[//input[@value='m,353']]]></AccountSource>
+  <AccountCompany><![CDATA[//input[@value='m,357']]]></AccountCompany>
+  <AccountSICCode><![CDATA[//input[@value='m,358']]]></AccountSICCode>
+  <AccountLegalName><![CDATA[//input[@value='m,348']]]></AccountLegalName>
+  <AccountIndustry><![CDATA[//input[@value='m,350']]]></AccountIndustry>
+  <uncheckall><![CDATA[//*[@id='checkvals']]]></uncheckall>
+
+
+
+  <!--OpportunityModule-->
+
+  <OpportunityName><![CDATA[//input[@value='m,127']]]></OpportunityName>
+  <OpportunityNextstep><![CDATA[//input[@value='m,148']]]></OpportunityNextstep>
+  <OpportunityGroup><![CDATA[//input[@value='m,1087']]]></OpportunityGroup>
+  <OpportunityStatus><![CDATA[//input[@value='m,124']]]></OpportunityStatus>
+  <OpportunitySkilltype><![CDATA[//input[@value='m,138']]]></OpportunitySkilltype>
+  <OpportunitySource><![CDATA[//input[@value='m,126']]]></OpportunitySource>
+  <OpportunityCompany><![CDATA[//input[@value='m,130']]]></OpportunityCompany>
+  <OpportunitySpecificSkill><![CDATA[//input[@value='m,143']]]></OpportunitySpecificSkill>
+  <OpportunityLegalName><![CDATA[//input[@value='m,348']]]></OpportunityLegalName>
+  <Opportunitycategroy><![CDATA[//input[@value='m,125']]]></Opportunitycategroy>
+  <OpportunityIndustry><![CDATA[//input[@value='m,133']]]></OpportunityIndustry>
+  <uncheckall><![CDATA[//*[@id='checkvals']]]></uncheckall>
+
+
+  <!--ContactsModule-->
+
+  <Contactsstate><![CDATA[//input[@value='m,282']]]></Contactsstate>
+  <ContactsCountry><![CDATA[//input[@value='m,243']]]></ContactsCountry>
+  <Contactszipcode><![CDATA[//input[@value='m,244']]]></Contactszipcode>
+  <Contactsaddressline1><![CDATA[//input[@value='m,241']]]></Contactsaddressline1>
+  <Contactsaddressline2><![CDATA[//input[@value='m,242']]]></Contactsaddressline2>
+  <ContactsCity><![CDATA[//input[@value='m,281']]]></ContactsCity>
+  <ContactsGroup><![CDATA[//input[@value='m,1454']]]></ContactsGroup>
+  <ContactsStatus><![CDATA[//input[@value='m,292']]]></ContactsStatus>
+  <ContactsCategory><![CDATA[//input[@value='m,1084']]]></ContactsCategory>
+  <ContactsSource><![CDATA[//input[@value='m,294']]]></ContactsSource>
+  <ContactsCompany><![CDATA[//input[@value='m,290']]]></ContactsCompany>
+  <ContactsDepartment><![CDATA[//input[@value='m,284']]]></ContactsDepartment>
+  <ContactsTitle><![CDATA[//input[@value='m,283']]]></ContactsTitle>
+
+  <uncheckall><![CDATA[//*[@id='checkvals']]]></uncheckall>
+
+
+
+  <!--JobsModule-->
+
+  <JKeySkills><![CDATA[//input[@value='m,1492']]]></JKeySkills>
+  <JEducation><![CDATA[//input[@value='m,1190']]]></JEducation>
+  <JIndustry><![CDATA[//input[@value='m,1346']]]></JIndustry>
+  <JSource><![CDATA[//input[@value='m,1730']]]></JSource>
+  <JCategory><![CDATA[//input[@value='m,1738']]]></JCategory>
+  <JTitle><![CDATA[//input[@value='m,650']]]></JTitle>
+  <JStatus><![CDATA[//input[@value='m,658']]]></JStatus>
+  <JCompany><![CDATA[//input[@value='m,659']]]></JCompany>
+  <JJobType><![CDATA[//input[@value='m,677']]]></JJobType>
+  <JReferenceCode><![CDATA[//input[@value='m,653']]]></JReferenceCode>
+  <JCareerLevel><![CDATA[//input[@value='m,654']]]></JCareerLevel>
+
+  <uncheckall><![CDATA[//*[@id='checkvals']]]></uncheckall>
+
+
+  <!--InterviewModule-->
+
+
+
+  <IZipCode><![CDATA[//input[@value='m,1716']]]></IZipCode>
+  <IAddressLine><![CDATA[//input[@value='m,1712']]]></IAddressLine>
+  <ICity><![CDATA[//input[@value='m,1713']]]></ICity>
+  <IState><![CDATA[//input[@value='m,1714']]]></IState>
+  <ICountry><![CDATA[//input[@value='m,1715']]]></ICountry>
+  <IJobTitle><![CDATA[//input[@value='m,1702']]]></IJobTitle>
+  <IReferenceCode><![CDATA[//input[@value='m,1703']]]></IReferenceCode>
+  <ICompany><![CDATA[//input[@value='m,1704']]]></ICompany>
+
+  <uncheckall><![CDATA[//*[@id='checkvals']]]></uncheckall>
+
+
+  <!--CampaigMondule-->
+
+
+
+  <CGroup><![CDATA[//input[@value='m,1452']]]></CGroup>
+  <CName><![CDATA[//input[@value='m,981']]]></CName>
+  <CCategory><![CDATA[//input[@value='m,983']]]></CCategory>
+  
+
+  <uncheckall><![CDATA[//*[@id='checkvals']]]></uncheckall>
+
+
+
+</Locators>

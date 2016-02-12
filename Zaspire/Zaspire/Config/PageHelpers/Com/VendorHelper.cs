@@ -113,6 +113,32 @@ namespace Zaspire.PageHelpers.Com
 
         }
 
+        public void Mouseover1(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='normal']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+
+        }
+
+        public void MouseOver2(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//a[@data-hover='dropdown']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+
+
+        }
+
+        public void upload1(string locator)
+        {
+
+            IWebElement element = GetWebDriver().FindElement(ByLocator(locator));
+            element.SendKeys("C:\\Users\\ISS_LP01\\Desktop\\Uploadfile.txt");
+        }
+
     }
 
 }

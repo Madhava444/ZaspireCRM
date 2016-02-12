@@ -112,5 +112,30 @@ namespace Zaspire.PageHelpers.Com
             WaitForWorkAround(3000);
 
         }
+        public void Mouseover1(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//*[@id='normal']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+
+        }
+
+        public void MouseOver2(string locator)
+        {
+            var el = GetWebDriver().FindElement(ByLocator("//a[@class='btn btn-xs btn-warning button-alignment dropdown-toggle']"));
+
+            var builder = new Actions(GetWebDriver());
+            builder.MoveToElement(el).Build().Perform();
+
+
+        }
+
+        public void upload1(string locator)
+        {
+
+            IWebElement element = GetWebDriver().FindElement(ByLocator(locator));
+            element.SendKeys("C:\\Users\\ISS_LP01\\Desktop\\Uploadfile.txt");
+        }
     }
 }

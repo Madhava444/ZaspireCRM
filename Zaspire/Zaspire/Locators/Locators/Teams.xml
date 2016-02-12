@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+<Movesoverprofile><![CDATA[//a[@class='dropdown-toggle']]]></Movesoverprofile>
+<SelectProfile><![CDATA[//a[@href='/infoaspire/myprofile']]]></SelectProfile>
+  <ClickonAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickonAdmin>
+  <teams><![CDATA[//a[@href='/infoaspire/admin/roles/team']]]></teams>
+  <ClickonMainsite><![CDATA[//a[@href='/infoaspire/']]]></ClickonMainsite>
+  
+  ---------------------------------------- -Index--------------------------------------------
+  
+  <TeamsFilter><![CDATA[//*[@id='teams_table_filter']/label/input]]></TeamsFilter>
+  <TeamsReset><![CDATA[//*[@id='ToolTables_teams_table_0']]]></TeamsReset>
+  <TeamAddNew><![CDATA[//*[@id='new_hierarchy']]]></TeamAddNew>
+  <DeleteIcon><![CDATA[//*[@id='teams_table']/tbody/tr[1]/td[1]/span[2]/a/i]]></DeleteIcon>
+  <EditIcon><![CDATA[//*[@id='teams_table']/tbody/tr[1]/td[1]/span[1]/a/i]]></EditIcon>
+  <Teamview><![CDATA[//*[@id='teams_table']/tbody/tr[1]/td[2]/a]]></Teamview>
+
+  --------------------------------------View------------------------------------------
+ 
+  <Setpermissions><![CDATA[//a[@class='btn btn-xs btn-font btn-info button-alignment']]]></Setpermissions>
+  <Back><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></Back>
+
+  ---------------------------------SetPermissions------------------------------------
+  
+  <Modulepermissions><![CDATA[//input[@id='modules0']]]></Modulepermissions>
+  <SaveandapplyExistingdata><![CDATA[//*[@id='saveandapply']]]></SaveandapplyExistingdata>
+  <SavePermissions><![CDATA[//*[@id='save']]]></SavePermissions>
+  <CancelPermissions><![CDATA[html/body/div[4]/div[2]/div/div/ul/li[4]/a]]></CancelPermissions>
+
+  --------------------------------------Add New-----------------------------------------
+ 
+  <Name><![CDATA[//*[@id='HierarchieName']]]></Name>
+  <Department><![CDATA[//*[@id='HierarchieOrgDeptId']]]></Department>
+  <SaveTeam><![CDATA[//*[@id='HierarchieTeamForm']/div[2]/div/div[3]/div/button[1]]]></SaveTeam>
+  <CancelTeam><![CDATA[//*[@id='HierarchieTeamForm']/div[2]/div/div[3]/div/button[2]]]></CancelTeam>
+  
+ -----------------------------Edit Team-----------------------------------------
+ 
+  <EditName><![CDATA[//*[@id='OrganizationHierarchyName']]]></EditName>
+  <EditDepartment><![CDATA[//*[@id='OrganizationHierarchyOrgDeptId']]]></EditDepartment>
+<EditTeamSave><![CDATA[//*[@id='RoleTeamEditForm']/div[3]/button[1]]]></EditTeamSave>
+  <EditTeamCancel><![CDATA[//*[@id='RoleTeamEditForm']/div[3]/button[2]]]></EditTeamCancel>
+
+--------------------------------SetPermissions--------------------------------------
+<SelectModules><![CDATA[//*[@id='uniform-modules0']/span]]></SelectModules>
+
+  --------------------------Consultentmodule-----------------------------
+
+<ConsultentViewAssigneed><![CDATA[//*[@id='Module30Permission21']]]></ConsultentViewAssigneed>
+<ConsultentViewEveryoneup><![CDATA[//*[@id='Module30Permission24']]]></ConsultentViewEveryoneup>
+<ConsultentViewEveryoneDown><![CDATA[//*[@id='Module30Permission6']]]></ConsultentViewEveryoneDown>
+<ConsultentViewEveryoneElse><![CDATA[//*[@id='Module30Permission9']]]></ConsultentViewEveryoneElse>
+<ConsultentViewAnyoneFrom><![CDATA[//*[@id='Module30Permission15']]]></ConsultentViewAnyoneFrom>
+
+<ConsultentEditAssigneed><![CDATA[//*[@id='Module30Permission22']]]></ConsultentEditAssigneed>
+<ConsultentEditEveryoneup><![CDATA[//*[@id='Module30Permission25']]]></ConsultentEditEveryoneup>
+<ConsultentEditEveryoneDown><![CDATA[//*[@id='Module30Permission7']]]></ConsultentEditEveryoneDown>
+<ConsultentEditEveryoneElse><![CDATA[//*[@id='Module30Permission10']]]></ConsultentEditEveryoneElse>
+<ConsultentEditAnyoneFrom><![CDATA[//*[@id='Module30Permission16']]]></ConsultentEditAnyoneFrom>
+
+<ConsultentDeleteAssigneed><![CDATA[//*[@id='Module30Permission23']]]></ConsultentDeleteAssigneed>
+<ConsultentDeleteEveryoneup><![CDATA[//*[@id='Module30Permission26']]]></ConsultentDeleteEveryoneup>
+<ConsultentDeleteEveryoneDown><![CDATA[//*[@id='Module30Permission8']]]></ConsultentDeleteEveryoneDown>
+<ConsultentDeleteEveryoneElse><![CDATA[//*[@id='Module30Permission11']]]></ConsultentDeleteEveryoneElse>
+<ConsultentDeleteAnyoneFrom><![CDATA[//*[@id='Module30Permission17']]]></ConsultentDeleteAnyoneFrom>
+
+-------------------------------------EmailTemplate-----------------------------------------
+
+<EmailTemplateViewAssigneed><![CDATA[//*[@id='Module4Permission21']]]></EmailTemplateViewAssigneed>
+<EmailTemplateViewEveryoneup><![CDATA[//*[@id='Module4Permission24']]]></EmailTemplateViewEveryoneup>
+<EmailTemplateViewEveryoneDown><![CDATA[//*[@id='Module4Permission6']]]></EmailTemplateViewEveryoneDown>
+<EmailTemplateViewEveryoneElse><![CDATA[//*[@id='Module4Permission9']]]></EmailTemplateViewEveryoneElse>
+<EmailTemplateViewAnyoneFrom><![CDATA[//*[@id='Module4Permission15']]]></EmailTemplateViewAnyoneFrom>
+
+<EmailTemplateEditAssigneed><![CDATA[//*[@id='Module4Permission22']]]></EmailTemplateEditAssigneed>
+<EmailTemplateEditEveryoneup><![CDATA[//*[@id='Module4Permission25']]]></EmailTemplateEditEveryoneup>
+<EmailTemplateEditEveryoneDown><![CDATA[//*[@id='Module4Permission7']]]></EmailTemplateEditEveryoneDown>
+<EmailTemplateEditEveryoneElse><![CDATA[//*[@id='Module4Permission10']]]></EmailTemplateEditEveryoneElse>
+<EmailTemplateEditAnyoneFrom><![CDATA[//*[@id='Module4Permission16']]]></EmailTemplateEditAnyoneFrom>
+
+<EmailTemplateDeleteAssigneed><![CDATA[//*[@id='Module4Permission23']]]></EmailTemplateDeleteAssigneed>
+<EmailTemplateDeleteEveryoneup><![CDATA[//*[@id='Module4Permission26']]]></EmailTemplateDeleteEveryoneup>
+<EmailTemplateDeleteEveryoneDown><![CDATA[//*[@id='Module4Permission8']]]></EmailTemplateDeleteEveryoneDown>
+<EmailTemplateDeleteEveryoneElse><![CDATA[//*[@id='Module4Permission11']]]></EmailTemplateDeleteEveryoneElse>
+<EmailTemplateDeleteAnyoneFrom><![CDATA[//*[@id='Module4Permission17']]]></EmailTemplateDeleteAnyoneFrom>
+
+  _-----------------------------------------Accounts----------------------------------------
+
+ <AccountViewAssigneed><![CDATA[//*[@id='Module10Permission21']]]></AccountViewAssigneed>
+<AccountViewEveryoneup><![CDATA[//*[@id='Module10Permission24']]]></AccountViewEveryoneup>
+<AccountViewEveryoneDown><![CDATA[//*[@id='Module10Permission6']]]></AccountViewEveryoneDown>
+<AccountViewEveryoneElse><![CDATA[//*[@id='Module10Permission9']]]></AccountViewEveryoneElse>
+<AccountViewAnyoneFrom><![CDATA[//*[@id='Module10Permission15']]]></AccountViewAnyoneFrom>
+
+<AccountEditAssigneed><![CDATA[//*[@id='Module10Permission22']]]></AccountEditAssigneed>
+<AccountEditEveryoneup><![CDATA[//*[@id='Module10Permission25']]]></AccountEditEveryoneup>
+<AccountEditEveryoneDown><![CDATA[//*[@id='Module10Permission7']]]></AccountEditEveryoneDown>
+<AccountEditEveryoneElse><![CDATA[//*[@id='Module10Permission10']]]></AccountEditEveryoneElse>
+<AccountEditAnyoneFrom><![CDATA[//*[@id='Module10Permission16']]]></AccountEditAnyoneFrom>
+
+<AccountDeleteAssigneed><![CDATA[//*[@id='Module10Permission23']]]></AccountDeleteAssigneed>
+<AccountDeleteEveryoneup><![CDATA[//*[@id='Module10Permission26']]]></AccountDeleteEveryoneup>
+<AccountDeleteEveryoneDown><![CDATA[//*[@id='Module10Permission8']]]></AccountDeleteEveryoneDown>
+<AccountDeleteEveryoneElse><![CDATA[//*[@id='Module10Permission11']]]></AccountDeleteEveryoneElse>
+<AccountDeleteAnyoneFrom><![CDATA[//*[@id='Module10Permission17']]]></AccountDeleteAnyoneFrom>
+
+
+---------------------------------------Applications--------------------------------------------------------
+
+  <ApplicationViewAssigneed><![CDATA[//*[@id='Module17Permission21']]]></ApplicationViewAssigneed>
+<ApplicationViewEveryoneup><![CDATA[//*[@id='Module17Permission24']]]></ApplicationViewEveryoneup>
+<ApplicationViewEveryoneDown><![CDATA[//*[@id='Module17Permission6']]]></ApplicationViewEveryoneDown>
+<ApplicationViewEveryoneElse><![CDATA[//*[@id='Module17Permission9']]]></ApplicationViewEveryoneElse>
+<ApplicationViewAnyoneFrom><![CDATA[//*[@id='Module17Permission15']]]></ApplicationViewAnyoneFrom>
+
+  <ApplicationEditAssigneed><![CDATA[//*[@id='Module17Permission22']]]></ApplicationEditAssigneed>
+  <ApplicationEditEveryoneup><![CDATA[//*[@id='Module17Permission25']]]></ApplicationEditEveryoneup>
+  <ApplicationEditEveryoneDown><![CDATA[//*[@id='Module17Permission7']]]></ApplicationEditEveryoneDown>
+  <ApplicationEditEveryoneElse><![CDATA[//*[@id='Module17Permission10']]]></ApplicationEditEveryoneElse>
+  <ApplicationEditAnyoneFrom><![CDATA[//*[@id='Module17Permission16']]]></ApplicationEditAnyoneFrom>
+
+  <ApplicationDeleteAssigneed><![CDATA[//*[@id='Module17Permission23']]]></ApplicationDeleteAssigneed>
+  <ApplicationDeleteEveryoneup><![CDATA[//*[@id='Module17Permission26']]]></ApplicationDeleteEveryoneup>
+  <ApplicationDeleteEveryoneDown><![CDATA[//*[@id='Module17Permission8']]]></ApplicationDeleteEveryoneDown>
+  <ApplicationDeleteEveryoneElse><![CDATA[//*[@id='Module17Permission11']]]></ApplicationDeleteEveryoneElse>
+  <ApplicationDeleteAnyoneFrom><![CDATA[//*[@id='Module17Permission17']]]></ApplicationDeleteAnyoneFrom>
+
+
+  ----------------------------------BulkEmails--------------------------------------------------------
+ 
+  <BulkEmailsViewAssigneed><![CDATA[//*[@id='Module19Permission21']]]></BulkEmailsViewAssigneed>
+  <BulkEmailsViewEveryoneup><![CDATA[//*[@id='Module19Permission24']]]></BulkEmailsViewEveryoneup>
+ <BulkEmailsViewEveryoneDown><![CDATA[//*[@id='Module19Permission6']]]></BulkEmailsViewEveryoneDown>
+  <BulkEmailsViewEveryoneElse><![CDATA[//*[@id='Module19Permission9']]]></BulkEmailsViewEveryoneElse>
+    <BulkEmailsViewAnyoneFrom><![CDATA[//*[@id='Module19Permission15']]]></BulkEmailsViewAnyoneFrom>
+
+
+  <BulkEmailEditAssigneed1><![CDATA[//*[@id='Module19Permission22']]]></BulkEmailEditAssigneed1>
+   <BulkEmailEditEveryoneup><![CDATA[//*[@id='Module19Permission25']]]></BulkEmailEditEveryoneup>
+   <BulkEmailEditEveryoneDown><![CDATA[//*[@id='Module19Permission7']]]></BulkEmailEditEveryoneDown>
+  <BulkEmailEditEveryoneElse><![CDATA[//*[@id='Module19Permission10']]]></BulkEmailEditEveryoneElse>
+   <BulkEmailEditAnyoneFrom><![CDATA[//*[@id='Module19Permission16']]]></BulkEmailEditAnyoneFrom>
+
+  <BulkEmailDeleteAssigneed><![CDATA[//*[@id='Module19Permission23']]]></BulkEmailDeleteAssigneed>
+  <BulkEmailDeleteEveryoneup><![CDATA[//*[@id='Module19Permission26']]]></BulkEmailDeleteEveryoneup>
+  <BulkEmailDeleteEveryoneDown><![CDATA[//*[@id='Module19Permission8']]]></BulkEmailDeleteEveryoneDown>
+  <BulkEmailDeleteEveryoneElse><![CDATA[//*[@id='Module19Permission11']]]></BulkEmailDeleteEveryoneElse>
+  <BulkEmailDeleteAnyoneFrom><![CDATA[//*[@id='Module19Permission17']]]></BulkEmailDeleteAnyoneFrom>
+
+
+
+  ----------------------------------Campaign--------------------------------------------------------
+  
+  <CampaignViewAssigneed><![CDATA[//*[@id='Module20Permission21']]]></CampaignViewAssigneed>
+  <CampaignViewEveryoneup><![CDATA[//*[@id='Module20Permission24']]]></CampaignViewEveryoneup>
+  <CampaignViewEveryoneDown><![CDATA[//*[@id='Module20Permission6']]]></CampaignViewEveryoneDown>
+  <CampaignViewEveryoneElse><![CDATA[//*[@id='Module20Permission9']]]></CampaignViewEveryoneElse>
+  <CampaignViewAnyoneFrom><![CDATA[//*[@id='Module20Permission15']]]></CampaignViewAnyoneFrom>
+
+  <CampaignEditAssigneed><![CDATA[//*[@id='Module20Permission22']]]></CampaignEditAssigneed>
+  <CampaignEditEveryoneup><![CDATA[//*[@id='Module20Permission25']]]></CampaignEditEveryoneup>
+  <CampaignEditEveryoneDown><![CDATA[//*[@id='Module20Permission7']]]></CampaignEditEveryoneDown>
+  <CampaignEditEveryoneElse><![CDATA[//*[@id='Module20Permission10']]]></CampaignEditEveryoneElse>
+  <CampaignEditAnyoneFrom><![CDATA[//*[@id='Module20Permission16']]]></CampaignEditAnyoneFrom>
+
+  <CampaignDeleteAssigneed><![CDATA[//*[@id='Module20Permission23']]]></CampaignDeleteAssigneed>
+  <CampaignDeleteEveryoneup><![CDATA[//*[@id='Module20Permission26']]]></CampaignDeleteEveryoneup>
+  <CampaignDeleteEveryoneDown><![CDATA[//*[@id='Module20Permission8']]]></CampaignDeleteEveryoneDown>
+  <CampaignDeleteEveryoneElse><![CDATA[//*[@id='Module20Permission11']]]></CampaignDeleteEveryoneElse>
+  <CampaignDeleteAnyoneFrom><![CDATA[//*[@id='Module20Permission17']]]></CampaignDeleteAnyoneFrom>
+
+
+
+  ---------------------------------Candidate--------------------------------------------------------
+  
+  <CandidateViewAssigneed><![CDATA[//*[@id='Module15Permission21']]]></CandidateViewAssigneed>
+  <CandidateViewEveryoneup><![CDATA[//*[@id='Module15Permission24']]]></CandidateViewEveryoneup>
+  <CandidateViewEveryoneDown><![CDATA[//*[@id='Module15Permission6']]]></CandidateViewEveryoneDown>
+  <CandidateViewEveryoneElse><![CDATA[//*[@id='Module15Permission9']]]></CandidateViewEveryoneElse>
+  <CandidateViewAnyoneFrom><![CDATA[//*[@id='Module15Permission15']]]></CandidateViewAnyoneFrom>
+
+  <CandidateEditAssigneed><![CDATA[//*[@id='Module15Permission22']]]></CandidateEditAssigneed>
+  <CandidateEditEveryoneup><![CDATA[//*[@id='Module15Permission25']]]></CandidateEditEveryoneup>
+  <CandidateEditEveryoneDown><![CDATA[//*[@id='Module15Permission7']]]></CandidateEditEveryoneDown>
+  <CandidateEditEveryoneElse><![CDATA[//*[@id='Module15Permission10']]]></CandidateEditEveryoneElse>
+  <CandidateEditAnyoneFrom><![CDATA[//*[@id='Module15Permission16']]]></CandidateEditAnyoneFrom>
+
+  <CandidateDeleteAssigneed><![CDATA[//*[@id='Module15Permission23']]]></CandidateDeleteAssigneed>
+  <CandidateDeleteEveryoneup><![CDATA[//*[@id='Module15Permission26']]]></CandidateDeleteEveryoneup>
+  <CandidateDeleteEveryoneDown><![CDATA[//*[@id='Module15Permission8']]]></CandidateDeleteEveryoneDown>
+  <CandidateDeleteEveryoneElse><![CDATA[//*[@id='Module15Permission11']]]></CandidateDeleteEveryoneElse>
+  <CandidateDeleteAnyoneFrom><![CDATA[//*[@id='Module15Permission17']]]></CandidateDeleteAnyoneFrom>
+
+
+------------------------------------Contact--------------------------------------------------------
+ 
+  <ContactViewAssigneed><![CDATA[//*[@id='Module12Permission21']]]></ContactViewAssigneed>
+  <ContactViewEveryoneup><![CDATA[//*[@id='Module12Permission24']]]></ContactViewEveryoneup>
+  <ContactViewEveryoneDown><![CDATA[//*[@id='Module12Permission6']]]></ContactViewEveryoneDown>
+  <ContactViewEveryoneElse><![CDATA[//*[@id='Module12Permission9']]]></ContactViewEveryoneElse>
+  <ContactViewAnyoneFrom><![CDATA[//*[@id='Module12Permission15']]]></ContactViewAnyoneFrom>
+
+  <ContactEditAssigneed><![CDATA[//*[@id='Module12Permission22']]]></ContactEditAssigneed>
+  <ContactEditEveryoneup><![CDATA[//*[@id='Module12Permission25']]]></ContactEditEveryoneup>
+  <ContactEditEveryoneDown><![CDATA[//*[@id='Module12Permission7']]]></ContactEditEveryoneDown>
+  <ContactEditEveryoneElse><![CDATA[//*[@id='Module12Permission10']]]></ContactEditEveryoneElse>
+  <ContactEditAnyoneFrom><![CDATA[//*[@id='Module12Permission16']]]></ContactEditAnyoneFrom>
+
+  <ContactDeleteAssigneed><![CDATA[//*[@id='Module12Permission23']]]></ContactDeleteAssigneed>
+  <ContactDeleteEveryoneup><![CDATA[//*[@id='Module12Permission26']]]></ContactDeleteEveryoneup>
+  <ContactDeleteEveryoneDown><![CDATA[//*[@id='Module12Permission8']]]></ContactDeleteEveryoneDown>
+  <ContactDeleteEveryoneElse><![CDATA[//*[@id='Module12Permission11']]]></ContactDeleteEveryoneElse>
+  <ContactDeleteAnyoneFrom><![CDATA[//*[@id='Module12Permission17']]]></ContactDeleteAnyoneFrom>
+
+
+
+------------------------------------------Interview--------------------------------------------------------
+  
+  <InterviewViewAssigneed><![CDATA[//*[@id='Module16Permission21']]]></InterviewViewAssigneed>
+  <InterviewViewEveryoneup><![CDATA[//*[@id='Module16Permission24']]]></InterviewViewEveryoneup>
+  <InterviewViewEveryoneDown><![CDATA[//*[@id='Module16Permission6']]]></InterviewViewEveryoneDown>
+  <InterviewViewEveryoneElse><![CDATA[//*[@id='Module16Permission9']]]></InterviewViewEveryoneElse>
+  <InterviewViewAnyoneFrom><![CDATA[//*[@id='Module16Permission15']]]></InterviewViewAnyoneFrom>
+
+  <InterviewEditAssigneed><![CDATA[//*[@id='Module16Permission22']]]></InterviewEditAssigneed>
+  <InterviewEditEveryoneup><![CDATA[//*[@id='Module16Permission25']]]></InterviewEditEveryoneup>
+  <InterviewEditEveryoneDown><![CDATA[//*[@id='Module16Permission7']]]></InterviewEditEveryoneDown>
+  <InterviewEditEveryoneElse><![CDATA[//*[@id='Module16Permission10']]]></InterviewEditEveryoneElse>
+  <InterviewEditAnyoneFrom><![CDATA[//*[@id='Module16Permission16']]]></InterviewEditAnyoneFrom>
+
+  <InterviewDeleteAssigneed><![CDATA[//*[@id='Module16Permission23']]]></InterviewDeleteAssigneed>
+  <InterviewDeleteEveryoneup><![CDATA[//*[@id='Module16Permission26']]]></InterviewDeleteEveryoneup>
+  <InterviewDeleteEveryoneDown><![CDATA[//*[@id='Module16Permission8']]]></InterviewDeleteEveryoneDown>
+  <InterviewDeleteEveryoneElse><![CDATA[//*[@id='Module16Permission11']]]></InterviewDeleteEveryoneElse>
+  <InterviewDeleteAnyoneFrom><![CDATA[//*[@id='Module16Permission17']]]></InterviewDeleteAnyoneFrom>
+
+
+------------------Job--------------------------------------------------------
+  
+  <JobViewAssigneed><![CDATA[//*[@id='Module14Permission21']]]></JobViewAssigneed>
+  <JobViewEveryoneup><![CDATA[//*[@id='Module14Permission24']]]></JobViewEveryoneup>
+  <JobViewEveryoneDown><![CDATA[//*[@id='Module14Permission6']]]></JobViewEveryoneDown>
+  <JobViewEveryoneElse><![CDATA[//*[@id='Module14Permission9']]]></JobViewEveryoneElse>
+  <JobViewAnyoneFrom><![CDATA[//*[@id='Module14Permission15']]]></JobViewAnyoneFrom>
+
+  <JobEditAssigneed><![CDATA[//*[@id='Module14Permission22']]]></JobEditAssigneed>
+  <JobEditEveryoneup><![CDATA[//*[@id='Module14Permission25']]]></JobEditEveryoneup>
+  <JobEditEveryoneDown><![CDATA[//*[@id='Module14Permission7']]]></JobEditEveryoneDown>
+  <JobEditEveryoneElse><![CDATA[//*[@id='Module14Permission10']]]></JobEditEveryoneElse>
+  <JobEditAnyoneFrom><![CDATA[//*[@id='Module14Permission16']]]></JobEditAnyoneFrom>
+
+  <JobDeleteAssigneed><![CDATA[//*[@id='Module14Permission23']]]></JobDeleteAssigneed>
+  <JobDeleteEveryoneup><![CDATA[//*[@id='Module14Permission26']]]></JobDeleteEveryoneup>
+  <JobDeleteEveryoneDown><![CDATA[//*[@id='Module14Permission8']]]></JobDeleteEveryoneDown>
+  <JobDeleteEveryoneElse><![CDATA[//*[@id='Module14Permission11']]]></JobDeleteEveryoneElse>
+  <JobDeleteAnyoneFrom><![CDATA[//*[@id='Module14Permission17']]]></JobDeleteAnyoneFrom>
+
+
+
+------------------Lead--------------------------------------------------------
+  
+  <LeadViewAssigneed><![CDATA[//*[@id='Module9Permission21']]]></LeadViewAssigneed>
+  <LeadViewEveryoneup><![CDATA[//*[@id='Module9Permission24']]]></LeadViewEveryoneup>
+  <LeadViewEveryoneDown><![CDATA[//*[@id='Module9Permission6']]]></LeadViewEveryoneDown>
+  <LeadViewEveryoneElse><![CDATA[//*[@id='Module9Permission9']]]></LeadViewEveryoneElse>
+  <LeadViewAnyoneFrom><![CDATA[//*[@id='Module9Permission15']]]></LeadViewAnyoneFrom>
+
+  <LeadEditAssigneed><![CDATA[//*[@id='Module9Permission22']]]></LeadEditAssigneed>
+  <LeadEditEveryoneup><![CDATA[//*[@id='Module9Permission25']]]></LeadEditEveryoneup>
+  <LeadEditEveryoneDown><![CDATA[//*[@id='Module9Permission7']]]></LeadEditEveryoneDown>
+  <LeadEditEveryoneElse><![CDATA[//*[@id='Module9Permission10']]]></LeadEditEveryoneElse>
+  <LeadEditAnyoneFrom><![CDATA[//*[@id='Module9Permission16']]]></LeadEditAnyoneFrom>
+
+  <LeadDeleteAssigneed><![CDATA[//*[@id='Module9Permission23']]]></LeadDeleteAssigneed>
+  <LeadDeleteEveryoneup><![CDATA[//*[@id='Module9Permission26']]]></LeadDeleteEveryoneup>
+  <LeadDeleteEveryoneDown><![CDATA[//*[@id='Module9Permission8']]]></LeadDeleteEveryoneDown>
+  <LeadDeleteEveryoneElse><![CDATA[//*[@id='Module9Permission11']]]></LeadDeleteEveryoneElse>
+  <LeadDeleteAnyoneFrom><![CDATA[//*[@id='Module9Permission17']]]></LeadDeleteAnyoneFrom>
+
+------------------Opportunity--------------------------------------------------------
+  
+  <OpportunityViewAssigneed><![CDATA[//*[@id='Module11Permission21']]]></OpportunityViewAssigneed>
+  <OpportunityViewEveryoneup><![CDATA[//*[@id='Module11Permission24']]]></OpportunityViewEveryoneup>
+  <OpportunityViewEveryoneDown><![CDATA[//*[@id='Module11Permission6']]]></OpportunityViewEveryoneDown>
+  <OpportunityViewEveryoneElse><![CDATA[//*[@id='Module11Permission9']]]></OpportunityViewEveryoneElse>
+  <OpportunityViewAnyoneFrom><![CDATA[//*[@id='Module11Permission15']]]></OpportunityViewAnyoneFrom>
+
+  <OpportunityEditAssigneed><![CDATA[//*[@id='Module11Permission22']]]></OpportunityEditAssigneed>
+  <OpportunityEditEveryoneup><![CDATA[//*[@id='Module11Permission25']]]></OpportunityEditEveryoneup>
+  <OpportunityEditEveryoneDown><![CDATA[//*[@id='Module11Permission7']]]></OpportunityEditEveryoneDown>
+  <OpportunityEditEveryoneElse><![CDATA[//*[@id='Module11Permission10']]]></OpportunityEditEveryoneElse>
+  <OpportunityEditAnyoneFrom><![CDATA[//*[@id='Module11Permission16']]]></OpportunityEditAnyoneFrom>
+
+  <OpportunityDeleteAssigneed><![CDATA[//*[@id='Module11Permission23']]]></OpportunityDeleteAssigneed>
+  <OpportunityDeleteEveryoneup><![CDATA[//*[@id='Module11Permission26']]]></OpportunityDeleteEveryoneup>
+  <OpportunityDeleteEveryoneDown><![CDATA[//*[@id='Module11Permission8']]]></OpportunityDeleteEveryoneDown>
+  <OpportunityDeleteEveryoneElse><![CDATA[//*[@id='Module11Permission11']]]></OpportunityDeleteEveryoneElse>
+  <OpportunityDeleteAnyoneFrom><![CDATA[//*[@id='Module11Permission17']]]></OpportunityDeleteAnyoneFrom>
+
+
+
+------------------Partners--------------------------------------------------------
+ 
+  <PartnersViewAssigneed><![CDATA[//*[@id='Module21Permission21']]]></PartnersViewAssigneed>
+  <PartnersViewEveryoneup><![CDATA[//*[@id='Module21Permission24']]]></PartnersViewEveryoneup>
+  <PartnersViewEveryoneDown><![CDATA[//*[@id='Module21Permission6']]]></PartnersViewEveryoneDown>
+  <PartnersViewEveryoneElse><![CDATA[//*[@id='Module21Permission9']]]></PartnersViewEveryoneElse>
+  <PartnersViewAnyoneFrom><![CDATA[//*[@id='Module21Permission15']]]></PartnersViewAnyoneFrom>
+
+  <PartnersEditAssigneed><![CDATA[//*[@id='Module21Permission22']]]></PartnersEditAssigneed>
+  <PartnersEditEveryoneup><![CDATA[//*[@id='Module21Permission25']]]></PartnersEditEveryoneup>
+  <PartnersEditEveryoneDown><![CDATA[//*[@id='Module21Permission7']]]></PartnersEditEveryoneDown>
+  <PartnersEditEveryoneElse><![CDATA[//*[@id='Module21Permission10']]]></PartnersEditEveryoneElse>
+  <PartnersEditAnyoneFrom><![CDATA[//*[@id='Module21Permission16']]]></PartnersEditAnyoneFrom>
+
+  <PartnersDeleteAssigneed><![CDATA[//*[@id='Module21Permission23']]]></PartnersDeleteAssigneed>
+  <PartnersDeleteEveryoneup><![CDATA[//*[@id='Module21Permission26']]]></PartnersDeleteEveryoneup>
+  <PartnersDeleteEveryoneDown><![CDATA[//*[@id='Module21Permission8']]]></PartnersDeleteEveryoneDown>
+  <PartnersDeleteEveryoneElse><![CDATA[//*[@id='Module21Permission11']]]></PartnersDeleteEveryoneElse>
+  <PartnersDeleteAnyoneFrom><![CDATA[//*[@id='Module21Permission17']]]></PartnersDeleteAnyoneFrom>
+
+------------------Report--------------------------------------------------------
+  
+  <ReportViewAssigneed><![CDATA[//*[@id='Module13Permission21']]]></ReportViewAssigneed>
+  <ReportViewEveryoneup><![CDATA[//*[@id='Module13Permission24']]]></ReportViewEveryoneup>
+  <ReportViewEveryoneDown><![CDATA[//*[@id='Module13Permission6']]]></ReportViewEveryoneDown>
+  <ReportViewEveryoneElse><![CDATA[//*[@id='Module13Permission9']]]></ReportViewEveryoneElse>
+  <ReportViewAnyoneFrom><![CDATA[//*[@id='Module13Permission15']]]></ReportViewAnyoneFrom>
+
+  <ReportEditAssigneed><![CDATA[//*[@id='Module13Permission22']]]></ReportEditAssigneed>
+  <ReportEditEveryoneup><![CDATA[//*[@id='Module13Permission25']]]></ReportEditEveryoneup>
+  <ReportEditEveryoneDown><![CDATA[//*[@id='Module13Permission7']]]></ReportEditEveryoneDown>
+  <ReportEditEveryoneElse><![CDATA[//*[@id='Module13Permission10']]]></ReportEditEveryoneElse>
+  <ReportEditAnyoneFrom><![CDATA[//*[@id='Module13Permission16']]]></ReportEditAnyoneFrom>
+
+  <ReportDeleteAssigneed><![CDATA[//*[@id='Module13Permission23']]]></ReportDeleteAssigneed>
+  <ReportDeleteEveryoneup><![CDATA[//*[@id='Module13Permission26']]]></ReportDeleteEveryoneup>
+  <ReportDeleteEveryoneDown><![CDATA[//*[@id='Module13Permission8']]]></ReportDeleteEveryoneDown>
+  <ReportDeleteEveryoneElse><![CDATA[//*[@id='Module13Permission11']]]></ReportDeleteEveryoneElse>
+  <ReportDeleteAnyoneFrom><![CDATA[//*[@id='Module13Permission17']]]></ReportDeleteAnyoneFrom>
+
+------------------Vendor--------------------------------------------------------
+  
+  <VendorViewAssigneed><![CDATA[//*[@id='Module22Permission21']]]></VendorViewAssigneed>
+  <VendorViewEveryoneup><![CDATA[//*[@id='Module22Permission24']]]></VendorViewEveryoneup>
+  <VendorViewEveryoneElse><![CDATA[//*[@id='Module22Permission9']]]></VendorViewEveryoneElse>
+  <VendorViewAnyoneFrom><![CDATA[//*[@id='Module22Permission15']]]></VendorViewAnyoneFrom>
+
+  <VendorEditAssigneed><![CDATA[//*[@id='Module22Permission22']]]></VendorEditAssigneed>
+  <VendorEditEveryoneup><![CDATA[//*[@id='Module22Permission25']]]></VendorEditEveryoneup>
+  <VendorEditEveryoneDown><![CDATA[//*[@id='Module22Permission7']]]></VendorEditEveryoneDown>
+  <VendorEditEveryoneElse><![CDATA[//*[@id='Module22Permission10']]]></VendorEditEveryoneElse>
+  <VendorEditAnyoneFrom><![CDATA[//*[@id='Module22Permission16']]]></VendorEditAnyoneFrom>
+
+  <VendorDeleteAssigneed><![CDATA[//*[@id='Module22Permission23']]]></VendorDeleteAssigneed>
+  <VendorDeleteEveryoneup><![CDATA[//*[@id='Module22Permission26']]]></VendorDeleteEveryoneup>
+  <VendorDeleteEveryoneDown><![CDATA[//*[@id='Module22Permission8']]]></VendorDeleteEveryoneDown>
+  <VendorDeleteEveryoneElse><![CDATA[//*[@id='Module22Permission11']]]></VendorDeleteEveryoneElse>
+  <VendorDeleteAnyoneFrom><![CDATA[//*[@id='Module22Permission17']]]></VendorDeleteAnyoneFrom>
+
+
+------------------Email--------------------------------------------------------
+  
+  <EmailViewAssigneed><![CDATA[//*[@id='Module26Permission21']]]></EmailViewAssigneed>
+  <EmailViewEveryoneup><![CDATA[//*[@id='Module26Permission24']]]></EmailViewEveryoneup>
+  <EmailViewEveryoneDown><![CDATA[//*[@id='Module26Permission6']]]></EmailViewEveryoneDown>
+  <EmailViewEveryoneElse><![CDATA[//*[@id='Module26Permission9']]]></EmailViewEveryoneElse>
+  <EmailViewAnyoneFrom><![CDATA[//*[@id='Module26Permission15']]]></EmailViewAnyoneFrom>
+
+  <EmailEditAssigneed><![CDATA[//*[@id='Module26Permission22']]]></EmailEditAssigneed>
+  <EmailEditEveryoneup><![CDATA[//*[@id='Module26Permission25']]]></EmailEditEveryoneup>
+  <EmailEditEveryoneDown><![CDATA[//*[@id='Module26Permission7']]]></EmailEditEveryoneDown>
+  <EmailEditEveryoneElse><![CDATA[//*[@id='Module26Permission10']]]></EmailEditEveryoneElse>
+  <EmailEditAnyoneFrom><![CDATA[//*[@id='Module26Permission16']]]></EmailEditAnyoneFrom>
+
+  <EmailDeleteAssigneed><![CDATA[//*[@id='Module26Permission23']]]></EmailDeleteAssigneed>
+  <EmailDeleteEveryoneup><![CDATA[//*[@id='Module26Permission26']]]></EmailDeleteEveryoneup>
+  <EmailDeleteEveryoneDown><![CDATA[//*[@id='Module26Permission8']]]></EmailDeleteEveryoneDown>
+  <EmailDeleteEveryoneElse><![CDATA[//*[@id='Module26Permission11']]]></EmailDeleteEveryoneElse>
+  <EmailDeleteAnyoneFrom><![CDATA[//*[@id='Module26Permission17']]]></EmailDeleteAnyoneFrom>
+
+
+------------------Library--------------------------------------------------------
+  
+  <LibraryViewAssigneed><![CDATA[//*[@id='Module25Permission21']]]></LibraryViewAssigneed>
+  <LibraryViewEveryoneup><![CDATA[//*[@id='Module25Permission24']]]></LibraryViewEveryoneup>
+  <LibraryViewEveryoneDown><![CDATA[//*[@id='Module25Permission6']]]></LibraryViewEveryoneDown>
+  <LibraryViewEveryoneElse><![CDATA[//*[@id='Module25Permission9']]]></LibraryViewEveryoneElse>
+  <LibraryViewAnyoneFrom><![CDATA[//*[@id='Module25Permission15']]]></LibraryViewAnyoneFrom>
+
+  <LibraryEditAssigneed><![CDATA[//*[@id='Module25Permission22']]]></LibraryEditAssigneed>
+  <LibraryEditEveryoneup><![CDATA[//*[@id='Module25Permission25']]]></LibraryEditEveryoneup>
+  <LibraryEditEveryoneDown><![CDATA[//*[@id='Module25Permission7']]]></LibraryEditEveryoneDown>
+  <LibraryEditEveryoneElse><![CDATA[//*[@id='Module25Permission10']]]></LibraryEditEveryoneElse>
+  <LibraryEditAnyoneFrom><![CDATA[//*[@id='Module25Permission16']]]></LibraryEditAnyoneFrom>
+
+  <LibraryDeleteAssigneed><![CDATA[//*[@id='Module25Permission23']]]></LibraryDeleteAssigneed>
+  <LibraryDeleteEveryoneup><![CDATA[//*[@id='Module25Permission26']]]></LibraryDeleteEveryoneup>
+  <LibraryDeleteEveryoneDown><![CDATA[//*[@id='Module25Permission8']]]></LibraryDeleteEveryoneDown>
+  <LibraryDeleteEveryoneElse><![CDATA[//*[@id='Module25Permission11']]]></LibraryDeleteEveryoneElse>
+  <LibraryDeleteAnyoneFrom><![CDATA[//*[@id='ModuleP25ermission17']]]></LibraryDeleteAnyoneFrom>
+
+
+
+
+
+
+</Locator>

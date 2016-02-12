@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+ ------------------------VendorINDEX----------------------
+
+   <Vendor><![CDATA[//*[@id='vendors']]]></Vendor>
+   <VendorDefaultview><![CDATA[//*[@id='teamName']]]></VendorDefaultview>
+   <Vendorcustomviewlist><![CDATA[//*[@id='savedSearch']]]></Vendorcustomviewlist>
+   <VendorFilter><![CDATA[//*[@id='vendors_grid_filter']/label/input]]></VendorFilter>
+   <VendorReset><![CDATA[//*[@id='ToolTables_vendors_grid_0']]]></VendorReset>
+   <VendorExportCSV><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></VendorExportCSV>
+   <VendorExportPDF><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></VendorExportPDF>
+   <VendorMouseHoveron><![CDATA[//*[@id='vendors_grid_wrapper']/div[1]/div/div/button]]></VendorMouseHoveron>
+   <VendorBulkdelte><![CDATA[//*[@id='remove_record']]]></VendorBulkdelte>
+   <VendorNew><![CDATA[//*[@id='actionbuttons']]]></VendorNew>
+   <VendorView><![CDATA[//*[@id='normal']]]></VendorView>
+  <VendorMastercheckbox><![CDATA[//*[@id='vendors_grid']/thead/tr/th[1]/div/span/input]]></VendorMastercheckbox>
+
+  <ToolActioncall><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ToolActioncall>
+  <ToolEditCall><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ToolEditCall>
+  <ToolViewCall><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ToolViewCall>
+  <ToolDeleteCall><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ToolDeleteCall>
+  ------------------Bulkupdate------------------------------
+  
+  <VendorBulkupdate><![CDATA[//*[@id='bulk_update']]]></VendorBulkupdate>
+  <Vendorowners><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></Vendorowners>
+  <VendorManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></VendorManager>
+  <VendorUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></VendorUpdate>
+  
+  --------------VENDORCREATION------------------------------
+ 
+  
+  <VendorOwner><![CDATA[//*[@id='VendorAssignedUserId']]]></VendorOwner>
+  <VendorManager><![CDATA[//*[@id='VendorAssignedManagerId']]]></VendorManager>
+  <VendorName><![CDATA[//*[@id='VendorName']]]></VendorName>
+  <VendorCompanyname><![CDATA[//*[@id='VendorCompany']]]></VendorCompanyname>
+  <VendorWebsite><![CDATA[//*[@id='VendorWebsite']]]></VendorWebsite>
+  <Vendorcode><![CDATA[//*[@id='VendorVendorCode']]]></Vendorcode>
+  <VendorLinkedURL><![CDATA[//*[@id='VendorLinkedinUrl']]]></VendorLinkedURL>
+  <VendorFacebookUrl><![CDATA[//*[@id='VendorFacebookUrl']]]></VendorFacebookUrl>
+  <VendorTwitterURL><![CDATA[//*[@id='VendorTwitterUrl']]]></VendorTwitterURL>
+  <VendorAdressType><![CDATA[//*[@id='VendorAddress0Type']]]></VendorAdressType>
+  <VendorAdressLine1><![CDATA[//*[@id='VendorAddress0AddressLine1']]]></VendorAdressLine1>
+  <VendorAdressLine2><![CDATA[//*[@id='VendorAddress0AddressLine2']]]></VendorAdressLine2>
+  <VendorCity><![CDATA[//*[@id='VendorAddress0City']]]></VendorCity>
+  <VendorState><![CDATA[//*[@id='VendorAddress0State']]]></VendorState>
+  <VendorCountry><![CDATA[//*[@id='VendorAddress0Country']]]></VendorCountry>
+  <VendorZipcode><![CDATA[//*[@id='VendorAddress0PostalCode']]]></VendorZipcode>
+  <VendorSalutation><![CDATA[//*[@id='VendorContact0Salutation']]]></VendorSalutation>
+  <VendorFirstname><![CDATA[//*[@id='VendorContact0FirstName']]]></VendorFirstname>
+  <VendorMiddlename><![CDATA[//*[@id='VendorContact0MiddleName']]]></VendorMiddlename>
+  <VendorLastname><![CDATA[//*[@id='VendorContact0LastName']]]></VendorLastname>
+  <VendorPhonetype><![CDATA[//*[@id='VendorContact0VendorContactPhone0PhoneType']]]></VendorPhonetype>
+  <VendorPhonetext><![CDATA[//*[@id='VendorContact0VendorContactPhone0PhoneFormat']]]></VendorPhonetext>
+  <VendorDonotCall><![CDATA[//*[@id='VendorContact0VendorContactPhone0DoNotCall']]]></VendorDonotCall>
+  <VendorEmailtype><![CDATA[//*[@id='VendorContact0VendorContactElectronicAddress0ElectronicContentType']]]></VendorEmailtype>
+  <VendorEmailText><![CDATA[//*[@id='VendorContact0VendorContactElectronicAddress0ElectronicContent']]]></VendorEmailText>
+  <VendorOptedout><![CDATA[//*[@id='uniform-VendorContact0VendorContactElectronicAddress0OptOut']/span]]></VendorOptedout>
+  <VendorSociallinktype><![CDATA[//*[@id='VendorContact0VendorContactSocialLink0SocialLinkType']]]></VendorSociallinktype>
+  <VendorSociallinktext><![CDATA[//*[@id='VendorContact0VendorContactSocialLink0SocialLink']]]></VendorSociallinktext>
+  <VendorSociallinoptedout><![CDATA[//*[@id='VendorContact0VendorContactElectronicAddress0OptOut']]]></VendorSociallinoptedout>
+  <VendorSave><![CDATA[//*[@id='VendorAddnewForm']/div[3]/div/div[5]/div/div/button]]></VendorSave>
+  <VendorCancel><![CDATA[//*[@id='VendorAddnewForm']/div[3]/div/div[5]/div/div/a[2]]]></VendorCancel>
+  <EditSave><![CDATA[//*[@id='VendorUpdateForm']/div[2]/div/ul/li[5]/button]]></EditSave>
+
+--------------------------VendorView------------------------------------
+  <VendorTimeline><![CDATA[//*[@id='ui-id-1']/div[2]]]></VendorTimeline>
+  <VendorActivity><![CDATA[//*[@id='activity1']]]></VendorActivity>
+  <VendorContactinfo><![CDATA[//*[@id='contact1']]]></VendorContactinfo>
+  <Vendorleadsrelated><![CDATA[//*[@id='leads1']]]></Vendorleadsrelated>
+  <VendorAccountsrelated><![CDATA[//*[@id='accounts1']]]></VendorAccountsrelated>
+  <VendorBack><![CDATA[//a[@title='Back To Vendors']]]></VendorBack>
+  <VendorEdit><![CDATA[//a[@title='Edit Vendor']]]></VendorEdit>
+  <VendorDelete><![CDATA[//a[@title='Delete Vendor']]]></VendorDelete>
+  <VendorSendEmail><![CDATA[//a[@title='Send E-Mail']]]></VendorSendEmail>
+  <VendorNote><![CDATA[//a[@title='Add Note']]]></VendorNote>
+  <VendorAddFile><![CDATA[//a[@title='Add File']]]></VendorAddFile>
+  <VendorAddtask><![CDATA[//*[@id='Task']]]></VendorAddtask>
+  <VendorSetupappointment><![CDATA[//*[@id='App']]]></VendorSetupappointment>
+  <VendorSetupmeeting><![CDATA[//*[@id='Meeting']]]></VendorSetupmeeting>
+  <Vendorlogacall><![CDATA[//a[@title='Log Call']]]></Vendorlogacall>
+  <VendorOwner><![CDATA[//*[@id='responsibility']]]></VendorOwner>
+  <VendorManager><![CDATA[//*[@id='manager']]]></VendorManager>
+  <Ownerlist><![CDATA[//select[@class='form-control input-medium']]]></Ownerlist>
+  <SaveOwner><![CDATA[//button[@type='submit']]]></SaveOwner>
+  <Managerlist><![CDATA[//select[@class='form-control input-medium']]]></Managerlist>
+  <SaveManager><![CDATA[//button[@type='submit']]]></SaveManager>
+------------------Bulk Email----------------------------------------
+
+<VenderBulkEmail><![CDATA[//*[@id='bulk_email']]]></VenderBulkEmail>
+<EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+<ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+<EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+<EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+<ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+<ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+<SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+<ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+<SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+<SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+
+------------------------------Send Email-----------------------------
+
+<ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+  <ToAddressCheckBox><![CDATA[//*[@id='toid']]]></ToAddressCheckBox>
+  <CCAddressCheckBox><![CDATA[//*[@id='ccid']]]></CCAddressCheckBox>
+  <BCCAddressCheckBox><![CDATA[//*[@id='bccid']]]></BCCAddressCheckBox>
+  <ClickOnAddEmailAddress><![CDATA[//*[@id='submitemail']]]></ClickOnAddEmailAddress>
+  <ClickOnSendEmailButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendEmailButton>
+  
+  --------------------------Events add------------------------------
+  
+
+<Setupmeeting><![CDATA[//*[@id='Meeting']]]></Setupmeeting>
+<EventType><![CDATA[//*[@id='EventEventType']]]></EventType>
+<Location><![CDATA[//*[@id='EventLocation']]]></Location>
+<Subject><![CDATA[//*[@id='EventName']]]></Subject>
+<StartDate><![CDATA[//*[@id='EventStartDate']]]></StartDate>
+<starttime><![CDATA[//*[@id='clockface_start_event']]]></starttime>
+<EndDate><![CDATA[//*[@id='EventEndDate']]]></EndDate>
+<Endtime><![CDATA[//*[@id='clockface_end_event']]]></Endtime>
+<Reminders><![CDATA[//*[@id='pop']/label/div/span]]></Reminders>
+<Popup><![CDATA[//*[@id='reminderTime']]]></Popup>
+<EventEmail><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></EventEmail>
+<ReminderTime><![CDATA[//*[@id='emailReminderTime']]]></ReminderTime>
+<Recurring><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></Recurring>
+<RepeateonceinEvery><![CDATA[//*[@id='EventRepeatInterval']]]></RepeateonceinEvery>
+<RepeatType><![CDATA[//*[@id='EventRepeatType']]]></RepeatType>
+<WeekUI><![CDATA[//*[@id='repeatWeekUI']/div/div/label[1]/div/span/input]]></WeekUI>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[1]/div[1]/label/div/span]]></OnRadiobutton>
+<Reportsofmonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Reportsofmonth>
+<Dateofthemonth><![CDATA[//*[@id='EventRepeatMonthDate']]]></Dateofthemonth>
+<OnRadiobutton><![CDATA[//*[@id='repeatMonthUI']/div/div[3]/div[1]/label/div/span]]></OnRadiobutton>
+<Daytype><![CDATA[//*[@id='EventRepeatMonthDaytype']]]></Daytype>
+<MonthDay><![CDATA[//*[@id='EventRepeatMonthDay']]]></MonthDay>
+<Until><![CDATA[//*[@id='EventRepeatUntil']]]></Until>
+<Inviteecontacts><![CDATA[//*[@id='pop']/label/div/span//*[@id='EventInviteecontacts']]]></Inviteecontacts>
+<EventEmail><![CDATA[//*[@id='EventEmail']]vent]]]></EventEmail>
+<Firstname><![CDATA[//*[@id='EventFirstname']]]></Firstname>
+<Lastname><![CDATA[//*[@id='EventLastname']]]></Lastname>
+<Search><![CDATA[//*[@id='addinvitees']]]></Search>
+<EventSave><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></EventSave>
+<Cancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></Cancel>
+
+------------------------Add File---------------------------------------
+  
+  
+  <Name><![CDATA[//*[@id='AttachmentName']]]></Name>
+  <Category><![CDATA[//*[@id='AttachmentCategoryId']]]></Category>
+  <Files><![CDATA[//*[@id='AttachmentFiles']]]></Files>
+  <Description><![CDATA[//*[@id='AttachmentDescription']]]></Description>
+  <FileSave><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[1]]]></FileSave>
+  <Cancel><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></Cancel>
+
+------------------------------ Send Email --------------------------------------------
+
+<From><![CDATA[//*[@id='EmailEmailAccounts']]]></From>
+  <To><![CDATA[//*[@id='EmailToAddrs']]]></To>
+  <Employeelink><![CDATA[//*[@id='EmailToAddrs']]]></Employeelink>
+  <Subject><![CDATA[//*[@id='EmailName']]]></Subject>
+  <Drafts><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[6]/a]]></Drafts>
+  <Send><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></Send>
+  <Cancel><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[4]/a]]></Cancel>
+
+  ----------------------------Custom view new,view,index---------------------
+  
+  <customview><![CDATA[//*[@id='quick_search_form']/table/tbody/tr/td[2]/a[1]]]></customview>
+  <Newbutton><![CDATA[//*[@id='actionbuttons']]]></Newbutton>
+  <DeleteCustomview><![CDATA[//*[@id='remove_saved_views']]]></DeleteCustomview>
+  <Backtovendors><![CDATA[//a[@title=Back To Vendors']]]></Backtovendors>
+  <Filtercustomview><![CDATA[//*[@id='vendor_saved_views_filter']/label/input]]></Filtercustomview>
+  <Resetcustomview><![CDATA[//*[@id='ToolTables_vendor_saved_views_0']]]></Resetcustomview>
+  <CustomviewView><![CDATA[//*[@id='vendor_saved_views']/tbody/tr/td[2]/a]]></CustomviewView>
+  <CustomviewEdit><![CDATA[//*[@id='saved_edit']]]></CustomviewEdit>
+  <CancelCustomview><![CDATA[//*[@id='VendorIndexForm']/div[2]/div[1]/div/div/a[2]]]></CancelCustomview>
+  <CustomviewDelete><![CDATA[//*[@id='deleteSearch']]]></CustomviewDelete>
+  <CustomviewSetasdefault><![CDATA[//*[@id='makedefaultsearch']]]></CustomviewSetasdefault>
+  <CustomviewUnsetdefault><![CDATA[//*[@id='removedefaultsearch']]]></CustomviewUnsetdefault>
+  <Saveviewas><![CDATA[//*[@id='searchName']]]></Saveviewas>
+  <Sortby><![CDATA[//*[@id='VendorSortCol']]]></Sortby>
+  <Owner1><![CDATA[//*[@id='autogen2']]]></Owner1>
+  <Manager1><![CDATA[//*[@id='autogen3']]]></Manager1>
+  <Createdby><![CDATA[//*[@id='autogen4']]]></Createdby>
+  <Modifiedby><![CDATA[//*[@id='autogen5']]]></Modifiedby>
+  <Createdtype><![CDATA[//*[@id='VendorCustomColOps']]]></Createdtype>
+  <Createdtext><![CDATA[//*[@id='VendorCustomColValues4']]]></Createdtext>
+  <Modifytype><![CDATA[//*[@id='VendorCustomColOps']]]></Modifytype>
+  <Modifytext><![CDATA[//*[@id='VendorCustomColValues5']]]></Modifytext>
+  <Nemeadditioanal><![CDATA[//*[@id='VendorAdditionalColNames']]]></Nemeadditioanal>
+  <Nametype><![CDATA[//*[@id='VendorAdditionalColOps']]]></Nametype>
+  <Nametext><![CDATA[//*[@id='VendorAdditionalColValues']]]></Nametext>
+  <CustomSave><![CDATA[//*[@id='VendorIndexForm']/div[2]/div[5]/div/div/button]]></CustomSave>
+
+  ---------------------------Trash-Vendor-----------------------------
+  
+  
+  <Trash><![CDATA[//a[@href='/infoaspire/vendors/trash']]]></Trash>
+  <VendorTrashFilter><![CDATA[//*[@id='vendor_trash_filter']/label/input]]></VendorTrashFilter>
+  <VendorTrashReset><![CDATA[//*[@id='ToolTables_vendor_trash_0']]]></VendorTrashReset>
+  <MasterCheckboxTrashVendor><![CDATA[//*[@id='vendor_trash']/thead/tr/th[1]/div/span/input]]></MasterCheckboxTrashVendor>
+  <Mouseovertrash><![CDATA[//*[@id='vendor_trash_wrapper']/div[1]/div/div/button]]></Mouseovertrash>
+  <RemoveVendorForeever><![CDATA[//*[@id='remove_record']]]></RemoveVendorForeever>
+  <RestoreVendor><![CDATA[//*[@id='restore_record']]]></RestoreVendor>
+  <TrashVendorview><![CDATA[//*[@id='normal']]]></TrashVendorview>
+  <VendorBacktrash><![CDATA[//a[@title='Back To Vendors']]]></VendorBacktrash>
+
+  <ViewTrashRestore><![CDATA[//[@title='Restore Vendor']]]></ViewTrashRestore>
+  <ViewTrashDelete><![CDATA[ //[@title='Delete Permanent Vendor']]]></ViewTrashDelete>
+  <ViewTrashBack><![CDATA[//a[@title='Back To Vendor Trash']]]></ViewTrashBack>
+
+
+--------------------------------Add Note-----------------------------
+<NoteSubject><![CDATA[//*[@id='NoteName']]]></NoteSubject>
+  <NoteDescription><![CDATA[//*[@id='NoteDescription']]]></NoteDescription>
+  <NoteSave><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[1]]]></NoteSave>
+  <NoteCancel><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[2]]]></NoteCancel>
+<SelectNoteFile><![CDATA[//*[@id='Attachment0Files']]]></SelectNoteFile>
+
+
+
+
+
+
+
+</Locator>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

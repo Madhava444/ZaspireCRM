@@ -14,7 +14,7 @@
   <Edit><![CDATA[//a[@title='Edit MyProfile']]]></Edit>
   <EDitsave><![CDATA[//*[@id='EmployeeEditProfileForm']/div[2]/div/ul/li[5]/button]]></EDitsave>
   <EditCancel><![CDATA[//*[@id='EmployeeEditProfileForm']/div[2]/div/ul/li[4]/button]]></EditCancel>
-  
+  <EmailLink><![CDATA[//*[@id='tab_1']/div/div[2]/div/div[1]/address[1]/a]]></EmailLink>
 ---------------------Changepassword---------------------------------------------------
  
   <NamePassword><![CDATA[//*[@id='UserPassword']]]></NamePassword>
@@ -22,7 +22,7 @@
   <SavePassword><![CDATA[//*[@id='employee details']/div/div/div/div[3]/button[1]]]></SavePassword>
   <CancelPassword><![CDATA[//*[@id='employee details']/div/div/div/div[3]/button[2]]]></CancelPassword>
 
-----------------------------EditProfile-----------------------------------------------
+----------------------------settings-----------------------------------------------
 
   <NameFormate><![CDATA[//*[@id='Setting0Value']]]></NameFormate>
   <TimeZone><![CDATA[//*[@id='Setting1Value']]]></TimeZone>
@@ -44,7 +44,7 @@
   <MiddleName><![CDATA[//*[@id='EmployeeMiddleName']]]></MiddleName>
   <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
   <Birthdate><![CDATA[//*[@id='EmployeeBirthday']]]></Birthdate>
-  <SelectFile><![CDATA[//*[@id='employee details']/div/div[3]/div/div[2]/div[2]/div/div[1]/div/span[1]]]></SelectFile>
+  <SelectFile><![CDATA[//*[@id='EmployeeProfileImage']]]></SelectFile>
   <PhoneType><![CDATA[//*[@id='EmployeePhone0PhoneType']]]></PhoneType>
   <PhoneNumber><![CDATA[//*[@id='phone_format']]]></PhoneNumber>
   <DoNotCall><![CDATA[//*[@id='EmployeePhone0DoNotCall']]]></DoNotCall>
@@ -53,11 +53,6 @@
   <Emailadress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></Emailadress>
   <EmailPrimary><![CDATA[//*[@id='emails and internet']/div/div[2]/div/div/div/div/div[3]/div/label/input]]></EmailPrimary>
   <EmailOptedout><![CDATA[//*[@id='EmployeeElectronicAddress0OptOut']]]></EmailOptedout>
-  
- 
- ***********************Contact Information ****************
-
-  
   <AddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></AddressType>
   <AddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></AddressLine1>
   <AddressLine2><![CDATA[//*[@id='EmployeeAddress0AddressLine2']]]></AddressLine2>

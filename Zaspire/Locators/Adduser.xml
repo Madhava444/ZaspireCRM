@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  #######################  RELATED TO CREATE USER RADIO BUTTON #######################
+
+
+
+  <MouseHoveronUser><![CDATA[]]></MouseHoveronUser>
+  <ClickOnAdmin><![CDATA[]]></ClickOnAdmin>
+  <ClickOnUsersTab><![CDATA[]]></ClickOnUsersTab>
+  <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
+  <ClickOnCreateUser><![CDATA[//*[@id='uniform-createnew']]]></ClickOnCreateUser> ****** Create User Radio Button   ********
+  <ClickOnConsultantUser><![CDATA[//*[@id='uniform-createnewconsul']]]></ClickOnConsultantUser>  ***** Create Consultant User Radio Button   ********
+  <ClickOnEmployeeCreateUser><![CDATA[//*[@id='EmployeeAddnewForm']]]></ClickOnEmployeeCreateUser>   ****** Use An Existing Employee To Create A User   *******
+  <ClickOnConsultantCreateUser><![CDATA[//*[@id='uniform-useexistingconsultant']]]></ClickOnConsultantCreateUser>     ******** Use An Existing Consultant To Create A User    ********
+
+
+  *************  Employee Details     *****************
+
+
+  <EmploymentType><![CDATA[//*[@id='EmployeeType']]]></EmploymentType>
+  <LoginEmail><![CDATA[//*[@id='UserUserName']]]></LoginEmail>
+  <Salutation><![CDATA[//*[@id='EmployeeSalutation']]]></Salutation>
+  <FirstName><![CDATA[//*[@id='EmployeeFirstName']]]></FirstName>
+  <MiddleName><![CDATA[//*[@id='EmployeeMiddleName']]]></MiddleName>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  <Password><![CDATA[//*[@id='UserPassword']]]></Password>
+  <Departments><![CDATA[//*[@id='EmployeeOrgDeptId']]]></Departments>
+  <ClickOnAutogeneratepassword><![CDATA[//*[@id='UserSystemGenerate']]]></ClickOnAutogeneratepassword>
+  <ClickOnDoNotSendActivationE-Mail><![CDATA[//*[@id='EmployeeSendverification']]]></ClickOnDoNotSendActivationE-Mail>
+  <Role><![CDATA[//*[@id='EmployeeOrgRoleId']]]></Role>
+  <Team><![CDATA[//*[@id='EmployeeOrgHierarchyId']]]></Team>
+  <ProfilePic><![CDATA[//*[@id='EmployeeOrgHierarchyId']/a/span[1]]]></ProfilePic>
+
+
+  ***********************Contact Information ****************
+
+
+  <ContactEmail><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></ContactEmail>
+  <PhoneType><![CDATA[//*[@id='EmployeePhone0PhoneType']]]></PhoneType>
+  <PhoneNumber><![CDATA[//*[@id='phone_format']]]></PhoneNumber>
+  <DoNotCall><![CDATA[//*[@id='NewUserForm']]]></DoNotCall>
+  <AddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='EmployeeAddress0AddressLine2']]]></AddressLine2>
+  <City><![CDATA[//*[@id='EmployeeAddress0City']]]></City>
+  <State><![CDATA[//*[@id='EmployeeAddress0State']]]></State>
+  <Country><![CDATA[//*[@id='EmployeeAddress0Country']]]></Country>
+  <Zipcode><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></Zipcode>
+
+
+  ***********************  Select  Access Profile   ***************
+
+
+  <AdminUser><![CDATA[//*[@id='8']]]></AdminUser>
+  <AdminUser9><![CDATA[//*[@id='131']]]></AdminUser9>
+  <CopyAdminUser><![CDATA[//*[@id='56']]]></CopyAdminUser>
+  <CopyAdmin1><![CDATA[//*[@id='59']]]></CopyAdmin1>
+  <CopySalesUser><![CDATA[//*[@id='57']]]></CopySalesUser>
+  <GenericUser><![CDATA[//*[@id='35']]]></GenericUser>
+  <SalesUsers><![CDATA[//*[@id='9']]]></SalesUsers>
+  <Test><![CDATA[//*[@id='60']]]></Test>
+  <TestCopy><![CDATA[//*[@id='130']]]></TestCopy>
+  <TestSalesUser1><![CDATA[//*[@id='58']]]></TestSalesUser1>
+  <TestUser99><![CDATA[//*[@id='55']]]></TestUser99>
+
+
+  #######################  RELATED TO CREATE CONSULTANT USER RADIO BUTTON #######################
+
+  *************   Consultant Details    *****************
+
+  <ConsultantSalutation><![CDATA[//*[@id='ConsultantSalutation']]]></ConsultantSalutation>
+  <ConsultantFirstName><![CDATA[//*[@id='ConsultantFirstName']]]></ConsultantFirstName>
+  <ConsultantMiddleName><![CDATA[//*[@id='ConsultantMiddleName']]]></ConsultantMiddleName>
+  <ConsultantLastName><![CDATA[//*[@id='ConsultantLastName']]]></ConsultantLastName>
+  <ConsultantLoginEmail><![CDATA[//*[@id='UserUserName']]]></ConsultantLoginEmail>
+  <Owner><![CDATA[//*[@id='ConsultantAssignedUserId']]]></Owner>
+  <Manager><![CDATA[//*[@id='ConsultantAssignedManagerId']]]></Manager>
+
+
+  *************   Candidate Details    *****************
+
+  <CandidateList><![CDATA[//*[@id='CandidateId']]]></CandidateList>
+  <ConsultantContactEmail><![CDATA[//*[@id='ConsultantElectronicAddress0ElectronicContent']]]></ConsultantContactEmail>
+  <ConsultantPhoneType><![CDATA[//*[@id='ConsultantPhone0PhoneType']]]></ConsultantPhoneType>
+  <ConsultantPhoneNumber><![CDATA[//*[@id='phone_format']]]></ConsultantPhoneNumber>
+  <ConsultantPrime><![CDATA[//*[@id='uniform-data[ConsultantPhone][0][primary]']]]></ConsultantPrime>
+  <ConsultantDoNotCall><![CDATA[//*[@id='phone']]]></ConsultantDoNotCall>
+  <ConsultantAddressType><![CDATA[//*[@id='ConsultantAddress0Type']]]></ConsultantAddressType>
+  <ConsultantAddress1><![CDATA[//*[@id='ConsultantAddress0AddressLine1']]]></ConsultantAddress1>
+  <ConsultantAddress2><![CDATA[//*[@id='ConsultantAddress0AddressLine2']]]></ConsultantAddress2>
+  <ConsultantCity><![CDATA[//*[@id='ConsultantAddress0City']]]></ConsultantCity>
+  <ConsultantState><![CDATA[//*[@id='ConsultantAddress0State']]]></ConsultantState>
+  <ConsultantCountry><![CDATA[//*[@id='ConsultantAddress0Country']]]></ConsultantCountry>
+  <ConsultantZipcode><![CDATA[//*[@id='ConsultantAddress0PostalCode']]]></ConsultantZipcode>
+  <ConsultantDepartments><![CDATA[//*[@id='ConsultantOrgDeptId']]]></ConsultantDepartments>
+  <ConsultantRole><![CDATA[//*[@id='ConsultantOrgRoleId']]]></ConsultantRole>
+  <ConsultantTeam><![CDATA[//*[@id='ConsultantOrgHierarchyId']]]></ConsultantTeam>
+  <ConsultantProfilePic><![CDATA[//*[@id='ConsultantProfileImage']]]></ConsultantProfilePic>
+
+
+  *************  Select Access Profile   *****************
+
+  <ConsultantAdminUser><![CDATA[//*[@id='8']]]></ConsultantAdminUser>
+  <ConsultantAdminUser9><![CDATA[//*[@id='131']]]></ConsultantAdminUser9>
+  <ConsultantCopyAdminUser><![CDATA[//*[@id='56']]]></ConsultantCopyAdminUser>
+  <ConsultantCopyAdmin1><![CDATA[//*[@id='59']]]></ConsultantCopyAdmin1>
+  <ConsultantCopySalesUser><![CDATA[//*[@id='57']]]></ConsultantCopySalesUser>
+  <ConsultantGenericUser><![CDATA[//*[@id='35']]]></ConsultantGenericUser>
+  <ConsultantSalesUsers><![CDATA[//*[@id='9']]]></ConsultantSalesUsers>
+  <ConsultantTest><![CDATA[//*[@id='60']]]></ConsultantTest>
+  <ConsultantTestCopy><![CDATA[//*[@id='130']]]></ConsultantTestCopy>
+  <ConsultantTestSalesUser1><![CDATA[//*[@id='58']]]></ConsultantTestSalesUser1>
+  <ConsultantTestUser99><![CDATA[//*[@id='55']]]></ConsultantTestUser99>
+
+
+
+  ########################### RELATED TO USE AN EXISTING EMPLOYEE TO CREATE A USER  ##########################
+
+
+  ****************   Employee Details    *******************
+
+
+  <EmploymentUserType><![CDATA[//*[@id='EmployeeType']]]></EmploymentUserType>
+  <EmployeeList><![CDATA[//*[@id='EmployeeId']]]></EmployeeList>
+  <EmployeeLoginEmail><![CDATA[//*[@id='UserUserName']]]></EmployeeLoginEmail>
+  <EmployeePassword><![CDATA[//*[@id='UserPasswordEmp']]]></EmployeePassword>
+  <EmployeeDepartments><![CDATA[//*[@id='EmployeeOrgDeptId']]]></EmployeeDepartments>
+  <EmployeeClickOnAutogeneratepassword><![CDATA[//*[@id='UserSystemGenerates']]]></EmployeeClickOnAutogeneratepassword>
+  <EmployeeClickOnDoNotSendActivationE-Mail><![CDATA[//*[@id='EmployeeSendverification']]]></EmployeeClickOnDoNotSendActivationE-Mail>
+  <EmployeeRole><![CDATA[//*[@id='EmployeeOrgRoleId']]]></EmployeeRole>
+  <EmployeeTeam><![CDATA[//*[@id='EmployeeOrgRoleId']]]></EmployeeTeam>
+  <EmployeeProfilePic><![CDATA[//*[@id='EmployeeProfileImage']]]></EmployeeProfilePic>
+
+
+  *************   Select Access Profile   *****************
+
+  <EmployeeAdminUser><![CDATA[//*[@id='8']]]></EmployeeAdminUser>
+  <EmployeeAdminUser9><![CDATA[//*[@id='131']]]></EmployeeAdminUser9>
+  <EmployeeCopyAdminUser><![CDATA[//*[@id='56']]]></EmployeeCopyAdminUser>
+  <EmployeeCopyAdmin1><![CDATA[//*[@id='59']]]></EmployeeCopyAdmin1>
+  <EmployeeCopySalesUser><![CDATA[//*[@id='57']]]></EmployeeCopySalesUser>
+  <EmployeeGenericUser><![CDATA[//*[@id='35']]]></EmployeeGenericUser>
+  <EmployeeSalesUsers><![CDATA[//*[@id='9']]]></EmployeeSalesUsers>
+  <EmployeeTest><![CDATA[//*[@id='60']]]></EmployeeTest>
+  <EmployeeTestCopy><![CDATA[//*[@id='130']]]></EmployeeTestCopy>
+  <EmployeeTestSalesUser1><![CDATA[//*[@id='58']]]></EmployeeTestSalesUser1>
+  <EmployeeTestUser99><![CDATA[//*[@id='55']]]></EmployeeTestUser99>
+
+
+
+
+
+  ########################### RELATED TO USE AN EXISTING CONSULTANT TO CREATE A USER  ##########################
+
+  *************    Consultant Details    ****************
+
+  <ConsultantList><![CDATA[//*[@id='ConsultantId']]]></ConsultantList>
+  <ExistingConsultantLoginName><![CDATA[//*[@id='UserUserName']]]></ExistingConsultantLoginName>
+  <ConsultantPassword><![CDATA[//*[@id='UserPasswordCons']]]></ConsultantPassword>
+  <ConsultantDepartments><![CDATA[//*[@id='EmployeeOrgDeptId']]]></ConsultantDepartments>
+  <ConsultantClickOnAutogeneratepassword><![CDATA[//*[@id='UserSystemGenerate']]]></ConsultantClickOnAutogeneratepassword>
+  <ConsultantClickOnDoNotSendActivationE-Mail><![CDATA[//*[@id='EmployeeSendverification']]]></ConsultantClickOnDoNotSendActivationE-Mail>
+  <ConsultantRole><![CDATA[//*[@id='EmployeeOrgRoleId']]]></ConsultantRole>
+  <ConsultantTeam><![CDATA[//*[@id='EmployeeOrgHierarchyId']]]></ConsultantTeam>
+  <ConsultantProfilePic><![CDATA[//*[@id='EmployeeProfileImage']]]></ConsultantProfilePic>
+
+
+  *************   Select Access Profile   *****************
+
+  <ConsultantAdminUser><![CDATA[//*[@id='8']]]></ConsultantAdminUser>
+  <ConsultantAdminUser9><![CDATA[//*[@id='131']]]></ConsultantAdminUser9>
+  <ConsultantCopyAdminUser><![CDATA[//*[@id='56']]]></ConsultantCopyAdminUser>
+  <ConsultantCopyAdmin1><![CDATA[//*[@id='59']]]></ConsultantCopyAdmin1>
+  <ConsultantCopySalesUser><![CDATA[//*[@id='57']]]></ConsultantCopySalesUser>
+  <ConsultantGenericUser><![CDATA[//*[@id='35']]]></ConsultantGenericUser>
+  <ConsultantSalesUsers><![CDATA[//*[@id='9']]]></ConsultantSalesUsers>
+  <ConsultantTest><![CDATA[//*[@id='60']]]></ConsultantTest>
+  <ConsultantTestCopy><![CDATA[//*[@id='130']]]></ConsultantTestCopy>
+  <ConsultantTestSalesUser1><![CDATA[//*[@id='58']]]></ConsultantTestSalesUser1>
+  <ConsultantTestUser99><![CDATA[//*[@id='55']]]></ConsultantTestUser99>
+
+
+
+
+
+
+  ######################  CLICK ON SAVE BUTTON    ###########################
+
+
+  <ClickOnSaveButton><![CDATA[[//*[@id='EmployeeAddnewForm']/div[3]/div[7]/button[1]]]></ClickOnSaveButton>
+  <ClickOnCancelButton><![CDATA[//*[@id='EmployeeAddnewForm']/div[3]/div[7]/button[2]]]></ClickOnCancelButton>
+
+
+
+
+
+
+  #################      USER INDEX PAGE FUNCTIONALITIES     ################
+
+  ****************  User Index Main Buttons     ****************
+
+  <UserBulkActions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/button]]></UserBulkActions>
+  <UserIndexTrashButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></UserIndexTrashButton>
+  <TrashViewBackButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></TrashViewBackButton>
+  <UserIndexAddNew><![CDATA[//*[@id='actionbuttons']]]></UserIndexAddNew>
+  <UserAddNewCancelButton><![CDATA[//*[@id='EmployeeAddnewForm']/div[2]/div/ul/li[4]]]></UserAddNewCancelButton>
+  <UserIndexFilterField><![CDATA[//*[@id='users_grid_filter']/label/input]]></UserIndexFilterField>
+  <UserIndexFilterReset><![CDATA[//*[@id='ToolTables_users_grid_0']]]></UserIndexFilterReset>
+  <UpdateUserRecord><![CDATA[//*[@id='users_grid']/tbody/tr[6]/td[1]/a[1]/sapn]]></UpdateUserRecord>
+  <UpdateUserRecordCancel><![CDATA[//*[@id='EmployeeUpdateForm']/div[2]/div/ul/li[4]]]></UpdateUserRecordCancel>
+  <DeleteUser><![CDATA[//*[@id='users_grid']/tbody/tr[2]/td[1]/a[2]/sapn]]></DeleteUser>
+  <DeleteUserOk><![CDATA[//*[@id='removeUser']]]></DeleteUserOk>
+  <DeleteUserDelete><![CDATA[//*[@id='UserDeleteIndexForm']/div[2]/div[2]/div[2]/button[1]]]></DeleteUserDelete>
+  <DeleteUserCancel><![CDATA[//*[@id='cancel']]]></DeleteUserCancel>
+  <UserIndexRecordView><![CDATA[//*[@id='users_grid']/tbody/tr[5]/td[2]]]></UserIndexRecordView>
+  <UserIndexRecordViewBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></UserIndexRecordViewBack>
+  <RecordForPage><![CDATA[//*[@id='users_grid_length']/label/select]]></RecordForPage>
+  <UserIndexSelectAllButton><![CDATA[//*[@id='users_grid']/thead/tr/th[1]/div/span/input]]></UserIndexSelectAllButton>
+  *********** Sorting Fields        **********
+
+  <SortingUserName><![CDATA[//*[@id='users_grid']/thead/tr/th[2]]]></SortingUserName>
+
+
+  *****************   User Index Page Navigation Buttons      *********************
+
+
+  <UserIndexFirstPage><![CDATA[//*[@id='users_grid_first']]]></UserIndexFirstPage>
+  <UserIndexPrevPage><![CDATA[//*[@id='users_grid_previous']]]></UserIndexPrevPage>
+  <UserIndexPaginate><![CDATA[//*[@id='users_grid_paginate']]]></UserIndexPaginate>
+  <UserIndexNextPage><![CDATA[//*[@id='users_grid_next']]]></UserIndexNextPage>
+  <UserIndexLastPage><![CDATA[//*[@id='users_grid_last']]]></UserIndexLastPage>
+
+
+  #######################  USER TRASH INDEX PAGE FUNCTIONALITIES    ################
+
+  <TrashViewBulkActions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/div/button]]></TrashViewBulkActions>
+  <TrashViewBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></TrashViewBack>
+  <TrashRestoreUserIcon><![CDATA[//*[@id='user_trash']/tbody/tr[2]/td[1]/a/sapn]]></TrashRestoreUserIcon>
+  <TrashIndexFilterField><![CDATA[//*[@id='user_trash_filter']/label/input]]></TrashIndexFilterField>
+  <TrashIndexFilterReset><![CDATA[//*[@id='ToolTables_user_trash_0']/span/span]]></TrashIndexFilterReset>
+  <TrashViewRecordForPage><![CDATA[//*[@id='user_trash_length']/label/select]]></TrashViewRecordForPage>
+  <TrashIndexRecordView><![CDATA[//*[@id='user_trash']/tbody/tr[5]/td[2]/a]]></TrashIndexRecordView>
+  <TrashRecordViewRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></TrashRecordViewRestore>
+  <TrashRecordViewBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></TrashRecordViewBack>
+  <TrashViewSelectAllButton><![CDATA[//*[@id='user_trash']/thead/tr/th[1]/div/span/input]]></TrashViewSelectAllButton>
+
+  *****************   User Index Page Navigation Buttons      *********************
+
+  <TrashViewFirstPage><![CDATA[//*[@id='user_trash_first']]]></TrashViewFirstPage>
+  <TrashViewPrevPage><![CDATA[//*[@id='user_trash_previous']]]></TrashViewPrevPage>
+  <TrashIndexPaginate><![CDATA[//*[@id='user_trash_paginate']]]></TrashIndexPaginate>
+  <TrashViewNextPage><![CDATA[//*[@id='user_trash_next']]]></TrashViewNextPage>
+  <TrashViewLastPage><![CDATA[//*[@id='user_trash_last']]]></TrashViewLastPage>
+
+
+  #######################  USER VIEW PAGE FUNCTIONALITIES    ################
+
+  <UserViewEditButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></UserViewEditButton>
+  <UserViewBackButton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></UserViewBackButton>
+  <UserViewResetPwd><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[1]/div[2]/ul/li[5]/a/button]]></UserViewResetPwd>
+  <UserViewDisableUser><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[1]/div[2]/ul/li[3]/a]]></UserViewDisableUser>
+  <UserViewDeleteUser><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[1]/div[2]/ul/li[1]/a]]></UserViewDeleteUser>
+
+
+</Locators>

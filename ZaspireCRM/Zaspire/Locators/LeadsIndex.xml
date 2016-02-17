@@ -5,7 +5,7 @@
 
   <!-- LEADS INDEX PAGE -->
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
-  <ClickOnBackToLeads><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToLeads>
+  <ClickOnBackToLeads><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBackToLeads>
   <FirstLeadNameLink><![CDATA[//*[@id='normal']]]></FirstLeadNameLink>
 
   <!-- FILTER BY GROUPS -->
@@ -16,7 +16,7 @@
   <ClickOnCustomViews><![CDATA[//*[@id='LeadQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[1]/a]]></ClickOnCustomViews>
   <ClickOnCustomViewsNew><![CDATA[//*[@id='LeadQuickSearchIndexForm']/table/tbody/tr[1]/td[2]/div/div[3]/a]]></ClickOnCustomViewsNew>
   <SelectCustomViews><![CDATA[//*[@id='savedSearch']]]></SelectCustomViews>
-  <ClickOnBackToLeads><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[2]/a]]></ClickOnBackToLeads>
+  <ClickOnCustomViewsBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnCustomViewsBack>
 
   <!-- DEFAULT VIEWS -->
   <SelectDefaultViews><![CDATA[//*[@id='teamName']]]></SelectDefaultViews>
@@ -37,12 +37,14 @@
   <ClockOnQuickLookView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClockOnQuickLookView>
   <ClockOnQuickLookEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClockOnQuickLookEdit>
   <ClockOnQuickLookDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClockOnQuickLookDelete>
-  
 
 
 
-
-
+  <SelectPagination><![CDATA[//*[@id='leads_grid_length']/label/select]]></SelectPagination>
+  <ClickOnNext><![CDATA[//*[@id='leads_grid_next']]]></ClickOnNext>
+  <ClickOnLast><![CDATA[//*[@id='leads_grid_last']]]></ClickOnLast>
+  <ClickOnprevious><![CDATA[//*[@id='leads_grid_previous']]]></ClickOnprevious>
+  <ClickOnFirst><![CDATA[//*[@id='leads_grid_first']]]></ClickOnFirst>
 
 
 

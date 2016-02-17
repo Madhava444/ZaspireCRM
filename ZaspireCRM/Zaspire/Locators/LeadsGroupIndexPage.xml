@@ -3,9 +3,9 @@
 <Locators>
 
    
-  <!--  GROUPS INDEX PAGE -->
+  <!--  LEADS GROUPS INDEX PAGE -->
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
-  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  <ClickOnGroups><![CDATA[//a[@href='/infoaspire/leads/groups']]]></ClickOnGroups>
   <ClickOnGroupsAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnGroupsAddNew>
   <EnterSearchFilterBox><![CDATA[//*[@id='lead_groups_filter']/label/input]]></EnterSearchFilterBox>
   <ClickOnFilterResetButton><![CDATA[//*[@id='ToolTables_lead_groups_0']]]></ClickOnFilterResetButton>

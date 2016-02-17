@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+  ########################## BulkEmail index page ##################################
+  <!-- EmailAccount INDEX PAGE -->
+  <ClickonActivities><![CDATA[//*[@id='activities']]]></ClickonActivities>
+  <ClickOnEmails><![CDATA[//*[@id='e-mails']]]></ClickOnEmails>
+  <ClickonMasterCheckbox><![CDATA[//*[@id='bulk_email']/thead/tr/th[1]/div/span/input]]></ClickonMasterCheckbox>
+  <CheckFirstBulkemail><![CDATA[//*[@id='check50']]]></CheckFirstBulkemail>
+  <ChecksecondBulkemail><![CDATA[//*[@id='check49']]]></ChecksecondBulkemail>
+  <ClickonBulkemail><![CDATA[//*[@id='bulk_email']/tbody/tr[1]/td[2]/a]]></ClickonBulkemail>
+  <Backtobutlkemail><![CDATA[//a[@title='Back To Bulk E-Mails']]]></Backtobutlkemail>
+  <ClickonTrash><![CDATA[//a[@title='Bulk E-Mails Trash']]]></ClickonTrash>
+  <Backtobulkemailsfromtrash><![CDATA[//a[@title='Back To BulkEmails']]]></Backtobulkemailsfromtrash>
+  <RemoveBulkemail><![CDATA[//*[@id='remove_emails']]]></RemoveBulkemail>
+  <SearchBulkemail><![CDATA[//*[@id='bulk_email_filter']/label/input]]></SearchBulkemail>
+  <ResetBulkemail><![CDATA[//*[@id='ToolTables_bulk_email_0']]]></ResetBulkemail>
+  <DeleteFromview><![CDATA[//a[@title='Delete Bulk E-Mail']]]></DeleteFromview>
+
+
+  
+
+  <!-- FILTER BY Emails -->
+  
+  <ResetFilter><![CDATA[//*[@id='ToolTables_mail_accounts_0']]]></ResetFilter>
+
+
+  <!-- ADD NewEmailAccount-->
+  <ClickNewButton><![CDATA[//a[@title='Add New Email Account']]]></ClickNewButton>
+  <ClickonCancelbutton><![CDATA[//*[@id='EmailAccountAddAccountForm']/div[2]/div/div[2]/ul/li[4]/a]]></ClickonCancelbutton>
+  <ClickRemoveButton><![CDATA[//*[@id='remove_account']]]></ClickRemoveButton>
+  <ClickonMasterCheckbox><![CDATA[//*[@id='mail_accounts']/thead/tr/th[1]/div/span/input]]></ClickonMasterCheckbox>
+
+  <SetAsDefault><![CDATA[//*[@id='EventEventType']]]></SetAsDefault>
+
+  ########################## Email Account Addnew page ##################################
+  ### Account details############
+  <AccountName><![CDATA[//*[@id='searchName']]]></AccountName>
+  <AccountType><![CDATA[//*[@id='EmailAccountType']]]></AccountType>
+  <UserName><![CDATA[//*[@id='EmailAccountUsername']]]></UserName>
+  <Password><![CDATA[//*[@id='EmailAccountPassword']]]></Password>
+  ############# Account Type details##########
+  <AccountType2><![CDATA[//*[@id='EmailAccountProvider']]]></AccountType2>
+  <Protocol><![CDATA[//*[@id='EmailAccountProtocol']]]></Protocol>
+  <MailServerAddress><![CDATA[//*[@id='EmailAccountServer']]]></MailServerAddress>
+  <SSLTLS><![CDATA[//*[@id='EmailAccountEncription']]]></SSLTLS>
+  <MailServerPort><![CDATA[//*[@id='EmailAccountPort']]]></MailServerPort>
+  <TestSettings><![CDATA[//*[@id='inServerOnly']/div/div[2]/div/div/div[2]/div[3]/div/button]]></TestSettings>
+  <Closepopup><![CDATA[//*[@id='loadingdiv']/div/div/div[1]/button]]></Closepopup>
+
+  ######## Outgoing Server Details###############
+
+  <UseSamesettingsasmyIncomingServer><![CDATA[//*[@id='EmailAccountOtgoingAuto1']]]></UseSamesettingsasmyIncomingServer>
+  <LogOnUsing><![CDATA[//*[@id='EmailAccountOtgoingAuto0']]]></LogOnUsing>
+
+
+
+  <OutgoingSMTPMailServerAddress><![CDATA[//*[@id='EmailAccountOutServer']]]></OutgoingSMTPMailServerAddress>
+  <SSLTLS2><![CDATA[//*[@id='EmailAccountOutEncription']]]></SSLTLS2>
+  <OutgoingSMTPMailServerPort><![CDATA[//*[@id='EmailAccountOutPort']]]></OutgoingSMTPMailServerPort>
+  <TestSettings2><![CDATA[//*[@id='outServerOnly']/div/div[2]/div/div[3]/div[2]/div/div/button]]></TestSettings2>
+  <Closepopup2><![CDATA[//*[@id='loadingdiv1']/div/div/div[1]/button]]></Closepopup2>
+
+  <SetSignature><![CDATA[//*[@id='EmailAccountSignatureId']]]></SetSignature>
+
+  <CreateSign><![CDATA[//*[@id='signature']/div/div[2]/div/div/div/div[2]/div/a[1]]]></CreateSign>
+  <SaveAccount><![CDATA[//*[@id='EmailAccountAddAccountForm']/div[2]/div/div[2]/ul/li[6]/button]]></SaveAccount>
+  <Signaturename><![CDATA[//*[@id='signature_name']]]></Signaturename>
+  <SingDescription><![CDATA[//html[@lang='en']]]></SingDescription>
+  <Selectsignature><![CDATA[//*[@id='EmailAccountSignatureId']]]></Selectsignature>
+  <SignSave><![CDATA[//*[@id='dialog_signature']/div/div/div[3]/button[1]]]></SignSave>
+  <resetAccount><![CDATA[//*[@id='reload']]]></resetAccount>
+  <SaveAccount><![CDATA[//*[@id='EmailAccountAddAccountForm']/div[2]/div/div[2]/ul/li[6]/button]]></SaveAccount>
+
+  ############### Syncto app###########
+  <Checkmailininbox><![CDATA[//*[@id='mail_account']/tbody/tr[2]/td[1]/input]]></Checkmailininbox>
+  <ClickonImporttoappbutton><![CDATA[//button[@class='btn btn-xs btn-primary button-alignment']]]></ClickonImporttoappbutton>
+  <Syncselected><![CDATA[//a[@href='javascript:void(0);']]]></Syncselected>
+  <Back2inbox><![CDATA[//*[@id='MailSyncselectedForm']/div[2]/div/ul/li[6]/a]]></Back2inbox>
+  <Cancelsync><![CDATA[//*[@id='MailSyncselectedForm']/div[3]/div/div[2]/button]]></Cancelsync>
+  <ClickonImporttoappbutton2><![CDATA[//*[@id='importbtn']]]></ClickonImporttoappbutton2>
+
+  ############### Import to app###########
+  <Clickonmailininbox><![CDATA[//*[@id='mail_account']/tbody/tr[4]/td[2]/a]]></Clickonmailininbox>
+  <Addnewlead> <![CDATA[//a[@title='Add New Lead']]]></Addnewlead>
+  <ImporttoCRM><![CDATA[//*[@id='import_to_crm']]]></ImporttoCRM>
+  <Clicklead><![CDATA[//input[@value='9']]]></Clicklead>
+  <CheckContacts><![CDATA[//input[@value='12']]]></CheckContacts>
+  <CheckAccounts><![CDATA[//input[@value='10']]]></CheckAccounts>
+  <CheckOpportunities><![CDATA[//input[@value='11']]]></CheckOpportunities>
+  <Clickontickmark><![CDATA[//button[@type='submit']]]></Clickontickmark>
+  <Clickonfirstradio><![CDATA[//*[@id='modulename']]]></Clickonfirstradio>
+  <Clickonsecondradio><![CDATA[//input[@value='20,2043']]]></Clickonsecondradio>
+  <ClickonImportbutton4><![CDATA[//*[@id='importbtn']]]></ClickonImportbutton4>
+  <Cancelimporttoapp><![CDATA[//*[@id='MailImportToCrmForm']/div[3]/button[2]]]></Cancelimporttoapp>
+  
+  <Back2inbox><![CDATA[//*[@id='MailSyncselectedForm']/div[2]/div/ul/li[6]/a]]></Back2inbox>
+  <Cancelsync><![CDATA[//*[@id='MailSyncselectedForm']/div[3]/div/div[2]/button]]></Cancelsync>
+  <ClickonImporttoappbutton2><![CDATA[//*[@id='importbtn']]]></ClickonImporttoappbutton2>
+  
+  
+  ############### Add to Lead  ###########
+  
+  <ClickonAddtolead><![CDATA[//a[@title='Add New Lead']]]></ClickonAddtolead>
+  <ClickonAddtolead2><![CDATA[//img[@alt='My Profile']]]></ClickonAddtolead2>
+ 
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <SelectCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></SelectCategory>
+  <SelectAttachmentFile><![CDATA[//*[@id='AttachmentFiles']]]></SelectAttachmentFile>
+  <EnterFileDescription><![CDATA[//*[@id='AttachmentDescription']]]></EnterFileDescription>
+
+  <ClickOnSaveFile><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[1]]]></ClickOnSaveFile>
+  <ClickOnCancelFile><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></ClickOnCancelFile>
+
+
+
+  <!-- ADD LOG CALL -->
+  <ClickOnAddCall><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[14]/a]]></ClickOnAddCall>
+  <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]></EnterCallSubject>
+  <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
+  <EnterCallDate><![CDATA[//*[@id='CallCallDate']]]></EnterCallDate>
+  <SelectCallFrom><![CDATA[//*[@id='CallCallFrom']]]></SelectCallFrom>
+  <SelectCallTo><![CDATA[//*[@id='CallCallTo']]]></SelectCallTo>
+  <EnterCallFromNumber><![CDATA[//*[@id='CallNewcallFrom']]]></EnterCallFromNumber>
+  <EnterCallToNumber><![CDATA[//*[@id='CallNewcallTo']]]></EnterCallToNumber>
+  <EnterCallHours><![CDATA[//*[@id='CallCallHours']]]></EnterCallHours>
+  <EnterCallMins><![CDATA[//*[@id='CallCallMins']]]></EnterCallMins>
+  <EnterCallSecs><![CDATA[//*[@id='CallCallSecs']]]></EnterCallSecs>
+  <ClickOnDescriptionLink><![CDATA[//*[@id='address_add_link']]]></ClickOnDescriptionLink>
+  <EnterCallDescription><![CDATA[//*[@id='CallDescription']]]></EnterCallDescription>
+
+  <ClickOnSaveLogCall><![CDATA[//*[@id='LogCallForm']/div[4]/button[1]]]></ClickOnSaveLogCall>
+  <ClickOnCancelLogCall><![CDATA[//*[@id='LogCallForm']/div[4]/button[2]]]></ClickOnCancelLogCall>
+
+
+
+  <!-- LEAD COPY -->
+  <ClickOnCopy><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[1]/a]]></ClickOnCopy>
+
+
+  <!-- LEAD DELETE -->
+  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[2]/a]]></ClickOnDelete>
+
+
+  <!-- ADD LEAD TO CAMPAIGN -->
+  <ClickOnAddToCampaign1><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[5]/a]]></ClickOnAddToCampaign1>
+
+  <ClickOnAddToCampaign><![CDATA[//*[@id='add_lead']]]></ClickOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']]]></ClickOnMergeButton>
+  <ClickOnCampaignName><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr/td/a]]></ClickOnCampaignName>
+  <ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+  <SelectCampaignGroup><![CDATA[//*[@id='CampaignContactGroup']]]></SelectCampaignGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignContactGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddLeads><![CDATA[//*[@id='CampaignContactViewForm']/div[2]/div/div[3]/a]]></ClickOnAddLeads>
+
+
+  <!-- SEND EMAIL -->
+  <ClickOnSendEmail><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[8]/a]]></ClickOnSendEmail>
+  <ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+  <ToAddressCheckBox><![CDATA[//*[@id='toid']]]></ToAddressCheckBox>
+  <CCAddressCheckBox><![CDATA[//*[@id='ccid']]]></CCAddressCheckBox>
+  <BCCAddressCheckBox><![CDATA[//*[@id='bccid']]]></BCCAddressCheckBox>
+  <ClickOnAddEmailAddress><![CDATA[//*[@id='submitemail']]]></ClickOnAddEmailAddress>
+  <ClickOnSendEmailButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendEmailButton>
+
+
+
+
+
+
+
+</Locators>

@@ -2,6 +2,8 @@
 
 <Locators>
 
+  
+
   <!-- EVENTS -->
   <ClickOnEvents><![CDATA[//*[@id='events']]]></ClickOnEvents>
   <ClickOnAddNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/div[2]/ul/li[3]/a]]></ClickOnAddNew>
@@ -27,7 +29,7 @@
   <ClickOnSave><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[4]/div/div/button]]></ClickOnSave>
   <ClickOnCancel><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[3]/div/div/a]]></ClickOnCancel>
 
-
+ 
 
 
 </Locators>  

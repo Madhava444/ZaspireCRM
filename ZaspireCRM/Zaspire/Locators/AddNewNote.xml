@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Locators>
-
+  
+  
   <ClickOnActivitiess><![CDATA[//*[@id='activities']]]></ClickOnActivitiess>
   <ClickOnNotes><![CDATA[//*[@id='notes']]]></ClickOnNotes>
 
+  <!--  CREATE A NOTE  -->
   <ClickOnNoteAddNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[3]/a]]></ClickOnNoteAddNew>
   <SelectNoteCategory><![CDATA[//*[@id='NoteCategoryId']]]></SelectNoteCategory>
   <SelectNoteOwner><![CDATA[//*[@id='NoteOwnerId']]]></SelectNoteOwner>
@@ -18,6 +20,11 @@
   <ClickOnSave><![CDATA[//*[@id='NoteAddnewForm']/div[3]/div/div[3]/div/div/button]]></ClickOnSave>
   <ClickOnCancel><![CDATA[//*[@id='NoteAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnCancel>
 
+  
+  <!--  UPDATE NOTE  -->
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[1]]]></ClickOnQuickLink>
+  <ClickOnEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnEdit>
+  <ClickOnUpdateSave><![CDATA[//*[@id='NoteUpdateForm']/div[3]/div/div[3]/div/div/button]]></ClickOnUpdateSave>
 
 
 </Locators>

@@ -44,12 +44,13 @@ namespace Zaspire.Scripts.Mainsite
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/trash");
             AddAccountHelper.WaitForWorkAround(3000);
 
-
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/trash");
+            AddAccountHelper.WaitForWorkAround(5000);
 
             AddAccountHelper.TypeText("FilterSearchBox", "Live");
             AddAccountHelper.WaitForWorkAround(2000);
 
-            AddAccountHelper.ClickElement("SelectOneRecord");
+            AddAccountHelper.ClickElement("ClickOnMasterCheckbox");
 
             AddAccountHelper.MouseHover("Locator");
 
@@ -63,7 +64,7 @@ namespace Zaspire.Scripts.Mainsite
             AddAccountHelper.TypeText("FilterSearchBox", "Declined");
             AddAccountHelper.WaitForWorkAround(2000);
 
-            AddAccountHelper.ClickElement("SelectOneRecord");
+            AddAccountHelper.ClickElement("ClickOnMasterCheckbox");
 
             AddAccountHelper.MouseHover("Locator");
 
@@ -76,16 +77,20 @@ namespace Zaspire.Scripts.Mainsite
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/trash");
             AddAccountHelper.WaitForWorkAround(5000);
 
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/trash");
+            AddAccountHelper.WaitForWorkAround(5000);
+
+
             //######################### Trash View Page ##########################
 
-            AddAccountHelper.ClickElement("ClicOnTrashRecordViewPage");
+            //AddAccountHelper.ClickElement("ClicOnTrashRecordViewPage");
 
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/trash");
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/groups/view/10");
 
 
    // ########################## Group Trash ##############
 
-            AddAccountHelper.ClickElement("ClicOnGroupTrashButton");
+            //AddAccountHelper.ClickElement("ClicOnGroupTrashButton");
 
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/accounts/trash");
 

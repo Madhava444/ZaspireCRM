@@ -6,8 +6,8 @@
 
   <!-- LEADS IMPORTS INDEX PAGE -->
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
-  <ClickOnImports><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[2]/a]]></ClickOnImports>
-  <ClickOnImportNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnImportNew>
+  <ClickOnImports><![CDATA[//[@href='/infoaspire/leads/imports']]]></ClickOnImports>
+  <ClickOnImportNew><![CDATA[//[@class='btn btn-xs btn-success btn-primary button-alignment']]]></ClickOnImportNew>
   
   
   <ClickOnImportNewCancel><![CDATA[//*[@id='importform']/div[3]/div/div/div/a]]></ClickOnImportNewCancel>
@@ -26,4 +26,63 @@
   <ClickOnImportButton><![CDATA[//*[@id='importform']/div[3]/div/div/div/button]]></ClickOnImportButton>
   <ClickOnCancelButton><![CDATA[//*[@id='importform']/div[3]/div/div/div/a]]></ClickOnCancelButton>
 
+
+  <!-- LEADS IMPORTS FILE VIEW PAGE -->
+  <ClickOnFirstRecord><![CDATA[//*[@id='leads_grid']/tbody/tr[1]/td[2]/a]]></ClickOnFirstRecord>
+  <ClickOnBackButton><![CDATA[//*[@id='expbtn']]]></ClickOnBackButton>
+  <ClickOnCreateCustomView><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreateCustomView>
+  <EnterSerachBox><![CDATA[//*[@id='leads_grid_filter']/label/input]]></EnterSerachBox>
+  <ClickOnResetButton><![CDATA[//*[@id='ToolTables_leads_grid_0']]]></ClickOnResetButton>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='leads_grid']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <SelectPagination><![CDATA[//*[@id='leads_grid_length']/label/select]]></SelectPagination>
+  <ClickOnPaginationNext><![CDATA[//*[@id='leads_grid_next']]]></ClickOnPaginationNext>
+  <ClickOnPaginationLast><![CDATA[//*[@id='leads_grid_last']]]></ClickOnPaginationLast>
+  <ClickOnPaginationPrev><![CDATA[//*[@id='leads_grid_previous']]]></ClickOnPaginationPrev>
+  <ClickOnPaginationFirst><![CDATA[//*[@id='leads_grid_first']]]></ClickOnPaginationFirst>
+
+  
+  
+  <!--####################################################################-->
+
+  
+  <!--  LEADS BULK UPDATE  -->
+  <ClickOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickOnBulkUpdate>
+  <SelectStatus><![CDATA[//*[@id='BulkUpdateLeadStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='BulkUpdateLeadSource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
+  <SelectPartner><![CDATA[//*[@id='BulkUpdateAssignedPartnerId']]]></SelectPartner>
+
+  <ClickOnUpdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='update_all']/div/div/div[3]/button]]></ClickOnCancel>
+
+  <!--  BULK DELETE LEADS  -->
+  <ClickOnDeleteLeads><![CDATA[//*[@id='remove_record']]]></ClickOnDeleteLeads>
+
+  <!--  LEADS ADD TO CAMPAIN -->
+  <ClickOnAddToCampaign><![CDATA[//*[@id='add_lead']]]></ClickOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']/i]]></ClickOnMergeButton>
+  <ClickOnCampaignName><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr/td/a]]></ClickOnCampaignName>
+  <ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+  <SelectCampaignGroup><![CDATA[//*[@id='CampaignLeadGroup']]]></SelectCampaignGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignLeadGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddLeads><![CDATA[//*[@id='CampaignLeadIndexForm']/div[4]/a]]></ClickOnAddLeads>
+
+
+  <!--  BULK EMAIL LEADS  -->
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+  
+  
 </Locators>

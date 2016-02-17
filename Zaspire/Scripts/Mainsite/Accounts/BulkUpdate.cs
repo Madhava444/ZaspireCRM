@@ -75,9 +75,6 @@ namespace Zaspire.Scripts.Mainsite
                 BulkUpdateHelper.Select("ClickOnStatus", "New");
                 BulkUpdateHelper.WaitForWorkAround(4000);
 
-
-
-
                 //Click on Upadte Button
                 BulkUpdateHelper.ClickElement("ClickOnUpadte");
                 BulkUpdateHelper.WaitForWorkAround(4000);
@@ -85,6 +82,105 @@ namespace Zaspire.Scripts.Mainsite
                 //Accept Alert
                 BulkUpdateHelper.AcceptAlert();
                 BulkUpdateHelper.WaitForWorkAround(8000);
+
+
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&& Bulk Email &&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+                //Click on Bulk Update
+                BulkUpdateHelper.TypeText("SearchCompany", "Woods");
+                BulkUpdateHelper.WaitForWorkAround(10000);
+
+                //Click on Bulk Update
+                BulkUpdateHelper.ClickElement("SelectMasterCheckbox");
+
+                //Click on Move over
+                BulkUpdateHelper.MouseOver("Locator");
+
+
+                //Click on Bulk Email
+                BulkUpdateHelper.ClickElement("ClickOnBulkEmail");
+                BulkUpdateHelper.WaitForWorkAround(4000);
+
+                //Enter Email Cc Address
+                BulkUpdateHelper.TypeText("EnterEmailCcAddress", "nthamishetty@chraterglobal.com");
+
+                //Enter Email Bcc Address
+                BulkUpdateHelper.TypeText("EnterEmailBccAddress", "nthamishetty@chraterglobal.com");
+
+                //Enter Email Subject
+                BulkUpdateHelper.TypeText("EnterEmailSubject", "Test Email");
+
+                //Click On Priority
+                BulkUpdateHelper.ClickElement("ClickOnPriority");
+
+                //Click On Copy To CC Check Box
+                BulkUpdateHelper.ClickElement("ClickOnCopyToCCCheckBox");
+
+                //Select Copy To CC
+                BulkUpdateHelper.Select("SelectCopyToCC", "owners");
+
+                //Click On Copy To BCC Check Box
+                BulkUpdateHelper.ClickElement("ClickOnCopyToBCCCheckBox");
+
+                //Select Copy To BCC
+                BulkUpdateHelper.Select("SelectCopyToBCC", "Managers");
+
+                //Select Email Signature
+                BulkUpdateHelper.Select("SelectEmailSignature", "");
+
+                //Click On Send Button
+                BulkUpdateHelper.ClickElement("ClickOnSendButton");
+                BulkUpdateHelper.WaitForWorkAround(10000);
+
+                 //######################## Delete Account ############################
+
+                //Click On Account Tab
+                BulkUpdateHelper.ClickElement("ClickonAccountsTab");
+                BulkUpdateHelper.WaitForWorkAround(4000);
+
+                BulkUpdateHelper.TypeText("SearchCompany", "Woods");
+                BulkUpdateHelper.WaitForWorkAround(10000);
+
+                //Click on Bulk Update
+                BulkUpdateHelper.ClickElement("ClickOnMasterCheckBox");
+
+                //Click on Move over
+                BulkUpdateHelper.MouseOver("Locator");
+
+
+                //Click on Bulk Delete
+                BulkUpdateHelper.ClickElement("ClickOnDeleteAccounts");
+                BulkUpdateHelper.WaitForWorkAround(4000);
+
+
+                BulkUpdateHelper.AcceptAlert();
+                BulkUpdateHelper.WaitForWorkAround(10000);
+
+        //$$$$$$$$$$$$$$$$$$$$$$ Add to Group $$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+                BulkUpdateHelper.TypeText("SearchCompany", "Woods");
+                BulkUpdateHelper.WaitForWorkAround(10000);
+
+                //Click on Bulk Update
+                BulkUpdateHelper.ClickElement("ClickOnMasterCheckBox");
+
+                //Click on Move over
+                BulkUpdateHelper.MouseOver("Locator");
+
+
+                //Click on Bulk Update
+                BulkUpdateHelper.ClickElement("ClickOnAddToGroup");
+                BulkUpdateHelper.WaitForWorkAround(4000);
+
+                //Enter Add New Lead Group Name
+                BulkUpdateHelper.TypeText("EnterGroupName", "Test Group");
+
+                //Click On Add Leads
+                BulkUpdateHelper.ClickElement("ClickOnAddGroupUpdate");
+
+                BulkUpdateHelper.AcceptAlert();
+                BulkUpdateHelper.WaitForWorkAround(10000);
+
 
           
 

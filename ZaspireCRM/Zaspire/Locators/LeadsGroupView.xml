@@ -3,12 +3,12 @@
 <Locators>
 
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
-  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  <ClickOnGroups><![CDATA[//a[@href='/infoaspire/leads/groups']]]></ClickOnGroups>
   <FirstLeadGroupNameLink><![CDATA[//*[@id='lead_groups']/tbody/tr[1]/td[2]/a]]></FirstLeadGroupNameLink>
 
   
   <!-- ADD POSITIONS  -->
-  <ClickOnAddPosition><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[4]/div/div/div[1]/div[3]/a]]></ClickOnAddPosition>
+  <ClickOnAddPosition><![CDATA[//a[@class='button-alignment btn btn-xs btn-success ']]]></ClickOnAddPosition>
   <EnterJobTitle><![CDATA[//*[@id='JobTitle']]]></EnterJobTitle>
   <SelectCareerLevel><![CDATA[//*[@id='JobCareerLevel']]]></SelectCareerLevel>
   <EnterExpYears><![CDATA[//*[@id='JobExperienceYears']]]></EnterExpYears>
@@ -28,11 +28,11 @@
   <ClickOnCancel><![CDATA[//*[@id='groupaddpositionForm']/div[2]/div[2]/div[7]/button[2]]]></ClickOnCancel>
 
   <!-- GROUP VIEW PAGE ACTIONS  -->
-  <ClickOnAddNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/div/a]]></ClickOnAddNew>
-  <ClickOnEdit><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnEdit>
-  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ClickOnBack>
-  <ClickOnMoreActions><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/a]]></ClickOnMoreActions>
-  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li/a]]></ClickOnDelete>
+  <ClickOnAddNew><![CDATA[//a[@class='btn btn-xs btn-success button-alignment']]]></ClickOnAddNew>
+  <ClickOnEdit><![CDATA[//a[@class='btn btn-xs btn-primary']]]></ClickOnEdit>
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs btn-default button-alignment']]]></ClickOnBack>
+  <ClickOnMoreActions><![CDATA[//a[@class='btn btn-xs btn-warning button-alignment dropdown-toggle']]]></ClickOnMoreActions>
+  <ClickOnDelete><![CDATA[//a[@title='Delete Lead Group']]]></ClickOnDelete>
 
   <ClickOnAddNewToGroups><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[3]/a]]></ClickOnAddNewToGroups>
   <ClickOnEditToGroups><![CDATA[//*[@id='LeadEditForm']/div[2]/div/ul/li[3]/a]]></ClickOnEditToGroups>
@@ -45,10 +45,59 @@
   
   
   <!-- ADD LEADS FOR GROUP VIEW  -->
-  <ClickOnAddLeads><![CDATA[html/body/div[4]/div[2]/div[2]/div[1]/div/div[2]/form/div/div[5]/div/div[1]/div/div[2]/a]]></ClickOnAddLeads>
+  <ClickOnAddLeads><![CDATA[//a[@class='button-alignment btn btn-xs btn-success']]]></ClickOnAddLeads>
   <SelectPagination><![CDATA[//*[@id='add_leads_length']/label/select]]></SelectPagination>
   <SelectMasterCheckBox><![CDATA[//*[@id='add_leads']/thead/tr/th[1]/div/span/input]]></SelectMasterCheckBox>
   <ClickOnAddToGroup><![CDATA[//*[@id='CreateLeadGroup']/div[2]/div/ul/li[6]/button]]></ClickOnAddToGroup>
   
+  
+  
+  
+  <!--#################################################################-->  
+  
+  
+
+  <!-- BULK UPDATE FOR GROUP VIEW  -->
+  <ClilkOnMasterCheckBox><![CDATA[//*[@id='related_leads_table']/thead/tr/th[1]/div/span/input]]></ClilkOnMasterCheckBox>
+  <ClickOnBulkActions><![CDATA[//button[@class='btn btn-xs btn-warning dropdown-toggle button-alignment']]]></ClickOnBulkActions>
+  <ClilkOnBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClilkOnBulkUpdate>
+  <SelectStatus><![CDATA[//*[@id='BulkUpdateLeadStatus']]]></SelectStatus>
+  <SelectSource><![CDATA[//*[@id='BulkUpdateLeadSource']]]></SelectSource>
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+  <SelectManager><![CDATA[//*[@id='BulkUpdateAssignedManagerId']]]></SelectManager>
+  <SelectPartner><![CDATA[//*[@id='BulkUpdateAssignedPartnerId']]]></SelectPartner>
+  
+  <ClickOnUpdate><![CDATA[//*[@id='lead_update']/div/div/div[3]/a]]></ClickOnUpdate>
+  <ClickOnCancel><![CDATA[//*[@id='lead_update']/div/div/div[3]/button]]></ClickOnCancel>
+
+
+  <!-- ADD TO CAMPAIGN FOR GROUP VIEW  -->
+  <ClilkOnAddToCampaign><![CDATA[//*[@id='add_lead']]]></ClilkOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']]]></ClickOnMergeButton>
+  <ClickOnCampaignName><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr[2]/td/a]]></ClickOnCampaignName>
+  <ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+  <SelectCampaignGroup><![CDATA[//*[@id='CampaignLeadGroup']]]></SelectCampaignGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignLeadGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddLeads><![CDATA[//*[@id='CampaignLeadLeadgroupViewForm']/div[4]/a]]></ClickOnAddLeads>
+
+
+  <!--  BULK EMAIL FOR GROUP VIEW  -->
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+
+
+  <!--  BULK EMAIL FOR GROUP VIEW  -->
+  <ClickOnBulkDelete><![CDATA[//*[@id='delete_member']]]></ClickOnBulkDelete>
 
 </Locators>

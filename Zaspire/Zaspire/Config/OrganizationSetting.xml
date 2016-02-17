@@ -3,9 +3,9 @@
 <settings>
   <URL>
     <application><![CDATA[http://zaspire.com]]></application>
-    <logout><![CDATA[http://zaspire/infoaspire/logout]]></logout>
-
-  </URL>
+    <application2><![CDATA[http://zaspoire.com]]></application2>
+    <logout><![CDATA[http://zaspire/logout]]></logout>
+</URL>
   <Credentials>
     <!--ORGANIZATION -->
     <username><![CDATA[ranjith@infozeal.com]]></username>
@@ -18,6 +18,6 @@
   </Credentials>
 
   <browserdata>
-    <browser><![CDATA[chrome]]></browser>
+    <browser><![CDATA[firefox]]></browser>
   </browserdata>
 </settings>

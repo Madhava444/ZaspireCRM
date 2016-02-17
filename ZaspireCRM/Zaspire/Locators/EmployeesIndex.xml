@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- EMPLOYEES INDEX PAGE -->
+  <ClickOnEmployees><![CDATA[//*[@id='employees']]]></ClickOnEmployees>
+  <ClickOnCustomViews><![CDATA[//*[@id='EmployeQuickSearchIndexForm']/table/tbody/tr/td/strong/a]]></ClickOnCustomViews>
+  <ClickOnCustomViewBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnCustomViewBack>
+  <ClickOnCustomViewNew><![CDATA[//*[@id='EmployeQuickSearchIndexForm']/table/tbody/tr/td/a]]></ClickOnCustomViewNew>
+  <ClickOnCustomViewNewBack><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnCustomViewNewBack>
+  <SelectCustomView><![CDATA[//*[@id='savedSearch']]]></SelectCustomView>
+  <ClickOnFirstEmployeeNameLink><![CDATA[//*[@id='normal']]]></ClickOnFirstEmployeeNameLink>
+  <ClickOnEmployeeViewBack><![CDATA[//a[@class='btn btn-xs btn-font btn-default']]]></ClickOnEmployeeViewBack>
+  <ClickOnNew><![CDATA[//a[@class='btn btn-xs btn-success btn-primary button-alignment']]]></ClickOnNew>
+  <ClickOnNewBack><![CDATA[//*[@id='EmployeeAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnNewBack>
+  <ClickOnDeleteEmployees><![CDATA[//*[@id='remove_employees']]]></ClickOnDeleteEmployees>
+  <EnterFilterSearch><![CDATA[//*[@id='employees_grid_filter']/label/input]]></EnterFilterSearch>
+  <ClockOnFilterReset><![CDATA[//*[@id='ToolTables_employees_grid_0']]]></ClockOnFilterReset>
+  <ClockOnMasterCheckBox><![CDATA[//*[@id='employees_grid']/thead/tr/th[1]/div/span/input]]></ClockOnMasterCheckBox>
+  <ClickOnEditIcon><![CDATA[//*[@id='employees_grid']/tbody/tr[1]/td[1]/a[1]/i]]></ClickOnEditIcon>
+  <ClickOnEditBack><![CDATA[//*[@id='EmployeeUpdateForm']/div[2]/div/ul/li[4]/a]]></ClickOnEditBack>
+  <ClickOnDeleteIcon><![CDATA[//*[@id='employees_grid']/tbody/tr[1]/td[1]/a[2]/sapn]]></ClickOnDeleteIcon>
+  
+  
+  <SelectPagination><![CDATA[//*[@id='employees_grid_length']/label/select]]></SelectPagination>
+  <ClickOnNext><![CDATA[//*[@id='employees_grid_next']]]></ClickOnNext>
+  <ClickOnLast><![CDATA[//*[@id='employees_grid_last']]]></ClickOnLast>
+  <ClickOnprevious><![CDATA[//*[@id='employees_grid_previous']]]></ClickOnprevious>
+  <ClickOnFirst><![CDATA[//*[@id='employees_grid_first']]]></ClickOnFirst>
+
+
+  <!-- EMPLOYEES VIEW PAGE -->
+  <ClickOnEmployeeViewEdit><![CDATA[//a[@class='btn btn-xs btn-primary']]]></ClickOnEmployeeViewEdit>
+  <ClickOnEmployeeViewDelete><![CDATA[//a[@class='btn button-alignment btn-danger btn-xs']]]></ClickOnEmployeeViewDelete>
+  <ClickOnEmailLink><![CDATA[//a[@href='/infoaspire/mails/compose/recipient:test@gmail.com']]]></ClickOnEmailLink>
+  <ClickOnAssignedCount><![CDATA[//*[@id='page']/div/div/div/div/div/div/ul/li[1]/a]]></ClickOnAssignedCount>
+  <ClickOnResponsibleAccounts><![CDATA[//*[@id='page']/div/div/div/div/div/div/ul/li[2]/a]]></ClickOnResponsibleAccounts>
+  <ClickOnResponsibleLeads><![CDATA[//*[@id='page']/div/div/div/div/div/div/ul/li[3]/a]]></ClickOnResponsibleLeads>
+  <ClickOnResponsibleContacts><![CDATA[//*[@id='page']/div/div/div/div/div/div/ul/li[4]/a]]></ClickOnResponsibleContacts>
+  <ClickOnResponsibleOpportunities><![CDATA[//*[@id='page']/div/div/div/div/div/div/ul/li[5]/a]]></ClickOnResponsibleOpportunities>
+  
+  <ClickOnAccountLink><![CDATA[//*[@id='accounts_table']/tbody/tr[1]/td[1]/a]]></ClickOnAccountLink>
+  <AccountsFilterBox><![CDATA[//*[@id='accounts_table_filter']/label/input]]></AccountsFilterBox>
+  <AccountsReset><![CDATA[//*[@id='ToolTables_accounts_table_0']]]></AccountsReset>
+  <ClickOnLeadLink><![CDATA[//*[@id='leads_table']/tbody/tr[1]/td[1]/a]]></ClickOnLeadLink>
+  <LeadsFilterBox><![CDATA[//*[@id='leads_table_filter']/label/input]]></LeadsFilterBox>
+  <LeadsReset><![CDATA[//*[@id='ToolTables_leads_table_0']]]></LeadsReset>
+  <ClickOnContcatLink><![CDATA[//*[@id='contacts_table']/tbody/tr[1]/td[1]/a]]></ClickOnContcatLink>
+  <ContactsFilterBox><![CDATA[//*[@id='contacts_table_filter']/label/input]]></ContactsFilterBox>
+  <ContactsReset><![CDATA[//*[@id='ToolTables_contacts_table_0']]]></ContactsReset>
+  <ClickOnOpportunityLink><![CDATA[//*[@id='opportunities_table']/tbody/tr[1]/td[1]/a]]></ClickOnOpportunityLink>
+  <OpportunitiesFilterBox><![CDATA[//*[@id='opportunities_table_filter']/label/input]]></OpportunitiesFilterBox>
+  <OpportunitiesReset><![CDATA[//*[@id='ToolTables_opportunities_table_0']]]></OpportunitiesReset>
+
+
+
+
+</Locators>

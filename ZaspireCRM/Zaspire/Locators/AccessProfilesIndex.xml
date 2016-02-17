@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- ACCESS PROFILES INDEX PAGE -->
+  <ClickOnAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickOnAdmin>
+  <ClickOnAccessProfiles><![CDATA[//a[@href='/infoaspire/admin/access_profiles']]]></ClickOnAccessProfiles>
+  <ClickOnAddNew><![CDATA[//a[@class='btn btn-xs btn-success button-alignment']]]></ClickOnAddNew>
+  <ClickOnAddNewCancel><![CDATA[//*[@id='AccessProfilePrivilegeAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnAddNewCancel>
+  <EnterFilterSearchBox><![CDATA[//*[@id='access_profiles_table_filter']/label/input]]></EnterFilterSearchBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_access_profiles_table_0']]]></ClickOnReset>
+  <SelectPagination><![CDATA[//*[@id='autogen1']]]></SelectPagination>
+  <ClickOnEdit><![CDATA[//*[@id='access_profiles_table']/tbody/tr[1]/td[1]/div[1]/a/i]]></ClickOnEdit>
+  <ClickOnEditCancel><![CDATA[//*[@id='AccessProfilePrivilegeUpdateForm']/div[2]/div/ul/li[4]/a]]></ClickOnEditCancel>
+  <ClickOnCopy><![CDATA[//*[@id='access_profiles_table']/tbody/tr[1]/td[1]/div[2]/a/i]]></ClickOnCopy>
+  <ClickOnCopycancel><![CDATA[//*[@id='AccessProfilePrivilegeAddnewForm']/div[2]/div/ul/li[4]/a]]></ClickOnCopycancel>
+  <ClickOnFirstRecord><![CDATA[//*[@id='access_profiles_table']/tbody/tr[1]/td[2]/a]]></ClickOnFirstRecord>
+  <ClickOnViewBack><![CDATA[//*[@id='AccessProfilePrivilegeViewForm']/div[2]/div/ul/li[6]/a]]></ClickOnViewBack>
+
+
+  <!-- CREATE ACCESS PROFILES -->
+  <EnterName><![CDATA[//*[@id='AccessProfileName']]]></EnterName>
+  <SelectUserType><![CDATA[//*[@id='AccessProfileUserTypeId']]]></SelectUserType>
+  <SelectStatus><![CDATA[//*[@id='AccessProfileInactive']]]></SelectStatus>
+
+  <ClickOnOrganizationLevelPrivilege><![CDATA[//*[@id='privilege_div']/div/ul/li[1]/a]]></ClickOnOrganizationLevelPrivilege>
+  <ClickOnModules><![CDATA[//*[@id='tab_1']/div[1]/div[1]/div/span[2]/a[1]]]></ClickOnModules>
+  <ClickOnOrganizations><![CDATA[//*[@id='tab_1']/div[2]/div[1]/div/span[2]/a[1]]]></ClickOnOrganizations>
+  <ClickOnMenus><![CDATA[//*[@id='tab_1']/div[3]/div[1]/div/span[2]/a[1]]]></ClickOnMenus>
+  <ClickOnEmailTemplates><![CDATA[//*[@id='tab_1']/div[4]/div[1]/div/span[2]/a[1]]]></ClickOnEmailTemplates>
+  <ClickOnEmployees><![CDATA[//*[@id='tab_1']/div[5]/div[1]/div/span[2]/a[1]]]></ClickOnEmployees>
+  <ClickOnConsultants><![CDATA[//*[@id='tab_1']/div[6]/div[1]/div/span[2]/a[1]]]></ClickOnConsultants>
+
+  <ClickOnSystemLevelPrivilege><![CDATA[//*[@id='privilege_div']/div/ul/li[2]/a]]></ClickOnSystemLevelPrivilege>
+  <ClickOnSettings><![CDATA[//*[@id='tab_2']/div[1]/div[1]/div/span[2]/a[1]]]></ClickOnSettings>
+  <ClickOnPickLists><![CDATA[//*[@id='tab_2']/div[2]/div[1]/div/span[2]/a[1]]]></ClickOnPickLists>
+  <ClickOnUsers><![CDATA[//*[@id='tab_2']/div[3]/div[1]/div/span[2]/a[1]]]></ClickOnUsers>
+  <ClickOnCustomFields><![CDATA[//*[@id='tab_2']/div[4]/div[1]/div/span[2]/a[1]]]></ClickOnCustomFields>
+
+  <ClickOnCoreLevelPrivilege><![CDATA[//*[@id='privilege_div']/div/ul/li[3]/a]]></ClickOnCoreLevelPrivilege>
+  <ClickOnLeads><![CDATA[//*[@id='tab_3']/div[1]/div[1]/div/span[2]/a[1]]]></ClickOnLeads>
+  <ClickOnAccounts><![CDATA[//*[@id='tab_3']/div[2]/div[1]/div/span[2]/a[1]]]></ClickOnAccounts>
+  <ClickOnOpportunities><![CDATA[//*[@id='tab_3']/div[3]/div[1]/div/span[2]/a[1]]]></ClickOnOpportunities>
+  <ClickOnContacts><![CDATA[//*[@id='tab_3']/div[4]/div[1]/div/span[2]/a[1]]]></ClickOnContacts>
+  <ClickOnReports><![CDATA[//*[@id='tab_3']/div[5]/div[1]/div/span[2]/a[1]]]></ClickOnReports>
+  <ClickOnEmailAccounts><![CDATA[//*[@id='tab_3']/div[6]/div[1]/div/span[2]/a[1]]]></ClickOnEmailAccounts>
+  <ClickOnBulkEmails><![CDATA[//*[@id='tab_3']/div[7]/div[1]/div/span[2]/a[1]]]></ClickOnBulkEmails>
+  <ClickOnCampaigns><![CDATA[//*[@id='tab_3']/div[8]/div[1]/div/span[2]/a[1]]]></ClickOnCampaigns>
+  <ClickOnPartners><![CDATA[//*[@id='tab_3']/div[9]/div[1]/div/span[2]/a[1]]]></ClickOnPartners>
+  <ClickOnVendors><![CDATA[//*[@id='tab_3']/div[10]/div[1]/div/span[2]/a[1]]]></ClickOnVendors>
+
+  <ClickOnActivitiesLevelPrivilege><![CDATA[//*[@id='privilege_div']/div/ul/li[4]/a]]></ClickOnActivitiesLevelPrivilege>
+  <ClickOnFiles><![CDATA[//*[@id='tab_4']/div[1]/div[1]/div/span[2]/a[1]]]></ClickOnFiles>
+  <ClickOnNotes><![CDATA[//*[@id='tab_4']/div[2]/div[1]/div/span[2]/a[1]]]></ClickOnNotes>
+  <ClickOnLibraries><![CDATA[//*[@id='tab_4']/div[3]/div[1]/div/span[2]/a[1]]]></ClickOnLibraries>
+  <ClickOnEmails><![CDATA[//*[@id='tab_4']/div[4]/div[1]/div/span[2]/a[1]]]></ClickOnEmails>
+  <ClickOnEvents><![CDATA[//*[@id='tab_4']/div[5]/div[1]/div/span[2]/a[1]]]></ClickOnEvents>
+  <ClickOnCalls><![CDATA[//*[@id='tab_4']/div[6]/div[1]/div/span[2]/a[1]]]></ClickOnCalls>
+
+
+  <ClickOnCreateSave><![CDATA[//*[@id='submitButton']]]></ClickOnCreateSave>
+  <ClickOnCreateCancel><![CDATA[//*[@id='AccessProfilePrivilegeAddnewForm']/div[3]/div/div/div/div/div[3]/div/div/button[2]]]></ClickOnCreateCancel>
+  
+  
+  
+  
+  
+</Locators>

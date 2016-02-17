@@ -6,12 +6,12 @@
 
   <!-- LEADS TRASH INDEX PAGE -->
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>  
-  <ClickOnTrash><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[4]/a]]></ClickOnTrash>
-  <ClickOnGroupTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnGroupTrash>
+  <ClickOnTrash><![CDATA[//a[@href='/infoaspire/leads/trash']]]></ClickOnTrash>
+  <ClickOnGroupTrash><![CDATA[//a[@class='btn btn-xs btn-primary dropdown-toggle button-alignment']]]></ClickOnGroupTrash>
   
-  <ClickOnBackToLeadsGroupTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnBackToLeadsGroupTrash>
+  <ClickOnBackToLeadsGroupTrash><![CDATA[//a[@class='btn btn-xs btn-default']]]></ClickOnBackToLeadsGroupTrash>
     
-  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnBack>
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnBack>
     
   <EnterFilterSearch><![CDATA[//*[@id='leadgroup_trash_filter']/label/input]]></EnterFilterSearch>
   <ClickOnReset><![CDATA[//*[@id='ToolTables_leadgroup_trash_0']]]></ClickOnReset>

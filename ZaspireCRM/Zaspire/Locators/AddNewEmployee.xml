@@ -4,7 +4,7 @@
 <Locators>
 
   <ClickOnEmployees><![CDATA[//*[@id='employees']]]></ClickOnEmployees>
-  <ClickOnEmployeeAddNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[3]/a]]></ClickOnEmployeeAddNew>
+  <ClickOnEmployeeAddNew><![CDATA[//a[@class='btn btn-xs btn-success btn-primary button-alignment']]]></ClickOnEmployeeAddNew>
 
   <!-- EMPLOYEE DETAILS -->
   <SelectSalutation><![CDATA[//*[@id='EmployeeSalutation']]]></SelectSalutation>
@@ -43,8 +43,12 @@
   <EnterLoginEmail><![CDATA[//*[@id='UserUserName']]]></EnterLoginEmail>
   <EnterPassword><![CDATA[//*[@id='UserPassword']]]></EnterPassword>
   <ClickOnDonotEmail><![CDATA[//*[@id='EmployeeSendverification']]]></ClickOnDonotEmail>
-  <ClickOnAdminUser><![CDATA[//*[@id='1']]]></ClickOnAdminUser>
+  <ClickOnAdminUser><![CDATA[//*[@id='8']]]></ClickOnAdminUser>
 
+  <!--  UPDATE EMPLOYEE  -->
+  <EnterFilterSearchBox><![CDATA[//*[@id='employees_grid_filter']/label/input]]></EnterFilterSearchBox>
+  <ClickOnEdit><![CDATA[//*[@id='employees_grid']/tbody/tr[1]/td[1]/a[1]/i]]></ClickOnEdit>
 
+  <ClickOnEditSave><![CDATA[//*[@id='EmployeeUpdateForm']/div[3]/div[9]/button[1]]]></ClickOnEditSave>
 
 </Locators>

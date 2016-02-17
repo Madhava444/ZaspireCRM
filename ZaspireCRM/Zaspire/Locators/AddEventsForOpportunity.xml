@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+  <ClickOnOpportunities><![CDATA[//*[@id='opportunities']]]></ClickOnOpportunities>
+  <FirstOpportunityNameLink><![CDATA[//*[@id='normal']]]></FirstOpportunityNameLink>
+    
+  
+  <!-- ADD OPPORTUNITY TO CAMPAIGN -->
+  <ClickOnAddToCampaign><![CDATA[//a[@title='Add to Campaign']]]></ClickOnAddToCampaign>
+  <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']]]></ClickOnMergeButton>
+  <ClickOnCampaignName><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr[1]/td/a]]></ClickOnCampaignName>
+  <ClickOnOkButton><![CDATA[//*[@id='stack2']/div/div/div/div[3]/button[2]]]></ClickOnOkButton>
+  <SelectCampaignGroup><![CDATA[//*[@id='CampaignContactGroup']]]></SelectCampaignGroup>
+  <EnterCampaignGroupName><![CDATA[//*[@id='CampaignContactGroupName']]]></EnterCampaignGroupName>
+  <ClickOnAddOpportunities><![CDATA[//*[@id='CampaignContactViewForm']/div[2]/div/div[3]/a]]></ClickOnAddOpportunities>
+  
+  
+  <!-- SEND EMAIL -->
+  <ClickOnSendEmail><![CDATA[//a[@title='Send E-Mail']]]></ClickOnSendEmail>
+  <ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
+  <ToAddressCheckBox><![CDATA[//*[@id='toid']]]></ToAddressCheckBox>
+  <CCAddressCheckBox><![CDATA[//*[@id='ccid']]]></CCAddressCheckBox>
+  <BCCAddressCheckBox><![CDATA[//*[@id='bccid']]]></BCCAddressCheckBox>
+  <ClickOnAddEmailAddress><![CDATA[//*[@id='submitemail']]]></ClickOnAddEmailAddress>
+  <ClickOnSendEmailButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendEmailButton>
+  
+  
+  <!-- ADD NOTE -->
+  <ClickOnAddNote><![CDATA[//a[@title='Add Note']]]></ClickOnAddNote>
+  <EnterNoteSubject><![CDATA[//*[@id='NoteName']]]></EnterNoteSubject>
+  <EnterNoteDescription><![CDATA[//*[@id='NoteDescription']]]></EnterNoteDescription>
+  <SelectNoteFile><![CDATA[//*[@id='Attachment0Files']]]></SelectNoteFile>
+
+  <ClickOnSaveNote><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[1]]]></ClickOnSaveNote>
+  <ClickOnCancelNote><![CDATA[//*[@id='CreateNoteForm']/div[2]/div/div[3]/button[2]]]></ClickOnCancelNote>
+
+
+  <!-- ADD FILE -->
+  <ClickOnAddFile><![CDATA[//a[@title='Add File']]]></ClickOnAddFile>
+  <EnterFileName><![CDATA[//*[@id='AttachmentName']]]></EnterFileName>
+  <SelectCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></SelectCategory>
+  <SelectAttachmentFile><![CDATA[//*[@id='AttachmentFiles']]]></SelectAttachmentFile>
+  <EnterFileDescription><![CDATA[//*[@id='AttachmentDescription']]]></EnterFileDescription>
+
+  <ClickOnSaveFile><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[1]]]></ClickOnSaveFile>
+  <ClickOnCancelFile><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></ClickOnCancelFile>
+
+
+  <!-- ADD TASK & ADD APPOINTMENT & ADD MEETING -->
+  <ClickOnAddTask><![CDATA[//*[@id='Task']]]></ClickOnAddTask>
+  <ClickOnAddAppointment><![CDATA[//*[@id='App']]]></ClickOnAddAppointment>
+  <ClickOnAddMeeting><![CDATA[//*[@id='Meeting']]]></ClickOnAddMeeting>
+  
+  <SelectEventType><![CDATA[//*[@id='EventEventType']]]></SelectEventType>  
+  <EnterEventLocation><![CDATA[//*[@id='EventLocation']]]></EnterEventLocation>
+  <EnterEventSubject><![CDATA[//*[@id='EventName']]]></EnterEventSubject>
+  <SelectEventStartDate><![CDATA[//*[@id='EventStartDate']]]></SelectEventStartDate>  
+  <SelectStartTime><![CDATA[//*[@id='clockface_start_event_toggle-btn']]]></SelectStartTime>  
+  <SelectEventDueDate><![CDATA[//*[@id='EventEndDate']]]></SelectEventDueDate>  
+  <SelectEndTime><![CDATA[//*[@id='clockface_end_event_toggle-btn']]]></SelectEndTime>  
+  <CheckReminder><![CDATA[//*[@id='pop']/label/div/span]]></CheckReminder>
+  <SelectReminderTime><![CDATA[//*[@id='reminderTime']]]></SelectReminderTime>
+  <CheckEmail><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></CheckEmail>
+  <CheckRecurringEvent><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></CheckRecurringEvent>
+  
+  <ClickOnSave><![CDATA[//*[@id='CreateEventForm']/div[3]/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='CreateEventForm']/div[3]/a]]></ClickOnCancel>
+
+
+  <!-- ADD LOG CALL -->
+  <ClickOnAddCall><![CDATA[//a[@title='Log Call']]]></ClickOnAddCall>
+  <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]></EnterCallSubject>
+  <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
+  <EnterCallDate><![CDATA[//*[@id='CallCallDate']]]></EnterCallDate>
+  <SelectCallFrom><![CDATA[//*[@id='CallCallFrom']]]></SelectCallFrom>
+  <SelectCallTo><![CDATA[//*[@id='CallCallTo']]]></SelectCallTo>
+  <EnterCallFromNumber><![CDATA[//*[@id='CallNewcallFrom']]]></EnterCallFromNumber>
+  <EnterCallToNumber><![CDATA[//*[@id='CallNewcallTo']]]></EnterCallToNumber>
+  <EnterCallHours><![CDATA[//*[@id='CallCallHours']]]></EnterCallHours>
+  <EnterCallMins><![CDATA[//*[@id='CallCallMins']]]></EnterCallMins>
+  <EnterCallSecs><![CDATA[//*[@id='CallCallSecs']]]></EnterCallSecs>
+  <ClickOnDescriptionLink><![CDATA[//*[@id='address_add_link']]]></ClickOnDescriptionLink>
+  <EnterCallDescription><![CDATA[//*[@id='CallDescription']]]></EnterCallDescription>
+
+  <ClickOnSaveLogCall><![CDATA[//*[@id='LogCallForm']/div[4]/button[1]]]></ClickOnSaveLogCall>
+  <ClickOnCancelLogCall><![CDATA[//*[@id='LogCallForm']/div[4]/button[2]]]></ClickOnCancelLogCall>
+
+  <!-- OPPORTUNITY COPY -->
+  <ClickOnCopy><![CDATA[//a[@title='Copy Opportunity']]]></ClickOnCopy>
+
+
+  <!-- OPPORTUNITY DELETE -->
+  <ClickOnDelete><![CDATA[//a[@title='Delete Opportunity']]]></ClickOnDelete>
+
+
+
+</Locators>

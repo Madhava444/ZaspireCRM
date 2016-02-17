@@ -43,8 +43,6 @@ namespace Zaspire.Scripts.Mainsite
             //Click to open client info
             AddAccountHelper.ClickElement("ClickOnGroups");
 
-            AddAccountHelper.ClickElement("ClickAccountsTab");
-
         }
     }
 }

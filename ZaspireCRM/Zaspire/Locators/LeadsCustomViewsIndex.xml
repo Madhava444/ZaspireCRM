@@ -10,7 +10,7 @@
   <!-- LEADS CUSTOM VIEWS INDEX PAGE -->
   <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
   <ClickOnDelete><![CDATA[//*[@id='remove_saved_views']]]></ClickOnDelete>
-  <ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ClickOnBack>
+  <ClickOnBack><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnBack>
   <EnterFilterSearchBox><![CDATA[//*[@id='lead_saved_views_filter']/label/input]]></EnterFilterSearchBox>
   <ClickOnFilterReset><![CDATA[//*[@id='ToolTables_lead_saved_views_0']]]></ClickOnFilterReset>
   <CheckMasterCheckBox><![CDATA[//*[@id='lead_saved_views']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>

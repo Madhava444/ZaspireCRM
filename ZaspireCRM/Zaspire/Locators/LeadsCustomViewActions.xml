@@ -15,5 +15,11 @@
 
   <ClickOnEditCancel><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnEditCancel>
   <ClickOnNewCancel><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnNewCancel>
+
+  <ClickOnCustomViewsDropdown><![CDATA[//*[@id='s2id_savedSearch']/a]]></ClickOnCustomViewsDropdown>
+  <EnterSearchCustomViewsName><![CDATA[//*[@id='select2-drop']/div/input]]></EnterSearchCustomViewsName>
+  <ClickOnFirstCustomViewName><![CDATA[//*[@id='select2-drop']/ul/li[1]/div]]></ClickOnFirstCustomViewName>
+
+  
   
 </Locators>

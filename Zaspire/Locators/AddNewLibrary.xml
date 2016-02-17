@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+
+  <!-- LIBRARY -->
+  <ClickOnLibraries><![CDATA[//*[@id='libraries']]]></ClickOnLibraries>
+  <ClickOnAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnAddNew>
+
+  <LibraryCategory><![CDATA[//*[@id='LibraryCategoryId']]]></LibraryCategory>
+  <SelectLibraryOwner><![CDATA[//*[@id='LibraryAssignedUserId']]]></SelectLibraryOwner>
+  <EnterDocumentName><![CDATA[//*[@id='LibraryName']]]></EnterDocumentName>
+  <SelectDocumentType><![CDATA[//*[@id='LibraryType']]]></SelectDocumentType>
+  <uploadfile><![CDATA[//*[@id='LibraryFile']]]></uploadfile>
+  <EnterLibraryVersion><![CDATA[//*[@id='LibraryVersion']]]></EnterLibraryVersion>
+  <ClickOnSave><![CDATA[//*[@id='LibraryAddnewForm']/div[3]/div/div[2]/div/div/button]]></ClickOnSave>
+  <Clickonlibrary><![CDATA[//*[@id='normal']]]></Clickonlibrary>
+  <EnterLibraryVersion><![CDATA[//*[@id='LibraryVersion']]]></EnterLibraryVersion>
+  ################ Libraries Default view search ################
+  <SelectDefaultview><![CDATA[//*[@id='teamName']]]></SelectDefaultview>
+  ################ Libraries filterby group search ################
+  <SelectFilterbyGroups><![CDATA[//*[@id='groupName']]]></SelectFilterbyGroups>
+  ################ Libraries Bulkupdate ################
+  <Recordsperpage><![CDATA[//*[@id='libraries_grid_length']/label/select]]></Recordsperpage>
+  <Mastercheckbox><![CDATA[//*[@id='libraries_grid']/thead/tr/th[1]/div/span/input]]></Mastercheckbox>
+  <Bulkupdatebutton><![CDATA[//*[@id='libraries_grid_wrapper']/div[1]/div/div/button]]></Bulkupdatebutton>
+  <SelectBulkupdate><![CDATA[//*[@id='bulk_update']]]></SelectBulkupdate>
+  <SelectCategory><![CDATA[//*[@id='BulkUpdateCategoryId']]]></SelectCategory>
+  <SelectOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></SelectOwner>
+  ################ Libraries Addto Group ################
+  <SelectAddtoGroup><![CDATA[//*[@id='bulk_update_group']]]></SelectAddtoGroup>
+  <SelectGroup><![CDATA[//*[@id='BulkUpdateGroupLibraryGroup']]]></SelectGroup>
+  <Clickonupdate><![CDATA[//*[@id='update_all']/div/div/div[3]/a]]></Clickonupdate>
+  <ClickonupdateGroup><![CDATA[//*[@id='update_group']/div/div/div[3]/a]]></ClickonupdateGroup>
+  ################ Libraries Bulkdelete ################
+  <Clickrecord1><![CDATA[//*[@id='check5']]]></Clickrecord1>
+  <Clickrecord2><![CDATA[//*[@id='check7']]]></Clickrecord2>
+  <DeleteRecords><![CDATA[//*[@id='remove_record']]]></DeleteRecords>
+  <ClickonDeletelibrary><![CDATA[//div[@class='internal_box']/table/tbody/tr[2]/td[4]/a]]></ClickonDeletelibrary>
+
+  ################ Libraries Search ###########################
+  <Searchfield><![CDATA[//*[@id='libraries_grid_filter']/label/input]]></Searchfield>
+  <Resetbutton><![CDATA[//*[@id='ToolTables_libraries_grid_0']]]></Resetbutton>
+
+  ################ TooltipEdit ###########################
+  <MouseoveronRecord><![CDATA[//*[@id='normal']]]></MouseoveronRecord>
+  <ClickTooltip><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickTooltip>
+  <ClickEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a/i]]></ClickEdit>
+  <ClickSave><![CDATA[//*[@id='LibraryUpdateForm']/div[2]/div/ul/li[5]/button]]></ClickSave  >
+
+  ########## Library Trash actions ###################
+  <Backbutton><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></Backbutton>
+  <Trashbulkupdate><![CDATA[//*[@id='library_trash_wrapper']/div[1]/div/div/button]]></Trashbulkupdate>
+  <DeleteForever><![CDATA[//*[@id='remove_record']]]></DeleteForever>
+  <Resotrerecord><![CDATA[//*[@id='restore_record']]]></Resotrerecord  >
+  <Trashmastercheckbox><![CDATA[//*[@id='library_trash']/thead/tr/th[1]/div/span/input]]></Trashmastercheckbox  >
+  <Trashfiltersearch><![CDATA[//*[@id='library_trash_filter']/label/input]]></Trashfiltersearch>
+  <Trashfilterrestore><![CDATA[//*[@id='ToolTables_library_trash_0']]]></Trashfilterrestore  >
+  <Trashrselectrecord1><![CDATA[//*[@id='check17']]]></Trashrselectrecord1>
+  <Trashrselectrecord2><![CDATA[//*[@id='check5']]]></Trashrselectrecord2>
+  <Selecttrashrecord><![CDATA[//*[@id='normal']]]></Selecttrashrecord>
+  <Viewback><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></Viewback>
+  <ViewRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ViewRestore>
+  <ViewDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ViewDelete>
+
+
+
+
+
+
+</Locators>
+  

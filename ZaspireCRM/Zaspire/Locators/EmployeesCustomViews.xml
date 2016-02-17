@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!--  EMPLOYEES CUSTOM VIEWS INDEX  -->
+  <ClickOnEmployees><![CDATA[//*[@id='employees']]]></ClickOnEmployees>
+  <ClickOnCustomViews><![CDATA[//*[@id='EmployeQuickSearchIndexForm']/table/tbody/tr/td/strong/a]]></ClickOnCustomViews>
+
+  <ClickOnBackButton><![CDATA[//a[@class='btn btn-xs button-alignment btn-default']]]></ClickOnBackButton>
+  <ClickOnDeleteButton><![CDATA[//*[@id='remove_saved_views']]]></ClickOnDeleteButton>
+  <ClickOnNewButton><![CDATA[//*[@id='actionbuttons']]]></ClickOnNewButton>
+  <ClickOnNewBack><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnNewBack>
+  <EnterSearchBox><![CDATA[//*[@id='employee_saved_views_filter']/label/input]]></EnterSearchBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_employee_saved_views_0']]]></ClickOnReset>
+  <SelectPagination><![CDATA[//*[@id='employee_saved_views_length']/label/select]]></SelectPagination>
+  <ClickOnMasterCheckBox><![CDATA[//*[@id='employee_saved_views']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+  <ClickOnFirstRecord><![CDATA[//*[@id='employee_saved_views']/tbody/tr[1]/td[2]/a]]></ClickOnFirstRecord>
+  <ClickOnEdit><![CDATA[//*[@id='employee_saved_views']/tbody/tr[1]/td[5]/a[1]]]></ClickOnEdit>
+  <ClickOnEditBack><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnEditBack>
+  <ClickOnDelete><![CDATA[//*[@id='employee_saved_views']/tbody/tr[1]/td[5]/a[2]]]></ClickOnDelete>
+
+  <ClickOnPermissions><![CDATA[//*[@id='employee_saved_views']/tbody/tr[1]/td[5]/a[3]]]></ClickOnPermissions>
+  <ClickOnPermissionsCheck1><![CDATA[//*[@id='permission8']]]></ClickOnPermissionsCheck1>
+  <ClickOnPermissionsCheck2><![CDATA[//*[@id='permission11']]]></ClickOnPermissionsCheck2>
+  <ClickOnPermissionsCheck3><![CDATA[//*[@id='permission17']]]></ClickOnPermissionsCheck3>
+
+  <ClickOnPermissionsSave><![CDATA[//*[@id='EmployeePermissionsForm']/div[2]/div/div[3]/button[1]]]></ClickOnPermissionsSave>
+  <ClickOnPermissionsCancel><![CDATA[//*[@id='EmployeePermissionsForm']/div[2]/div/div[3]/button[2]]]></ClickOnPermissionsCancel>
+
+
+  <!--  EMPLOYEES CUSTOM VIEWS CREATE  -->
+  <EnterCustomViewName><![CDATA[//*[@id='searchName']]]></EnterCustomViewName>
+  <SelectResultPerPage><![CDATA[//*[@id='pageresults']]]></SelectResultPerPage>
+  <SelectSortBy><![CDATA[//*[@id='EmployeSortCol']]]></SelectSortBy>
+  <SelectDepartment><![CDATA[//*[@id='EmployeCustomColValues0']]]></SelectDepartment>
+  <SelectRole><![CDATA[//*[@id='EmployeCustomColValues1']]]></SelectRole>
+  <SelectCreatedBy><![CDATA[//*[@id='EmployeCustomColValues2']]]></SelectCreatedBy>
+  <SelectModifiedBy><![CDATA[//*[@id='EmployeCustomColValues3']]]></SelectModifiedBy>
+  <SelectCreatedDate><![CDATA[//*[@id='EmployeCustomColValues4']]]></SelectCreatedDate>
+  <SelectModifiedDate><![CDATA[//*[@id='EmployeCustomColValues5']]]></SelectModifiedDate>
+
+  <SelectAdditionalField1><![CDATA[//*[@id='EmployeAdditionalColNames']]]></SelectAdditionalField1>
+  <SelectOperator1><![CDATA[//*[@id='EmployeAdditionalColOps']]]></SelectOperator1>
+  <EnterAdditionalValue1><![CDATA[//*[@id='EmployeAdditionalColValues']]]></EnterAdditionalValue1>
+  <ClickOnAddNewField><![CDATA[//*[@id='additionalcolumns']]]></ClickOnAddNewField>
+  <SelectAdditionalField2><![CDATA[//*[@id='add_criteria']/tbody/tr[2]/td[1]/select]]></SelectAdditionalField2>
+  <SelectOperator2><![CDATA[//*[@id='EmployeAdditionalColOps0']]]></SelectOperator2>
+  <EnterAdditionalValue2><![CDATA[//*[@id='add_criteria']/tbody/tr[2]/td[3]/input[2]]]></EnterAdditionalValue2>
+
+  <ClickOnCustomViewNewSave><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/button]]></ClickOnCustomViewNewSave>
+  <ClickOnCustomViewNewCancel><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnCustomViewNewCancel>
+  <ClickOnCustomViewNewPermissions><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/a[1]]]></ClickOnCustomViewNewPermissions>
+
+  <ClickOnCustomViewUpdateSave><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/button]]></ClickOnCustomViewUpdateSave>
+
+
+  <!-- EMPLOYEES CUSTOM VIEWS ACTIONS -->
+  <SelectCustomView><![CDATA[//*[@id='savedSearch']]]></SelectCustomView>
+  <ClickOnSetAsDefault><![CDATA[//*[@id='makedefaultsearch']]]></ClickOnSetAsDefault>
+  <ClickOnUnsetDefault><![CDATA[//*[@id='removedefaultsearch']]]></ClickOnUnsetDefault>
+  <ClickOnDeleteLink><![CDATA[//*[@id='deleteSearch']]]></ClickOnDeleteLink>
+  <ClickOnNew><![CDATA[//*[@id='EmployeQuickSearchIndexForm']/table/tbody/tr/td/a[3]]]></ClickOnNew>
+  <ClickOnEditLink><![CDATA[//*[@id='saved_edit']]]></ClickOnEditLink>
+
+  <ClickOnEditCancel><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnEditCancel>
+  <ClickOnNewCancel><![CDATA[//*[@id='EmployeIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnNewCancel>
+
+  <ClickOnCustomViewsDropdown><![CDATA[//*[@id='s2id_savedSearch']/a]]></ClickOnCustomViewsDropdown>
+  <EnterSearchCustomViewsName><![CDATA[//*[@id='select2-drop']/div/input]]></EnterSearchCustomViewsName>
+  <ClickOnFirstCustomViewName><![CDATA[//*[@id='select2-drop']/ul/li[1]/div]]></ClickOnFirstCustomViewName>
+
+
+
+
+</Locators>

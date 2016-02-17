@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+
+  <ClickonjobsU><![CDATA[//*[@id='jobs']]]></ClickonjobsU>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+
+  <ClickonTooptip><![CDATA[//*[@id='actionicons1']/a]]></ClickonTooptip>
+  <Tooltipview><![CDATA[//*[@id='job_groups']/thead/tr/th[1]/div/span/input]]></Tooltipview>
+  <Tooltipedit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a/i]]></Tooltipedit>
+  <Tooltipdelete><![CDATA[//*[@id='job_groups']/thead/tr/th[1]/div/span/input]]></Tooltipdelete>
+
+  <EnterGroupNameU><![CDATA[//*[@id='JobGroupDetailName']]]></EnterGroupNameU>
+  <EnterCityu><![CDATA[//*[@id='JobGroupDetailCity']]]></EnterCityu>
+  <SelectStateu><![CDATA[//*[@id='JobGroupDetailState']]]></SelectStateu>
+  <SelectCountryu><![CDATA[//*[@id='JobGroupDetailCountry']]]></SelectCountryu>
+  <EnterZipCodeu><![CDATA[//*[@id='JobGroupDetailPostalCode']]]></EnterZipCodeu>
+
+  <ClickOnSaveu><![CDATA[//*[@id='JobEditForm']/div[3]/div/div[3]/div/div/button]]></ClickOnSaveu>
+  <ClickOnCancelu><![CDATA[//*[@id='JobEditForm']/div[3]/div/div[3]/div/div/a[2]]]></ClickOnCancelu>
+
+
+</Locators>

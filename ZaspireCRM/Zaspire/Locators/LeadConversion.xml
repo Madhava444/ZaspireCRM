@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Locators>
+
+  <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
+  <FirstLeadNameLink><![CDATA[//*[@id='normal']]]></FirstLeadNameLink>
+    
+  <SelectExistAccount><![CDATA[//*[@id='LeadConversionConvert']]]></SelectExistAccount>
+  <ClickOnMergeButton><![CDATA[//*[@id='assignaccount']]]></ClickOnMergeButton>
+  <ClickOnRecord><![CDATA[//*[@id='relatedToContent']/div[1]/table/tbody/tr[1]/td/a]]></ClickOnRecord>
+  
+  <SelectCopyActivity><![CDATA[//*[@id='LeadConversionActivities']]]></SelectCopyActivity>
+  <SelectMoveActivity><![CDATA[//*[@id='LeadConversionActivities']]]></SelectMoveActivity>
+  
+  <ClickOnConvertLead><![CDATA[//a[@title='Convert this Lead']]]></ClickOnConvertLead>
+  <CheckNewOpportunity><![CDATA[//*[@id='LeadConversionOppConversion']]]></CheckNewOpportunity>
+  <CheckNotes><![CDATA[//*[@id='check']]]></CheckNotes>
+  <CheckEmails><![CDATA[//*[@id='LeadConversionEmails']]]></CheckEmails>
+  <CheckMeetings><![CDATA[//*[@id='LeadConversionMeetings']]]></CheckMeetings>
+  <CheckTasks><![CDATA[//*[@id='LeadConversionTasks']]]></CheckTasks>
+  <CheckAppointments><![CDATA[//*[@id='LeadConversionAppointments']]]></CheckAppointments>
+  <CheckCalls><![CDATA[//*[@id='LeadConversionCalls']]]></CheckCalls>
+  <CheckFiles><![CDATA[//*[@id='LeadConversionFiles']]]></CheckFiles>
+  
+  <SelectDeleteLeadMoveToTrash><![CDATA[//*[@id='LeadConversionDeleteOption']]]></SelectDeleteLeadMoveToTrash>
+  <SelectDeleteLeadPermanently><![CDATA[//*[@id='LeadConversionDeleteOption']]]></SelectDeleteLeadPermanently>
+  <SelectDoNotDeleteLead><![CDATA[//*[@id='LeadConversionDeleteOption']]]></SelectDoNotDeleteLead>
+  
+  <ClickOnSave><![CDATA[//*[@id='convert-submit']]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='LeadConversionConvertLeadForm']/div[3]/button[2]]]></ClickOnCancel>
+
+  <EnterFilterSearch><![CDATA[//*[@id='leads_grid_filter']/label/input]]></EnterFilterSearch>
+
+
+
+
+</Locators>

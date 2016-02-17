@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+  <ClickOnCandidates><![CDATA[//*[@id='candidates']]]></ClickOnCandidates>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  <FirstCandidateGroupNameLink><![CDATA[//*[@id='candidate_groups']/tbody/tr[1]/td[2]/a]]></FirstCandidateGroupNameLink>
+
+
+  <!-- BULK UPDATE CANDIDATES FOR GROUP VIEW -->
+  <!--  BULK EMAIL CANDIDATES FOR GROUP VIEW  -->
+  <CheckMasterCheckBox><![CDATA[//*[@id='related_candidates_table']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>
+  <MouseoverOnBulkUpdate><![CDATA[html/body/div[4]/div[2]/div[3]/div[1]/div/div[2]/form/div/div[4]/div/div[1]/div/div[3]/div/button]]></MouseoverOnBulkUpdate>
+  <ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+  <ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+
+  
+
+
+  
+
+
+  <!--  BULK DELETE CANDIDATES FOR GROUP VIEW  -->
+  <ClickOnDeleteCandidates><![CDATA[//*[@id='delete_member']]]></ClickOnDeleteCandidates>
+  
+
+
+
+</Locators>

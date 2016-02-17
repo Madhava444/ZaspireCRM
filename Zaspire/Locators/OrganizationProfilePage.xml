@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+
+  #######################  ADMIN ORGANIZATION PROFILE PAGE FUNCTIONALITIES    ################
+
+  <OrganizationUpdateDetail><![CDATA[//*[@id='detailsupdate']]]></OrganizationUpdateDetail>
+  <OrganizationUpdateDetailCancel><![CDATA[//*[@id='OrganizationUpdateForm']/div[3]/div/div/button[2]]]></OrganizationUpdateDetailCancel>
+
+  <OrganizationAddOrEditContact><![CDATA[//*[@id='addcontact']]]></OrganizationAddOrEditContact>
+  <OrganizationAddOrEditContactCancel><![CDATA[//*[@id='newcontact']/div/div/div[1]/button]]></OrganizationAddOrEditContactCancel>
+
+  <OrganizationDeleteContactWindow><![CDATA[//*[@id='contact-17']/address]]></OrganizationDeleteContactWindow>
+  <OrganizationDeleteContactCancel><![CDATA[]]></OrganizationDeleteContactCancel>
+  <OgranizationDeleteContact><![CDATA[//*[@id='contact-17']/address/div[1]]]></OgranizationDeleteContact>
+
+  <OrganizationAddAddress><![CDATA[html/body/div[4]/div[2]/div[2]/div/div[1]/div/div/div/div[2]/div[2]/div/div[1]/div/div[2]/a]]></OrganizationAddAddress>
+  <OrganizationAddAddressCancel><![CDATA[//*[@id='OrganizationAddAddress']/div[3]/button[2]]]></OrganizationAddAddressCancel>
+
+  <OrganizationEditAddress><![CDATA[//*[@id='addressupdate']/i]]></OrganizationEditAddress>
+  <OrganizationEditAddressCancel><![CDATA[//*[@id='addressupdateac']/div/div/div[1]/button]]></OrganizationEditAddressCancel>
+
+
+  <OrganizationDeleteAddress><![CDATA[//*[@id='address-79']/address/div/a[1]/i]]></OrganizationDeleteAddress>
+
+
+  <OrganizationUpdateAddress><![CDATA[//*[@id='addressupdate']/i]]></OrganizationUpdateAddress>
+  <OrganizationUpdateAddressCancel><![CDATA[//*[@id='OrganizationAddressEditAddressForm']/div[3]/button[2]]]></OrganizationUpdateAddressCancel>
+
+
+
+
+
+
+</Locators>

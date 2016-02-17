@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  ############### Library index page #####################
+  <!--  GROUPS INDEX PAGE -->
+  <ClickOnLibraries><![CDATA[//*[@id='libraries']]]></ClickOnLibraries>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[10]/ul/li[2]/a]]></ClickOnGroups>
+  <ClickOnGroupsAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnGroupsAddNew>
+  <EnterSearchFilterBox><![CDATA[//*[@id='library_groups_filter']/label/input]]></EnterSearchFilterBox>
+  <ClickOnFilterResetButton><![CDATA[//*[@id='ToolTables_library_groups_0']]]></ClickOnFilterResetButton>
+  <MouseOver><![CDATA[//*[@id='library_groups_wrapper']/div[1]/div/div/button]]></MouseOver>
+  <ClickOnDeleteLeadGroups><![CDATA[//*[@id='remove_library']]]></ClickOnDeleteLeadGroups>
+  <CheckMasterCheckBox><![CDATA[//*[@id='library_groups']/thead/tr/th[1]/div/span/input]]></CheckMasterCheckBox>
+  <ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a]]></ClickOnQuickLink>
+  <ClickOnView><![CDATA[//*[@id='actionicons1']/ul/li[1]/a/i]]></ClickOnView>
+  <ClickOnEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnEdit>
+  <ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ClickOnDelete>
+  <ClickOnFirstGroupName><![CDATA[//*[@id='library_groups']/tbody/tr[1]/td[2]/a]]></ClickOnFirstGroupName>
+  <ClickOnBackToLibraryGroup><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[8]/a]]></ClickOnBackToLibraryGroup>
+
+  ############### Library Group Trashindex page #####################
+  <ClickOnLibrary><![CDATA[//*[@id='libraries']]]></ClickOnLibrary>
+<ClickOnTrash><![CDATA[html/body/div[4]/div[1]/ul/li[10]/ul/li[3]/a]]></ClickOnTrash>
+<ClickOnGroupTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnGroupTrash>
+  <GroupTrashrecordview><![CDATA[//*[@id='librarygroup_trash']/tbody/tr[1]/td[2]/a]]></GroupTrashrecordview>
+
+<ClickOnBackToLibraryGroupTrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnBackToLibraryGroupTrash>
+
+<ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ClickOnBack>
+
+<EnterFilterSearch1><![CDATA[//*[@id='librarygroup_trash_filter']/label/input]]></EnterFilterSearch1>
+<ClickOnReset1><![CDATA[//*[@id='ToolTables_librarygroup_trash_0']]]></ClickOnReset1>
+<ClickOnMouseHover><![CDATA[//*[@id='librarygroup_trash_wrapper']/div[1]/div/div/button]]></ClickOnMouseHover>
+<ClickOnDeleteForever><![CDATA[//*[@id='remove_librarygroup']]]></ClickOnDeleteForever>
+<ClickOnRestoreLeads><![CDATA[//*[@id='restore_librarygroup']]]></ClickOnRestoreLeads>
+<ClickOnMasterCheckBox><![CDATA[//*[@id='librarygroup_trash']/thead/tr/th[1]/div/span/input]]></ClickOnMasterCheckBox>
+<ClickOnMouseOver><![CDATA[//*[@id='librarygroup_trash']/tbody/tr[1]/td[2]/a]]></ClickOnMouseOver>
+<ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ClickOnQuickLink>
+<ClickOnDelete><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ClickOnDelete>
+<ClickOnRestore><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ClickOnRestore>
+<ClickOnLibraryView><![CDATA[//*[@id='librarygroup_trash']/tbody/tr[1]/td[2]/a]]></ClickOnLibraryView>
+
+
+
+
+ ################ Library Group update #########################
+ <ClickOnLibrary><![CDATA[//*[@id='libraries']]]></ClickOnLibrary>
+  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[10]/ul/li[2]/a]]></ClickOnGroups>
+
+<ClickOnQuickLink><![CDATA[//*[@id='actionicons1']/a]]></ClickOnQuickLink>
+<ClickOnEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a/i]]></ClickOnEdit>
+
+<EnterGroupName><![CDATA[//*[@id='LibraryGroupDetailName']]]></EnterGroupName>
+<EnterCity><![CDATA[//*[@id='LibraryGroupDetailCity']]]></EnterCity>
+<SelectState><![CDATA[//*[@id='LibraryGroupDetailState']]]></SelectState>
+<SelectCountry><![CDATA[//*[@id='LibraryGroupDetailCountry']]]></SelectCountry>
+<EnterZipCode><![CDATA[//*[@id='LibraryGroupDetailPostalCode']]]></EnterZipCode>
+
+<ClickOnSave><![CDATA[//*[@id='LibraryEditForm']/div[3]/div/div[3]/div/div/button]]></ClickOnSave>
+
+  
+  
+  ################## Library Group view actions ###############
+
+<ClickOnAddNew><![CDATA[html/body/div[4]/div[2]/div[2]/div/ul/li[5]/a]]></ClickOnAddNew>
+<ClickOnEdit><![CDATA[html/body/div[4]/div[2]/div[2]/div/ul/li[7]/a]]></ClickOnEdit>
+<ClickOnBack><![CDATA[html/body/div[4]/div[2]/div[2]/div/ul/li[8]/a]]></ClickOnBack>
+<Groupview><![CDATA[//*[@id='library_groups']/tbody/tr[1]/td[2]/a]]></Groupview>
+<ClickOnMoreActions><![CDATA[html/body/div[4]/div[2]/div[2]/div/ul/li[6]/div/div/a]]></ClickOnMoreActions>
+<ClickOnDelete><![CDATA[html/body/div[4]/div[2]/div[2]/div/ul/li[6]/div/div/ul/li/a]]></ClickOnDelete>
+
+<ClickOnAddToGroups><![CDATA[//*[@id='form_sample_1']/div[2]/div/ul/li[3]/a]]></ClickOnAddToGroups>
+<ClickOnEditToGroups><![CDATA[//*[@id='LeadEditForm']/div[2]/div/ul/li[3]/a]]></ClickOnEditToGroups>
+
+<EnterLibrarySearchBox><![CDATA[//*[@id='related_libraries_table_filter']/label/input]]></EnterLibrarySearchBox>
+<ClickOnLibraryReset><![CDATA[//*[@id='ToolTables_related_libraries_table_0']]]></ClickOnLibraryReset>
+
+
+
+
+<!-- ADD Library FORM GROUP VIEW  -->
+<ClickOnAddLibraries><![CDATA[html/body/div[4]/div[2]/div[3]/div[1]/div/div[2]/form/div/div[4]/div/div[1]/div/div[2]/a]]></ClickOnAddLibraries>
+<SelectPagination><![CDATA[//*[@id='add_leads_length']/label/select]]></SelectPagination>
+<SelectMasterCheckBox><![CDATA[//*[@id='add_libraries']/thead/tr/th[1]/div/span/input]]></SelectMasterCheckBox>
+<ClickOnAddToGroup1><![CDATA[//*[@id='CreateLibraryGroup']/div[2]/div/ul/li[6]/button]]></ClickOnAddToGroup1>
+
+################# Library Add new #######################
+<Library><![CDATA[//*[@id='libraries']]]></Library>
+<ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[10]/ul/li[2]/a]]></ClickOnGroups>
+
+<ClickOnNewbutton><![CDATA[//*[@id='actionbuttons']]]></ClickOnNewbutton>
+<ClickOnEdit><![CDATA[//*[@id='actionicons1']/ul/li[2]/a/i]]></ClickOnEdit>
+
+<GroupName><![CDATA[//*[@id='LibraryGroupDetailName']]]></GroupName>
+<City><![CDATA[//*[@id='LibraryGroupDetailCity']]]></City>
+<State><![CDATA[//*[@id='LibraryGroupDetailState']]]></State>
+<Country><![CDATA[//*[@id='LibraryGroupDetailCountry']]]></Country>
+<ZipCode><![CDATA[//*[@id='LibraryGroupDetailPostalCode']]]></ZipCode>
+
+<Save><![CDATA[//*[@id='form_sample_1']/div[3]/div/div[3]/div/div/button]]></Save>
+
+
+</Locators>

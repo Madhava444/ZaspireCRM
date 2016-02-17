@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  ############################# Import Page #############################
+  <ClickOnSelectFile><![CDATA[//*[@id='importform']/div[2]/div/div[3]/div/div/div/div/span[1]]]></ClickOnSelectFile>
+  <ClickOnDownloadOption><![CDATA[//*[@id='importform']/div[2]/div/div[2]/div/a]]></ClickOnDownloadOption>
+  <ClickOnSave><![CDATA[//*[@id='importform']/div[3]/div/div/div/button]]></ClickOnSave>
+  <ClickOnImportOption><![CDATA[//*[@id='importform']/div[3]/div/div/div/button]]></ClickOnImportOption>
+  <ClickOnCancelOption><![CDATA[//*[@id='importform']/div[3]/div/div/div/a]]></ClickOnCancelOption>
+  <CancelButton><![CDATA[//*[@id='importform']/div[2]/div/ul/li[4]/a]]></CancelButton>
+  
+  @@@@@@@@@@@@@@@@@@@@@@@@@@ Import Index page @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  <RecordsPerPage><![CDATA[//*[@id='contact_imports_length']/label/select]]></RecordsPerPage>
+  <FilterTextbox><![CDATA[//*[@id='contact_imports_filter']/label/input]]></FilterTextbox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_contact_imports_0']]]></ClickOnReset>
+  <ClickOnDeletesIcon><![CDATA[//*[@id='contact_imports']/tbody/tr[1]/td[8]/a[1]/span/img]]></ClickOnDeletesIcon>
+  <ClickOnFileIcon><![CDATA[//*[@id='contact_imports']/tbody/tr[1]/td[8]/a[2]/span/img]]></ClickOnFileIcon>
+  <ClickOnImportNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></ClickOnImportNew>
+  <ClickonCancelButton><![CDATA[//*[@id='importform']/div[3]/div/div/div/a]]></ClickonCancelButton>
+  <ClickOnFirstImportView><![CDATA[//*[@id='contact_imports']/tbody/tr/td[1]/a]]></ClickOnFirstImportView>
+
+ ############################### Import View Page ##################################
+ ****Bulk Update****
+<ClickOnFirstImport><![CDATA[//*[@id='contact_imports']/tbody/tr[5]/td[1]/a]]></ClickOnFirstImport>
+<ClickOnBack><![CDATA[//*[@id='expbtn']]]></ClickOnBack>
+<ClickOnCreateCustomerView><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreateCustomerView>
+<ClickOnCancelButtons><![CDATA[//*[@id='ContactIndexForm']/div[2]/div[1]/div/div/a[2]]]></ClickOnCancelButtons>
+<SearchStatus><![CDATA[//*[@id='contacts_grid_filter']/label/input]]></SearchStatus>
+  <SelectMasterCheckbox><![CDATA[//*[@id='contacts_grid']/thead/tr/th[1]/div/span/input]]></SelectMasterCheckbox>
+<ClickonBulkUpdate><![CDATA[//*[@id='bulk_update']]]></ClickonBulkUpdate>
+  <ClickOnSource><![CDATA[//*[@id='BulkUpdateContactSource']]]></ClickOnSource>
+  <ClickOnOwner><![CDATA[//*[@id='BulkUpdateAssignedUserId']]]></ClickOnOwner>
+  <ClickOnCategory><![CDATA[//*[@id='BulkUpdateCategory']]]></ClickOnCategory>
+  <ClickOnStatus><![CDATA[//*[@id='BulkUpdateContactStatus']]]></ClickOnStatus>
+<ClickOnUpadte><![CDATA[//*[@id='update_all']/div/div/div[3]/div/div/a[1]]]></ClickOnUpadte>
+
+*** Bulk Email*****
+<ClickOnBulkEmail><![CDATA[//*[@id='bulk_email']]]></ClickOnBulkEmail>
+<EnterEmailCcAddress><![CDATA[//*[@id='BulkEmailCcAddress']]]></EnterEmailCcAddress>  
+  <EnterEmailBccAddress><![CDATA[//*[@id='BulkEmailBccAddress']]]></EnterEmailBccAddress>
+  <EnterEmailSubject><![CDATA[//*[@id='BulkEmailSubject']]]></EnterEmailSubject>
+<ClickOnPriority><![CDATA[//*[@id='uniform-BulkEmailImportance2']/span]]></ClickOnPriority>
+  <ClickOnCopyToCCCheckBox><![CDATA[//*[@id='BulkEmailCcChecked']]]></ClickOnCopyToCCCheckBox>
+  <SelectCopyToCC><![CDATA[//*[@id='BulkEmailCcType']]]></SelectCopyToCC>
+  <ClickOnCopyToBCCCheckBox><![CDATA[//*[@id='BulkEmailBccChecked']]]></ClickOnCopyToBCCCheckBox>
+  <SelectBlindCopyToBCC><![CDATA[//*[@id='BulkEmailBccType']]]></SelectBlindCopyToBCC>
+  <SelectEmailSignature><![CDATA[//*[@id='BulkEmailSignature']]]></SelectEmailSignature>
+<ClickOnSendButton><![CDATA[//*[@id='bulk_email']/div[3]/div/div[3]/div/div/button[1]]]></ClickOnSendButton>
+  
+*****Delete Contact********
+<SearchCompany><![CDATA[//*[@id='contacts_grid_filter']/label/input]]></SearchCompany>
+<ClickOnDeleteContacts><![CDATA[//*[@id='remove_contact']]]></ClickOnDeleteContacts>
+
+****** Add To Group********
+<ClickOnAddToGroup><![CDATA[//*[@id='BulkUpdateGroupContactGroup']]]></ClickOnAddToGroup>
+<EnterGroupName><![CDATA[//*[@id='BulkUpdateGroupGroupName']]]></EnterGroupName>
+<ClickOnAddGroupUpdate><![CDATA[//*[@id='update_group']/div/div/div[3]/a]]></ClickOnAddGroupUpdate>
+
+***** Add To Campaign*******
+<ClickOnAddToCampaign><![CDATA[//*[@id='add_contact']]]></ClickOnAddToCampaign>
+<CampaignList><![CDATA[//*[@id='CampaignContactCampaignId']]]></CampaignList>
+<Memberstatus><![CDATA[//*[@id='CampaignContactStatus']]]></Memberstatus>
+<MemberGroups><![CDATA[//*[@id='CampaignContactGroup']]]></MemberGroups>
+<AddNewMemberGroup><![CDATA[//*[@id='CampaignContactGroupName']]]></AddNewMemberGroup>
+<ClickOnAddContactButton><![CDATA[//*[@id='CampaignContactImportsListForm']/div[4]/a]]></ClickOnAddContactButton>
+
+</Locators>

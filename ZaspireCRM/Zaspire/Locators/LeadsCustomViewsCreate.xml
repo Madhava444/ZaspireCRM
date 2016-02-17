@@ -37,7 +37,7 @@
   <SelectOperator2><![CDATA[//*[@id='LeadAdditionalColOps0']]]></SelectOperator2>
   <EnterAdditionalValue2><![CDATA[//*[@id='add_criteria']/tbody/tr[2]/td[3]/input[2]]]></EnterAdditionalValue2>
 
-  <ClickOnSave><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[5]/div/div/button]]></ClickOnSave>
+  <ClickOnSave><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[1]/div/div/button]]></ClickOnSave>
   <ClickOnCancel><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[5]/div/div/a[2]]]></ClickOnCancel>
   <ClickOnPermission><![CDATA[//*[@id='LeadIndexForm']/div[2]/div[5]/div/div/a[1]]]></ClickOnPermission>
   

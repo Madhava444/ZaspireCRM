@@ -4,7 +4,7 @@
 
 
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
-  <ClickOnGroups><![CDATA[html/body/div[4]/div[1]/ul/li[3]/ul/li[3]/a]]></ClickOnGroups>
+  <ClickOnGroups><![CDATA[//a[@href='/infoaspire/leads/groups']]]></ClickOnGroups>
   <ClickOnGroupsAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnGroupsAddNew>
   <EnterGroupName><![CDATA[//*[@id='LeadGroupDetailName']]]></EnterGroupName>
   <EnterCity><![CDATA[//*[@id='LeadGroupDetailCity']]]></EnterCity>

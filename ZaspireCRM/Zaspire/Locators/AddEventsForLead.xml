@@ -5,7 +5,7 @@
 
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>  
   <FirstLeadNameLink><![CDATA[//*[@id='normal']]]></FirstLeadNameLink>
-  <MoveHover><![CDATA[/html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/a]]></MoveHover>
+  <MoveHover><![CDATA[//a[@class='btn btn-xs btn-warning button-alignment dropdown-toggle']]]></MoveHover>
   
 
   <!-- ADD TASK & ADD APPOINTMENT & ADD MEETING -->
@@ -25,12 +25,12 @@
   <CheckEmail><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[5]/div[3]/div/div[1]/label/div/span]]></CheckEmail>
   <CheckRecurringEvent><![CDATA[//*[@id='CreateEventForm']/div[2]/div[1]/div/div/div/div[1]/div[6]/div[2]/div/div[1]/label/div/span]]></CheckRecurringEvent>
   
-  <ClickOnSave><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/button]]></ClickOnSave>
-  <ClickOnCancel><![CDATA[//*[@id='CreateEventForm']/div[2]/div[2]/a]]></ClickOnCancel>
+  <ClickOnSave><![CDATA[//*[@id='CreateEventForm']/div[3]/button]]></ClickOnSave>
+  <ClickOnCancel><![CDATA[//*[@id='CreateEventForm']/div[3]/a]]></ClickOnCancel>
 
 
   <!-- ADD NOTE -->
-  <ClickOnAddNote><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[9]/a]]></ClickOnAddNote>
+  <ClickOnAddNote><![CDATA[//a[@title='Add Note']]]></ClickOnAddNote>
   <EnterNoteSubject><![CDATA[//*[@id='NoteName']]]></EnterNoteSubject>
   <EnterNoteDescription><![CDATA[//*[@id='NoteDescription']]]></EnterNoteDescription>
   <SelectNoteFile><![CDATA[//*[@id='Attachment0Files']]]></SelectNoteFile>
@@ -40,19 +40,19 @@
 
 
   <!-- ADD FILE -->
-  <ClickOnAddFile><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[10]/a]]></ClickOnAddFile>
-  <EnterFileName><![CDATA[//*[@id='NoteName']]]></EnterFileName>
+  <ClickOnAddFile><![CDATA[//a[@title='Add File']]]></ClickOnAddFile>
+  <EnterFileName><![CDATA[//*[@id='AttachmentName']]]></EnterFileName>
   <SelectCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></SelectCategory>
   <SelectAttachmentFile><![CDATA[//*[@id='AttachmentFiles']]]></SelectAttachmentFile>
   <EnterFileDescription><![CDATA[//*[@id='AttachmentDescription']]]></EnterFileDescription>
 
-  <ClickOnSaveFile><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[1]]]></ClickOnSaveFile>
+  <ClickOnSaveFile><![CDATA[//*[@id='addFileSubmit']]]></ClickOnSaveFile>
   <ClickOnCancelFile><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></ClickOnCancelFile>
 
 
 
   <!-- ADD LOG CALL -->
-  <ClickOnAddCall><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[14]/a]]></ClickOnAddCall>
+  <ClickOnAddCall><![CDATA[//a[@title='Log Call']]]></ClickOnAddCall>
   <EnterCallSubject><![CDATA[//*[@id='CallSubject']]]></EnterCallSubject>
   <SelectCallType><![CDATA[//*[@id='CallCallType']]]></SelectCallType>
   <EnterCallDate><![CDATA[//*[@id='CallCallDate']]]></EnterCallDate>
@@ -72,15 +72,15 @@
 
 
   <!-- LEAD COPY -->
-  <ClickOnCopy><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[1]/a]]></ClickOnCopy>
+  <ClickOnCopy><![CDATA[//a[@title='Copy Lead']]]></ClickOnCopy>
   
 
   <!-- LEAD DELETE -->
-  <ClickOnDelete><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[2]/a]]></ClickOnDelete>
+  <ClickOnDelete><![CDATA[//a[@title='Delete Lead']]]></ClickOnDelete>
 
 
   <!-- ADD LEAD TO CAMPAIGN -->
-  <ClickOnAddToCampaign1><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[5]/a]]></ClickOnAddToCampaign1>
+  <ClickOnAddToCampaign><![CDATA[//a[@title='Add Lead to Campaign']]]></ClickOnAddToCampaign>
    
   <ClickOnAddToCampaign><![CDATA[//*[@id='add_lead']]]></ClickOnAddToCampaign>
   <ClickOnMergeButton><![CDATA[//*[@id='assigncampaign']]]></ClickOnMergeButton>
@@ -92,7 +92,7 @@
 
 
   <!-- SEND EMAIL -->
-  <ClickOnSendEmail><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[5]/div/div/ul/li[8]/a]]></ClickOnSendEmail>
+  <ClickOnSendEmail><![CDATA[//a[@title='Send E-Mail']]]></ClickOnSendEmail>
   <ClickOnEmployeesLink><![CDATA[//*[@id='select_employee']]]></ClickOnEmployeesLink>
   <ToAddressCheckBox><![CDATA[//*[@id='toid']]]></ToAddressCheckBox>
   <CCAddressCheckBox><![CDATA[//*[@id='ccid']]]></CCAddressCheckBox>
@@ -101,9 +101,5 @@
   <ClickOnSendEmailButton><![CDATA[//*[@id='EmailComposeForm']/div[2]/div/div/div[4]/ul/li[5]/a]]></ClickOnSendEmailButton>
   
   
-  
-  
-  
-  
-  
+   
 </Locators>

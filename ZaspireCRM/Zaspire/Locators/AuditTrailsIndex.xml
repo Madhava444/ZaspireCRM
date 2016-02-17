@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locators>
+
+
+  <!-- AUDIT TRAILS INDEX PAGE -->
+  <ClickOnAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickOnAdmin>
+  <ClickOnAuditTrails><![CDATA[//a[@href='/infoaspire/admin/audit-trails']]]></ClickOnAuditTrails>
+  <EnterFilterBox><![CDATA[//*[@id='audittrails_table_filter']/label/input]]></EnterFilterBox>
+  <ClickOnReset><![CDATA[//*[@id='ToolTables_audittrails_table_0']]]></ClickOnReset>
+  <SelectPagination><![CDATA[//*[@id='autogen1']]]></SelectPagination>
+    
+  <ClickOnGetSysytemDefaults><![CDATA[//a[@class='btn btn-xs btn-primary button-alignment']]]></ClickOnGetSysytemDefaults>
+  
+  <!--##################################################-->
+  
+  <!--  AUDIT TRAILS CALLS VIEW  -->
+  <ClickOnCalls><![CDATA[//*[@id='audittrails_table']/tbody/tr[1]/td[1]/a]]></ClickOnCalls>
+  <ClickOnCallDateCheckBox><![CDATA[//*[@id='AuditTrail21189Tracked']]]></ClickOnCallDateCheckBox>
+  <ClickOnCallEndDateCheckBox><![CDATA[//*[@id='AuditTrail21191Tracked']]]></ClickOnCallEndDateCheckBox>
+  <ClickOnCallFromCheckBox><![CDATA[//*[@id='AuditTrail21186Tracked']]]></ClickOnCallFromCheckBox>
+  <ClickOnCallToCheckBox><![CDATA[//*[@id='AuditTrail21188Tracked']]]></ClickOnCallToCheckBox>
+  <ClickOnCallCategoryCheckBox><![CDATA[//*[@id='AuditTrail21198Tracked']]]></ClickOnCallCategoryCheckBox>
+  <ClickOnDescriptionCheckBox><![CDATA[//*[@id='AuditTrail21415Tracked']]]></ClickOnDescriptionCheckBox>
+  <ClickOnCallDurationCheckBox><![CDATA[//*[@id='AuditTrail21193Tracked']]]></ClickOnCallDurationCheckBox>
+  <ClickOnStartTimeCheckBox><![CDATA[//*[@id='AuditTrail21190Tracked']]]></ClickOnStartTimeCheckBox>
+  <ClickOnCallSubjectCheckBox><![CDATA[//*[@id='AuditTrail21192Tracked']]]></ClickOnCallSubjectCheckBox>
+  <ClickOnTypeCheckBox><![CDATA[//*[@id='AuditTrail21194Tracked']]]></ClickOnTypeCheckBox>
+  <ClickOnCallOwnerCheckBox><![CDATA[//*[@id='AuditTrail21197Tracked']]]></ClickOnCallOwnerCheckBox>
+
+  <ClickOnCallSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnCallSave>
+  <ClickOnCallCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnCallCancel>
+
+  
+  <!--###########################################################-->
+  
+  <!--  AUDIT TRAILS LEADS VIEW  -->
+  <ClickOnLeads><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnLeads>
+  
+  <!-- LEAD CONTAT DETAILS -->
+  <ClickOnLeadAddressDetails><![CDATA[//*[@id='AuditTrail21518Tracked']]]></ClickOnLeadAddressDetails>
+  <ClickOnLeadContactAddDetails><![CDATA[//*[@id='AuditTrail21522Tracked']]]></ClickOnLeadContactAddDetails>
+  <ClickOnLeadContactDetails><![CDATA[//*[@id='AuditTrail21521Tracked']]]></ClickOnLeadContactDetails>
+  <ClickOnLeadEmails><![CDATA[//*[@id='AuditTrail21519Tracked']]]></ClickOnLeadEmails>
+  <ClickOnLeadPhoneDetails><![CDATA[//*[@id='AuditTrail21520Tracked']]]></ClickOnLeadPhoneDetails>
+  <ClickOnLeadSocialLink><![CDATA[//*[@id='AuditTrail21523Tracked']]]></ClickOnLeadSocialLink>
+  
+  <!-- LEAD DETAILS -->
+  <ClickOnLeadCompany><![CDATA[//*[@id='AuditTrail21117Tracked']]]></ClickOnLeadCompany>
+  <ClickOnLeadDepartment><![CDATA[//*[@id='AuditTrail21119Tracked']]]></ClickOnLeadDepartment>
+  <ClickOnLeadFirstName><![CDATA[//*[@id='AuditTrail21120Tracked']]]></ClickOnLeadFirstName>
+  <ClickOnLeadIndustry><![CDATA[//*[@id='AuditTrail21121Tracked']]]></ClickOnLeadIndustry>
+  <ClickOnLeadLastName><![CDATA[//*[@id='AuditTrail21122Tracked']]]></ClickOnLeadLastName>
+  <ClickOnLeadMiddleName><![CDATA[//*[@id='AuditTrail21286Tracked']]]></ClickOnLeadMiddleName>
+  <ClickOnLeadSalutation><![CDATA[//*[@id='AuditTrail21285Tracked']]]></ClickOnLeadSalutation>
+  
+  <!-- LEAD OTHER -->
+  <ClickOnLeadAnnualRevenue><![CDATA[//*[@id='AuditTrail21289Tracked']]]></ClickOnLeadAnnualRevenue>
+  <ClickOnLeadGroup><![CDATA[//*[@id='AuditTrail21126Tracked']]]></ClickOnLeadGroup>
+  <ClickOnLeadNoOfEmp><![CDATA[//*[@id='AuditTrail21291Tracked']]]></ClickOnLeadNoOfEmp>
+  <ClickOnLeadTitle><![CDATA[//*[@id='AuditTrail21287Tracked']]]></ClickOnLeadTitle>
+  <ClickOnLeadWebsite><![CDATA[//*[@id='AuditTrail21288Tracked']]]></ClickOnLeadWebsite>
+  
+  <!-- LEAD INTERNAL FIELDS -->
+  <ClickOnLeadCategory><![CDATA[//*[@id='AuditTrail21116Tracked']]]></ClickOnLeadCategory>
+  <ClickOnLeadManager><![CDATA[//*[@id='AuditTrail21112Tracked']]]></ClickOnLeadManager>
+  <ClickOnLeadOwner><![CDATA[//*[@id='AuditTrail21115Tracked']]]></ClickOnLeadOwner>
+  <ClickOnLeadPartner><![CDATA[//*[@id='AuditTrail21113Tracked']]]></ClickOnLeadPartner>
+  <ClickOnLeadSource><![CDATA[//*[@id='AuditTrail21124Tracked']]]></ClickOnLeadSource>
+  <ClickOnLeadStatus><![CDATA[//*[@id='AuditTrail21125Tracked']]]></ClickOnLeadStatus>
+
+  <ClickOnLeadsSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnLeadsSave>
+  <ClickOnLeadsCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnLeadsCancel>
+
+  
+  
+  <!--#############################################################-->
+
+  <!--  AUDIT TRAILS JOBS VIEW  -->
+  <ClickOnJobs><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnJobs>
+  
+  <!-- JOBS CONTACT DETAILS -->
+  <ClickOnJobAddressLine1><![CDATA[//*[@id='AuditTrail21148Tracked']]]></ClickOnJobAddressLine1>
+  <ClickOnJobAddressLine2><![CDATA[//*[@id='AuditTrail21149Tracked']]]></ClickOnJobAddressLine2>
+  <ClickOnJobCity><![CDATA[//*[@id='AuditTrail21150Tracked']]]></ClickOnJobCity>
+  <ClickOnJobCountry><![CDATA[//*[@id='AuditTrail21152Tracked']]]></ClickOnJobCountry>
+  <ClickOnJobEmail><![CDATA[//*[@id='AuditTrail21440Tracked']]]></ClickOnJobEmail>
+  <ClickOnJobFirstName><![CDATA[//*[@id='AuditTrail21428Tracked']]]></ClickOnJobFirstName>
+  <ClickOnJobLastName><![CDATA[//*[@id='AuditTrail21429Tracked']]]></ClickOnJobLastName>
+  <ClickOnJobPhoneNumber><![CDATA[//*[@id='AuditTrail21439Tracked']]]></ClickOnJobPhoneNumber>
+  <ClickOnJobSalutation><![CDATA[//*[@id='AuditTrail21441Tracked']]]></ClickOnJobSalutation>
+  <ClickOnJobState><![CDATA[//*[@id='AuditTrail21151Tracked']]]></ClickOnJobState>
+  <ClickOnJobZipCode><![CDATA[//*[@id='AuditTrail21430Tracked']]]></ClickOnJobZipCode>
+  <ClickOnJobAddDetails><![CDATA[//*[@id='AuditTrail21546Tracked']]]></ClickOnJobAddDetails>
+  <ClickOnJobCompany><![CDATA[//*[@id='AuditTrail21432Tracked']]]></ClickOnJobCompany>
+  <ClickOnJobIndustry><![CDATA[//*[@id='AuditTrail21434Tracked']]]></ClickOnJobIndustry>
+  <ClickOnJobListEndDate><![CDATA[//*[@id='AuditTrail21435Tracked']]]></ClickOnJobListEndDate>
+  <ClickOnJobPositions><![CDATA[//*[@id='AuditTrail21433Tracked']]]></ClickOnJobPositions>
+  <ClickOnJobReferenceCode><![CDATA[//*[@id='AuditTrail21142Tracked']]]></ClickOnJobReferenceCode>
+  <ClickOnJobSalary><![CDATA[//*[@id='AuditTrail21147Tracked']]]></ClickOnJobSalary>
+  
+  <!-- JOBS DETAILS -->
+  <ClickOnJobCareerLevel><![CDATA[//*[@id='AuditTrail21143Tracked']]]></ClickOnJobCareerLevel>
+  <ClickOnJobDomain><![CDATA[//*[@id='AuditTrail21438Tracked']]]></ClickOnJobDomain>
+  <ClickOnJobEducation><![CDATA[//*[@id='AuditTrail21437Tracked']]]></ClickOnJobEducation>
+  <ClickOnJobPriority><![CDATA[//*[@id='AuditTrail21145Tracked']]]></ClickOnJobPriority>
+  <ClickOnJobTitle><![CDATA[//*[@id='AuditTrail21153Tracked']]]></ClickOnJobTitle>
+  <ClickOnJobWebsite><![CDATA[//*[@id='AuditTrail21436Tracked']]]></ClickOnJobWebsite>
+  <ClickOnJobWorkShift><![CDATA[//*[@id='AuditTrail21144Tracked']]]></ClickOnJobWorkShift>
+  <ClickOnJobDescription><![CDATA[//*[@id='AuditTrail21461Tracked']]]></ClickOnJobDescription>
+  
+  <!-- JOBS INTERNAL FIELDS -->
+  <ClickOnJobCategory><![CDATA[//*[@id='AuditTrail21230Tracked']]]></ClickOnJobCategory>
+  <ClickOnJobManager><![CDATA[//*[@id='AuditTrail21229Tracked']]]></ClickOnJobManager>
+  <ClickOnJobOwner><![CDATA[//*[@id='AuditTrail21228Tracked']]]></ClickOnJobOwner>
+  <ClickOnJobSource><![CDATA[//*[@id='AuditTrail21450Tracked']]]></ClickOnJobSource>
+  <ClickOnJobStatus><![CDATA[//*[@id='AuditTrail21146Tracked']]]></ClickOnJobStatus>
+  
+  <!-- JOB GROUP DETAILS -->
+  <ClickOnJobGroupDetails><![CDATA[//*[@id='AuditTrail21547Tracked']]]></ClickOnJobGroupDetails>
+  
+  <!-- JOB SKILL SUMMARY -->
+  <ClickOnJobKeySkills><![CDATA[//*[@id='AuditTrail21449Tracked']]]></ClickOnJobKeySkills>
+  <ClickOnJobSkillsDetails><![CDATA[//*[@id='AuditTrail21548Tracked']]]></ClickOnJobSkillsDetails>
+  
+  <ClickOnJobsSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnJobsSave>
+  <ClickOnJobsCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnJobsCancel>
+
+  <!--#######################################################-->
+  
+  <!--  AUDIT TRAILS CANDIDATES VIEW  -->
+  <ClickOnCandidates><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnCandidates>
+
+  <!-- CANDIDATE PREFFERED LOCATIONS -->
+  <ClickOnCandidatePreCity><![CDATA[//*[@id='AuditTrail21160Tracked']]]></ClickOnCandidatePreCity>
+  <ClickOnCandidatePreState><![CDATA[//*[@id='AuditTrail21161Tracked']]]></ClickOnCandidatePreState>
+  
+  <!-- CANDIDATE PROFILE -->
+  <ClickOnCandidateEducation><![CDATA[//*[@id='AuditTrail21445Tracked']]]></ClickOnCandidateEducation>
+  <ClickOnCandidateCareerLavel><![CDATA[//*[@id='AuditTrail21447Tracked']]]></ClickOnCandidateCareerLavel>
+  <ClickOnCandidateIndustry><![CDATA[//*[@id='AuditTrail21448Tracked']]]></ClickOnCandidateIndustry>
+  <ClickOnCandidateSkillsDetails><![CDATA[//*[@id='AuditTrail21544Tracked']]]></ClickOnCandidateSkillsDetails>
+  <ClickOnCandidateTotalExp><![CDATA[//*[@id='AuditTrail21545Tracked']]]></ClickOnCandidateTotalExp>
+  <ClickOnCandidateVisaExpiry><![CDATA[//*[@id='AuditTrail21213Tracked']]]></ClickOnCandidateVisaExpiry>
+  <ClickOnCandidateVisaType><![CDATA[//*[@id='AuditTrail21212Tracked']]]></ClickOnCandidateVisaType>
+  
+  <!-- CANDIDATES REFFERENCE DETAILS -->
+  <ClickOnCandidateCompanyName><![CDATA[//*[@id='AuditTrail21411Tracked']]]></ClickOnCandidateCompanyName>
+  <ClickOnCandidateRefEmail><![CDATA[//*[@id='AuditTrail21410Tracked']]]></ClickOnCandidateRefEmail>
+  <ClickOnCandidateRefName><![CDATA[//*[@id='AuditTrail21409Tracked']]]></ClickOnCandidateRefName>
+    
+  <!-- CANDIDATE DETAILS -->
+  <ClickOnCandidateAddressLine1><![CDATA[//*[@id='AuditTrail21206Tracked']]]></ClickOnCandidateAddressLine1>
+  <ClickOnCandidateAddressLine2><![CDATA[//*[@id='AuditTrail21207Tracked']]]></ClickOnCandidateAddressLine2>
+  <ClickOnCandidateCity><![CDATA[//*[@id='AuditTrail21208Tracked']]]></ClickOnCandidateCity>
+  <ClickOnCandidateCompany><![CDATA[//*[@id='AuditTrail21159Tracked']]]></ClickOnCandidateCompany>
+  <ClickOnCandidateCountry><![CDATA[//*[@id='AuditTrail21210Tracked']]]></ClickOnCandidateCountry>
+  <ClickOnCandidateEmail><![CDATA[//*[@id='AuditTrail21157Tracked']]]></ClickOnCandidateEmail>
+  <ClickOnCandidateFirstName><![CDATA[//*[@id='AuditTrail21155Tracked']]]></ClickOnCandidateFirstName>
+  <ClickOnCandidateHotBlock><![CDATA[//*[@id='AuditTrail21462Tracked']]]></ClickOnCandidateHotBlock>
+  <ClickOnCandidateJobTitle><![CDATA[//*[@id='AuditTrail21158Tracked']]]></ClickOnCandidateJobTitle>
+  <ClickOnCandidateLastName><![CDATA[//*[@id='AuditTrail21443Tracked']]]></ClickOnCandidateLastName>
+  <ClickOnCandidatePhoneNumber><![CDATA[//*[@id='AuditTrail21156Tracked']]]></ClickOnCandidatePhoneNumber>
+  <ClickOnCandidatePreferedTravel><![CDATA[//*[@id='AuditTrail21446Tracked']]]></ClickOnCandidatePreferedTravel>
+  <ClickOnCandidateSalutation><![CDATA[//*[@id='AuditTrail21442Tracked']]]></ClickOnCandidateSalutation>
+  <ClickOnCandidateState><![CDATA[//*[@id='AuditTrail21209Tracked']]]></ClickOnCandidateState>
+  <ClickOnCandidateTitle><![CDATA[//*[@id='AuditTrail21154Tracked']]]></ClickOnCandidateTitle>
+  <ClickOnCandidateZipCode><![CDATA[//*[@id='AuditTrail21211Tracked']]]></ClickOnCandidateZipCode>
+  
+  <!-- CANDIDATES INTERNAL FIELDS -->
+  <ClickOnCandidateManager><![CDATA[//*[@id='AuditTrail21205Tracked']]]></ClickOnCandidateManager>
+  <ClickOnCandidateOwner><![CDATA[//*[@id='AuditTrail21204Tracked']]]></ClickOnCandidateOwner>
+  <ClickOnCandidateSource><![CDATA[//*[@id='AuditTrail21444Tracked']]]></ClickOnCandidateSource>
+  <ClickOnCandidateStatus><![CDATA[//*[@id='AuditTrail21203Tracked']]]></ClickOnCandidateStatus>
+  
+  <ClickOnCandidateSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnCandidateSave>
+  <ClickOnCandidateCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnCandidateCancel>
+
+  
+  <!--#######################################################-->
+  
+  <!--  AUDIT TRAILS OPPORTUNITIES VIEW  -->
+  <ClickOnOpportunities><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnOpportunities>
+
+  <!--  OPPORTUNITIES DETAILS  -->
+  <ClickOnOppConAddDetails><![CDATA[//*[@id='AuditTrail21536Tracked']]]></ClickOnOppConAddDetails>
+  <ClickOnOppDetails><![CDATA[//*[@id='AuditTrail21535Tracked']]]></ClickOnOppDetails>
+  <ClickOnOppEmail><![CDATA[//*[@id='AuditTrail21533Tracked']]]></ClickOnOppEmail>
+  <ClickOnOppPhoneDetails><![CDATA[//*[@id='AuditTrail21534Tracked']]]></ClickOnOppPhoneDetails>
+  <ClickOnOppSocialLink><![CDATA[//*[@id='AuditTrail21537Tracked']]]></ClickOnOppSocialLink>
+  <ClickOnOppAboutOpp><![CDATA[//*[@id='AuditTrail21280Tracked']]]></ClickOnOppAboutOpp>
+  <ClickOnOppAccountName><![CDATA[//*[@id='AuditTrail21284Tracked']]]></ClickOnOppAccountName>
+  <ClickOnOppAmount><![CDATA[//*[@id='AuditTrail21267Tracked']]]></ClickOnOppAmount>
+  <ClickOnOppAnnualRevenue><![CDATA[//*[@id='AuditTrail21271Tracked']]]></ClickOnOppAnnualRevenue>
+  <ClickOnOppBillDate><![CDATA[//*[@id='AuditTrail21279Tracked']]]></ClickOnOppBillDate>
+  <ClickOnOppCalGrossAmt><![CDATA[//*[@id='AuditTrail21276Tracked']]]></ClickOnOppCalGrossAmt>
+  <ClickOnOppClosingDate><![CDATA[//*[@id='AuditTrail21283Tracked']]]></ClickOnOppClosingDate>
+  <ClickOnOppCompany><![CDATA[//*[@id='AuditTrail21260Tracked']]]></ClickOnOppCompany>
+  <ClickOnOppIndustry><![CDATA[//*[@id='AuditTrail21270Tracked']]]></ClickOnOppIndustry>
+  <ClickOnOppName><![CDATA[//*[@id='AuditTrail21262Tracked']]]></ClickOnOppName>
+  <ClickOnOppNextStep><![CDATA[//*[@id='AuditTrail21281Tracked']]]></ClickOnOppNextStep>
+  <ClickOnOppNoOfEmp><![CDATA[//*[@id='AuditTrail21272Tracked']]]></ClickOnOppNoOfEmp>
+  <ClickOnOppOppGroup><![CDATA[//*[@id='AuditTrail21265Tracked']]]></ClickOnOppOppGroup>
+  <ClickOnOppPayRate><![CDATA[//*[@id='AuditTrail21278Tracked']]]></ClickOnOppPayRate>
+  <ClickOnOppProbability><![CDATA[//*[@id='AuditTrail21268Tracked']]]></ClickOnOppProbability>
+  <ClickOnOppSkillType><![CDATA[//*[@id='AuditTrail21273Tracked']]]></ClickOnOppSkillType>
+  <ClickOnOppSpecificSkill><![CDATA[//*[@id='AuditTrail21277Tracked']]]></ClickOnOppSpecificSkill>
+  <ClickOnOppStartDate><![CDATA[//*[@id='AuditTrail21282Tracked']]]></ClickOnOppStartDate>
+  <ClickOnOppUnweightedPipeline><![CDATA[//*[@id='AuditTrail21274Tracked']]]></ClickOnOppUnweightedPipeline>
+  <ClickOnOppWeightedPipeline><![CDATA[//*[@id='AuditTrail21275Tracked']]]></ClickOnOppWeightedPipeline>
+  
+  <!--  OPPORTUNITIES INTERNAL FIELDS  -->
+  <ClickOnOppCategory><![CDATA[//*[@id='AuditTrail21259Tracked']]]></ClickOnOppCategory>
+  <ClickOnOppManager><![CDATA[//*[@id='AuditTrail21255Tracked']]]></ClickOnOppManager>
+  <ClickOnOppOwner><![CDATA[//*[@id='AuditTrail21258Tracked']]]></ClickOnOppOwner>
+  <ClickOnOppSource><![CDATA[//*[@id='AuditTrail21264Tracked']]]></ClickOnOppSource>
+  <ClickOnOppStatus><![CDATA[]]></ClickOnOppStatus>
+
+  <ClickOnOppSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnOppSave>
+  <ClickOnOppCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnOppCancel>
+
+
+  <!--#######################################################-->
+
+  <!--  AUDIT TRAILS ACCOUNTS VIEW  -->
+  <ClickOnAccounts><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnAccounts>
+
+  <!--  ACCOUNTS DETAILS  -->
+  <ClickOnAccCompany><![CDATA[//*[@id='AuditTrail21240Tracked']]]></ClickOnAccCompany>
+  <ClickOnAccDescription><![CDATA[//*[@id='AuditTrail21244Tracked']]]></ClickOnAccDescription>
+  <ClickOnAccEmail><![CDATA[//*[@id='AuditTrail21253Tracked']]]></ClickOnAccEmail>
+  <ClickOnAccIndustry><![CDATA[//*[@id='AuditTrail21245Tracked']]]></ClickOnAccIndustry>
+  <ClickOnAccLegalName><![CDATA[//*[@id='AuditTrail21241Tracked']]]></ClickOnAccLegalName>
+  <ClickOnAccNoOfEmp><![CDATA[//*[@id='AuditTrail21246Tracked']]]></ClickOnAccNoOfEmp>
+  <ClickOnAccRating><![CDATA[//*[@id='AuditTrail21248Tracked']]]></ClickOnAccRating>
+  <ClickOnAccSICCode><![CDATA[//*[@id='AuditTrail21249Tracked']]]></ClickOnAccSICCode>
+  <ClickOnAccTickerSymbol><![CDATA[.//*[@id='AuditTrail21250Tracked']]]></ClickOnAccTickerSymbol>
+  <ClickOnAccTimeZone><![CDATA[//*[@id='AuditTrail21252Tracked']]]></ClickOnAccTimeZone>
+  <ClickOnAccWebsite><![CDATA[//*[@id='AuditTrail21251Tracked']]]></ClickOnAccWebsite>
+  
+  <ClickOnAccAddDetails><![CDATA[//*[@id='AuditTrail21527Tracked']]]></ClickOnAccAddDetails>
+  <ClickOnAccContactDetails><![CDATA[//*[@id='AuditTrail21530Tracked']]]></ClickOnAccContactDetails>
+  <ClickOnAccContactEmail><![CDATA[//*[@id='AuditTrail21528Tracked']]]></ClickOnAccContactEmail>
+  <ClickOnAccPhoneDetails><![CDATA[//*[@id='AuditTrail21529Tracked']]]></ClickOnAccPhoneDetails>
+  <ClickOnAccSocialLink><![CDATA[//*[@id='AuditTrail21532Tracked']]]></ClickOnAccSocialLink>
+  
+  <!--  ACCOUNTS INTERNAL FIELDS  -->
+  <ClickOnAccCategory><![CDATA[//*[@id='AuditTrail21239Tracked']]]></ClickOnAccCategory>
+  <ClickOnAccManager><![CDATA[//*[@id='AuditTrail21235Tracked']]]></ClickOnAccManager>
+  <ClickOnAccOwner><![CDATA[//*[@id='AuditTrail21238Tracked']]]></ClickOnAccOwner>
+  <ClickOnAccPartner><![CDATA[//*[@id='AuditTrail21236Tracked']]]></ClickOnAccPartner>
+  <ClickOnAccSource><![CDATA[//*[@id='AuditTrail21234Tracked']]]></ClickOnAccSource>
+  <ClickOnAccStatus><![CDATA[//*[@id='AuditTrail21242Tracked']]]></ClickOnAccStatus>
+  
+  <ClickOnAccSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnAccSave>
+  <ClickOnAccCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnAccCancel>
+
+  
+  <!--####################################################-->
+  
+  <!--  AUDIT TRAILS CONTACTS VIEW  -->
+  <ClickOnContacts><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnContacts>
+
+  <!--  CONTACTS DETAILS  -->
+  <ClickOnConAddDetails><![CDATA[//*[@id='AuditTrail21524Tracked']]]></ClickOnConAddDetails>
+  <ClickOnConEmail><![CDATA[//*[@id='AuditTrail21525Tracked']]]></ClickOnConEmail>
+  <ClickOnConPhoneDetails><![CDATA[//*[@id='AuditTrail21526Tracked']]]></ClickOnConPhoneDetails>
+  <ClickOnConAboutContact><![CDATA[//*[@id='AuditTrail21231Tracked']]]></ClickOnConAboutContact>
+  <ClickOnConBirthDate><![CDATA[//*[@id='AuditTrail21233Tracked']]]></ClickOnConBirthDate>
+  <ClickOnConCompany><![CDATA[//*[@id='AuditTrail21219Tracked']]]></ClickOnConCompany>
+  <ClickOnConLastName><![CDATA[//*[@id='AuditTrail21223Tracked']]]></ClickOnConLastName>
+  <ClickOnConDepartment><![CDATA[//*[@id='AuditTrail21221Tracked']]]></ClickOnConDepartment>
+  <ClickOnConSalutation><![CDATA[//*[@id='AuditTrail21431Tracked']]]></ClickOnConSalutation>
+  <ClickOnConTitle><![CDATA[//*[@id='AuditTrail21232Tracked']]]></ClickOnConTitle>
+  
+  <!--  CONTACTS INTERNAL FIELDS  -->
+  <ClickOnConCategory><![CDATA[//*[@id='AuditTrail21218Tracked']]]></ClickOnConCategory>
+  <ClickOnConOwner><![CDATA[//*[@id='AuditTrail21217Tracked']]]></ClickOnConOwner>
+  <ClickOnConSource><![CDATA[//*[@id='AuditTrail21225Tracked']]]></ClickOnConSource>
+  <ClickOnConStatus><![CDATA[//*[@id='AuditTrail21226Tracked']]]></ClickOnConStatus>
+  
+  <ClickOnConSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnConSave>
+  <ClickOnConCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnConCancel>
+
+
+  <!--####################################################-->
+  
+  <!--  AUDIT TRAILS CAMPAIGNS VIEW  -->
+  <ClickOnCampaigns><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnCampaigns>
+
+  <!--  CAMPAIGNS DETAILS  -->
+  <ClickOnCamAboutCampaign><![CDATA[//*[@id='AuditTrail21168Tracked']]]></ClickOnCamAboutCampaign>
+  <ClickOnCamActualCost><![CDATA[//*[@id='AuditTrail21172Tracked']]]></ClickOnCamActualCost>
+  <ClickOnCamCampagnURL><![CDATA[//*[@id='AuditTrail21254Tracked']]]></ClickOnCamCampagnURL>
+  <ClickOnCamEndDate><![CDATA[//*[@id='AuditTrail21413Tracked']]]></ClickOnCamEndDate>
+  <ClickOnCamEstimatedCost><![CDATA[//*[@id='AuditTrail21169Tracked']]]></ClickOnCamEstimatedCost>
+  <ClickOnCamExpectedResponse><![CDATA[//*[@id='AuditTrail21171Tracked']]]></ClickOnCamExpectedResponse>
+  <ClickOnCamExpectedRevenue><![CDATA[//*[@id='AuditTrail21173Tracked']]]></ClickOnCamExpectedRevenue>
+  <ClickOnCamName><![CDATA[//*[@id='AuditTrail21167Tracked']]]></ClickOnCamName>
+  <ClickOnCamStartDate><![CDATA[//*[@id='AuditTrail21412Tracked']]]></ClickOnCamStartDate>
+  <ClickONCamTargetedNum><![CDATA[//*[@id='AuditTrail21170Tracked']]]></ClickONCamTargetedNum>
+
+  <!--  CAMPAIGNS INTERNAL FIELDS  -->
+  <ClickOnCamCategory><![CDATA[//*[@id='AuditTrail21164Tracked']]]></ClickOnCamCategory>
+  <ClickOnCamManager><![CDATA[//*[@id='AuditTrail21162Tracked']]]></ClickOnCamManager>
+  <ClickOnCamOwner><![CDATA[//*[@id='AuditTrail21163Tracked']]]></ClickOnCamOwner>
+  <ClickOnCamStatus><![CDATA[//*[@id='AuditTrail21165Tracked']]]></ClickOnCamStatus>
+  <ClickOnCamType><![CDATA[//*[@id='AuditTrail21166Tracked']]]></ClickOnCamType>
+
+  <ClickOnCamSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnCamSave>
+  <ClickOnCamCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnCamCancel>
+
+  
+
+  <!--####################################################-->
+  
+  <!--  AUDIT TRAILS EVENTS VIEW  -->
+  <ClickOnEvents><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnEvents>
+
+  <!--  EVENTS DETAILS  -->
+  <ClickOnEventCreated><![CDATA[//*[@id='AuditTrail21354Tracked']]]></ClickOnEventCreated>
+  <ClickOnEventDeleted><![CDATA[//*[@id='AuditTrail21355Tracked']]]></ClickOnEventDeleted>
+  <ClickOnEventDescription><![CDATA[//*[@id='AuditTrail21356Tracked']]]></ClickOnEventDescription>
+  <ClickOnEventDurationHours><![CDATA[//*[@id='AuditTrail21358Tracked']]]></ClickOnEventDurationHours>
+  <ClickOnEventDurationMinutes><![CDATA[//*[@id='AuditTrail21359Tracked']]]></ClickOnEventDurationMinutes>
+  <ClickOnEventEndTime><![CDATA[//*[@id='AuditTrail21362Tracked']]]></ClickOnEventEndTime>
+  <ClickOnEventHostURL><![CDATA[//*[@id='AuditTrail21365Tracked']]]></ClickOnEventHostURL>
+  <ClickOnEventLocation><![CDATA[//*[@id='AuditTrail21367Tracked']]]></ClickOnEventLocation>
+  <ClickOnEventModified><![CDATA[//*[@id='AuditTrail21368Tracked']]]></ClickOnEventModified>
+  <ClickOnEventParentStatus><![CDATA[//*[@id='AuditTrail21370Tracked']]]></ClickOnEventParentStatus>
+  <ClickOnEventPermissions><![CDATA[//*[@id='AuditTrail21373Tracked']]]></ClickOnEventPermissions>
+  <ClickOnEventRelatedTo><![CDATA[//*[@id='AuditTrail21371Tracked']]]></ClickOnEventRelatedTo>
+  <ClickOnEventRemainderTime><![CDATA[//*[@id='AuditTrail21377Tracked']]]></ClickOnEventRemainderTime>
+  <ClickONEventRepeatUntil><![CDATA[//*[@id='AuditTrail21383Tracked']]]></ClickONEventRepeatUntil>
+  <ClickOnEventStartTime><![CDATA[//*[@id='AuditTrail21384Tracked']]]></ClickOnEventStartTime>
+  <ClickOnEventSubject><![CDATA[//*[@id='AuditTrail21369Tracked']]]></ClickOnEventSubject>
+  <ClickOnEventType><![CDATA[//*[@id='AuditTrail21386Tracked']]]></ClickOnEventType>
+  
+  <!--  EVENTS INTERNAL FIELDS  -->
+  <ClickOnEventCategory><![CDATA[//*[@id='AuditTrail21353Tracked']]]></ClickOnEventCategory>
+  <ClickOnEventOwner><![CDATA[//*[@id='AuditTrail21352Tracked']]]></ClickOnEventOwner>
+  <ClickOnEventPriority><![CDATA[//*[@id='AuditTrail21374Tracked']]]></ClickOnEventPriority>
+  <ClickOnEventStatus><![CDATA[//*[@id='AuditTrail21364Tracked']]]></ClickOnEventStatus>
+
+  <ClickOnEventSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnEventSave>
+  <ClickOnEventCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnEventCancel>
+
+  
+
+  <!--####################################################-->
+  
+  <!--  AUDIT TRAILS NOTES VIEW  -->
+  <ClickOnNotes><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnNotes>
+
+  <!--  NOTES DETAILS  -->
+  <ClickOnNoteCategory><![CDATA[//*[@id='AuditTrail21129Tracked']]]></ClickOnNoteCategory>
+  <ClickOnNoteDescription><![CDATA[//*[@id='AuditTrail21130Tracked']]]></ClickOnNoteDescription>
+  <ClickOnNoteSubject><![CDATA[//*[@id='AuditTrail21131Tracked']]]></ClickOnNoteSubject>
+  
+  <!--  NOTES INTERNAL FIELDS  -->
+  <ClickOnNoteOwner><![CDATA[//*[@id='AuditTrail21128Tracked']]]></ClickOnNoteOwner>
+
+  <ClickOnNoteSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnNoteSave>
+  <ClickOnNoteCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnNoteCancel>
+
+  
+  
+  <!--####################################################-->
+  
+  <!--  AUDIT TRAILS PARTNERS VIEW  -->
+  <ClickOnPartners><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnPartners>
+
+  <!--  PARTNERS DETAILS  -->
+  <ClickOnPartAddDetails><![CDATA[//*[@id='AuditTrail21538Tracked']]]></ClickOnPartAddDetails>
+  <ClickOnPartConAddDetails><![CDATA[//*[@id='AuditTrail21542Tracked']]]></ClickOnPartConAddDetails>
+  <ClickOnPartConDetails><![CDATA[//*[@id='AuditTrail21541Tracked']]]></ClickOnPartConDetails>
+  <ClickOnPartEmail><![CDATA[//*[@id='AuditTrail21539Tracked']]]></ClickOnPartEmail>
+  <ClickOnPartPhoneDetails><![CDATA[//*[@id='AuditTrail21540Tracked']]]></ClickOnPartPhoneDetails>
+  <ClickOnPartSocialLink><![CDATA[//*[@id='AuditTrail21543Tracked']]]></ClickOnPartSocialLink>
+  <ClickOnPartActive><![CDATA[//*[@id='AuditTrail21424Tracked']]]></ClickOnPartActive>
+  <ClickOnPartCode><![CDATA[//*[@id='AuditTrail21418Tracked']]]></ClickOnPartCode>
+  <ClickOnPartCompany><![CDATA[//*[@id='AuditTrail21419Tracked']]]></ClickOnPartCompany>
+  <ClickOnPartPacebookURL><![CDATA[//*[@id='AuditTrail21422Tracked']]]></ClickOnPartPacebookURL>
+  <ClickONPartLinkedinURL><![CDATA[//*[@id='AuditTrail21421Tracked']]]></ClickONPartLinkedinURL>
+  <ClickOnPartManager><![CDATA[//*[@id='AuditTrail21426Tracked']]]></ClickOnPartManager>
+  <ClickOnPartName><![CDATA[//*[@id='AuditTrail21417Tracked']]]></ClickOnPartName>
+  <ClickOnPartOwner><![CDATA[//*[@id='AuditTrail21425Tracked']]]></ClickOnPartOwner>
+  <ClickOnPartPermissions><![CDATA[//*[@id='AuditTrail21427Tracked']]]></ClickOnPartPermissions>
+  <ClickOnPartTwitterURL><![CDATA[//*[@id='AuditTrail21423Tracked']]]></ClickOnPartTwitterURL>
+  <ClickOnPartWebsite><![CDATA[//*[@id='AuditTrail21420Tracked']]]></ClickOnPartWebsite>
+
+  <ClickOnPartSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnPartSave>
+  <ClickOnPartCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnPartCancel>
+
+
+  <!--####################################################-->
+  
+  <!--  AUDIT TRAILS EMAIL TEMPLATES VIEW  -->
+  <ClickOnEmailTemplates><![CDATA[//*[@id='audittrails_table']/tbody/tr/td[1]/a]]></ClickOnEmailTemplates>
+
+  <!--  EMAIL TEMPLATES INTERNAL FIELDS  -->
+  <ClickOnEmailCategory><![CDATA[//*[@id='AuditTrail21202Tracked']]]></ClickOnEmailCategory>
+  <ClickOnEmailDescription><![CDATA[//*[@id='AuditTrail21182Tracked']]]></ClickOnEmailDescription>
+  <ClickOnEmailHeaderName><![CDATA[//*[@id='AuditTrail21179Tracked']]]></ClickOnEmailHeaderName>
+  <ClickOnEmailTemplateSubject><![CDATA[//*[@id='AuditTrail21177Tracked']]]></ClickOnEmailTemplateSubject>
+  <ClickOnEmailManager><![CDATA[//*[@id='AuditTrail21174Tracked']]]></ClickOnEmailManager>
+  <ClickOnEmailMessageBody><![CDATA[//*[@id='AuditTrail21180Tracked']]]></ClickOnEmailMessageBody>
+  <ClickOnEmailMessageFooter><![CDATA[//*[@id='AuditTrail21181Tracked']]]></ClickOnEmailMessageFooter>
+  <ClickOnEmailName><![CDATA[//*[@id='AuditTrail21181Tracked']]]></ClickOnEmailName>
+  <ClickOnEmailOwner><![CDATA[//*[@id='AuditTrail21176Tracked']]]></ClickOnEmailOwner>
+  <ClickOnEmailPermissions><![CDATA[//*[@id='AuditTrail21184Tracked']]]></ClickOnEmailPermissions>
+  <ClickOnEmailRelatedTo><![CDATA[//*[@id='AuditTrail21201Tracked']]]></ClickOnEmailRelatedTo>
+  <ClickOnEmailStatus><![CDATA[//*[@id='AuditTrail21183Tracked']]]></ClickOnEmailStatus>
+  <ClickOnEmailUserGroup><![CDATA[//*[@id='AuditTrail21175Tracked']]]></ClickOnEmailUserGroup>
+
+  <ClickOnEmailSave><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[1]]]></ClickOnEmailSave>
+  <ClickOnEmailCancel><![CDATA[//*[@id='ModuleAuditTrailsViewForm']/div[2]/div[1]/div/div[2]/button[2]]]></ClickOnEmailCancel>
+
+
+
+</Locators>  
+

@@ -4,7 +4,7 @@
   
   <ClickOnLeads><![CDATA[//*[@id='leads']]]></ClickOnLeads>
   <ClickOnLeadAddNew><![CDATA[//*[@id='actionbuttons']]]></ClickOnLeadAddNew>
-  <ClickOnEditLink><![CDATA[html/body/div[4]/div[2]/d/div[1]/div/ul/li[6]/a]]></ClickOnEditLink>
+  <ClickOnEditLink><![CDATA[//a[@class='btn btn-xs btn-primary']]]></ClickOnEditLink>
   <ClickOnLeadView><![CDATA[//*[@id='normal']]]></ClickOnLeadView>
   
   <!-- CLASSIFICATIONS & OWNERSHIP -->

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  <ClickOnlibrary><![CDATA[//*[@id='libraries']]]></ClickOnlibrary>
+  <ClickLibraryrecord><![CDATA[//*[@id='normal']]]></ClickLibraryrecord>
+  <Moreactionsbutton><![CDATA[//*[@id='normal']]]></Moreactionsbutton>
+  <MoreactionsDelete><![CDATA[//*[@id='show_internal']/div]]></MoreactionsDelete>
+  <Moreactionsforward><![CDATA[//*[@id='show_internal']/div]]></Moreactionsforward>
+
+
+  <!-- Addnew version-->
+  <Addnewversionlink><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[1]/div[2]/div/table/thead/tr/th[4]/a/i/small]]></Addnewversionlink>
+  <Selectfile><![CDATA[//*[@id='LibraryFile']]]></Selectfile>
+  <librarcomment><![CDATA[//*[@id='LibraryComment']]]></librarcomment>
+  <Versionsave><![CDATA[//*[@id='CreateLibraryForm']/div[3]/button[1]]]></Versionsave>
+  <Versioncancel><![CDATA[//*[@id='CreateLibraryForm']/div[3]/button[2]]]></Versioncancel>
+  <VersionDelete><![CDATA[//*[@id='CreateLibraryForm']/div[3]/button[2]]]></VersionDelete>
+  
+  
+  
+  
+  <!-- AddGroup to Library-->
+  <AddtoGrop><![CDATA[//*[@id='GroupName']]]></AddtoGrop>
+  <SaveGroup><![CDATA[//*[@id='savegroup']]]></SaveGroup>
+  <Cancelgroup><![CDATA[//*[@id='cancelgroup']]]></Cancelgroup>
+  
+  <ClickOnOwnerOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnOwnerOk>
+
+  <!-- INLINE EDIT CHANGE MANAGER -->
+  <ClickOnManager><![CDATA[//*[@id='manager']]]></ClickOnManager>
+  <SelectManager><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectManager>
+  <ClickOnManagerOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnManagerOk>
+
+  <!-- INLINE EDIT CHANGE SOURCE -->
+  <ClickOnSource><![CDATA[//*[@id='lead_source']]]></ClickOnSource>
+  <SelectSource><![CDATA[//*[@id='autogen29']]]></SelectSource>
+  <ClickOnSourceOk><![CDATA[html/body/div[4]/div[2]/d/div[2]/div/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div[3]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnSourceOk>
+
+  <!-- INLINE EDIT CHANGE CATEGORY -->
+  <ClickOnCategory><![CDATA[//*[@id='category']]]></ClickOnCategory>
+  <SelectCategory><![CDATA[//*[@id='autogen37']]]></SelectCategory>
+  <ClickOnCategoryOk><![CDATA[//*[@id='rest_internal']/div[1]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnCategoryOk>
+
+  <!-- INLINE EDIT CHANGE PARTNER -->
+  <ClickOnPartner><![CDATA[//*[@id='partner']]]></ClickOnPartner>
+  <SelectPartner><![CDATA[//*[@id='rest_internal']/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectPartner>
+  <ClickOnPartnerOk><![CDATA[//*[@id='rest_internal']/div[2]/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></ClickOnPartnerOk>
+
+
+  <!-- TABS -->
+  <ClickOnJobPositionstab><![CDATA[//*[@id='ui-id-2']/div[1]]]></ClickOnJobPositionstab>
+  <ClickOnActivitiestab><![CDATA[//*[@id='activity1']]]></ClickOnActivitiestab>
+  <ClickOnContactInfotab><![CDATA[//*[@id='contact1']]]></ClickOnContactInfotab>
+  <ClickOnCampaignstab><![CDATA[//*[@id='campaign1']]]></ClickOnCampaignstab>
+  <ClickOnDescriptiontab><![CDATA[//*[@id='description1']]]></ClickOnDescriptiontab>
+  <ClickOnTimeLinetab><![CDATA[//*[@id='ui-id-1']/div[2]]]></ClickOnTimeLinetab>
+
+</Locators>

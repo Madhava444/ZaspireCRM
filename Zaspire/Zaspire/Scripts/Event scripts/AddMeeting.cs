@@ -12,7 +12,7 @@ namespace Zaspire.Scripts
     public class AddNewMeeting : DriverTestCase
     {
         [TestMethod]
-        public void addnewmeeting()
+        public void addneweventmeeting()
         {
             string[] username = null;
             string[] password = null;

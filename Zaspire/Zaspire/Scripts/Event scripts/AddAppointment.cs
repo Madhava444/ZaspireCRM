@@ -12,7 +12,7 @@ namespace Zaspire.Scripts
     public class AddNewAppointment : DriverTestCase
     {
         [TestMethod]
-        public void addnewappointment()
+        public void addneweventappointment()
         {
             string[] username = null;
             string[] password = null;
@@ -45,7 +45,7 @@ namespace Zaspire.Scripts
             //EventHelper.ClickElement("Selectevents");
 
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events");
-            EventHelper.WaitForWorkAround(7000);
+            EventHelper.WaitForWorkAround(3000);
 
 
             //#################### CREATE A APPOINTMENT   #####################################
@@ -54,7 +54,7 @@ namespace Zaspire.Scripts
             //EventHelper.ClickElement("Clickonnew");
 
             GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events/addnew");
-            EventHelper.WaitForWorkAround(7000);
+            EventHelper.WaitForWorkAround(2000);
 
 
             //################### CLASSIFICATIONS & OWNERSHIP  #########################

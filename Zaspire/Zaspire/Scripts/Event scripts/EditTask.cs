@@ -12,7 +12,7 @@ namespace Zaspire.Scripts
     public class EditTask : DriverTestCase
     {
         [TestMethod]
-        public void Edittask()
+        public void Editeventtask()
         {
             string[] username = null;
             string[] password = null;

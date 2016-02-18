@@ -54,7 +54,7 @@ namespace Zaspire.Scripts
             CallHelper.TypeText("Saveviewas", Saveviewas);
 
             //Select dropdown list
-            //CallHelper.Select("Sortby", "Name");
+            CallHelper.Select("Sortby", "Owner");
 
             //Select dropdown list
             CallHelper.Select("Owner","Ranjith");
@@ -63,7 +63,7 @@ namespace Zaspire.Scripts
             CallHelper.Select("RelatedTo", "Accounts");
            
             //Select Category
-            CallHelper.Select("Category", "Hod");
+            CallHelper.Select("Category", "Hold");
 
             //Select dropdown list
             CallHelper.Select("Createdby", "Ranjith");
@@ -72,25 +72,33 @@ namespace Zaspire.Scripts
             CallHelper.Select("Modifiedby", "Ranjith");
 
             //Select dropdown list
-            CallHelper.Select("Createdtype", "eq");
+            //CallHelper.Select("Createdtype", "ne");
 
             //Enter text
-            CallHelper.TypeText("Createdtext", "Ranjith");
+            CallHelper.TypeText("Createdtext", "kavitha");
 
             //Select dropdown list
-            CallHelper.Select("Modifytype", "eq");
+            //CallHelper.Select("Modifytype", "eq");
 
             //Enter text
             CallHelper.TypeText("Modifytext", "Ranjith");
 
+            //Select dropdown list
+            //CallHelper.Select("Calldatetype", "eq");
+
             //Enter text
-            CallHelper.TypeText("Nemeadditioanal", "a.name:string");
+            CallHelper.TypeText("Calldatetext", "Ranjith");
+
+
+
+            //Enter text
+            CallHelper.Select("Nemeadditioanal", "a.call_to_name:string");
 
             //Select dropdown list
-            CallHelper.TypeText("Nametype", "eq");
+            //CallHelper.Select("Nametype", "eq");
 
             //Enter text
-            CallHelper.Select("Nametext", "Ranjith");
+            CallHelper.TypeText("Nametext", "Ranjith");
 
             //Click on save
             CallHelper.ClickElement("Save");

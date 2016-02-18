@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+  <Movesoverprofile><![CDATA[//a[@class='dropdown-toggle']]]></Movesoverprofile>
+  <SelectProfile><![CDATA[//a[@href='/infoaspire/myprofile']]]></SelectProfile>
+  <ClickonAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickonAdmin>
+  <Setup><![CDATA[//span[@style='padding-right : 57%;']]]></Setup>
+  <CustomFields><![CDATA[//a[@href='/infoaspire/admin/customfields']]]></CustomFields>
+  ------------------------------Index-------------------------------------------
+  <CustomFilter><![CDATA[//*[@id='customfields_grid_filter']/label/input]]></CustomFilter>
+  <CustomReset><![CDATA[//*[@id='ToolTables_customfields_grid_0']]]></CustomReset>
+  <ExportCsv><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_1']]]></ExportCsv>
+  <ExportPdf><![CDATA[//*[@id='ZeroClipboard_TableToolsMovie_2']]]></ExportPdf>
+  <RecordsPerpage><![CDATA[//*[@id='customfields_grid_length']/label/select]]></RecordsPerpage>
+  <CutomAddNew><![CDATA[//i[@class='icon-plus icon-white']]></CutomAddNew>
+  <Customview><![CDATA[//*[@id='customfields_grid']/tbody/tr[1]/td[2]/a]]></Customview>
+  <Customedit><![CDATA[//*[@id='customfields_grid']/tbody/tr[1]/td[1]/a/i]]></Customedit>
+  <CustomMastercheckbox><![CDATA[//*[@id='customfields_grid']/thead/tr/th[1]/div/span/input]]></CustomMastercheckbox>
+
+
+-----------------------------Createtextbox----------------------------------------------
+  <Back><![CDATA[//a[@title='Back to Custom Fields']]]></Back>
+  <Modulelist1><![CDATA[//*[@id='CustomfieldModuleId']]]></Modulelist1>
+  <Sectionlist1><![CDATA[//*[@id='CustomfieldSectionId']]]></Sectionlist1>
+  <AddField><![CDATA[//*[@id='add_field']]]></AddField>
+  <FieldType><![CDATA[//*[@id='CustomType']]]></FieldType>
+  <Lable><![CDATA[//*[@id='CustomfieldLabel']]]></Lable>
+  <Datatype><![CDATA[//*[@id='CustomfieldValidation']]]></Datatype>
+  <MaximumLenth><![CDATA[//*[@id='CustomfieldDataLength']]]></MaximumLenth>
+  <IsrequiredYes><![CDATA[//*[@id='CustomFieldtypesForm']/div[6]/div/div/div[2]/input[1]]]></IsrequiredYes>
+  <IsrequiredNo><![CDATA[//*[@id='CustomFieldtypesForm']/div[6]/div/div/div[2]/input[2]]]></IsrequiredNo>
+<ElasticSearch><![CDATA[//*[@id='CustomfieldElasticSearch']]]></ElasticSearch>
+<Taggable><![CDATA[//*[@id='CustomfieldTaggable']]]></Taggable>
+<Import><![CDATA[//*[@id='CustomfieldImport']]]></Import>
+  <Add><![CDATA[//*[@id='CustomFieldtypesForm']/li/button]]></Add>
+  
+---------------------------------RadioButton---------------------------------------------
+
+<buttonrequiredYes><![CDATA[//*[@id='CustomFieldtypesForm']/div[4]/div/div/div[2]/input[1]]]></buttonrequiredYes>
+<buttonrequiredNo><![CDATA[//*[@id='CustomFieldtypesForm']/div[4]/div/div/div[2]/input[2]]]></buttonrequiredNo>
+    <RadioAddOptionlink><![CDATA[//*[@id='radio_data']/a]]></RadioAddOptionlink>
+   
+  <buttonlable><![CDATA[//*[@id='CustomfieldOptions']]]></buttonlable>
+  
+  <CheckAddOptionlink><![CDATA[//*[@id='check_data']/a]]></CheckAddOptionlink> 
+  <ComboAddOptionlink><![CDATA[//*[@id='combo_data']/a]]></ComboAddOptionlink>
+ 
+  <TestAreaRequiredYes><![CDATA[//*[@id='CustomFieldtypesForm']/div[5]/div/div/div[2]/input[1]]]></TestAreaRequiredYes>
+<TestAreaRequiredYes><![CDATA[//*[@id='CustomFieldtypesForm']/div[5]/div/div/div[2]/input[2]]]></TestAreaRequiredYes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Locator>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

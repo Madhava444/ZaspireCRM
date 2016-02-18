@@ -43,10 +43,10 @@ namespace Zaspire.Scripts
             //#############trash index###############
 
             //Click on Trash
-            //CallHelper.ClickElement("Trash");
+            CallHelper.ClickElement("Trash1");
 
             //Redirect to logout
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls/trash");
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls/trash");
 
             //Click on view record
             CallHelper.ClickElement("TrashCallsview");

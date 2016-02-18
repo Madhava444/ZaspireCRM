@@ -44,35 +44,35 @@ namespace Zaspire.Scripts
             //#############trash index###############
 
             //Click on Trash
-            //addpartnerHelper.ClickElement("Trash");
+            CallHelper.ClickElement("Trash1");
 
             //Redirect to parertrash
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls/trash");
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls/trash");
             //Enter text in filter
-            CallHelper.TypeText("CallsTrashFilter", "Test");
+           /* CallHelper.TypeText("CallsTrashFilter", "a");
 
             //Click on checkbox
             CallHelper.ClickElement("MasterCheckboxTrashCalls");
 
             //Moves over on bulk action
-            CallHelper.MouseOver("Mouseovertrash");
+            CallHelper.MouseOver("locator1");
 
             //Click on Delete partner
-            CallHelper.ClickElement("RemovecallsForeever");
+            CallHelper.ClickElement("RemoveCallsForeever");
 
             //Click  on reset  button
-            CallHelper.ClickElement("ResetTrash");
+            CallHelper.ClickElement("ResetTrash");*/
 
             // ------------------Restore Calls ------------------    
 
             //Enter text in filter
-            CallHelper.TypeText("FilterTrash", "New");
+            CallHelper.TypeText("CallsTrashFilter", "test");
 
             //Click on checkbox
             CallHelper.ClickElement("MasterCheckboxTrashCalls");
 
             //Moves over on bulk action
-            CallHelper.MouseOver("Mouseovertrash");
+            CallHelper.MouseOver("locator1");
 
             //click  on restore partner
             CallHelper.ClickElement("RestoreCalls");

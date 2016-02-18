@@ -50,15 +50,16 @@ namespace Zaspire.Scripts
 
             //check master checkbox
             EventHelper.ClickElement("EventMasterCheckbox");
+           
 
-           // Select result per page options
+            // Select result per page options
             EventHelper.MouseHover("EventBulkAction");
-
+           
             // Select result per page options
             EventHelper.ClickElement("EventBulkUpdate");
 
             //Select status
-            EventHelper.Select("BulkStatus", "In Progress");
+            EventHelper.Select("BulkStatus", "Completed");
 
             //Select Category
             EventHelper.Select("BulkCategory", "12503");
@@ -74,6 +75,52 @@ namespace Zaspire.Scripts
             
             //Click on PartnerFilter Reset
             EventHelper.ClickElement("EventReset");
+
+            //Click On Quick Look Mouse Over
+            EventHelper.Mouseover1("locator");
+            EventHelper.WaitForWorkAround(1000);
+
+            //Click On Quick Look
+            EventHelper.ClickElement("ToolActioncall");
+
+            //Click On Quick Look View
+            EventHelper.ClickElement("ToolViewCall");
+            EventHelper.WaitForWorkAround(1000);
+
+            //Click on Back to Calls
+            //EventHelper.ClickElement("CallBack");
+
+            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events");
+            EventHelper.WaitForWorkAround(1000);
+
+            //Click On Quick Look Mouse Over
+            EventHelper.Mouseover1("locator");
+            EventHelper.WaitForWorkAround(1000);
+
+            //Click On Quick Look
+            EventHelper.ClickElement("ToolActioncall");
+
+            //Click On Quick Look Edit
+            EventHelper.ClickElement("ToolEditCall");
+            EventHelper.WaitForWorkAround(10000);
+
+            //Click on Cancel to Calls
+            //EventHelper.ClickElement("SelectCancel");
+
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events");
+
+            //Click On Quick Look Mouse Over
+            EventHelper.Mouseover1("locator");
+
+            //Click On Quick Look
+            EventHelper.ClickElement("ToolActioncall");
+
+            //Clicok On Quick Look Delete
+            EventHelper.ClickElement("ToolDeleteCall");
+
+            EventHelper.AcceptAlert();
+            EventHelper.WaitForWorkAround(1000);
+
 
             // Click on record
             EventHelper.ClickElement("EventView");

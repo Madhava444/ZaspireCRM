@@ -44,7 +44,7 @@ namespace Zaspire.Scripts
             CallHelper.Select("CallDefaultview", "Recently Added");
 
             //Select Custom view
-            CallHelper.Select("CallCustomview", "");
+           /* CallHelper.Select("CallCustomview", "");
 
 
             //Enter text in filter
@@ -54,20 +54,21 @@ namespace Zaspire.Scripts
             CallHelper.ClickElement("CallReset");
 
             //check master checkbox
-            //CallHelper.ClickElement("CallMasterCheckbox");
+            CallHelper.ClickElement("CallMasterCheckbox");
 
             // Select result per page options
-            /* CallHelper.MouseHover("locator1");
+           CallHelper.MouseHover("locator1");
 
              // Select result per page options
-             CallHelper.ClickElement("EventBulkUpdate");
+             CallHelper.ClickElement("CallBulkupdate");
 
+            //Select Owner
+            CallHelper.Select("BulkupdateOwner", "17");
 
-             //Select Category
-             CallHelper.Select("BulkCategory", "12503");
+            //Select Category
+            CallHelper.Select("BulkupdateCategory", "12403");
 
-             //Select Owner
-             CallHelper.Select("BulkOwner", "17");
+             
 
              //Click on Update
              CallHelper.ClickElement("BulkupdateButton");
@@ -84,16 +85,16 @@ namespace Zaspire.Scripts
              //check master checkbox
              CallHelper.ClickElement("CallMasterCheckbox");
 
-            Moves over on bulk actions
+           // Moves over on bulk actions
              CallHelper.MouseHover("locator1");
 
              // Select result per page options
              CallHelper.ClickElement("CallDelete");
-             CallHelper.WaitForWorkAround(10000);*/
+             CallHelper.AcceptAlert(); */
 
-            //Click On Quick Look Mouse Over
-            CallHelper.Mouseover("locator");
-            CallHelper.WaitForWorkAround(5000);
+             //Click On Quick Look Mouse Over
+             CallHelper.Mouseover("locator");
+            CallHelper.WaitForWorkAround(10000);
 
             //Click On Quick Look
             CallHelper.ClickElement("ToolActioncall");
@@ -103,9 +104,9 @@ namespace Zaspire.Scripts
             CallHelper.WaitForWorkAround(1000);
 
             //Click on Back to Calls
-            //CallHelper.ClickElement("CallBack");
+            CallHelper.ClickElement("CallBack");
 
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls");
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls");
             CallHelper.WaitForWorkAround(1000);
 
             //Click On Quick Look Mouse Over
@@ -117,10 +118,10 @@ namespace Zaspire.Scripts
 
             //Click On Quick Look Edit
             CallHelper.ClickElement("ToolEditCall");
-            CallHelper.WaitForWorkAround(10000);
+            CallHelper.WaitForWorkAround(1000);
 
             //Click on Cancel to Calls
-            //CallHelper.ClickElement("SelectCancel");
+            CallHelper.ClickElement("SelectCancel");
 
             //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls");
 

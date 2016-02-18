@@ -65,37 +65,37 @@ namespace Zaspire.Scripts
             EventHelper.Select("CustomStatus", "In Progress");
 
             //Select dropdown list
-            EventHelper.Select("CustomCategory", "12502");
+            EventHelper.Select("CustomCategory", "12503");
 
             //Select dropdown list
             EventHelper.Select("CustomCreatedby", "Ranjith");
 
             //Enter text
-            EventHelper.TypeText("CustomModifiedby", "kavitha");
+            EventHelper.Select("CustomModifiedby", "Ranjith");
 
             //Select dropdown list
             EventHelper.Select("CustomPriority", "Medium");
 
             //Enter text
-            EventHelper.Select("Createdtype", "eq");
+            //EventHelper.Select("type", "eq");
 
             // Enter Created text
             EventHelper.TypeText("Createdtext", "Ranjith");
             
             //select modified type
-            EventHelper.Select("Modifytype", "eq");
+            //EventHelper.Select("type", "eq");
 
             //Enter modified text
             EventHelper.TypeText("Modifytext", "Kavitha");
 
             //Enter text
-            EventHelper.TypeText("Nemeadditioanal", "a.name:string");
+            EventHelper.Select("Nemeadditioanal","a.name:string");
 
             //Select dropdown list
-            EventHelper.TypeText("Nametype", "eq");
+            //EventHelper.TypeText("type", "eq");
 
             //Enter text
-            EventHelper.Select("Nametext", "Kavitha");
+            EventHelper.TypeText("Nametext", "Ranjith");
 
             //Click on save
             EventHelper.ClickElement("CustomSave");

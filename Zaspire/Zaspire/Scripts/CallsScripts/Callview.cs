@@ -53,11 +53,11 @@ namespace Zaspire.Scripts
 
 
             //-------------------------AddFile------------------------
-            /*  //Click on view 
-              CallHelper.ClickElement("Callview");
+              //Click on view 
+              //CallHelper.ClickElement("Callview");
 
               //Click on Add file
-              CallHelper.ClickElement("CallAddfile");
+              /*CallHelper.ClickElement("CallAddfile");
 
               //EnterFile name
               CallHelper.TypeText("CallFileName", "Event");
@@ -66,7 +66,7 @@ namespace Zaspire.Scripts
               CallHelper.Select("CallFileCategory", "12556");
 
               //Click on Select file
-              CallHelper.ClickElement("CallFileSelect");
+              CallHelper.upload1("//*[@id='AttachmentFiles']");
 
               //Enter Descriptions
               CallHelper.TypeText("CallDescription","new call adding a file");
@@ -82,7 +82,7 @@ namespace Zaspire.Scripts
               CallHelper.ClickElement("CallCategoryInlineedit");
 
               //Select Category from list
-              CallHelper.Select("Caltegorylist", "12502");
+              CallHelper.Select("Caltegorylist", "12403/19407a");
 
               //Click on Save symbol
               CallHelper.ClickElement("CategorySave");
@@ -98,14 +98,13 @@ namespace Zaspire.Scripts
 
               //File Download
               CallHelper.ClickElement("Downloadfile");
+            CallHelper.AcceptAlert();
 
-              //File delete
-              CallHelper.ClickElement("CallFileDelete");
+            //File delete
+            CallHelper.ClickElement("CallFileDelete");
+            CallHelper.AcceptAlert();
 
-
-              // Click on record
-              CallHelper.ClickElement("CallView");
-
+            
               // Click on back button
               CallHelper.ClickElement("CallBack");*/
 
@@ -114,10 +113,10 @@ namespace Zaspire.Scripts
             //-------------------Delete Calls-----------------------------------
 
             // Click on record
-            CallHelper.ClickElement("Callview");
+            //CallHelper.ClickElement("Callview");
 
             //Moves hover on more actions
-            CallHelper.MouseOver("CallMoreactions");
+            CallHelper.Mouseover1("locator1");
 
 
             //Click on forward
@@ -137,6 +136,9 @@ namespace Zaspire.Scripts
 
             //Click on Add Button
             CallHelper.ClickElement("AddButton");
+
+            //Moves hover on more actions
+            CallHelper.Mouseover1("locator1");
 
             //Click on Delete
             CallHelper.ClickElement("DeleteCall");

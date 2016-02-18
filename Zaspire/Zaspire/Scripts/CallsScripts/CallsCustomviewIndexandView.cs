@@ -9,7 +9,7 @@ namespace Zaspire.Scripts
     public class CallsCustomviewIndexandView : DriverTestCase
     {
         [TestMethod]
-        public void CustomviewIndexandView()
+        public void callsCustomviewIndexandView()
         {
             string[] username = null;
             string[] password = null;
@@ -43,6 +43,23 @@ namespace Zaspire.Scripts
             //Click on Index
             CallHelper.ClickElement("customview");
 
+
+            //Click on new button
+            CallHelper.ClickElement("Newbutton");
+
+
+            //Enter text in save view as
+            CallHelper.TypeText("saveviewas", "new");
+
+            //Click on Save button
+            CallHelper.ClickElement("CancelCustomview");
+
+            //Select dropdown list
+            CallHelper.Select("Owner", "Ranjith");
+
+            //Click on back button
+            CallHelper.ClickElement("Save");
+
             //Click on view
             CallHelper.ClickElement("CustomviewView");
 
@@ -53,7 +70,7 @@ namespace Zaspire.Scripts
             CallHelper.ClickElement("CancelCustomview");
 
             //select in dropdown
-            CallHelper.Select("Selectdropdown", "120");
+            CallHelper.Select("Selectdropdown", "133");
 
 
             //Clcik on Set as default
@@ -69,6 +86,7 @@ namespace Zaspire.Scripts
             CallHelper.AcceptAlert();
             CallHelper.WaitForWorkAround(2000);
 
+
             //Click on Index
             CallHelper.ClickElement("customview");
 
@@ -79,20 +97,7 @@ namespace Zaspire.Scripts
             CallHelper.ClickElement("Resetcustomview");
 
 
-            //Click on new button
-            CallHelper.ClickElement("Newbutton");
-
-
-            //Enter text in save view as
-            //CallHelper.TypeText("saveviewas", "new");
-
-            //Click on Save button
-            CallHelper.ClickElement("CancelCustomview");
-
-       
-
-            //Click on back button
-            //CallHelper.ClickElement("CallBack");
+            
 
         }
     }

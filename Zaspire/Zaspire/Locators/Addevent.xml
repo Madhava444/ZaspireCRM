@@ -1,45 +1,10 @@
-<<<<<<< HEAD
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Locator>
-  
-  <AddEvent>
-  
-  <Selectevents><![CDATA[//*[@id='events']]]></Selectevents>
-  <Clickonnew><![CDATA[html/body/div[4]/div[2]/div[1]/div/div[2]/ul/li[3]/a]]></Clickonnew>
-  <SelectRelatedTo><![CDATA[//*[@id='EventParentType']]]></SelectRelatedTo>
-  <SelectMergeRecords><![CDATA[//*[@id='assignrecord']]]></SelectMergeRecords>
-  <SelectRelatedname><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]]]></SelectRelatedname>
-  <EventCategory><![CDATA[//*[@id='EventCategoryId']]]></EventCategory>
-  <EventPriority><![CDATA[//*[@id='EventPriority']]]></EventPriority>
-  <EventAssignedUser><![CDATA[//*[@id='EventAssignedUserId']]]></EventAssignedUser>
-  <SelectEventType><![CDATA[//*[@id='EventType']]]></SelectEventType>
-  <SelectEventStatus><![CDATA[//*[@id='EventEventStatus']]]></SelectEventStatus>
-  <EnterSubject><![CDATA[//*[@id='EventName']]]></EnterSubject>
-  <EnterEventLocation><![CDATA[//*[@id='EventLocation']]]></EnterEventLocation>
-  <SelectEventStartDate><![CDATA[//*[@id='EventStartDate']]]></SelectEventStartDate>
-  <Selectstarttime><![CDATA[//*[@id='clockface_1_toggle-btn']]]></Selectstarttime>
-  <SelectEventEndDate><![CDATA[//*[@id='EventEndDate']]]></SelectEventEndDate>
-  <Selectendtime><![CDATA[//*[@id='clockface_2_toggle-btn']]]></Selectendtime>
-  <CheckReminder><![CDATA[//*[@id='pop']/label/div/span]]></CheckReminder>
-  <SelectreminderTime><![CDATA[//*[@id='reminderTime']]]></SelectreminderTime>
-  <Emailpopup><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[1]/div/div/div[3]/div[3]/div/div[1]/label/div/span]]></Emailpopup>
-  <SelectemailReminderTime><![CDATA[//*[@id='emailReminderTime']]]></SelectemailReminderTime>
-  <Clickonsave><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[3]/div/div/button]]></Clickonsave>
-  <ClickonCancel><![CDATA[//*[@id='EventAddnewForm']/div[3]/div/div[3]/div/div/a]]></ClickonCancel>
-
-  
-  </AddEvent>
-
-
-</Locator>
-=======
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Locator> 
   --------------Create new Event---------------------------
   
   <Selectevents><![CDATA[//*[@id='events']]]></Selectevents>
-  <Clickonnew><![CDATA[html/body/div[4]/div[2]/div[1]/div/div[2]/ul/li[3]/a]]></Clickonnew>
+  <Clickonnew><![CDATA[//a[@title='New Event']]]></Clickonnew>
   <SelectRelatedTo><![CDATA[//*[@id='EventParentType']]]></SelectRelatedTo>
   <SelectMergeRecords><![CDATA[//*[@id='assignrecord']]]></SelectMergeRecords>
   <SelectRelatedname><![CDATA[//*[@id='relatedToContent']/table/tbody/tr[1]/td[1]/a]]></SelectRelatedname>
@@ -93,34 +58,38 @@
   <EventMasterCheckbox><![CDATA[//*[@id='events_grid']/thead/tr/th[1]/div/span/input]]></EventMasterCheckbox>
   <SelectCustomview><![CDATA[//*[@id='savedSearch']]]></SelectCustomview>
   
+  <ToolActioncall><![CDATA[//*[@id='actionicons1']/a/i[2]]]></ToolActioncall>
+  <ToolEditCall><![CDATA[//*[@id='actionicons1']/ul/li[2]/a]]></ToolEditCall>
+  <ToolViewCall><![CDATA[//*[@id='actionicons1']/ul/li[1]/a]]></ToolViewCall>
+  <ToolDeleteCall><![CDATA[//*[@id='actionicons1']/ul/li[3]/a]]></ToolDeleteCall>
   -------------View-------------------
 
-  <EventBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></EventBack>
-  <EventEdit><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></EventEdit>
-  <EventMoreaction><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/a]]></EventMoreaction>
-  <EventViewNew><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></EventViewNew>
-  <EventDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/div/div/ul/li/a]]></EventDelete>
+  <EventBack><![CDATA[//a[@title='Back To Events']]]></EventBack>
+  <EventEdit><![CDATA[//a[@title='Edit Event']]]></EventEdit>
+  <EventMoreaction><![CDATA[//a[@data-hover='dropdown']]]></EventMoreaction>
+  <EventViewNew><![CDATA[//a[@title='New Event']]]></EventViewNew>
+  <EventDelete><![CDATA[//a[@title='Delete Event']]]></EventDelete>
   <EventInlineeditStatus><![CDATA[//*[@id='progress_div']/div/div[1]]]></EventInlineeditStatus>
   <EventInlineeditCategory><![CDATA[//*[@id='category']/span]]></EventInlineeditCategory>
   <EventInlineeditOwner><![CDATA[//*[@id='responsibility']]]></EventInlineeditOwner>
   <SelectCategory><![CDATA[//*[@id='autogen3']]]></SelectCategory>
-  <SelectCategorySave><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></SelectCategorySave>
-  <SelectOwner><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/form/div/div[1]/div[1]/select]]></SelectOwner>
-  <SelectOwnerSave><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/form/div/div[1]/div[2]/button[1]]]></SelectOwnerSave>
-  <EventAddFile><![CDATA[html/body/div[4]/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/div[2]/div/table/thead/tr/th[3]/a/i/small]]></EventAddFile>
+  <SelectCategorySave><![CDATA[//button[@type='submit']]]></SelectCategorySave>
+  <SelectOwner><![CDATA[//select[@class='form-control input-medium']]]></SelectOwner>
+  <SelectOwnerSave><![CDATA[//button[@type='submit']]]></SelectOwnerSave>
+  <EventAddFile><![CDATA[//a[@style='float:right']]]></EventAddFile>
   <EventFileName><![CDATA[//*[@id='AttachmentName']]]></EventFileName>
   <EventFileCategory><![CDATA[//*[@id='AttachmentCategoryId']]]></EventFileCategory>
-  <EventFileSelect><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[2]/div/div[4]/div/div/div/div/span]]></EventFileSelect>
+  <EventFileSelect><![CDATA[//*[@id='AttachmentFiles']]]></EventFileSelect>
   <EventDescription><![CDATA[//*[@id='AttachmentDescription']]]></EventDescription>
   <EventFileSave><![CDATA[//*[@id='addFileSubmit']]]></EventFileSave>
   <EventFileCancel><![CDATA[//*[@id='CreateAttachment']/div[2]/div/div[3]/button[2]]]></EventFileCancel>
-  <EventFileDownload><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[1]/div[2]/div[2]/div/table/tbody/tr/td[1]/a/i]]></EventFileDownload>
-  <EventFileDelete><![CDATA[html/body/div[4]/div[2]/div[3]/div/div/div[2]/div/div[1]/div[2]/div[2]/div/table/tbody/tr/td[3]/a/span]]></EventFileDelete>
+  <EventFileDownload><![CDATA[//i[@class='icon-paper-clip file_icon']]]></EventFileDownload>
+  <EventFileDelete><![CDATA[//td[@style='padding-left: 23px']]]></EventFileDelete>
   
   
   -------------------------------Custom view view and Index--------------------------
   
-  <EventCustomviewBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></EventCustomviewBack>
+  <EventCustomviewBack><![CDATA[//a[@title='Back To Events']]]></EventCustomviewBack>
   <EventCustomviewDelete><![CDATA[//*[@id='remove_saved_views']]]></EventCustomviewDelete>
   <EventCustomviewNew><![CDATA[//*[@id='actionbuttons']]]></EventCustomviewNew>
   <EventCustomviewCheckbox><![CDATA[//*[@id='events_saved_views']/thead/tr/th[1]/div/span/input]]></EventCustomviewCheckbox>
@@ -134,22 +103,26 @@
 
   <Eventsaveviewas><![CDATA[//*[@id='searchName']]]></Eventsaveviewas>
   <Sortby><![CDATA[//*[@id='EventSortCol']]]></Sortby>
-  <Owner><![CDATA[//*[@id='autogen2']]]></Owner>
-  <CustomRelatedTo><![CDATA[//*[@id='autogen3']]]></CustomRelatedTo>
-  <CustomStatus><![CDATA[//*[@id='autogen4']]]></CustomStatus>
-  <CustomCategory><![CDATA[//*[@id='autogen5']]]></CustomCategory>
-  <CustomCreatedby><![CDATA[//*[@id='autogen6']]]></CustomCreatedby>
-  <CustomModifiedby><![CDATA[//*[@id='autogen7']]]></CustomModifiedby>
-  <CustomPriority><![CDATA[//*[@id='autogen8']]]></CustomPriority>
-  <Createdtype><![CDATA[//*[@id='EventCustomColOps']]]></Createdtype>
+  <Owner><![CDATA[//*[@id='EventCustomColValues0']]]></Owner>
+  <CustomRelatedTo><![CDATA[//*[@id='EventCustomColValues1']]]></CustomRelatedTo>
+  <CustomStatus><![CDATA[//*[@id='EventCustomColValues2']]]></CustomStatus>
+  <CustomCategory><![CDATA[//*[@id='EventCustomColValues3']]]></CustomCategory>
+  <CustomCreatedby><![CDATA[//*[@id='EventCustomColValues4']]]></CustomCreatedby>
+  <CustomModifiedby><![CDATA[//*[@id='EventCustomColValues5']]]></CustomModifiedby>
+  <CustomPriority><![CDATA[//*[@id='EventCustomColValues6']]]></CustomPriority>
+  <type><![CDATA[//*[@id='EventCustomColOps']]]></type>
   <Createdtext><![CDATA[//*[@id='EventCustomColValues7']]]></Createdtext>
-  <Modifytype><![CDATA[//*[@id='//*[@id='EventCustomColOps']]]></Modifytype>
+  
   <Modifytext><![CDATA[//*[@id='EventCustomColValues8']]]></Modifytext>
   <Nemeadditioanal><![CDATA[//*[@id='EventAdditionalColNames']]]></Nemeadditioanal>
-  <Nametype><![CDATA[//*[@id='EventAdditionalColOps']]]></Nametype>
+  
   <Nametext><![CDATA[//*[@id='EventAdditionalColValues']]]></Nametext>
   <CustomSave><![CDATA[//*[@id='EventIndexForm']/div[2]/div[5]/div/div/button]]></CustomSave>
   <CancelCustomview><![CDATA[//*[@id='EventIndexForm']/div[2]/div[5]/div/div/a[2]]]></CancelCustomview>
+
+  
+  <EditCustomSave><![CDATA[//*[@id='EventIndexForm']/div[2]/div[1]/div/div/button]]></EditCustomSave>
+  <EditCancelCustomview><![CDATA[//*[@id='EventIndexForm']/div[2]/div[1]/div/div/a[2]]]></EditCancelCustomview>
   
   <Customviewnew><![CDATA[//*[@id='EventQuickSearchIndexForm']/table/tbody/tr/td[2]/a]]></Customviewnew>
   <CustomviewDelete><![CDATA[//*[@id='deleteSearch']]]></CustomviewDelete>
@@ -170,19 +143,19 @@
 
 ----------------Trash---Index-------------------------------------------
 
-  <Trash><![CDATA[html/body/div[4]/div[1]/ul/li[11]/ul/li[2]/a]]></Trash>
+  <Trash><![CDATA[//a[@href='/infoaspire/events/trash']]]></Trash>
   <EventTrashFilter><![CDATA[//*[@id='event_trash_filter']/label/input]]></EventTrashFilter>
   <EventTrashReset><![CDATA[//*[@id='ToolTables_event_trash_0']]]></EventTrashReset>
   <MasterCheckboxTrashEvent><![CDATA[//*[@id='event_trash']/thead/tr/th[1]/div/span/input]]></MasterCheckboxTrashEvent>   
   <MouseHovertrash><![CDATA[//*[@id='event_trash_wrapper']/div[1]/div/div/button]]></MouseHovertrash>
   <RemoveEventForeever><![CDATA[//*[@id='remove_record']]]></RemoveEventForeever>
   <RestoreEvent><![CDATA[//*[@id='restore_record']]]></RestoreEvent>
-  <TrashEventview><![CDATA[//*[@id='normal']]]></TrashEventview>  
-  <Backtrash><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[4]/a]]></Backtrash>
+    
+  <Backtrash><![CDATA[//a[@href='/infoaspire/events']]]></Backtrash>
   
-  <ViewTrashRestore><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[6]/a]]></ViewTrashRestore>    
-  <ViewTrashDelete><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[5]/a]]></ViewTrashDelete>
-  <ViewTrashBack><![CDATA[html/body/div[4]/div[2]/div[1]/div/ul/li[7]/a]]></ViewTrashBack>   
+  <ViewTrashRestore><![CDATA[//a[@title='Restore Event']]]></ViewTrashRestore>    
+  <ViewTrashDelete><![CDATA[//a[@title='Delete Forever']]]></ViewTrashDelete>
+  <ViewTrashBack><![CDATA[//a[@title='Back To Events Trash']]]></ViewTrashBack>   
       
 
 
@@ -194,4 +167,3 @@
 
 
 </Locator> 
->>>>>>> 7a5adad18b4e7de395509533a5493fff59bb0549

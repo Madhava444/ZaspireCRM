@@ -39,16 +39,16 @@ namespace Zaspire.Scripts
             EventHelper.ClickElement("EventCustomView");
 
             //Click on view
-            EventHelper.ClickElement("CustomviewView");
+            EventHelper.ClickElement("EventCustomviewView");
 
-            //Click on edit
-            EventHelper.ClickElement("CustomviewEdit");
+            //Click on EventCustomviewEdit
+            EventHelper.ClickElement("EventCustomEdit");
 
             //Clcik on cancel
-            EventHelper.ClickElement("CancelCustomview");
+            EventHelper.ClickElement("EditCancelCustomview");
 
             //select in dropdown
-            EventHelper.Select("Selectdropdown", "30");
+            EventHelper.Select("Selectdropdown", "82");
 
 
             //Clcik on Set as default
@@ -60,19 +60,20 @@ namespace Zaspire.Scripts
 
             //Clcik on Delete
             EventHelper.ClickElement("CustomviewDelete");
+            EventHelper.DismissAlert();
 
             //Click on Index
-            EventHelper.ClickElement("customview");
+            EventHelper.ClickElement("EventCustomView");
 
             //Enter in filter
-            EventHelper.TypeText("Filtercustomview", "custom");
+            EventHelper.TypeText("EventCustomviewFilter", "custom");
 
             //Click on Reset
-            EventHelper.ClickElement("Resetcustomview");
+            EventHelper.ClickElement("EventCustomviewReset");
 
 
             //Click on new button
-            EventHelper.ClickElement("Newbutton");
+            EventHelper.ClickElement("EventCustomviewNew");
 
 
             //Click on Save button
@@ -86,7 +87,7 @@ namespace Zaspire.Scripts
             EventHelper.WaitForWorkAround(5000);
 
             //Click on back button
-            //EventHelper.ClickElement("EventCustomviewBack");
+            EventHelper.ClickElement("EventCustomviewBack");
 
         }
     }

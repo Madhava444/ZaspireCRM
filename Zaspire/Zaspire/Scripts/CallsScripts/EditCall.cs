@@ -50,15 +50,16 @@ namespace Zaspire.Scripts
             //#################### CREATE A CALL   #####################################
 
             //Create on Call
-            //CallHelper.ClickElement("ClickOnCallsAddNew");
+            CallHelper.ClickElement("Callview");
 
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls/update/47");
+            // GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/calls/update/47");
 
 
 
             //################### CLASSIFICATIONS & OWNERSHIP  #########################
+            //Create on Call
+            CallHelper.ClickElement("CallEdit");
 
-            
             //Select Related To
             CallHelper.Select("SelectRelatedTo", "10");
 
@@ -73,7 +74,7 @@ namespace Zaspire.Scripts
             CallHelper.Select("SelectCallCategory", "12403");
 
             //Select Owner  
-            CallHelper.Select("SelectCallowner", "82");
+            CallHelper.Select("SelectCallowner", "17");
 
 
 
@@ -81,7 +82,7 @@ namespace Zaspire.Scripts
             CallHelper.TypeText("EnterCallSubject", CallSubject);
 
             //Select Call Type
-            CallHelper.Select("SelectCallType", "Inbounds");
+           CallHelper.Select("SelectCallType", "Inbounds");
 
             //Select Call From
             //CallHelper.Select("SelectCallFrom", "");
@@ -108,7 +109,7 @@ namespace Zaspire.Scripts
             CallHelper.TypeText("EnterCallTo", "Call2");
 
             //Select Employee
-            CallHelper.Select("SelectEmployee", "102*Daron werison* (899) 956-3333");
+            //CallHelper.Select("SelectEmployee", "28*Kavitha Kedika* 989 898 8989");
 
             //Click On Starting Time
             CallHelper.ClickElement("EnterStartingtime");
@@ -117,13 +118,13 @@ namespace Zaspire.Scripts
             CallHelper.TypeText("CallHours", "00");
 
             //Click On Starting Time
-            CallHelper.TypeText("CallMinutes", "10");
+            CallHelper.TypeText("CallMinutes", "15");
 
             //Click On Starting Time
             CallHelper.TypeText("Callsinsec", "30");
 
             //Click On Save
-            CallHelper.ClickElement("Selectsave");
+            CallHelper.ClickElement("UpdateSelectsave");
            
 
 

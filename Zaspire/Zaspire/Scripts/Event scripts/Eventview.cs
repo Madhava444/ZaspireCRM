@@ -43,25 +43,33 @@ namespace Zaspire.Scripts
             EventHelper.ClickElement("EventView");
 
             //Clcik on activity tab
-           // EventHelper.ClickElement("EventEdit");
+            EventHelper.ClickElement("EventEdit");
+
+            EventHelper.Select("SelectEventStatus", "Completed");
 
             //Click on Timline
-            EventHelper.ClickElement("ClickonCancel");
-            
-            
+            EventHelper.ClickElement("EditSave");
+
+
             //-------------------------AddFile------------------------
-              
-              //Click on Add file
-               EventHelper.ClickElement("EventAddFile");
+
+            
+
+            //Click on Add file
+            EventHelper.ClickElement("EventAddFile");
+
+
+            //Click on status
+            EventHelper.Select("EventStatus", "Completed");
 
                //EnterFile name
                EventHelper.TypeText("EventFileName","Event");
 
                //Select Category
-               EventHelper.Select("EventFileCategory", "12556");
+               EventHelper.Select("EventFileCategory", "12503");
 
                //Click on Select file
-               EventHelper.ClickElement("EventFileSelect");
+               EventHelper.upload1("//*[@id='AttachmentFiles']");
 
                //Enter Descriptions
                EventHelper.TypeText("EventDescription","new event adding a file");
@@ -78,7 +86,7 @@ namespace Zaspire.Scripts
             EventHelper.ClickElement("EventInlineeditCategory");
 
             //Select Category from list
-            EventHelper.Select("SelectCategory", "12502");
+            EventHelper.Select("SelectCategory", "12503");
 
             //Click on Save symbol
             EventHelper.ClickElement("SelectCategorySave");
@@ -97,6 +105,7 @@ namespace Zaspire.Scripts
 
             //File delete
             EventHelper.ClickElement("EventFileDelete");
+            EventHelper.AcceptAlert();
 
             // Click on back button
             EventHelper.ClickElement("EventBack");
@@ -113,7 +122,7 @@ namespace Zaspire.Scripts
             //Click on Delete
             EventHelper.ClickElement("EventDelete");
 
-
+            EventHelper.DismissAlert();
 
 
 

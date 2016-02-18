@@ -40,20 +40,21 @@ namespace Zaspire.Scripts
             //#############trash index###############
 
             //Click on Trash
-            //ssEventHelper.ClickElement("Trash");
+            EventHelper.ClickElement("Trash");
 
             //Redirect to logout
-            GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/events/trash");
+            //GetWebDriver().Navigate().GoToUrl("http://www.zaspire.com/infoaspire/events/trash");
 
             //Click on view record
-            EventHelper.ClickElement("TrashEventview");
+            EventHelper.ClickElement("EventView");
 
             //Clcik on Restore
             EventHelper.ClickElement("ViewTrashRestore");
+            EventHelper.DismissAlert();
 
             //Click on Delete
             EventHelper.ClickElement("ViewTrashDelete");
-
+            EventHelper.DismissAlert();
 
             //Click on Back
             EventHelper.ClickElement("ViewTrashBack");

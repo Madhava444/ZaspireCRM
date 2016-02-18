@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Locator>
+
+  <Movesoverprofile><![CDATA[//a[@class='dropdown-toggle']]]></Movesoverprofile>
+  <SelectProfile><![CDATA[//a[@href='/infoaspire/myprofile']]]></SelectProfile>
+  <ClickonAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickonAdmin>
+  <Alertmanagement><![CDATA[//img[@alt='Alerts Management']]]></Alertmanagement>
+
+
+
+
+  <Owner><![CDATA[//*[@id='AlertOwner']]]></Owner>
+  <Everyoneupinowner><![CDATA[//*[@id='AlertUp']]]></Everyoneupinowner>
+  <Manager><![CDATA[//*[@id='AlertManger']]]></Manager>
+  <Everyonedowninowner><![CDATA[//*[@id='AlertDown']]]></Everyonedowninowner>
+  
+  ---------------------------Accounts-----------------------------
+  <CreatedAccount><![CDATA[//*[@id='check_1']]]></CreatedAccount>
+  <UpdatedAccount><![CDATA[//*[@id='check_2']]]></UpdatedAccount>
+  <DeletedAccount><![CDATA[//*[@id='check_3']]]></DeletedAccount>
+  <RestoreAccount><![CDATA[//*[@id='check_4']]]></RestoreAccount>
+  <ChangedStatusAccount><![CDATA[//*[@id='check_5']]]></ChangedStatusAccount>
+  <ChangedSourceAccount><![CDATA[//*[@id='check_6']]]></ChangedSourceAccount>
+  <ChangedownerAccount><![CDATA[//*[@id='check_7']]]></ChangedownerAccount>
+  <ChangedPartnerAccount><![CDATA[]//*[@id='check_8']]></ChangedPartnerAccount>
+  <ChangedCategoryAccount><![CDATA[//*[@id='check_9']]]></ChangedCategoryAccount>
+  <ChangedManagerAccount><![CDATA[//*[@id='check_10']]]></ChangedManagerAccount>
+    <AccountAddedGroup><![CDATA[//*[@id='check_11']]]></AccountAddedGroup>
+  <AccountDeleteGroup><![CDATA[//*[@id='check_12']]]></AccountDeleteGroup>
+  <AccountAddNote><![CDATA[//*[@id='check_13']]]></AccountAddNote>
+  <AccountAddNote><![CDATA[//*[@id='check_13']]]></AccountAddNote>
+  <AccountAddFile><![CDATA[//*[@id='check_14']]]></AccountAddFile>
+  <AccountLoggedaCall><![CDATA[//*[@id='check_15']]]></AccountLoggedaCall>
+  <AccountAddEvent><![CDATA[//*[@id='check_16']]]></AccountAddEvent>
+  <AccountChangedstatusFrom><![CDATA[//*[@id='Alert5from']]]></AccountChangedstatusFrom>
+  <AccountChangedstatusTo><![CDATA[//*[@id='Alert5to']]]></AccountChangedstatusTo>
+<AccountChangedSourceFrom><![CDATA[//*[@id='Alert6from']]]></AccountChangedSourceFrom>
+  <AccountChangedSourceTo><![CDATA[//*[@id='Alert6to']]]></AccountChangedSourceTo>
+   
+----------------------------Candidates---------------------------------------------------
+  
+  <CreatedCandidates><![CDATA[//*[@id='check_89']]]></CreatedCandidates>
+  <UpdatedCandidates><![CDATA[//*[@id='check_90']]]></UpdatedCandidates>
+  <DeletedCandidates><![CDATA[//*[@id='check_91']]]></DeletedCandidates>
+  <RestoreCandidates><![CDATA[//*[@id='check_92']]]></RestoreCandidates>
+  <ChangedStatusCandidates><![CDATA[//*[@id='check_93']]]></ChangedStatusCandidates>
+  <ChangedSourceCandidates><![CDATA[//*[@id='check_'94]]]></ChangedSourceCandidates>
+  <ChangedownerCandidates><![CDATA[//*[@id='check_'95]]></ChangedownerCandidates>
+  <ChangedManagerCandidates><![CDATA[//*[@id='che6ck_96']]]></ChangedManagerCandidates>
+  <CandidatesAddedGroup><![CDATA[//*[@id='check_97']]]></CandidatesAddedGroup>
+  <CandidatesDeleteGroup><![CDATA[//*[@id='check_98']]]></CandidatesDeleteGroup>
+  <CandidatesAddNote><![CDATA[//*[@id='check_99']]]></CandidatesAddNote>
+  <CandidatesAddFile><![CDATA[//*[@id='check_100']]]></CandidatesAddFile>
+  <CandidatesLoggedaCall><![CDATA[//*[@id='check_101']]]></CandidatesLoggedaCall>
+  <CandidatesAddEvent><![CDATA[//*[@id='check_102']]]></CandidatesAddEvent>
+ <CandidatesChangedstatusFrom><![CDATA[//*[@id='Alert93from']]]></CandidatesChangedstatusFrom>  
+  <CandidatesChangedstatusTo><![CDATA[//*[@id='Alert93to']]]></CandidatesChangedstatusTo>
+  
+
+
+-----------------------------Campaigns---------------------------------------------
+
+  <CreatedCampaign><![CDATA[//*[@id='check_102']]]></CreatedCampaign>
+  <UpdatedCampaign><![CDATA[//*[@id='check_103']]]></UpdatedCampaign>
+  <DeletedCampaign><![CDATA[//*[@id='check_104']]]></DeletedCampaign>
+ <RestoreCampaign><![CDATA[//*[@id='check_'105]]]></RestoreCampaign>
+  <ChangedStatusCampaign><![CDATA[//*[@id='check_106']]]></ChangedStatusCampaign>
+ <ChangedSourceCampaign><![CDATA[//*[@id='check_107']]]></ChangedSourceCampaign>
+  <ChangedownerCampaign><![CDATA[//*[@id='check_108']]]></ChangedownerCampaign>
+ <ChangedCategoryCampaign><![CDATA[//*[@id='check_109']]]></ChangedCategoryCampaign>
+  <ChangedManagerCampaign><![CDATA[//*[@id='check_110]]]></ChangedManagerCampaign>
+  <CampaignAddedGroup><![CDATA[//*[@id='check_111']]]></CampaignAddedGroup>
+  <CampaignDeleteGroup><![CDATA[//*[@id='check_112']]]></CampaignDeleteGroup>
+  <CampaignAddNote><![CDATA[//*[@id='check_113']]]></CampaignAddNote>
+  <CampaignAddEvent><![CDATA[//*[@id='check_114']]]></CampaignAddEvent>
+  <CampaignChangedstatusFrom><![CDATA[//*[@id='Alert106from']]]></CampaignChangedstatusFrom>
+  <CampaignChangedstatusTo><![CDATA[//*[@id='Alert106to']]]></CampaignChangedstatusTo>
+  
+
+
+------------------------------------------Contacts---------------------------
+
+<CreatedContact><![CDATA[//*[@id='check_35']]]></CreatedContact>
+  <UpdatedContact><![CDATA[//*[@id='check_36']]]></UpdatedContact>
+  <DeletedContact><![CDATA[//*[@id='check_37']]]></DeletedContact>
+  <RestoredContact><![CDATA[//*[@id='check_38']]]></RestoredContact>
+  <ChangedStatusContact><![CDATA[//*[@id='check_39']]]></ChangedStatusContact>
+  <ChangtedsourceContact><![CDATA[//*[@id='check_40']]]></ChangtedsourceContact>
+  <ChangedStatusContactFrom><![CDATA[//*[@id='Alert39from']]]></ChangedStatusContactFrom>
+  <ChangedStatusContactto><![CDATA[//*[@id='Alert39to']]]></ChangedStatusContactto>
+  <ChangedOwnerContact><![CDATA[//*[@id='check_41']]]></ChangedOwnerContact>
+  <ChangedCategoryContact><![CDATA[//*[]@id='check_42']]]></ChangedCategoryContact>
+  <ContactAddGroup><![CDATA[//*[@id='check_43']]]></ContactAddGroup>
+  <ContactDeleteGroup><![CDATA[//*[@id='check_44']]]></ContactDeleteGroup>
+  <ContactAddNote><![CDATA[//*[@id='check_45']]]></ContactAddNote>
+  <ContactAddFile><![CDATA[//*[@id='check_46']]]></ContactAddFile>
+  <ContactLoggedaCall><![CDATA[//*[@id='check_47']]]></ContactLoggedaCall>
+  <ContactAddEvent><![CDATA[//*[@id='check_48']]]></ContactAddEvent>
+  <ChangtedsourceContactFrom><![CDATA[//*[@id='Alert40from']]]></ChangtedsourceContactFrom>
+  <ChangtedsourceContactTo><![CDATA[//*[@id='Alert40to']]]></ChangtedsourceContactTo>
+
+
+---------------------------------Jobs-------------------------------------------------------
+
+<CteatedJobs><![CDATA[//*[@id='check_74']]]></CteatedJobs>
+  <UpdatedJobs><![CDATA[//*[@id='check_75']]]></UpdatedJobs>
+  <DeletedJobs><![CDATA[//*[@id='check_76']]]></DeletedJobs>
+  <RestoredJobs><![CDATA[//*[@id='check_77']]]></RestoredJobs>
+  <ChangedStatusJobs><![CDATA[//*[@id='check_78']]]></ChangedStatusJobs>
+  <Changedstatusjobfrom><![CDATA[//*[@id='Alert78from']]]></Changedstatusjobfrom>
+  <Changedstatusjobto><![CDATA[//*[@id='Alert78to']]]></Changedstatusjobto>
+  <ChangedPriorityJobs><![CDATA[//*[@id='check_79']]]></ChangedPriorityJobs>
+  <ChangedOwnerJobs><![CDATA[//*[@id='check_80']]]></ChangedOwnerJobs>
+  <ChangedCategoryJobs><![CDATA[//*[@id='check_81']]]></ChangedCategoryJobs>
+  <ChangedManagerJobs><![CDATA[//*[@id='check_82']]]></ChangedManagerJobs>
+  <AddGroupJobs><![CDATA[//*[@id='check_83']]]></AddGroupJobs>
+  <DeleteGroupsJobs><![CDATA[//*[@id='check_84']]]></DeleteGroupsJobs>
+  <AddFileJobs><![CDATA[//*[@id='check_85']]]></AddFileJobs>
+  <AddNoteJobs><![CDATA[//*[@id='check_86']]]></AddNoteJobs>
+  <LoggedaCallJobs><![CDATA[//*[@id='check_87']]]></LoggedaCallJobs>
+  <AddEventJobs><![CDATA[//*[@id='check_88']]]></AddEventJobs>
+
+
+  ---------------------------------Leads-----------------------------------
+  
+  
+  <CreatedLeads><![CDATA[//*[@id='check_17']]]></CreatedLeads>
+  <UpdatedLeads><![CDATA[//*[@id='check_18']]]></UpdatedLeads>
+  <DeletedLeads><![CDATA[//*[@id='check_19']]]></DeletedLeads>
+  <RestoreLeads><![CDATA[//*[@id='check_20']]]></RestoreLeads>
+  <ChangedstatusLeads><![CDATA[//*[@id='check_21']]]></ChangedstatusLeads>
+  <ChangedstatusLeadsFrom><![CDATA[//*[@id='Alert21from']]]></ChangedstatusLeadsFrom>
+  <ChangedstatusLeadsTo><![CDATA[//*[@id='Alert21to']]]></ChangedstatusLeadsTo>
+  <ChangedSourceLeads><![CDATA[//*[@id='check_22']]]></ChangedSourceLeads>
+  <ChangedSourceLeadsFrom><![CDATA[//*[@id='Alert22from']]]></ChangedSourceLeadsFrom>
+  <ChangedSourceLeadsTo><![CDATA[//*[@id='Alert22to']]]></ChangedSourceLeadsTo>
+  <ChangedOwnerLeads><![CDATA[//*[@id='check_23']]]></ChangedOwnerLeads>
+  <ChangedCategoryLeads><![CDATA[//*[@id='check_25']]]></ChangedCategoryLeads>
+  <ChangedPartnerLeads><![CDATA[//*[@id='check_24']]]></ChangedPartnerLeads>
+  <ChangedManagerLead><![CDATA[//*[@id='check_26']]]></ChangedManagerLead>
+  <LeadsAddGroup><![CDATA[//*[@id='check_27']]]></LeadsAddGroup>
+  <LeadsDeleteGroup><![CDATA[//*[@id='check_28']]]></LeadsDeleteGroup>
+  <LeadsAddJobpositions><![CDATA[//*[@id='check_29']]]></LeadsAddJobpositions>
+  <LeadsDeletedJobpositions><![CDATA[//*[@id='check_30']]]></LeadsDeletedJobpositions>
+  <AddNoteLeads><![CDATA[//*[@id='check_31']]]></AddNoteLeads>
+  <AddFileLeads><![CDATA[//*[@id='check_32']]]></AddFileLeads>
+  <LoggedaCallLeads><![CDATA[//*[@id='check_33']]]></LoggedaCallLeads>
+  <AddEventLeads><![CDATA[//*[@id='check_34']]]></AddEventLeads>
+
+
+
+
+
+</Locator> 

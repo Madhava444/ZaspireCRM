@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locator>
+
+<Movesoverprofile><![CDATA[//a[@class='dropdown-toggle']]]></Movesoverprofile>
+<SelectProfile><![CDATA[//a[@href='/infoaspire/myprofile']]]></SelectProfile>
+  <ClickonAdmin><![CDATA[//a[@href='/infoaspire/admin']]]></ClickonAdmin>
+  <ClickonMainsite><![CDATA[//a[@href='/infoaspire/']]]></ClickonMainsite>
+  
+  ------------------------------Index-------------------------------------------
+  <BacktoHome><![CDATA[//a[@href='/infoaspire/admin']]]></BacktoHome>
+  <Usermanagement><![CDATA[//a[@href='/infoaspire/admin/users']]]></Usermanagement>
+  <AdminProfile><![CDATA[//img[@alt='My Profile']]]></AdminProfile>
+  <OrganizationProfile><![CDATA[//a[@href='/infoaspire/admin/users/organization']]]></OrganizationProfile>
+  <TeamManagement><![CDATA[//a[@href='/infoaspire/admin/roles/team']]]></TeamManagement>
+  <Adminreport><![CDATA[//a[@title='Admin Reports']]]></Adminreport>
+  <AuditTrails><![CDATA[//img[@alt='Audit Trails']]]></AuditTrails>
+  <OrganizationSettings><![CDATA[//img[@alt='Organization settings']]]></OrganizationSettings>
+  <AccessProfile><![CDATA[//img[@alt='Access Profiles']]]></AccessProfile>
+  <RoleManagement><![CDATA[//img[@alt='Roles Management']]]></RoleManagement>
+  <MenuManagement><![CDATA[//img[@alt='Menu Management']]]></MenuManagement>
+  <Alertmanagement><![CDATA[//img[@alt='Alerts Management']]]></Alertmanagement>
+  <TagsManagement><![CDATA[//img[@src='/img/dashboard_icons/Tags.png']]]></TagsManagement>
+  <PicklistManagement><![CDATA[//img[@alt='Picklist Management']]]></PicklistManagement>
+  
+
+
+
+
+
+
+
+
+
+
+</Locator>

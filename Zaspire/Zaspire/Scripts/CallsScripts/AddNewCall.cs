@@ -109,7 +109,7 @@ namespace Zaspire.Scripts
             CallHelper.TypeText("EnterCallTo", "TestName2");
 
             //Select Employee
-            CallHelper.Select("SelectEmployee", "102*Daron werison* (899) 956-3333");
+            CallHelper.Select("SelectEmployee", "28*Kavitha Kedika* 989 898 8989");
 
             //Click On Starting Time
             CallHelper.ClickElement("EnterStartingtime");

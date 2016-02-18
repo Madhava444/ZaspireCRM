@@ -44,12 +44,12 @@ namespace Zaspire.Scripts
             //#############trash index###############
 
             //Click on Trash
-            //EventHelper.ClickElement("Trash");
+            EventHelper.ClickElement("Trash");
 
             //Redirect to parertrash
-            GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events/trash");
+            //GetWebDriver().Navigate().GoToUrl("http://zaspire.com/infoaspire/events/trash");
             //Enter text in filter
-           /* EventHelper.TypeText("EventTrashFilter", "New");
+           EventHelper.TypeText("EventTrashFilter", "New");
 
             //Click on checkbox
             EventHelper.ClickElement("MasterCheckboxTrashEvent");
@@ -59,9 +59,9 @@ namespace Zaspire.Scripts
 
             //Click on Delete partner
             EventHelper.ClickElement("RemoveEventForeever");
+            EventHelper.DismissAlert();
 
-            //Click  on reset  button
-            EventHelper.ClickElement("ResetTrash");*/
+           
 
             // ------------------Restore partner ------------------    
 
@@ -72,16 +72,16 @@ namespace Zaspire.Scripts
             EventHelper.ClickElement("MasterCheckboxTrashEvent");
 
             //Moves over on bulk action
-            EventHelper.MouseHover("MouseHovertrash");
+            EventHelper.Mouseover("MouseHovertrash");
 
             //click  on restore partner
             EventHelper.ClickElement("RestoreEvent");
-
+            EventHelper.AcceptAlert();
             //click on Back  Button
-            EventHelper.ClickElement("BackTrash");
+            EventHelper.ClickElement("Backtrash");
 
             //Click on view record
-            EventHelper.ClickElement("TrashEventview");
+            EventHelper.ClickElement("EventView");
         }
     }
 }
